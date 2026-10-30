@@ -51,7 +51,7 @@ def main(argv=None) -> int:
 
     cfg = load_yaml(REPO / args.config)
     bench_dir = REPO / cfg["benchmark_repo"]["clone_dir"]
-    out_dir = Path(args.output_dir or (REPO / cfg["output_dir"]))
+    out_dir = Path(args.output_dir or (REPO / cfg["output_dir"])).resolve()
     pred_dir = out_dir / "predictions"
     log_dir = out_dir / "logs"
     pred_dir.mkdir(parents=True, exist_ok=True)
