@@ -1,0 +1,993 @@
+{
+  "created_at": "2026-10-30T17:05:26.097180+00:00",
+  "evaluator": "PT-OIE-Benchmark evaluator (Evaluation.py, sem modificação)",
+  "equivalence_checks": {
+    "pt_oie/WIKI200": {
+      "ok": true,
+      "max_abs_diff": 2.220446049250313e-16,
+      "per_metric_abs_diff": {
+        "precision": 2.220446049250313e-16,
+        "recall": 0.0,
+        "f1_score": 1.1102230246251565e-16,
+        "total_extractions": 0.0,
+        "gold_extractions": 0.0
+      }
+    },
+    "pt_oie/CETEN200": {
+      "ok": true,
+      "max_abs_diff": 5.551115123125783e-17,
+      "per_metric_abs_diff": {
+        "precision": 0.0,
+        "recall": 5.551115123125783e-17,
+        "f1_score": 0.0,
+        "total_extractions": 0.0,
+        "gold_extractions": 0.0
+      }
+    },
+    "pt_oie/Gamalho": {
+      "ok": true,
+      "max_abs_diff": 1.1102230246251565e-16,
+      "per_metric_abs_diff": {
+        "precision": 0.0,
+        "recall": 1.1102230246251565e-16,
+        "f1_score": 1.1102230246251565e-16,
+        "total_extractions": 0.0,
+        "gold_extractions": 0.0
+      }
+    },
+    "ud_baseline/WIKI200": {
+      "ok": true,
+      "max_abs_diff": 3.885780586188048e-16,
+      "per_metric_abs_diff": {
+        "precision": 3.885780586188048e-16,
+        "recall": 2.7755575615628914e-16,
+        "f1_score": 3.3306690738754696e-16,
+        "total_extractions": 0.0,
+        "gold_extractions": 0.0
+      }
+    },
+    "ud_baseline/CETEN200": {
+      "ok": true,
+      "max_abs_diff": 5.551115123125783e-17,
+      "per_metric_abs_diff": {
+        "precision": 0.0,
+        "recall": 5.551115123125783e-17,
+        "f1_score": 5.551115123125783e-17,
+        "total_extractions": 0.0,
+        "gold_extractions": 0.0
+      }
+    },
+    "ud_baseline/Gamalho": {
+      "ok": true,
+      "max_abs_diff": 1.1102230246251565e-16,
+      "per_metric_abs_diff": {
+        "precision": 1.1102230246251565e-16,
+        "recall": 0.0,
+        "f1_score": 0.0,
+        "total_extractions": 0.0,
+        "gold_extractions": 0.0
+      }
+    },
+    "pt_oie_op1/WIKI200": {
+      "ok": true,
+      "max_abs_diff": 2.220446049250313e-16,
+      "per_metric_abs_diff": {
+        "precision": 2.220446049250313e-16,
+        "recall": 5.551115123125783e-17,
+        "f1_score": 5.551115123125783e-17,
+        "total_extractions": 0.0,
+        "gold_extractions": 0.0
+      }
+    },
+    "pt_oie_op1/CETEN200": {
+      "ok": true,
+      "max_abs_diff": 2.220446049250313e-16,
+      "per_metric_abs_diff": {
+        "precision": 0.0,
+        "recall": 2.220446049250313e-16,
+        "f1_score": 1.1102230246251565e-16,
+        "total_extractions": 0.0,
+        "gold_extractions": 0.0
+      }
+    },
+    "pt_oie_op1/Gamalho": {
+      "ok": true,
+      "max_abs_diff": 1.1102230246251565e-16,
+      "per_metric_abs_diff": {
+        "precision": 0.0,
+        "recall": 1.1102230246251565e-16,
+        "f1_score": 1.1102230246251565e-16,
+        "total_extractions": 0.0,
+        "gold_extractions": 0.0
+      }
+    },
+    "ollama_gemma4/WIKI200": {
+      "ok": true,
+      "max_abs_diff": 5.551115123125783e-16,
+      "per_metric_abs_diff": {
+        "precision": 3.3306690738754696e-16,
+        "recall": 5.551115123125783e-16,
+        "f1_score": 4.440892098500626e-16,
+        "total_extractions": 0.0,
+        "gold_extractions": 0.0
+      }
+    },
+    "ollama_gemma4/CETEN200": {
+      "ok": true,
+      "max_abs_diff": 2.220446049250313e-16,
+      "per_metric_abs_diff": {
+        "precision": 2.220446049250313e-16,
+        "recall": 5.551115123125783e-17,
+        "f1_score": 1.6653345369377348e-16,
+        "total_extractions": 0.0,
+        "gold_extractions": 0.0
+      }
+    },
+    "ollama_gemma4/Gamalho": {
+      "ok": true,
+      "max_abs_diff": 1.6653345369377348e-16,
+      "per_metric_abs_diff": {
+        "precision": 1.6653345369377348e-16,
+        "recall": 5.551115123125783e-17,
+        "f1_score": 1.6653345369377348e-16,
+        "total_extractions": 0.0,
+        "gold_extractions": 0.0
+      }
+    },
+    "PragmaticOIE/WIKI200": {
+      "ok": true,
+      "max_abs_diff": 4.440892098500626e-16,
+      "per_metric_abs_diff": {
+        "precision": 2.220446049250313e-16,
+        "recall": 4.440892098500626e-16,
+        "f1_score": 2.220446049250313e-16,
+        "total_extractions": 0.0,
+        "gold_extractions": 0.0
+      }
+    },
+    "PragmaticOIE/CETEN200": {
+      "ok": true,
+      "max_abs_diff": 3.3306690738754696e-16,
+      "per_metric_abs_diff": {
+        "precision": 3.3306690738754696e-16,
+        "recall": 1.1102230246251565e-16,
+        "f1_score": 2.220446049250313e-16,
+        "total_extractions": 0.0,
+        "gold_extractions": 0.0
+      }
+    },
+    "PragmaticOIE/Gamalho": {
+      "ok": true,
+      "max_abs_diff": 1.6653345369377348e-16,
+      "per_metric_abs_diff": {
+        "precision": 1.1102230246251565e-16,
+        "recall": 0.0,
+        "f1_score": 1.6653345369377348e-16,
+        "total_extractions": 0.0,
+        "gold_extractions": 0.0
+      }
+    },
+    "MultiOIE/WIKI200": {
+      "ok": true,
+      "max_abs_diff": 2.220446049250313e-16,
+      "per_metric_abs_diff": {
+        "precision": 2.220446049250313e-16,
+        "recall": 1.1102230246251565e-16,
+        "f1_score": 0.0,
+        "total_extractions": 0.0,
+        "gold_extractions": 0.0
+      }
+    },
+    "MultiOIE/CETEN200": {
+      "ok": true,
+      "max_abs_diff": 5.551115123125783e-17,
+      "per_metric_abs_diff": {
+        "precision": 5.551115123125783e-17,
+        "recall": 0.0,
+        "f1_score": 0.0,
+        "total_extractions": 0.0,
+        "gold_extractions": 0.0
+      }
+    },
+    "MultiOIE/Gamalho": {
+      "ok": true,
+      "max_abs_diff": 2.220446049250313e-16,
+      "per_metric_abs_diff": {
+        "precision": 0.0,
+        "recall": 1.1102230246251565e-16,
+        "f1_score": 2.220446049250313e-16,
+        "total_extractions": 0.0,
+        "gold_extractions": 0.0
+      }
+    },
+    "DetIE/WIKI200": {
+      "ok": true,
+      "max_abs_diff": 3.3306690738754696e-16,
+      "per_metric_abs_diff": {
+        "precision": 1.1102230246251565e-16,
+        "recall": 3.3306690738754696e-16,
+        "f1_score": 0.0,
+        "total_extractions": 0.0,
+        "gold_extractions": 0.0
+      }
+    },
+    "DetIE/CETEN200": {
+      "ok": true,
+      "max_abs_diff": 1.6653345369377348e-16,
+      "per_metric_abs_diff": {
+        "precision": 1.6653345369377348e-16,
+        "recall": 1.1102230246251565e-16,
+        "f1_score": 0.0,
+        "total_extractions": 0.0,
+        "gold_extractions": 0.0
+      }
+    },
+    "DetIE/Gamalho": {
+      "ok": true,
+      "max_abs_diff": 1.1102230246251565e-16,
+      "per_metric_abs_diff": {
+        "precision": 1.1102230246251565e-16,
+        "recall": 1.1102230246251565e-16,
+        "f1_score": 1.1102230246251565e-16,
+        "total_extractions": 0.0,
+        "gold_extractions": 0.0
+      }
+    },
+    "TransAlign/WIKI200": {
+      "ok": true,
+      "max_abs_diff": 2.220446049250313e-16,
+      "per_metric_abs_diff": {
+        "precision": 2.220446049250313e-16,
+        "recall": 1.1102230246251565e-16,
+        "f1_score": 1.1102230246251565e-16,
+        "total_extractions": 0.0,
+        "gold_extractions": 0.0
+      }
+    },
+    "TransAlign/CETEN200": {
+      "ok": true,
+      "max_abs_diff": 1.6653345369377348e-16,
+      "per_metric_abs_diff": {
+        "precision": 0.0,
+        "recall": 1.6653345369377348e-16,
+        "f1_score": 1.1102230246251565e-16,
+        "total_extractions": 0.0,
+        "gold_extractions": 0.0
+      }
+    },
+    "TransAlign/Gamalho": {
+      "ok": true,
+      "max_abs_diff": 1.1102230246251565e-16,
+      "per_metric_abs_diff": {
+        "precision": 1.1102230246251565e-16,
+        "recall": 0.0,
+        "f1_score": 0.0,
+        "total_extractions": 0.0,
+        "gold_extractions": 0.0
+      }
+    },
+    "GraphIE/WIKI200": {
+      "ok": true,
+      "max_abs_diff": 1.6653345369377348e-16,
+      "per_metric_abs_diff": {
+        "precision": 1.1102230246251565e-16,
+        "recall": 5.551115123125783e-17,
+        "f1_score": 1.6653345369377348e-16,
+        "total_extractions": 0.0,
+        "gold_extractions": 0.0
+      }
+    },
+    "GraphIE/CETEN200": {
+      "ok": true,
+      "max_abs_diff": 0.0,
+      "per_metric_abs_diff": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_score": 0.0,
+        "total_extractions": 0.0,
+        "gold_extractions": 0.0
+      }
+    },
+    "GraphIE/Gamalho": {
+      "ok": true,
+      "max_abs_diff": 5.551115123125783e-17,
+      "per_metric_abs_diff": {
+        "precision": 5.551115123125783e-17,
+        "recall": 0.0,
+        "f1_score": 0.0,
+        "total_extractions": 0.0,
+        "gold_extractions": 0.0
+      }
+    },
+    "ArgOE/WIKI200": {
+      "ok": true,
+      "max_abs_diff": 1.6653345369377348e-16,
+      "per_metric_abs_diff": {
+        "precision": 1.1102230246251565e-16,
+        "recall": 5.551115123125783e-17,
+        "f1_score": 1.6653345369377348e-16,
+        "total_extractions": 0.0,
+        "gold_extractions": 0.0
+      }
+    },
+    "ArgOE/CETEN200": {
+      "ok": true,
+      "max_abs_diff": 0.0,
+      "per_metric_abs_diff": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_score": 0.0,
+        "total_extractions": 0.0,
+        "gold_extractions": 0.0
+      }
+    },
+    "ArgOE/Gamalho": {
+      "ok": true,
+      "max_abs_diff": 5.551115123125783e-17,
+      "per_metric_abs_diff": {
+        "precision": 5.551115123125783e-17,
+        "recall": 0.0,
+        "f1_score": 0.0,
+        "total_extractions": 0.0,
+        "gold_extractions": 0.0
+      }
+    },
+    "PortOIE-LLama/WIKI200": {
+      "ok": true,
+      "max_abs_diff": 1.1102230246251565e-16,
+      "per_metric_abs_diff": {
+        "precision": 0.0,
+        "recall": 1.1102230246251565e-16,
+        "f1_score": 0.0,
+        "total_extractions": 0.0,
+        "gold_extractions": 0.0
+      }
+    },
+    "PortOIE-LLama/CETEN200": {
+      "ok": true,
+      "max_abs_diff": 5.551115123125783e-17,
+      "per_metric_abs_diff": {
+        "precision": 5.551115123125783e-17,
+        "recall": 0.0,
+        "f1_score": 5.551115123125783e-17,
+        "total_extractions": 0.0,
+        "gold_extractions": 0.0
+      }
+    },
+    "PortOIE-LLama/Gamalho": {
+      "ok": true,
+      "max_abs_diff": 1.1102230246251565e-16,
+      "per_metric_abs_diff": {
+        "precision": 1.1102230246251565e-16,
+        "recall": 0.0,
+        "f1_score": 5.551115123125783e-17,
+        "total_extractions": 0.0,
+        "gold_extractions": 0.0
+      }
+    },
+    "DptOIE/WIKI200": {
+      "ok": true,
+      "max_abs_diff": 2.220446049250313e-16,
+      "per_metric_abs_diff": {
+        "precision": 1.6653345369377348e-16,
+        "recall": 2.220446049250313e-16,
+        "f1_score": 1.6653345369377348e-16,
+        "total_extractions": 0.0,
+        "gold_extractions": 0.0
+      }
+    },
+    "DptOIE/CETEN200": {
+      "ok": true,
+      "max_abs_diff": 1.1102230246251565e-16,
+      "per_metric_abs_diff": {
+        "precision": 2.7755575615628914e-17,
+        "recall": 1.1102230246251565e-16,
+        "f1_score": 5.551115123125783e-17,
+        "total_extractions": 0.0,
+        "gold_extractions": 0.0
+      }
+    }
+  },
+  "systems": {
+    "pt_oie": {
+      "source": "reproduced",
+      "is_ours": true,
+      "datasets": {
+        "WIKI200": {
+          "precision": 0.4888104591444292,
+          "recall": 0.36417899379540464,
+          "f1_score": 0.4173896888275929,
+          "total_extractions": 235,
+          "gold_extractions": 427,
+          "total_sentences": 200,
+          "evaluated_sentences": 161,
+          "sentences_without_extraction": 39,
+          "pct_sentences_without_extraction": 19.5,
+          "extractions_per_sentence": 1.175,
+          "n_pred_orphan": 0,
+          "predictions_path": "outputs/external_benchmark/predictions/benchmark_format/pt_oie/WIKI200_results.csv",
+          "status": "ok"
+        },
+        "CETEN200": {
+          "precision": 0.3912556490093283,
+          "recall": 0.33747416638093186,
+          "f1_score": 0.3623803258839965,
+          "total_extractions": 276,
+          "gold_extractions": 366,
+          "total_sentences": 201,
+          "evaluated_sentences": 150,
+          "sentences_without_extraction": 51,
+          "pct_sentences_without_extraction": 25.37313432835821,
+          "extractions_per_sentence": 1.373134328358209,
+          "n_pred_orphan": 0,
+          "predictions_path": "outputs/external_benchmark/predictions/benchmark_format/pt_oie/CETEN200_results.csv",
+          "status": "ok"
+        },
+        "Gamalho": {
+          "precision": 0.6130233306335547,
+          "recall": 0.5042691354853661,
+          "f1_score": 0.5533533149914569,
+          "total_extractions": 166,
+          "gold_extractions": 358,
+          "total_sentences": 103,
+          "evaluated_sentences": 93,
+          "sentences_without_extraction": 10,
+          "pct_sentences_without_extraction": 9.70873786407767,
+          "extractions_per_sentence": 1.6116504854368932,
+          "n_pred_orphan": 0,
+          "predictions_path": "outputs/external_benchmark/predictions/benchmark_format/pt_oie/Gamalho_results.csv",
+          "status": "ok"
+        }
+      }
+    },
+    "ud_baseline": {
+      "source": "reproduced",
+      "is_ours": true,
+      "datasets": {
+        "WIKI200": {
+          "precision": 0.46937449763255923,
+          "recall": 0.3852100531168621,
+          "f1_score": 0.42314777398252895,
+          "total_extractions": 308,
+          "gold_extractions": 427,
+          "total_sentences": 200,
+          "evaluated_sentences": 161,
+          "sentences_without_extraction": 39,
+          "pct_sentences_without_extraction": 19.5,
+          "extractions_per_sentence": 1.54,
+          "n_pred_orphan": 0,
+          "predictions_path": "outputs/external_benchmark/predictions/benchmark_format/ud_baseline/WIKI200_results.csv",
+          "status": "ok"
+        },
+        "CETEN200": {
+          "precision": 0.38063559419983567,
+          "recall": 0.342830225015679,
+          "f1_score": 0.36074513250676027,
+          "total_extractions": 296,
+          "gold_extractions": 366,
+          "total_sentences": 201,
+          "evaluated_sentences": 150,
+          "sentences_without_extraction": 51,
+          "pct_sentences_without_extraction": 25.37313432835821,
+          "extractions_per_sentence": 1.472636815920398,
+          "n_pred_orphan": 0,
+          "predictions_path": "outputs/external_benchmark/predictions/benchmark_format/ud_baseline/CETEN200_results.csv",
+          "status": "ok"
+        },
+        "Gamalho": {
+          "precision": 0.577787888750651,
+          "recall": 0.5072365591231808,
+          "f1_score": 0.5402185013751996,
+          "total_extractions": 180,
+          "gold_extractions": 358,
+          "total_sentences": 103,
+          "evaluated_sentences": 93,
+          "sentences_without_extraction": 10,
+          "pct_sentences_without_extraction": 9.70873786407767,
+          "extractions_per_sentence": 1.7475728155339805,
+          "n_pred_orphan": 0,
+          "predictions_path": "outputs/external_benchmark/predictions/benchmark_format/ud_baseline/Gamalho_results.csv",
+          "status": "ok"
+        }
+      }
+    },
+    "pt_oie_op1": {
+      "source": "reproduced",
+      "is_ours": true,
+      "datasets": {
+        "WIKI200": {
+          "precision": 0.4030963043577914,
+          "recall": 0.39054728338430605,
+          "f1_score": 0.3967225818760013,
+          "total_extractions": 315,
+          "gold_extractions": 427,
+          "total_sentences": 200,
+          "evaluated_sentences": 170,
+          "sentences_without_extraction": 30,
+          "pct_sentences_without_extraction": 15.0,
+          "extractions_per_sentence": 1.575,
+          "n_pred_orphan": 0,
+          "predictions_path": "outputs/external_benchmark/predictions/benchmark_format/pt_oie_op1/WIKI200_results.csv",
+          "status": "ok"
+        },
+        "CETEN200": {
+          "precision": 0.3853132978862604,
+          "recall": 0.376655961322002,
+          "f1_score": 0.38093544817359376,
+          "total_extractions": 314,
+          "gold_extractions": 366,
+          "total_sentences": 201,
+          "evaluated_sentences": 162,
+          "sentences_without_extraction": 39,
+          "pct_sentences_without_extraction": 19.402985074626866,
+          "extractions_per_sentence": 1.5621890547263682,
+          "n_pred_orphan": 0,
+          "predictions_path": "outputs/external_benchmark/predictions/benchmark_format/pt_oie_op1/CETEN200_results.csv",
+          "status": "ok"
+        },
+        "Gamalho": {
+          "precision": 0.5896661288233355,
+          "recall": 0.5116828418562419,
+          "f1_score": 0.547913601547234,
+          "total_extractions": 180,
+          "gold_extractions": 358,
+          "total_sentences": 103,
+          "evaluated_sentences": 95,
+          "sentences_without_extraction": 8,
+          "pct_sentences_without_extraction": 7.766990291262135,
+          "extractions_per_sentence": 1.7475728155339805,
+          "n_pred_orphan": 0,
+          "predictions_path": "outputs/external_benchmark/predictions/benchmark_format/pt_oie_op1/Gamalho_results.csv",
+          "status": "ok"
+        }
+      }
+    },
+    "ollama_gemma4": {
+      "source": "reproduced",
+      "is_ours": true,
+      "datasets": {
+        "WIKI200": {
+          "precision": 0.42961690310192224,
+          "recall": 0.539420421127293,
+          "f1_score": 0.47829763622154514,
+          "total_extractions": 459,
+          "gold_extractions": 427,
+          "total_sentences": 200,
+          "evaluated_sentences": 198,
+          "sentences_without_extraction": 2,
+          "pct_sentences_without_extraction": 1.0,
+          "extractions_per_sentence": 2.295,
+          "n_pred_orphan": 0,
+          "predictions_path": "outputs/external_benchmark/predictions/benchmark_format/ollama_gemma4/WIKI200_results.csv",
+          "status": "ok"
+        },
+        "CETEN200": {
+          "precision": 0.3692295937082389,
+          "recall": 0.48412734518093326,
+          "f1_score": 0.41894343344038737,
+          "total_extractions": 419,
+          "gold_extractions": 366,
+          "total_sentences": 201,
+          "evaluated_sentences": 196,
+          "sentences_without_extraction": 5,
+          "pct_sentences_without_extraction": 2.4875621890547266,
+          "extractions_per_sentence": 2.084577114427861,
+          "n_pred_orphan": 0,
+          "predictions_path": "outputs/external_benchmark/predictions/benchmark_format/ollama_gemma4/CETEN200_results.csv",
+          "status": "ok"
+        },
+        "Gamalho": {
+          "precision": 0.4143558167419152,
+          "recall": 0.45529000904803874,
+          "f1_score": 0.433859527543111,
+          "total_extractions": 216,
+          "gold_extractions": 358,
+          "total_sentences": 103,
+          "evaluated_sentences": 101,
+          "sentences_without_extraction": 2,
+          "pct_sentences_without_extraction": 1.9417475728155338,
+          "extractions_per_sentence": 2.0970873786407767,
+          "n_pred_orphan": 0,
+          "predictions_path": "outputs/external_benchmark/predictions/benchmark_format/ollama_gemma4/Gamalho_results.csv",
+          "status": "ok"
+        }
+      }
+    },
+    "PragmaticOIE": {
+      "source": "reproduced",
+      "is_ours": false,
+      "datasets": {
+        "WIKI200": {
+          "precision": 0.7415157259213119,
+          "recall": 0.8195403319057439,
+          "f1_score": 0.7785781184319338,
+          "total_extractions": 471,
+          "gold_extractions": 427,
+          "total_sentences": 200,
+          "evaluated_sentences": 200,
+          "sentences_without_extraction": 0,
+          "pct_sentences_without_extraction": 0.0,
+          "extractions_per_sentence": 2.355,
+          "n_pred_orphan": 1,
+          "predictions_path": ".external/PT-OIE-Benchmark/System_Results/PragmaticOIE/WIKI200_results.csv",
+          "status": "ok"
+        },
+        "CETEN200": {
+          "precision": 0.7271568177595351,
+          "recall": 0.8035388589789872,
+          "f1_score": 0.7634420982833935,
+          "total_extractions": 400,
+          "gold_extractions": 366,
+          "total_sentences": 201,
+          "evaluated_sentences": 201,
+          "sentences_without_extraction": 0,
+          "pct_sentences_without_extraction": 0.0,
+          "extractions_per_sentence": 1.9900497512437811,
+          "n_pred_orphan": 0,
+          "predictions_path": ".external/PT-OIE-Benchmark/System_Results/PragmaticOIE/CETEN200_results.csv",
+          "status": "ok"
+        },
+        "Gamalho": {
+          "precision": 0.36984329237392966,
+          "recall": 0.42591896618243613,
+          "f1_score": 0.3959053625468086,
+          "total_extractions": 240,
+          "gold_extractions": 358,
+          "total_sentences": 103,
+          "evaluated_sentences": 103,
+          "sentences_without_extraction": 0,
+          "pct_sentences_without_extraction": 0.0,
+          "extractions_per_sentence": 2.3300970873786406,
+          "n_pred_orphan": 0,
+          "predictions_path": ".external/PT-OIE-Benchmark/System_Results/PragmaticOIE/Gamalho_results.csv",
+          "status": "ok"
+        }
+      }
+    },
+    "MultiOIE": {
+      "source": "reproduced",
+      "is_ours": false,
+      "datasets": {
+        "WIKI200": {
+          "precision": 0.5254130438960495,
+          "recall": 0.5065157035463682,
+          "f1_score": 0.5157913436194811,
+          "total_extractions": 322,
+          "gold_extractions": 427,
+          "total_sentences": 200,
+          "evaluated_sentences": 200,
+          "sentences_without_extraction": 0,
+          "pct_sentences_without_extraction": 0.0,
+          "extractions_per_sentence": 1.61,
+          "n_pred_orphan": 1,
+          "predictions_path": ".external/PT-OIE-Benchmark/System_Results/MultiOIE/WIKI200_results.csv",
+          "status": "ok"
+        },
+        "CETEN200": {
+          "precision": 0.4618082262024686,
+          "recall": 0.4969791762652414,
+          "f1_score": 0.4787486178060094,
+          "total_extractions": 337,
+          "gold_extractions": 366,
+          "total_sentences": 201,
+          "evaluated_sentences": 201,
+          "sentences_without_extraction": 0,
+          "pct_sentences_without_extraction": 0.0,
+          "extractions_per_sentence": 1.6766169154228856,
+          "n_pred_orphan": 0,
+          "predictions_path": ".external/PT-OIE-Benchmark/System_Results/MultiOIE/CETEN200_results.csv",
+          "status": "ok"
+        },
+        "Gamalho": {
+          "precision": 0.5512472639133088,
+          "recall": 0.5232064795027596,
+          "f1_score": 0.5368609715493828,
+          "total_extractions": 189,
+          "gold_extractions": 358,
+          "total_sentences": 103,
+          "evaluated_sentences": 103,
+          "sentences_without_extraction": 0,
+          "pct_sentences_without_extraction": 0.0,
+          "extractions_per_sentence": 1.8349514563106797,
+          "n_pred_orphan": 0,
+          "predictions_path": ".external/PT-OIE-Benchmark/System_Results/MultiOIE/Gamalho_results.csv",
+          "status": "ok"
+        }
+      }
+    },
+    "DetIE": {
+      "source": "reproduced",
+      "is_ours": false,
+      "datasets": {
+        "WIKI200": {
+          "precision": 0.5307262808270083,
+          "recall": 0.5098037433304448,
+          "f1_score": 0.5200546613127073,
+          "total_extractions": 320,
+          "gold_extractions": 427,
+          "total_sentences": 200,
+          "evaluated_sentences": 188,
+          "sentences_without_extraction": 12,
+          "pct_sentences_without_extraction": 6.0,
+          "extractions_per_sentence": 1.6,
+          "n_pred_orphan": 0,
+          "predictions_path": ".external/PT-OIE-Benchmark/System_Results/DetIE/WIKI200_results.csv",
+          "status": "ok"
+        },
+        "CETEN200": {
+          "precision": 0.43962361633993674,
+          "recall": 0.4755895362409343,
+          "f1_score": 0.4568998844172488,
+          "total_extractions": 338,
+          "gold_extractions": 366,
+          "total_sentences": 201,
+          "evaluated_sentences": 185,
+          "sentences_without_extraction": 16,
+          "pct_sentences_without_extraction": 7.960199004975125,
+          "extractions_per_sentence": 1.681592039800995,
+          "n_pred_orphan": 0,
+          "predictions_path": ".external/PT-OIE-Benchmark/System_Results/DetIE/CETEN200_results.csv",
+          "status": "ok"
+        },
+        "Gamalho": {
+          "precision": 0.5040513033690107,
+          "recall": 0.5046434982339089,
+          "f1_score": 0.5043472269655496,
+          "total_extractions": 194,
+          "gold_extractions": 358,
+          "total_sentences": 103,
+          "evaluated_sentences": 98,
+          "sentences_without_extraction": 5,
+          "pct_sentences_without_extraction": 4.854368932038835,
+          "extractions_per_sentence": 1.883495145631068,
+          "n_pred_orphan": 0,
+          "predictions_path": ".external/PT-OIE-Benchmark/System_Results/DetIE/Gamalho_results.csv",
+          "status": "ok"
+        }
+      }
+    },
+    "TransAlign": {
+      "source": "reproduced",
+      "is_ours": false,
+      "datasets": {
+        "WIKI200": {
+          "precision": 0.7755304497940881,
+          "recall": 0.40237995764195544,
+          "f1_score": 0.529849991252642,
+          "total_extractions": 174,
+          "gold_extractions": 427,
+          "total_sentences": 200,
+          "evaluated_sentences": 166,
+          "sentences_without_extraction": 34,
+          "pct_sentences_without_extraction": 17.0,
+          "extractions_per_sentence": 0.87,
+          "n_pred_orphan": 0,
+          "predictions_path": ".external/PT-OIE-Benchmark/System_Results/TransAlign/WIKI200_results.csv",
+          "status": "ok"
+        },
+        "CETEN200": {
+          "precision": 0.6505364121850283,
+          "recall": 0.37107322677022764,
+          "f1_score": 0.47258098670229537,
+          "total_extractions": 179,
+          "gold_extractions": 366,
+          "total_sentences": 201,
+          "evaluated_sentences": 164,
+          "sentences_without_extraction": 37,
+          "pct_sentences_without_extraction": 18.407960199004975,
+          "extractions_per_sentence": 0.8905472636815921,
+          "n_pred_orphan": 0,
+          "predictions_path": ".external/PT-OIE-Benchmark/System_Results/TransAlign/CETEN200_results.csv",
+          "status": "ok"
+        },
+        "Gamalho": {
+          "precision": 0.7147852332531031,
+          "recall": 0.3520016294254351,
+          "f1_score": 0.47170728398846046,
+          "total_extractions": 82,
+          "gold_extractions": 358,
+          "total_sentences": 103,
+          "evaluated_sentences": 77,
+          "sentences_without_extraction": 26,
+          "pct_sentences_without_extraction": 25.24271844660194,
+          "extractions_per_sentence": 0.7961165048543689,
+          "n_pred_orphan": 0,
+          "predictions_path": ".external/PT-OIE-Benchmark/System_Results/TransAlign/Gamalho_results.csv",
+          "status": "ok"
+        }
+      }
+    },
+    "GraphIE": {
+      "source": "reproduced",
+      "is_ours": false,
+      "datasets": {
+        "WIKI200": {
+          "precision": 0.35559155295325334,
+          "recall": 0.3701983872643084,
+          "f1_score": 0.3627479857013319,
+          "total_extractions": 346,
+          "gold_extractions": 427,
+          "total_sentences": 200,
+          "evaluated_sentences": 200,
+          "sentences_without_extraction": 0,
+          "pct_sentences_without_extraction": 0.0,
+          "extractions_per_sentence": 1.73,
+          "n_pred_orphan": 1,
+          "predictions_path": ".external/PT-OIE-Benchmark/System_Results/GraphIE/WIKI200_results.csv",
+          "status": "ok"
+        },
+        "CETEN200": {
+          "precision": 0.3509160547734106,
+          "recall": 0.33572188359810756,
+          "f1_score": 0.3431508581444059,
+          "total_extractions": 297,
+          "gold_extractions": 366,
+          "total_sentences": 201,
+          "evaluated_sentences": 201,
+          "sentences_without_extraction": 0,
+          "pct_sentences_without_extraction": 0.0,
+          "extractions_per_sentence": 1.4776119402985075,
+          "n_pred_orphan": 0,
+          "predictions_path": ".external/PT-OIE-Benchmark/System_Results/GraphIE/CETEN200_results.csv",
+          "status": "ok"
+        },
+        "Gamalho": {
+          "precision": 0.4489422780127439,
+          "recall": 0.3742834228619213,
+          "f1_score": 0.40822742123698735,
+          "total_extractions": 167,
+          "gold_extractions": 358,
+          "total_sentences": 103,
+          "evaluated_sentences": 103,
+          "sentences_without_extraction": 0,
+          "pct_sentences_without_extraction": 0.0,
+          "extractions_per_sentence": 1.6213592233009708,
+          "n_pred_orphan": 0,
+          "predictions_path": ".external/PT-OIE-Benchmark/System_Results/GraphIE/Gamalho_results.csv",
+          "status": "ok"
+        }
+      }
+    },
+    "ArgOE": {
+      "source": "reproduced",
+      "is_ours": false,
+      "datasets": {
+        "WIKI200": {
+          "precision": 0.35559155295325334,
+          "recall": 0.3701983872643084,
+          "f1_score": 0.3627479857013319,
+          "total_extractions": 346,
+          "gold_extractions": 427,
+          "total_sentences": 200,
+          "evaluated_sentences": 200,
+          "sentences_without_extraction": 0,
+          "pct_sentences_without_extraction": 0.0,
+          "extractions_per_sentence": 1.73,
+          "n_pred_orphan": 1,
+          "predictions_path": ".external/PT-OIE-Benchmark/System_Results/ArgOE/WIKI200_results.csv",
+          "status": "ok"
+        },
+        "CETEN200": {
+          "precision": 0.3509160547734106,
+          "recall": 0.33572188359810756,
+          "f1_score": 0.3431508581444059,
+          "total_extractions": 297,
+          "gold_extractions": 366,
+          "total_sentences": 201,
+          "evaluated_sentences": 201,
+          "sentences_without_extraction": 0,
+          "pct_sentences_without_extraction": 0.0,
+          "extractions_per_sentence": 1.4776119402985075,
+          "n_pred_orphan": 0,
+          "predictions_path": ".external/PT-OIE-Benchmark/System_Results/ArgOE/CETEN200_results.csv",
+          "status": "ok"
+        },
+        "Gamalho": {
+          "precision": 0.4489422780127439,
+          "recall": 0.3742834228619213,
+          "f1_score": 0.40822742123698735,
+          "total_extractions": 167,
+          "gold_extractions": 358,
+          "total_sentences": 103,
+          "evaluated_sentences": 103,
+          "sentences_without_extraction": 0,
+          "pct_sentences_without_extraction": 0.0,
+          "extractions_per_sentence": 1.6213592233009708,
+          "n_pred_orphan": 0,
+          "predictions_path": ".external/PT-OIE-Benchmark/System_Results/ArgOE/Gamalho_results.csv",
+          "status": "ok"
+        }
+      }
+    },
+    "PortOIE-LLama": {
+      "source": "reproduced",
+      "is_ours": false,
+      "datasets": {
+        "WIKI200": {
+          "precision": 0.09463645568414696,
+          "recall": 0.5328019066345954,
+          "f1_score": 0.16072490001827136,
+          "total_extractions": 2079,
+          "gold_extractions": 427,
+          "total_sentences": 200,
+          "evaluated_sentences": 200,
+          "sentences_without_extraction": 0,
+          "pct_sentences_without_extraction": 0.0,
+          "extractions_per_sentence": 10.395,
+          "n_pred_orphan": 1,
+          "predictions_path": ".external/PT-OIE-Benchmark/System_Results/PortOIE-LLama/WIKI200_results.csv",
+          "status": "ok"
+        },
+        "CETEN200": {
+          "precision": 0.2770869002425207,
+          "recall": 0.35919775615761,
+          "f1_score": 0.3128442335569747,
+          "total_extractions": 422,
+          "gold_extractions": 366,
+          "total_sentences": 201,
+          "evaluated_sentences": 201,
+          "sentences_without_extraction": 0,
+          "pct_sentences_without_extraction": 0.0,
+          "extractions_per_sentence": 2.099502487562189,
+          "n_pred_orphan": 0,
+          "predictions_path": ".external/PT-OIE-Benchmark/System_Results/PortOIE-LLama/CETEN200_results.csv",
+          "status": "ok"
+        },
+        "Gamalho": {
+          "precision": 0.39479548444470736,
+          "recall": 0.2526469845690957,
+          "f1_score": 0.30811660785361356,
+          "total_extractions": 153,
+          "gold_extractions": 358,
+          "total_sentences": 103,
+          "evaluated_sentences": 103,
+          "sentences_without_extraction": 0,
+          "pct_sentences_without_extraction": 0.0,
+          "extractions_per_sentence": 1.4854368932038835,
+          "n_pred_orphan": 0,
+          "predictions_path": ".external/PT-OIE-Benchmark/System_Results/PortOIE-LLama/Gamalho_results.csv",
+          "status": "ok"
+        }
+      }
+    },
+    "DptOIE": {
+      "source": "reproduced",
+      "is_ours": false,
+      "datasets": {
+        "WIKI200": {
+          "precision": 0.23472897040086485,
+          "recall": 0.4759192862342287,
+          "f1_score": 0.3143947600198992,
+          "total_extractions": 816,
+          "gold_extractions": 427,
+          "total_sentences": 200,
+          "evaluated_sentences": 200,
+          "sentences_without_extraction": 0,
+          "pct_sentences_without_extraction": 0.0,
+          "extractions_per_sentence": 4.08,
+          "n_pred_orphan": 1,
+          "predictions_path": ".external/PT-OIE-Benchmark/System_Results/DptOIE/WIKI200_results.csv",
+          "status": "ok"
+        },
+        "CETEN200": {
+          "precision": 0.19719532214393726,
+          "recall": 0.39475887429117895,
+          "f1_score": 0.263008874179202,
+          "total_extractions": 673,
+          "gold_extractions": 366,
+          "total_sentences": 201,
+          "evaluated_sentences": 201,
+          "sentences_without_extraction": 0,
+          "pct_sentences_without_extraction": 0.0,
+          "extractions_per_sentence": 3.3482587064676617,
+          "n_pred_orphan": 0,
+          "predictions_path": ".external/PT-OIE-Benchmark/System_Results/DptOIE/CETEN200_results.csv",
+          "status": "ok"
+        },
+        "Gamalho": {
+          "status": "no_output"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,499 @@
+{
+  "created_at": "2026-08-12T21:01:24.074076+00:00",
+  "datasets": [
+    "BIA",
+    "OIEC-PT"
+  ],
+  "marked_predicates_found": {
+    "neg": 33,
+    "mod": 47
+  },
+  "neg_lemmas": [
+    "jamais",
+    "nada",
+    "nao",
+    "nem",
+    "nenhum",
+    "nenhuma",
+    "nenhumas",
+    "nenhuns",
+    "ninguem",
+    "ninguém",
+    "nunca",
+    "não"
+  ],
+  "modal_lemmas": [
+    "costumar",
+    "dever",
+    "poder",
+    "precisar",
+    "pretender",
+    "tender"
+  ],
+  "results": [
+    {
+      "system": "DptOIE",
+      "neg_covered_triples": 41,
+      "neg_por_tripla_%": 100.0,
+      "neg_covered_preds": 6,
+      "neg_por_predicado_%": 100.0,
+      "mod_covered_triples": 20,
+      "mod_por_tripla_%": 100.0,
+      "mod_covered_preds": 5,
+      "mod_por_predicado_%": 100.0
+    },
+    {
+      "system": "MultiOIE",
+      "neg_covered_triples": 5,
+      "neg_por_tripla_%": 20.0,
+      "neg_covered_preds": 5,
+      "neg_por_predicado_%": 20.0,
+      "mod_covered_triples": 9,
+      "mod_por_tripla_%": 100.0,
+      "mod_covered_preds": 9,
+      "mod_por_predicado_%": 100.0
+    },
+    {
+      "system": "pt_oie",
+      "neg_covered_triples": 13,
+      "neg_por_tripla_%": 84.6,
+      "neg_covered_preds": 11,
+      "neg_por_predicado_%": 90.9,
+      "mod_covered_triples": 20,
+      "mod_por_tripla_%": 85.0,
+      "mod_covered_preds": 19,
+      "mod_por_predicado_%": 89.5
+    },
+    {
+      "system": "pt_oie_op1",
+      "neg_covered_triples": 14,
+      "neg_por_tripla_%": 85.7,
+      "neg_covered_preds": 11,
+      "neg_por_predicado_%": 90.9,
+      "mod_covered_triples": 20,
+      "mod_por_tripla_%": 85.0,
+      "mod_covered_preds": 19,
+      "mod_por_predicado_%": 89.5
+    },
+    {
+      "system": "ud_baseline",
+      "neg_covered_triples": 13,
+      "neg_por_tripla_%": 84.6,
+      "neg_covered_preds": 11,
+      "neg_por_predicado_%": 90.9,
+      "mod_covered_triples": 20,
+      "mod_por_tripla_%": 85.0,
+      "mod_covered_preds": 19,
+      "mod_por_predicado_%": 89.5
+    },
+    {
+      "system": "PragmaticOIE",
+      "neg_covered_triples": 7,
+      "neg_por_tripla_%": 0.0,
+      "neg_covered_preds": 5,
+      "neg_por_predicado_%": 0.0,
+      "mod_covered_triples": 9,
+      "mod_por_tripla_%": 77.8,
+      "mod_covered_preds": 8,
+      "mod_por_predicado_%": 75.0
+    },
+    {
+      "system": "ollama_gemma4",
+      "neg_covered_triples": 20,
+      "neg_por_tripla_%": 85.0,
+      "neg_covered_preds": 15,
+      "neg_por_predicado_%": 93.3,
+      "mod_covered_triples": 39,
+      "mod_por_tripla_%": 94.9,
+      "mod_covered_preds": 30,
+      "mod_por_predicado_%": 93.3
+    }
+  ],
+  "examples_of_loss": {
+    "pt_oie|mod": [
+      {
+        "dataset": "BIA",
+        "sentence": "Em 1841, Léon Escudier escreveu sobre um recital de Chopin naquele ano Pode-se dizer que Chopin é o criador de uma escola de piano e escola de composição.",
+        "marker": "Pode",
+        "verb": "dizer",
+        "triple": [
+          "se",
+          "dizer",
+          "que Chopin o criador"
+        ]
+      },
+      {
+        "dataset": "OIEC-PT",
+        "sentence": "Os investigadores dizem que analisar o DNA do tumor poderá ajudar a explicar causas subjacentes de outros cânceres.",
+        "marker": "poderá",
+        "verb": "ajudar",
+        "triple": [
+          "analisar",
+          "ajudar",
+          "analisar o DNA"
+        ]
+      },
+      {
+        "dataset": "OIEC-PT",
+        "sentence": "Os investigadores dizem que analisar o DNA do tumor poderá ajudar a explicar causas subjacentes de outros cânceres.",
+        "marker": "poderá",
+        "verb": "ajudar",
+        "triple": [
+          "analisar",
+          "ajudar",
+          "a explicar causas subjacentes"
+        ]
+      }
+    ],
+    "pt_oie_op1|mod": [
+      {
+        "dataset": "BIA",
+        "sentence": "Em 1841, Léon Escudier escreveu sobre um recital de Chopin naquele ano Pode-se dizer que Chopin é o criador de uma escola de piano e escola de composição.",
+        "marker": "Pode",
+        "verb": "dizer",
+        "triple": [
+          "se",
+          "dizer",
+          "que Chopin o criador"
+        ]
+      },
+      {
+        "dataset": "OIEC-PT",
+        "sentence": "Os investigadores dizem que analisar o DNA do tumor poderá ajudar a explicar causas subjacentes de outros cânceres.",
+        "marker": "poderá",
+        "verb": "ajudar",
+        "triple": [
+          "analisar",
+          "ajudar",
+          "analisar o DNA"
+        ]
+      },
+      {
+        "dataset": "OIEC-PT",
+        "sentence": "Os investigadores dizem que analisar o DNA do tumor poderá ajudar a explicar causas subjacentes de outros cânceres.",
+        "marker": "poderá",
+        "verb": "ajudar",
+        "triple": [
+          "analisar",
+          "ajudar",
+          "a explicar causas subjacentes"
+        ]
+      }
+    ],
+    "ud_baseline|mod": [
+      {
+        "dataset": "BIA",
+        "sentence": "Em 1841, Léon Escudier escreveu sobre um recital de Chopin naquele ano Pode-se dizer que Chopin é o criador de uma escola de piano e escola de composição.",
+        "marker": "Pode",
+        "verb": "dizer",
+        "triple": [
+          "se",
+          "dizer",
+          "que Chopin o criador"
+        ]
+      },
+      {
+        "dataset": "OIEC-PT",
+        "sentence": "Os investigadores dizem que analisar o DNA do tumor poderá ajudar a explicar causas subjacentes de outros cânceres.",
+        "marker": "poderá",
+        "verb": "ajudar",
+        "triple": [
+          "analisar",
+          "ajudar",
+          "analisar o DNA"
+        ]
+      },
+      {
+        "dataset": "OIEC-PT",
+        "sentence": "Os investigadores dizem que analisar o DNA do tumor poderá ajudar a explicar causas subjacentes de outros cânceres.",
+        "marker": "poderá",
+        "verb": "ajudar",
+        "triple": [
+          "analisar",
+          "ajudar",
+          "a explicar causas subjacentes"
+        ]
+      }
+    ],
+    "MultiOIE|neg": [
+      {
+        "dataset": "BIA",
+        "sentence": "Embora não tenha sido registrada em nenhum registro oficial chinês, a biografia de Sonam Gyatso afirma que Wanli novamente conferiu títulos a Sonam Gyatso em 1588 e o convidou para Pequim por a segunda vez, mas Sonam Gyatso não pôde visitar a China, pois morreu em o mesmo ano em a Mongólia.",
+        "marker": "não",
+        "verb": "pôde",
+        "triple": [
+          "Sonam Gyatso",
+          "pôde",
+          "Pequim a segunda"
+        ]
+      },
+      {
+        "dataset": "BIA",
+        "sentence": "Güshi Khan aceitou seu papel de protetor e, de 1637 a 1640, ele não apenas derrotou os inimigos de os Gelugpas em as regiões Amdo e Kham, mas também reassentou toda a sua tribo em Amdo.",
+        "marker": "não",
+        "verb": "derrotou",
+        "triple": [
+          "ele",
+          "derrotou",
+          "os inimigos de os Gelugpas em as regiões Amdo e de 1637 a"
+        ]
+      },
+      {
+        "dataset": "BIA",
+        "sentence": "A Ilha Nightingale não tem água fresca, então os pingüins foram transportados para Tristão de a Cunha para limpeza.",
+        "marker": "não",
+        "verb": "tem",
+        "triple": [
+          "A Ilha Nightingale",
+          "tem",
+          "água"
+        ]
+      },
+      {
+        "dataset": "BIA",
+        "sentence": "O termo música clássica não apareceu até o início de o século 19, em uma tentativa de canonizar distintamente o período de Johann Sebastian Bach a Beethoven como uma idade de ouro.",
+        "marker": "não",
+        "verb": "apareceu",
+        "triple": [
+          "O termo música clássica",
+          "apareceu",
+          "até o início de o século em uma"
+        ]
+      }
+    ],
+    "pt_oie|neg": [
+      {
+        "dataset": "BIA",
+        "sentence": "Embora não tenha sido registrada em nenhum registro oficial chinês, a biografia de Sonam Gyatso afirma que Wanli novamente conferiu títulos a Sonam Gyatso em 1588 e o convidou para Pequim por a segunda vez, mas Sonam Gyatso não pôde visitar a China, pois morreu em o mesmo ano em a Mongólia.",
+        "marker": "não",
+        "verb": "pôde",
+        "triple": [
+          "Sonam Gyatso",
+          "pôde visitar",
+          "a China"
+        ]
+      },
+      {
+        "dataset": "OIEC-PT",
+        "sentence": "O governo de Hong Kong, que é liderado por legisladores pró-Pequim, argumentou que o par não deve tomar posse.",
+        "marker": "não",
+        "verb": "tomar",
+        "triple": [
+          "o par",
+          "deve tomar",
+          "posse"
+        ]
+      }
+    ],
+    "pt_oie_op1|neg": [
+      {
+        "dataset": "BIA",
+        "sentence": "Embora não tenha sido registrada em nenhum registro oficial chinês, a biografia de Sonam Gyatso afirma que Wanli novamente conferiu títulos a Sonam Gyatso em 1588 e o convidou para Pequim por a segunda vez, mas Sonam Gyatso não pôde visitar a China, pois morreu em o mesmo ano em a Mongólia.",
+        "marker": "não",
+        "verb": "pôde",
+        "triple": [
+          "Sonam Gyatso",
+          "pôde visitar",
+          "a China"
+        ]
+      },
+      {
+        "dataset": "OIEC-PT",
+        "sentence": "O governo de Hong Kong, que é liderado por legisladores pró-Pequim, argumentou que o par não deve tomar posse.",
+        "marker": "não",
+        "verb": "tomar",
+        "triple": [
+          "o par",
+          "deve tomar",
+          "posse"
+        ]
+      }
+    ],
+    "ud_baseline|neg": [
+      {
+        "dataset": "BIA",
+        "sentence": "Embora não tenha sido registrada em nenhum registro oficial chinês, a biografia de Sonam Gyatso afirma que Wanli novamente conferiu títulos a Sonam Gyatso em 1588 e o convidou para Pequim por a segunda vez, mas Sonam Gyatso não pôde visitar a China, pois morreu em o mesmo ano em a Mongólia.",
+        "marker": "não",
+        "verb": "pôde",
+        "triple": [
+          "Sonam Gyatso",
+          "pôde visitar",
+          "a China"
+        ]
+      },
+      {
+        "dataset": "OIEC-PT",
+        "sentence": "O governo de Hong Kong, que é liderado por legisladores pró-Pequim, argumentou que o par não deve tomar posse.",
+        "marker": "não",
+        "verb": "tomar",
+        "triple": [
+          "o par",
+          "deve tomar",
+          "posse"
+        ]
+      }
+    ],
+    "PragmaticOIE|mod": [
+      {
+        "dataset": "BIA",
+        "sentence": "O imperador Wanli convidou Yonten Gyatso para Pequim em 1616, mas, assim como seu antecessor, ele morreu antes de poder fazer a jornada.",
+        "marker": "poder",
+        "verb": "fazer",
+        "triple": [
+          "poder",
+          "fazer",
+          "a jornada"
+        ]
+      },
+      {
+        "dataset": "BIA",
+        "sentence": "O professor de direito de a Universidade Columbia, Michael Dorf, observou que o possível processo de Schwarzenegger poderia finalmente lhe conceder o direito de concorrer a o cargo, observando A lei é muito clara, mas não é 100 % claro que os tribunais aplicariam essa lei em vez de deixá-la em liberdade.",
+        "marker": "poderia",
+        "verb": "conceder",
+        "triple": [
+          "lhe",
+          "conceder o direito de concorrer ao",
+          "cargo"
+        ]
+      }
+    ],
+    "PragmaticOIE|neg": [
+      {
+        "dataset": "BIA",
+        "sentence": "Güshi Khan aceitou seu papel de protetor e, de 1637 a 1640, ele não apenas derrotou os inimigos de os Gelugpas em as regiões Amdo e Kham, mas também reassentou toda a sua tribo em Amdo.",
+        "marker": "não",
+        "verb": "derrotou",
+        "triple": [
+          "não",
+          "derrotou os inimigos dos",
+          "Gelugpas nas regiões"
+        ]
+      },
+      {
+        "dataset": "BIA",
+        "sentence": "O hidrogênio, como H atômico, é o elemento químico mais abundante em o universo, constituindo 75 % de a matéria normal em massa e mais de 90 % em número de átomos (a maior parte de a massa de o universo, porém, não está em a forma de matéria de o tipo elemento químico, mas postula-se que ocorra como formas de massa ainda não detectadas, como matéria escura e energia escura).",
+        "marker": "não",
+        "verb": "detectadas",
+        "triple": [
+          "de massa ainda",
+          "detectadas",
+          "como matéria"
+        ]
+      },
+      {
+        "dataset": "BIA",
+        "sentence": "O hidrogênio, como H atômico, é o elemento químico mais abundante em o universo, constituindo 75 % de a matéria normal em massa e mais de 90 % em número de átomos (a maior parte de a massa de o universo, porém, não está em a forma de matéria de o tipo elemento químico, mas postula-se que ocorra como formas de massa ainda não detectadas, como matéria escura e energia escura).",
+        "marker": "não",
+        "verb": "detectadas",
+        "triple": [
+          "de massa ainda",
+          "detectadas",
+          "como matéria"
+        ]
+      },
+      {
+        "dataset": "BIA",
+        "sentence": "Logo após a Revolução Francesa (1789), a Primeira República Francesa proibiu o uso oficial e adotou políticas discriminatórias contra as línguas não padronizadas de a França (patois), como catalão, alsaciano, bretão, occitânico, flamengo e basco.",
+        "marker": "não",
+        "verb": "padronizadas",
+        "triple": [
+          "políticas discriminatórias contra as línguas",
+          "padronizadas da",
+          "França"
+        ]
+      },
+      {
+        "dataset": "BIA",
+        "sentence": "Logo após a Revolução Francesa (1789), a Primeira República Francesa proibiu o uso oficial e adotou políticas discriminatórias contra as línguas não padronizadas de a França (patois), como catalão, alsaciano, bretão, occitânico, flamengo e basco.",
+        "marker": "não",
+        "verb": "padronizadas",
+        "triple": [
+          "políticas discriminatórias contra as línguas",
+          "padronizadas da",
+          "patois"
+        ]
+      },
+      {
+        "dataset": "BIA",
+        "sentence": "A Ilha Nightingale não tem água fresca, então os pingüins foram transportados para Tristão de a Cunha para limpeza.",
+        "marker": "não",
+        "verb": "tem",
+        "triple": [
+          "A Ilha_Nightingale",
+          "tem",
+          "água fresca"
+        ]
+      },
+      {
+        "dataset": "BIA",
+        "sentence": "O termo música clássica não apareceu até o início de o século 19, em uma tentativa de canonizar distintamente o período de Johann Sebastian Bach a Beethoven como uma idade de ouro.",
+        "marker": "não",
+        "verb": "apareceu",
+        "triple": [
+          "O termo música clássica",
+          "apareceu até",
+          "o início do século 19"
+        ]
+      }
+    ],
+    "ollama_gemma4|neg": [
+      {
+        "dataset": "BIA",
+        "sentence": "Güshi Khan aceitou seu papel de protetor e, de 1637 a 1640, ele não apenas derrotou os inimigos de os Gelugpas em as regiões Amdo e Kham, mas também reassentou toda a sua tribo em Amdo.",
+        "marker": "não",
+        "verb": "derrotou",
+        "triple": [
+          "ele",
+          "derrotou",
+          "os inimigos de os Gelugpas em as regiões Amdo e Kham"
+        ]
+      },
+      {
+        "dataset": "OIEC-PT",
+        "sentence": "Os médicos não têm estas ferramentas, eles apenas têm um livro de receitas e uma injeção, disse Mailis.",
+        "marker": "não",
+        "verb": "têm",
+        "triple": [
+          "eles",
+          "têm",
+          "um livro de receitas"
+        ]
+      },
+      {
+        "dataset": "OIEC-PT",
+        "sentence": "Os médicos não têm estas ferramentas, eles apenas têm um livro de receitas e uma injeção, disse Mailis.",
+        "marker": "não",
+        "verb": "têm",
+        "triple": [
+          "eles",
+          "têm",
+          "uma injeção"
+        ]
+      }
+    ],
+    "ollama_gemma4|mod": [
+      {
+        "dataset": "OIEC-PT",
+        "sentence": "Ele podia detectar os efeitos da eleição à sua volta, nas explosões de conflito e na curiosa intersecção de novas ideias com antigas.",
+        "marker": "podia",
+        "verb": "detectar",
+        "triple": [
+          "Ele",
+          "poder detectar",
+          "os efeitos da eleição à sua volta"
+        ]
+      },
+      {
+        "dataset": "OIEC-PT",
+        "sentence": "Surpreendentemente como pode parecer, até as nuvens de chuvas ácidas podem ter um lado positivo.",
+        "marker": "podem",
+        "verb": "ter",
+        "triple": [
+          "as nuvens de chuvas ácidas",
+          "poder ter",
+          "um lado positivo"
+        ]
+      }
+    ]
+  }
+}

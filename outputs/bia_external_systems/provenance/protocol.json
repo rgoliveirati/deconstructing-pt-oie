@@ -1,0 +1,32 @@
+{
+  "scope": "Comparação de desenvolvimento no BIA; não teste independente do nosso extrator.",
+  "systems": [
+    "PragmaticOIE",
+    "Multi2OIE",
+    "DptOIE",
+    "DetIE",
+    "A",
+    "B",
+    "C",
+    "D"
+  ],
+  "gold_sha256": "ddd882e93b3d7f9f5778f1a740e0f3854a193e00327082acc3d658bd6550b19e",
+  "seed": 13,
+  "multi2oie": {
+    "max_len": 64,
+    "batch_size": 32,
+    "device": "cpu",
+    "projection": "ARG0; predicate; concatenation(ARG1,ARG2,ARG3)",
+    "training": "official multilingual checkpoint; no BIA fine-tuning"
+  },
+  "dptoie_flags": [
+    "-SC",
+    "true",
+    "-CC",
+    "true",
+    "-appositive",
+    "1"
+  ],
+  "conversion": "drop empty-output markers; preserve partial tuples, duplicates, text; log all changes",
+  "benchmark_identity": "Original benchmark does not pin executables/checkpoints; these are identified local official implementations, not assumed identical runs."
+}

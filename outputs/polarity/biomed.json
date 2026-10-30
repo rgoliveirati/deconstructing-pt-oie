@@ -1,0 +1,554 @@
+{
+  "created_at": "2026-08-13T12:06:09.178524+00:00",
+  "datasets": [
+    "BIOMED"
+  ],
+  "marked_predicates_found": {
+    "neg": 94,
+    "mod": 46
+  },
+  "neg_lemmas": [
+    "jamais",
+    "nada",
+    "nao",
+    "nem",
+    "nenhum",
+    "nenhuma",
+    "nenhumas",
+    "nenhuns",
+    "ninguem",
+    "ninguém",
+    "nunca",
+    "não"
+  ],
+  "modal_lemmas": [
+    "costumar",
+    "dever",
+    "poder",
+    "precisar",
+    "pretender",
+    "tender"
+  ],
+  "results": [
+    {
+      "system": "ollama_gemma4",
+      "neg_covered_triples": 70,
+      "neg_por_tripla_%": 97.1,
+      "neg_covered_preds": 56,
+      "neg_por_predicado_%": 98.2,
+      "mod_covered_triples": 54,
+      "mod_por_tripla_%": 87.0,
+      "mod_covered_preds": 42,
+      "mod_por_predicado_%": 90.5
+    },
+    {
+      "system": "PragmaticOIE",
+      "neg_covered_triples": 62,
+      "neg_por_tripla_%": 11.3,
+      "neg_covered_preds": 59,
+      "neg_por_predicado_%": 11.9,
+      "mod_covered_triples": 44,
+      "mod_por_tripla_%": 100.0,
+      "mod_covered_preds": 37,
+      "mod_por_predicado_%": 100.0
+    },
+    {
+      "system": "pt_oie",
+      "neg_covered_triples": 66,
+      "neg_por_tripla_%": 80.3,
+      "neg_covered_preds": 43,
+      "neg_por_predicado_%": 90.7,
+      "mod_covered_triples": 28,
+      "mod_por_tripla_%": 100.0,
+      "mod_covered_preds": 28,
+      "mod_por_predicado_%": 100.0
+    },
+    {
+      "system": "pt_oie_op1",
+      "neg_covered_triples": 70,
+      "neg_por_tripla_%": 81.4,
+      "neg_covered_preds": 44,
+      "neg_por_predicado_%": 93.2,
+      "mod_covered_triples": 28,
+      "mod_por_tripla_%": 100.0,
+      "mod_covered_preds": 28,
+      "mod_por_predicado_%": 100.0
+    },
+    {
+      "system": "ud_baseline",
+      "neg_covered_triples": 67,
+      "neg_por_tripla_%": 80.6,
+      "neg_covered_preds": 43,
+      "neg_por_predicado_%": 90.7,
+      "mod_covered_triples": 28,
+      "mod_por_tripla_%": 100.0,
+      "mod_covered_preds": 28,
+      "mod_por_predicado_%": 100.0
+    }
+  ],
+  "examples_of_loss": {
+    "PragmaticOIE|neg": [
+      {
+        "dataset": "BIOMED",
+        "sentence": "Quatro em cada dez pessoas que relataram episódios de covid-19, para tratar a doença, consumiram medicamentos não recomendados pela ciência.",
+        "marker": "não",
+        "verb": "recomendados",
+        "triple": [
+          "medicamentos",
+          "recomendados pela",
+          "ciência"
+        ]
+      },
+      {
+        "dataset": "BIOMED",
+        "sentence": "Apenas três habilidades não demonstraram evolução relevante.",
+        "marker": "não",
+        "verb": "demonstraram",
+        "triple": [
+          "Apenas três habilidades",
+          "demonstraram",
+          "evolução relevante"
+        ]
+      },
+      {
+        "dataset": "BIOMED",
+        "sentence": "O DAP não foi influenciado pelo método de AC na amostra pesquisada.",
+        "marker": "não",
+        "verb": "influenciado",
+        "triple": [
+          "O DAP",
+          "foi influenciado pelo",
+          "método de AC na amostra pesquisada"
+        ]
+      },
+      {
+        "dataset": "BIOMED",
+        "sentence": "Após a teleconsultoria ou teleinterconsulta, 96,5% dos atendimentos não necessitaram de um encaminhamento para alguma avaliação presencial ao serviço de atenção especializada.",
+        "marker": "não",
+        "verb": "necessitaram",
+        "triple": [
+          "96,5 % dos atendimentos",
+          "necessitaram de",
+          "um encaminhamento para alguma avaliação presencial ao serviço de atenção especializada"
+        ]
+      },
+      {
+        "dataset": "BIOMED",
+        "sentence": "As violações dos direitos sociais são frequentes e as legislações muitas vezes não são efetivamente cumpridas, tornando-se mera letra morta.",
+        "marker": "não",
+        "verb": "cumpridas",
+        "triple": [
+          "legislações muitas_vezes",
+          "são efetivamente cumpridas",
+          "tornando"
+        ]
+      },
+      {
+        "dataset": "BIOMED",
+        "sentence": "IC95% 0,63–0,86) e cujas mães não exerciam atividade remunerada (RP = 0,87;",
+        "marker": "não",
+        "verb": "exerciam",
+        "triple": [
+          "IC95 % 0,63–0,86",
+          "exerciam atividade remunerada",
+          "RP"
+        ]
+      },
+      {
+        "dataset": "BIOMED",
+        "sentence": "Argumenta-se que o combate ao racismo não pode ser tarefa isolada de um grupo específico, mas um compromisso coletivo e ético que envolva toda a comunidade científica.",
+        "marker": "não",
+        "verb": "pode",
+        "triple": [
+          "o combate ao racismo",
+          "pode ser tarefa isolada de",
+          "um grupo específico"
+        ]
+      },
+      {
+        "dataset": "BIOMED",
+        "sentence": "Além disso, 12 cidades/distritos localizados nas fronteiras da área de estudo não apresentaram registro de doenças neoplásicas.",
+        "marker": "não",
+        "verb": "apresentaram",
+        "triple": [
+          "fronteiras da área de estudo",
+          "apresentaram registro de",
+          "doenças neoplásicas"
+        ]
+      }
+    ],
+    "pt_oie|neg": [
+      {
+        "dataset": "BIOMED",
+        "sentence": "Na análise das latências e amplitudes do PEATE-clique, bem como nas medidas do FFR relacionadas à codificação neural subcortical da fala, não foram observadas diferenças estatisticamente significativas entre os grupos e entre as orelhas na análise intergrupos.",
+        "marker": "não",
+        "verb": "observadas",
+        "triple": [
+          "diferenças significativas entre os grupos e entre as orelhas em a análise intergrupos",
+          "Em foram observadas",
+          "a análise de as latências e amplitudes de o PEATE-clique bem como em as medidas de o FFR"
+        ]
+      },
+      {
+        "dataset": "BIOMED",
+        "sentence": "O DAP não foi influenciado pelo método de AC na amostra pesquisada.",
+        "marker": "não",
+        "verb": "influenciado",
+        "triple": [
+          "O DAP",
+          "foi influenciado em",
+          "a amostra"
+        ]
+      },
+      {
+        "dataset": "BIOMED",
+        "sentence": "Embora o aumento estrutural do SC já tenha sido descrito em pacientes com taquicardia por reentrada nodal atrioventricular (TRNAV), o fluxo do seio coronário (FSC) avaliado por ecocardiografia transtorácica (ETT) ainda não havia sido investigado nessa população.",
+        "marker": "não",
+        "verb": "investigado",
+        "triple": [
+          "o fluxo de o seio coronário",
+          "sido investigado em",
+          "essa população"
+        ]
+      },
+      {
+        "dataset": "BIOMED",
+        "sentence": "Estimou-se que 8.624 casos de dengue não tenham sido detectados em mulheres não gestantes no período.",
+        "marker": "não",
+        "verb": "detectados",
+        "triple": [
+          "8.624 casos de dengue",
+          "sido detectados em",
+          "mulheres gestantes"
+        ]
+      },
+      {
+        "dataset": "BIOMED",
+        "sentence": "Esta revisão sistemática não foi previamente registrada em plataformas públicas, como a International Prospective Register of Systematic Reviews (PROSPERO).",
+        "marker": "não",
+        "verb": "registrada",
+        "triple": [
+          "Esta revisão sistemática",
+          "foi registrada em",
+          "plataformas públicas como a International Prospective Register of Systematic Reviews PROSPERO"
+        ]
+      },
+      {
+        "dataset": "BIOMED",
+        "sentence": "Correspondentemente, 38,3% dos pacientes não apresentavam lesões coronarianas, 38,5% apresentavam lesões leves, 14,1% lesões moderadas e 9,2% lesões altas/muito altas.",
+        "marker": "não",
+        "verb": "apresentavam",
+        "triple": [
+          "38,5 %",
+          "apresentavam",
+          "lesões leves"
+        ]
+      },
+      {
+        "dataset": "BIOMED",
+        "sentence": "Correspondentemente, 38,3% dos pacientes não apresentavam lesões coronarianas, 38,5% apresentavam lesões leves, 14,1% lesões moderadas e 9,2% lesões altas/muito altas.",
+        "marker": "não",
+        "verb": "apresentavam",
+        "triple": [
+          "38,5 %",
+          "apresentavam",
+          "14,1 %"
+        ]
+      },
+      {
+        "dataset": "BIOMED",
+        "sentence": "Correspondentemente, 38,3% dos pacientes não apresentavam lesões coronarianas, 38,5% apresentavam lesões leves, 14,1% lesões moderadas e 9,2% lesões altas/muito altas.",
+        "marker": "não",
+        "verb": "apresentavam",
+        "triple": [
+          "38,5 %",
+          "apresentavam",
+          "9,2 %"
+        ]
+      }
+    ],
+    "pt_oie_op1|neg": [
+      {
+        "dataset": "BIOMED",
+        "sentence": "Na análise das latências e amplitudes do PEATE-clique, bem como nas medidas do FFR relacionadas à codificação neural subcortical da fala, não foram observadas diferenças estatisticamente significativas entre os grupos e entre as orelhas na análise intergrupos.",
+        "marker": "não",
+        "verb": "observadas",
+        "triple": [
+          "diferenças significativas entre os grupos e entre as orelhas em a análise intergrupos",
+          "Em foram observadas",
+          "a análise de as latências e amplitudes de o PEATE-clique bem como em as medidas de o FFR"
+        ]
+      },
+      {
+        "dataset": "BIOMED",
+        "sentence": "O DAP não foi influenciado pelo método de AC na amostra pesquisada.",
+        "marker": "não",
+        "verb": "influenciado",
+        "triple": [
+          "O DAP",
+          "foi influenciado em",
+          "a amostra"
+        ]
+      },
+      {
+        "dataset": "BIOMED",
+        "sentence": "Embora o aumento estrutural do SC já tenha sido descrito em pacientes com taquicardia por reentrada nodal atrioventricular (TRNAV), o fluxo do seio coronário (FSC) avaliado por ecocardiografia transtorácica (ETT) ainda não havia sido investigado nessa população.",
+        "marker": "não",
+        "verb": "investigado",
+        "triple": [
+          "o fluxo de o seio coronário",
+          "sido investigado em",
+          "essa população"
+        ]
+      },
+      {
+        "dataset": "BIOMED",
+        "sentence": "Estimou-se que 8.624 casos de dengue não tenham sido detectados em mulheres não gestantes no período.",
+        "marker": "não",
+        "verb": "detectados",
+        "triple": [
+          "8.624 casos de dengue",
+          "sido detectados em",
+          "mulheres gestantes"
+        ]
+      },
+      {
+        "dataset": "BIOMED",
+        "sentence": "Esta revisão sistemática não foi previamente registrada em plataformas públicas, como a International Prospective Register of Systematic Reviews (PROSPERO).",
+        "marker": "não",
+        "verb": "registrada",
+        "triple": [
+          "Esta revisão sistemática",
+          "foi registrada em",
+          "plataformas públicas como a International Prospective Register of Systematic Reviews PROSPERO"
+        ]
+      },
+      {
+        "dataset": "BIOMED",
+        "sentence": "Correspondentemente, 38,3% dos pacientes não apresentavam lesões coronarianas, 38,5% apresentavam lesões leves, 14,1% lesões moderadas e 9,2% lesões altas/muito altas.",
+        "marker": "não",
+        "verb": "apresentavam",
+        "triple": [
+          "38,5 %",
+          "apresentavam",
+          "lesões leves"
+        ]
+      },
+      {
+        "dataset": "BIOMED",
+        "sentence": "Correspondentemente, 38,3% dos pacientes não apresentavam lesões coronarianas, 38,5% apresentavam lesões leves, 14,1% lesões moderadas e 9,2% lesões altas/muito altas.",
+        "marker": "não",
+        "verb": "apresentavam",
+        "triple": [
+          "38,5 %",
+          "apresentavam",
+          "14,1 %"
+        ]
+      },
+      {
+        "dataset": "BIOMED",
+        "sentence": "Correspondentemente, 38,3% dos pacientes não apresentavam lesões coronarianas, 38,5% apresentavam lesões leves, 14,1% lesões moderadas e 9,2% lesões altas/muito altas.",
+        "marker": "não",
+        "verb": "apresentavam",
+        "triple": [
+          "38,5 %",
+          "apresentavam",
+          "9,2 %"
+        ]
+      }
+    ],
+    "ud_baseline|neg": [
+      {
+        "dataset": "BIOMED",
+        "sentence": "Na análise das latências e amplitudes do PEATE-clique, bem como nas medidas do FFR relacionadas à codificação neural subcortical da fala, não foram observadas diferenças estatisticamente significativas entre os grupos e entre as orelhas na análise intergrupos.",
+        "marker": "não",
+        "verb": "observadas",
+        "triple": [
+          "diferenças significativas entre os grupos e entre as orelhas em a análise intergrupos",
+          "Em foram observadas",
+          "a análise de as latências e amplitudes de o PEATE-clique bem como em as medidas de o FFR"
+        ]
+      },
+      {
+        "dataset": "BIOMED",
+        "sentence": "O DAP não foi influenciado pelo método de AC na amostra pesquisada.",
+        "marker": "não",
+        "verb": "influenciado",
+        "triple": [
+          "O DAP",
+          "foi influenciado em",
+          "a amostra"
+        ]
+      },
+      {
+        "dataset": "BIOMED",
+        "sentence": "Embora o aumento estrutural do SC já tenha sido descrito em pacientes com taquicardia por reentrada nodal atrioventricular (TRNAV), o fluxo do seio coronário (FSC) avaliado por ecocardiografia transtorácica (ETT) ainda não havia sido investigado nessa população.",
+        "marker": "não",
+        "verb": "investigado",
+        "triple": [
+          "o fluxo de o seio coronário",
+          "sido investigado em",
+          "essa população"
+        ]
+      },
+      {
+        "dataset": "BIOMED",
+        "sentence": "Estimou-se que 8.624 casos de dengue não tenham sido detectados em mulheres não gestantes no período.",
+        "marker": "não",
+        "verb": "detectados",
+        "triple": [
+          "8.624 casos de dengue",
+          "sido detectados em",
+          "mulheres gestantes"
+        ]
+      },
+      {
+        "dataset": "BIOMED",
+        "sentence": "Esta revisão sistemática não foi previamente registrada em plataformas públicas, como a International Prospective Register of Systematic Reviews (PROSPERO).",
+        "marker": "não",
+        "verb": "registrada",
+        "triple": [
+          "Esta revisão sistemática",
+          "foi registrada em",
+          "plataformas públicas como a International Prospective Register of Systematic Reviews PROSPERO"
+        ]
+      },
+      {
+        "dataset": "BIOMED",
+        "sentence": "Correspondentemente, 38,3% dos pacientes não apresentavam lesões coronarianas, 38,5% apresentavam lesões leves, 14,1% lesões moderadas e 9,2% lesões altas/muito altas.",
+        "marker": "não",
+        "verb": "apresentavam",
+        "triple": [
+          "38,5 %",
+          "apresentavam",
+          "lesões leves"
+        ]
+      },
+      {
+        "dataset": "BIOMED",
+        "sentence": "Correspondentemente, 38,3% dos pacientes não apresentavam lesões coronarianas, 38,5% apresentavam lesões leves, 14,1% lesões moderadas e 9,2% lesões altas/muito altas.",
+        "marker": "não",
+        "verb": "apresentavam",
+        "triple": [
+          "38,5 %",
+          "apresentavam",
+          "14,1 %"
+        ]
+      },
+      {
+        "dataset": "BIOMED",
+        "sentence": "Correspondentemente, 38,3% dos pacientes não apresentavam lesões coronarianas, 38,5% apresentavam lesões leves, 14,1% lesões moderadas e 9,2% lesões altas/muito altas.",
+        "marker": "não",
+        "verb": "apresentavam",
+        "triple": [
+          "38,5 %",
+          "apresentavam",
+          "9,2 %"
+        ]
+      }
+    ],
+    "ollama_gemma4|neg": [
+      {
+        "dataset": "BIOMED",
+        "sentence": "Estudos financiados pela indústria foram publicados em periódicos com fatores de impacto significativamente maiores do que estudos não financiados pela indústria (3,05 vs. 2,2) ( p < 0,001), com diferença significativa no número de autores financiados (1,84 vs. 0,07) ( p < 0,001).",
+        "marker": "não",
+        "verb": "financiados",
+        "triple": [
+          "Estudos financiados pela indústria",
+          "tiveram diferença significativa no número de autores financiados",
+          "1,84 vs. 0,07"
+        ]
+      },
+      {
+        "dataset": "BIOMED",
+        "sentence": "Correspondentemente, 38,3% dos pacientes não apresentavam lesões coronarianas, 38,5% apresentavam lesões leves, 14,1% lesões moderadas e 9,2% lesões altas/muito altas.",
+        "marker": "não",
+        "verb": "apresentavam",
+        "triple": [
+          "38,5%",
+          "apresentavam",
+          "lesões leves"
+        ]
+      }
+    ],
+    "ollama_gemma4|mod": [
+      {
+        "dataset": "BIOMED",
+        "sentence": "O acolhimento, a orientação e o incentivo às práticas pela equipe podem ajudar a superar.",
+        "marker": "podem",
+        "verb": "ajudar",
+        "triple": [
+          "O acolhimento",
+          "ajudar a",
+          "superar"
+        ]
+      },
+      {
+        "dataset": "BIOMED",
+        "sentence": "O acolhimento, a orientação e o incentivo às práticas pela equipe podem ajudar a superar.",
+        "marker": "podem",
+        "verb": "ajudar",
+        "triple": [
+          "a orientação",
+          "ajudar a",
+          "superar"
+        ]
+      },
+      {
+        "dataset": "BIOMED",
+        "sentence": "O acolhimento, a orientação e o incentivo às práticas pela equipe podem ajudar a superar.",
+        "marker": "podem",
+        "verb": "ajudar",
+        "triple": [
+          "o incentivo às práticas pela equipe",
+          "ajudar a",
+          "superar"
+        ]
+      },
+      {
+        "dataset": "BIOMED",
+        "sentence": "Adicionalmente, pode contribuir para a redução de custos e para a maior sustentabilidade do sistema de saúde, devendo ser considerada parte integrante do arsenal terapêutico contemporâneo.",
+        "marker": "pode",
+        "verb": "contribuir",
+        "triple": [
+          "pode",
+          "contribuir para",
+          "a redução de custos"
+        ]
+      },
+      {
+        "dataset": "BIOMED",
+        "sentence": "Adicionalmente, pode contribuir para a redução de custos e para a maior sustentabilidade do sistema de saúde, devendo ser considerada parte integrante do arsenal terapêutico contemporâneo.",
+        "marker": "pode",
+        "verb": "contribuir",
+        "triple": [
+          "pode",
+          "contribuir para",
+          "a maior sustentabilidade do sistema de saúde"
+        ]
+      },
+      {
+        "dataset": "BIOMED",
+        "sentence": "Adicionalmente, pode contribuir para a redução de custos e para a maior sustentabilidade do sistema de saúde, devendo ser considerada parte integrante do arsenal terapêutico contemporâneo.",
+        "marker": "devendo",
+        "verb": "considerada",
+        "triple": [
+          "dever",
+          "ser considerada",
+          "parte integrante do arsenal terapêutico contemporâneo"
+        ]
+      },
+      {
+        "dataset": "BIOMED",
+        "sentence": "Embora o tratamento conservador seja a primeira linha de manejo, casos refratários podem exigir abordagem cirúrgica.",
+        "marker": "podem",
+        "verb": "exigir",
+        "triple": [
+          "casos refratários",
+          "poder exigir",
+          "abordagem cirúrgica"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "created_at": "2026-10-30T16:50:02.769480+00:00",
+  "config": "rq3_attn_on_thr0",
+  "corpora": {
+    "WIKI200": {
+      "n_sentences": 201,
+      "n_gold": 427,
+      "sentences_without_extraction": 40,
+      "pct_sentences_without_extraction": 19.90049751243781,
+      "recall": 36.417899379540465,
+      "recall_ceiling_all_candidates": 38.52100531168621,
+      "headroom_points": 2.1031059321457435
+    },
+    "CETEN200": {
+      "n_sentences": 202,
+      "n_gold": 366,
+      "sentences_without_extraction": 52,
+      "pct_sentences_without_extraction": 25.742574257425744,
+      "recall": 33.747416638093185,
+      "recall_ceiling_all_candidates": 34.2830225015679,
+      "headroom_points": 0.5356058634747141
+    },
+    "Gamalho": {
+      "n_sentences": 103,
+      "n_gold": 358,
+      "sentences_without_extraction": 10,
+      "pct_sentences_without_extraction": 9.70873786407767,
+      "recall": 50.42691354853661,
+      "recall_ceiling_all_candidates": 50.72365591231808,
+      "headroom_points": 0.2967423637814659
+    }
+  }
+}

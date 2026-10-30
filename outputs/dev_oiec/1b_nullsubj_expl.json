@@ -1,0 +1,18 @@
+{
+  "created_at": "2026-08-10T19:49:24.938821+00:00",
+  "label": "1b_nullsubj_expl",
+  "corpus": "data/external/OIEC-PT/OIEC-PT.txt",
+  "config_overrides": "{\"allow_null_subject\":true,\"null_subject_arg1_source\":\"expletive\"}",
+  "n_sentences": 300,
+  "n_gold_valid": 473,
+  "n_rejected_labeled": 2194,
+  "n_predictions": 469,
+  "predictions_per_sentence": 1.5633333333333332,
+  "sentences_without_extraction": 45,
+  "pct_sentences_without_extraction": 15.0,
+  "recall": 58.084476027035706,
+  "recall_ceiling_all_candidates": 58.99764890589532,
+  "headroom_points": 0.9131728788596138,
+  "predictions_matching_human_rejected": 269,
+  "pct_predictions_on_rejected": 57.356076759061835
+}

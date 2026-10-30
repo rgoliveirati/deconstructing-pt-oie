@@ -1,0 +1,33 @@
+{
+  "point_f1": {
+    "rq1_baseline_ud_puro": 52.71,
+    "rq2_cop_restricted": 47.56,
+    "rq2_cop_off": 47.43
+  },
+  "paired": [
+    {
+      "comparison": "rq2_cop_restricted - rq1_baseline_ud_puro",
+      "protocol": "bia_legacy",
+      "delta_point": -5.16,
+      "delta_mean": -5.18,
+      "delta_median": -5.14,
+      "ci_low": -7.4,
+      "ci_high": -3.18,
+      "prop_delta_gt_0": 0.0,
+      "prop_delta_lt_0": 1.0,
+      "n_samples": 10000
+    },
+    {
+      "comparison": "rq2_cop_off - rq1_baseline_ud_puro",
+      "protocol": "bia_legacy",
+      "delta_point": -5.29,
+      "delta_mean": -5.31,
+      "delta_median": -5.27,
+      "ci_low": -7.56,
+      "ci_high": -3.25,
+      "prop_delta_gt_0": 0.0,
+      "prop_delta_lt_0": 1.0,
+      "n_samples": 10000
+    }
+  ]
+}

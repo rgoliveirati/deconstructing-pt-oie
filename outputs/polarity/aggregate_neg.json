@@ -1,0 +1,159 @@
+{
+  "created_at": "2026-08-13T12:23:46.151751+00:00",
+  "kind": "neg",
+  "sources": {
+    "LREC (WIKI200+CETEN200+Gamalho)": "polarity_fidelity.json",
+    "BIA + OIEC-PT": "bia_oiec.json",
+    "BIOMED (PubMed pt)": "biomed.json"
+  },
+  "marked_predicates_total": {
+    "neg": 147,
+    "mod": 136
+  },
+  "rows": [
+    {
+      "system": "Gemma 4 (8B)",
+      "system_key": "ollama_gemma4",
+      "preserved": 104,
+      "covered": 110,
+      "rate_pct": 94.5,
+      "ci_low": 88.6,
+      "ci_high": 97.5,
+      "LREC (WIKI200+CETEN200+Gamalho)": "19/20",
+      "BIA + OIEC-PT": "17/20",
+      "BIOMED (PubMed pt)": "68/70"
+    },
+    {
+      "system": "PT-OIE-EXTRACTOR",
+      "system_key": "pt_oie",
+      "preserved": 78,
+      "covered": 94,
+      "rate_pct": 83.0,
+      "ci_low": 74.1,
+      "ci_high": 89.2,
+      "LREC (WIKI200+CETEN200+Gamalho)": "14/15",
+      "BIA + OIEC-PT": "11/13",
+      "BIOMED (PubMed pt)": "53/66"
+    },
+    {
+      "system": "PT-OIE + Op.1",
+      "system_key": "pt_oie_op1",
+      "preserved": 85,
+      "covered": 101,
+      "rate_pct": 84.2,
+      "ci_low": 75.8,
+      "ci_high": 90.0,
+      "LREC (WIKI200+CETEN200+Gamalho)": "16/17",
+      "BIA + OIEC-PT": "12/14",
+      "BIOMED (PubMed pt)": "57/70"
+    },
+    {
+      "system": "PT-OIE (UD puro)",
+      "system_key": "ud_baseline",
+      "preserved": 80,
+      "covered": 96,
+      "rate_pct": 83.3,
+      "ci_low": 74.6,
+      "ci_high": 89.5,
+      "LREC (WIKI200+CETEN200+Gamalho)": "15/16",
+      "BIA + OIEC-PT": "11/13",
+      "BIOMED (PubMed pt)": "54/67"
+    },
+    {
+      "system": "ArgOE",
+      "system_key": "ArgOE",
+      "preserved": 0,
+      "covered": 14,
+      "rate_pct": 0.0,
+      "ci_low": 0.0,
+      "ci_high": 21.5,
+      "LREC (WIKI200+CETEN200+Gamalho)": "0/14",
+      "BIA + OIEC-PT": null,
+      "BIOMED (PubMed pt)": null
+    },
+    {
+      "system": "DptOIE",
+      "system_key": "DptOIE",
+      "preserved": 67,
+      "covered": 67,
+      "rate_pct": 100.0,
+      "ci_low": 94.6,
+      "ci_high": 100.0,
+      "LREC (WIKI200+CETEN200+Gamalho)": "26/26",
+      "BIA + OIEC-PT": "41/41",
+      "BIOMED (PubMed pt)": null
+    },
+    {
+      "system": "GraphIE",
+      "system_key": "GraphIE",
+      "preserved": 0,
+      "covered": 14,
+      "rate_pct": 0.0,
+      "ci_low": 0.0,
+      "ci_high": 21.5,
+      "LREC (WIKI200+CETEN200+Gamalho)": "0/14",
+      "BIA + OIEC-PT": null,
+      "BIOMED (PubMed pt)": null
+    },
+    {
+      "system": "Multi²OIE",
+      "system_key": "MultiOIE",
+      "preserved": 3,
+      "covered": 20,
+      "rate_pct": 15.0,
+      "ci_low": 5.2,
+      "ci_high": 36.0,
+      "LREC (WIKI200+CETEN200+Gamalho)": "2/15",
+      "BIA + OIEC-PT": "1/5",
+      "BIOMED (PubMed pt)": null
+    },
+    {
+      "system": "PragmaticOIE",
+      "system_key": "PragmaticOIE",
+      "preserved": 7,
+      "covered": 84,
+      "rate_pct": 8.3,
+      "ci_low": 4.1,
+      "ci_high": 16.2,
+      "LREC (WIKI200+CETEN200+Gamalho)": "0/15",
+      "BIA + OIEC-PT": "0/7",
+      "BIOMED (PubMed pt)": "7/62"
+    },
+    {
+      "system": "TransAlign",
+      "system_key": "TransAlign",
+      "preserved": 12,
+      "covered": 13,
+      "rate_pct": 92.3,
+      "ci_low": 66.7,
+      "ci_high": 98.6,
+      "LREC (WIKI200+CETEN200+Gamalho)": "12/13",
+      "BIA + OIEC-PT": null,
+      "BIOMED (PubMed pt)": null
+    },
+    {
+      "system": "PortOIE-Llama",
+      "system_key": "PortOIE-LLama",
+      "preserved": 10,
+      "covered": 13,
+      "rate_pct": 76.9,
+      "ci_low": 49.7,
+      "ci_high": 91.8,
+      "LREC (WIKI200+CETEN200+Gamalho)": "10/13",
+      "BIA + OIEC-PT": null,
+      "BIOMED (PubMed pt)": null
+    },
+    {
+      "system": "DetIE",
+      "system_key": "DetIE",
+      "preserved": 16,
+      "covered": 17,
+      "rate_pct": 94.1,
+      "ci_low": 73.0,
+      "ci_high": 99.0,
+      "LREC (WIKI200+CETEN200+Gamalho)": "16/17",
+      "BIA + OIEC-PT": null,
+      "BIOMED (PubMed pt)": null
+    }
+  ]
+}

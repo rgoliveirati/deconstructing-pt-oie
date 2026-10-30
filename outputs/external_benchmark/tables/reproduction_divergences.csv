@@ -1,0 +1,4 @@
+system,dataset,f1,paper_f1,f1_abs_diff_vs_paper
+ArgOE,WIKI200,36.3,22.5,13.8
+ArgOE,CETEN200,34.3,37.0,2.7
+ArgOE,Gamalho,40.8,23.7,17.1

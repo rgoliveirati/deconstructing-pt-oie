@@ -1,0 +1,11 @@
+name: multi2oie
+enabled: true
+external_dir: .external/Multi2OIE
+# Checkpoint multilíngue dos autores (Drive, link no README dos autores).
+checkpoint: .external/Multi2OIE/multilingual_model.bin
+mode: multilingual_zero_shot
+# CPU para não disputar VRAM com BERTimbau/Gemma; mBERT base é leve.
+device: cpu
+batch_size: 32
+max_len: 64
+timeout_seconds: 3600

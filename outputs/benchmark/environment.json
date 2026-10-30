@@ -1,0 +1,25 @@
+{
+  "collected_at": "2026-07-12T13:18:56.553075+00:00",
+  "os": "Linux-6.17.0-35-generic-x86_64-with-glibc2.39",
+  "python": "3.12.8",
+  "cpu_model": "13th Gen Intel(R) Core(TM) i7-13620H",
+  "ram_total": "32596084 kB",
+  "gpu": {
+    "name": "NVIDIA GeForce RTX 3050 6GB Laptop GPU",
+    "memory_total": "6144 MiB",
+    "driver": "580.126.09"
+  },
+  "packages": {
+    "torch": "2.5.1+cu124",
+    "transformers": "4.48.2",
+    "stanza": "1.10.1",
+    "numpy": "2.2.5",
+    "pandas": "2.2.3",
+    "conllu": null,
+    "requests": "2.32.3",
+    "yaml": "6.0.2"
+  },
+  "cuda_available": true,
+  "cuda_version": "12.4",
+  "gpu_torch": "NVIDIA GeForce RTX 3050 6GB Laptop GPU"
+}

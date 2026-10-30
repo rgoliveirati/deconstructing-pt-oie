@@ -1,0 +1,18 @@
+{
+  "created_at": "2026-08-10T19:38:11.810023+00:00",
+  "label": "1a_obl_governed",
+  "corpus": "data/external/OIEC-PT/OIEC-PT.txt",
+  "config_overrides": "{\"obl_core_policy\":\"governed\",\"obl_allow_sole_temporal\":true}",
+  "n_sentences": 300,
+  "n_gold_valid": 473,
+  "n_rejected_labeled": 2194,
+  "n_predictions": 456,
+  "predictions_per_sentence": 1.52,
+  "sentences_without_extraction": 58,
+  "pct_sentences_without_extraction": 19.333333333333332,
+  "recall": 60.76806165928661,
+  "recall_ceiling_all_candidates": 61.772848350690246,
+  "headroom_points": 1.0047866914036363,
+  "predictions_matching_human_rejected": 269,
+  "pct_predictions_on_rejected": 58.99122807017544
+}

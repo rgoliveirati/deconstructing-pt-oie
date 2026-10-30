@@ -1,0 +1,12 @@
+{
+  "path": "data/bia_gold_sentences.jsonl",
+  "sha256": "ddd882e93b3d7f9f5778f1a740e0f3854a193e00327082acc3d658bd6550b19e",
+  "n_sentences": 262,
+  "n_gold_triples": 427,
+  "n_gold_triples_valid": 427,
+  "unique_ids": true,
+  "empty_sentences": 0,
+  "expected_sentences": 262,
+  "expected_gold_triples": 427,
+  "ok": true
+}

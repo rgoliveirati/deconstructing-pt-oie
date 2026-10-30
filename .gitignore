@@ -1,0 +1,52 @@
+# Python and environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+*.egg-info/
+
+# Downloaded at setup, not redistributed
+.external
+data/external
+data/biomed_pt_sentences.txt
+data/biomed_pt_sentences.meta.json
+
+# Local runs and caches
+runs/
+outputs/benchmark/cache/
+outputs/benchmark/tmp/
+
+# Assistant, editor, and harness files
+CLAUDE.md
+CLAUDE.local.md
+AGENTS.md
+GEMINI.md
+.claude/
+.cursor/
+.cursorrules
+.windsurf/
+.aider*
+.github/copilot-instructions.md
+*skill*/
+SKILL.md
+.vscode/
+.idea/
+*.local.*
+.env
+.env.*
+
+# Internal notes, drafts, and manuscripts
+RETOMADA.md
+ESTADO.md
+**/ESTADO.md
+paper/
+review/
+long_paper/
+pdf/
+bib_tex/
+notebooks/
+*.ipynb
+*.tex.bak
+*.zip
+.DS_Store

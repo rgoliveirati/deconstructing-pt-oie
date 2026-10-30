@@ -1,0 +1,61 @@
+# Avaliação externa do PT-OIE-EXTRACTOR no benchmark de Silva et al. (LREC 2026),
+# "Benchmarking Portuguese Open Information Extraction".
+#
+# PRINCÍPIO: nenhuma regra ou parâmetro do extrator é ajustado nestes corpora.
+# A configuração do extrator é IDÊNTICA à do artigo do BIA (rq3_attn_on_thr0).
+
+benchmark_repo:
+  url: https://github.com/gabrielrsilva11/PT-OIE-Benchmark
+  # commit fixado na primeira obtenção (2026-08-10); registrado em provenance.json
+  commit: f69b6bb3bbc1636d07365c2b28012842a8d21a83
+  clone_dir: .external/PT-OIE-Benchmark
+
+datasets:
+  - name: WIKI200
+    domain: Wikipédia
+    expected_sentences: 201
+    expected_gold: 427
+  - name: CETEN200
+    domain: Notícias (CETENFolha)
+    expected_sentences: 202
+    expected_gold: 366
+  - name: Gamalho
+    domain: Científico (ecologia)
+    expected_sentences: 103
+    expected_gold: 358
+
+# Sistemas do artigo cujas saídas por sentença estão no repositório do PT-OIE-Benchmark,
+# o que permite comparação pareada (e não apenas confronto de agregados).
+reference_systems:
+  - PragmaticOIE
+  - MultiOIE
+  - DetIE
+  - TransAlign
+  - GraphIE
+  - ArgOE
+  - PortOIE-LLama
+  - DptOIE
+
+systems:
+  - pt_oie        # configuração congelada do artigo (rq3_attn_on_thr0)
+  - ud_baseline   # RQ1, UD puro
+  # Oportunidade 1: cobertura de oração principal. Oblíquo regido não-locativo
+  # e passiva com agente, ambos calibrados APENAS em BIA e OIEC-PT.
+  # Sujeito nulo ficou desligado (ver outputs/dev_oiec/ESTADO.md).
+  - pt_oie_op1
+  # Gemma 4 via Ollama, zero-shot. Mesmo modelo/digest do benchmark do BIA
+  # (gemma4:latest, c6eb396dbd59), o que torna as duas linhas comparáveis.
+  - ollama_gemma4
+
+output_dir: outputs/external_benchmark
+
+seed: 42                # seed do bootstrap
+extractor_seed: 13      # seed do extrator, idêntica à do artigo (RQ1/RQ3)
+
+bootstrap:
+  n_samples: 10000
+  seed: 42
+
+error_analysis:
+  n_samples_per_bucket: 10
+  seed: 42

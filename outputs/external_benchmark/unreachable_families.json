@@ -1,0 +1,77 @@
+{
+  "created_at": "2026-10-30T17:03:03.113782+00:00",
+  "config": "rq3_attn_on_thr0",
+  "corpora": {
+    "WIKI200": {
+      "n_gold": 427,
+      "n_unreachable": 170,
+      "unreachable_pct": 39.81264637002342,
+      "families_pct": {
+        "reduced_or_participial": 33.529411764705884,
+        "main_clause": 15.294117647058824,
+        "adverbial": 14.705882352941176,
+        "no_verb": 14.117647058823529,
+        "coordinated": 11.176470588235293,
+        "relative": 7.647058823529412,
+        "complement": 1.7647058823529411,
+        "other": 1.7647058823529411
+      },
+      "families_n": {
+        "reduced_or_participial": 57,
+        "main_clause": 26,
+        "adverbial": 25,
+        "no_verb": 24,
+        "coordinated": 19,
+        "relative": 13,
+        "complement": 3,
+        "other": 3
+      }
+    },
+    "CETEN200": {
+      "n_gold": 366,
+      "n_unreachable": 162,
+      "unreachable_pct": 44.26229508196721,
+      "families_pct": {
+        "main_clause": 25.308641975308642,
+        "no_verb": 19.753086419753085,
+        "reduced_or_participial": 18.51851851851852,
+        "adverbial": 12.345679012345679,
+        "relative": 11.728395061728396,
+        "coordinated": 8.641975308641975,
+        "complement": 3.0864197530864197,
+        "other": 0.6172839506172839
+      },
+      "families_n": {
+        "main_clause": 41,
+        "no_verb": 32,
+        "reduced_or_participial": 30,
+        "adverbial": 20,
+        "relative": 19,
+        "coordinated": 14,
+        "complement": 5,
+        "other": 1
+      }
+    },
+    "Gamalho": {
+      "n_gold": 358,
+      "n_unreachable": 130,
+      "unreachable_pct": 36.312849162011176,
+      "families_pct": {
+        "no_verb": 59.23076923076923,
+        "relative": 18.46153846153846,
+        "reduced_or_participial": 6.923076923076923,
+        "complement": 6.153846153846154,
+        "main_clause": 6.153846153846154,
+        "adverbial": 3.076923076923077
+      },
+      "families_n": {
+        "no_verb": 77,
+        "relative": 24,
+        "reduced_or_participial": 9,
+        "complement": 8,
+        "main_clause": 8,
+        "adverbial": 4
+      }
+    }
+  }
+}

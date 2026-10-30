@@ -1,0 +1,6127 @@
+{
+  "protocol": "bia_legacy",
+  "tp": 272,
+  "fp": 333,
+  "fn": 155,
+  "precision": 0.44958677685950416,
+  "recall": 0.6370023419203747,
+  "f1": 0.5271317829457365,
+  "matching": "legacy_greedy_gold_order_one_to_one",
+  "criteria": "canonicalização legada (contrações expandidas, determinantes iniciais removidos, pontuação removida) + igualdade/sufixo/prefixo/subconjunto para argumentos e igualdade/prefixo parcial para relação",
+  "per_sentence": [
+    {
+      "sentence_id": "bia_0001_00",
+      "tp": 2,
+      "fp": 0,
+      "fn": 0,
+      "n_pred": 2,
+      "n_gold": 2,
+      "matches": [],
+      "unmatched_gold": [],
+      "unmatched_pred": []
+    },
+    {
+      "sentence_id": "bia_0001_01",
+      "tp": 1,
+      "fp": 1,
+      "fn": 0,
+      "n_pred": 2,
+      "n_gold": 1,
+      "matches": [],
+      "unmatched_gold": [],
+      "unmatched_pred": [
+        {
+          "arg1": "seu irmão",
+          "rel": "escreveu",
+          "arg2": "a letra original",
+          "triple_id": "bia_0001_01_ud_baseline_001"
+        }
+      ]
+    },
+    {
+      "sentence_id": "bia_0001_02",
+      "tp": 2,
+      "fp": 0,
+      "fn": 0,
+      "n_pred": 2,
+      "n_gold": 2,
+      "matches": [],
+      "unmatched_gold": [],
+      "unmatched_pred": []
+    },
+    {
+      "sentence_id": "bia_0001_03",
+      "tp": 1,
+      "fp": 1,
+      "fn": 0,
+      "n_pred": 2,
+      "n_gold": 1,
+      "matches": [],
+      "unmatched_gold": [],
+      "unmatched_pred": [
+        {
+          "arg1": "Madonna",
+          "rel": "inspirou",
+          "arg2": "a assumir o controle",
+          "triple_id": "bia_0001_03_ud_baseline_001"
+        }
+      ]
+    },
+    {
+      "sentence_id": "bia_0001_04",
+      "tp": 3,
+      "fp": 5,
+      "fn": 0,
+      "n_pred": 8,
+      "n_gold": 3,
+      "matches": [],
+      "unmatched_gold": [],
+      "unmatched_pred": [
+        {
+          "arg1": "ninguém",
+          "rel": "tem",
+          "arg2": "essa voz",
+          "triple_id": "bia_0001_04_ud_baseline_001"
+        },
+        {
+          "arg1": "Beyoncé",
+          "rel": "faz",
+          "arg2": "um álbum",
+          "triple_id": "bia_0001_04_ud_baseline_002"
+        },
+        {
+          "arg1": "Beyoncé",
+          "rel": "faz",
+          "arg2": "qualquer coisa",
+          "triple_id": "bia_0001_04_ud_baseline_004"
+        },
+        {
+          "arg1": "Baz Luhrmann",
+          "rel": "escrevendo",
+          "arg2": "ninguém tem essa voz",
+          "triple_id": "bia_0001_04_ud_baseline_006"
+        },
+        {
+          "arg1": "ninguém",
+          "rel": "pode",
+          "arg2": "manter uma audiência",
+          "triple_id": "bia_0001_04_ud_baseline_007"
+        }
+      ]
+    },
+    {
+      "sentence_id": "bia_0001_05",
+      "tp": 0,
+      "fp": 2,
+      "fn": 1,
+      "n_pred": 2,
+      "n_gold": 1,
+      "matches": [],
+      "unmatched_gold": [
+        {
+          "arg1": "Beyoncé",
+          "rel": "trabalharia com Salma Hayek e Frida Giannini em",
+          "arg2": "uma campanha de a Gucci",
+          "valid": true
+        }
+      ],
+      "unmatched_pred": [
+        {
+          "arg1": "Beyoncé",
+          "rel": "trabalharia em",
+          "arg2": "em uma campanha de a Gucci Chime for Change",
+          "triple_id": "bia_0001_05_ud_baseline_000"
+        },
+        {
+          "arg1": "que",
+          "rel": "visa",
+          "arg2": "espalhar o empoderamento feminino",
+          "triple_id": "bia_0001_05_ud_baseline_001"
+        }
+      ]
+    },
+    {
+      "sentence_id": "bia_0001_06",
+      "tp": 1,
+      "fp": 2,
+      "fn": 0,
+      "n_pred": 3,
+      "n_gold": 1,
+      "matches": [],
+      "unmatched_gold": [],
+      "unmatched_pred": [
+        {
+          "arg1": "a população de Montana",
+          "rel": "era",
+          "arg2": "1.032.949",
+          "triple_id": "bia_0001_06_ud_baseline_000"
+        },
+        {
+          "arg1": "a população de Montana",
+          "rel": "era",
+          "arg2": "1.032.949 1º",
+          "triple_id": "bia_0001_06_ud_baseline_001"
+        }
+      ]
+    },
+    {
+      "sentence_id": "bia_0001_07",
+      "tp": 1,
+      "fp": 0,
+      "fn": 0,
+      "n_pred": 1,
+      "n_gold": 1,
+      "matches": [],
+      "unmatched_gold": [],
+      "unmatched_pred": []
+    },
+    {
+      "sentence_id": "bia_0001_08",
+      "tp": 2,
+      "fp": 2,
+      "fn": 0,
+      "n_pred": 4,
+      "n_gold": 2,
+      "matches": [],
+      "unmatched_gold": [],
+      "unmatched_pred": [
+        {
+          "arg1": "Chopin",
+          "rel": "conheceu",
+          "arg2": "Felix Mendelssohn",
+          "triple_id": "bia_0001_08_ud_baseline_001"
+        },
+        {
+          "arg1": "Chopin",
+          "rel": "participou em",
+          "arg2": "em Aix-la-Chapelle",
+          "triple_id": "bia_0001_08_ud_baseline_003"
+        }
+      ]
+    },
+    {
+      "sentence_id": "bia_0001_09",
+      "tp": 1,
+      "fp": 1,
+      "fn": 0,
+      "n_pred": 2,
+      "n_gold": 1,
+      "matches": [],
+      "unmatched_gold": [],
+      "unmatched_pred": [
+        {
+          "arg1": "o marido de Solange",
+          "rel": "fez",
+          "arg2": "um giro de a mão esquerda",
+          "triple_id": "bia_0001_09_ud_baseline_001"
+        }
+      ]
+    },
+    {
+      "sentence_id": "bia_0001_10",
+      "tp": 3,
+      "fp": 1,
+      "fn": 2,
+      "n_pred": 4,
+      "n_gold": 5,
+      "matches": [],
+      "unmatched_gold": [
+        {
+          "arg1": "Chopin",
+          "rel": "é o criador de",
+          "arg2": "uma escola de piano",
+          "valid": true
+        },
+        {
+          "arg1": "Chopin",
+          "rel": "é o criador de",
+          "arg2": "uma escola de piano e escola de composição",
+          "valid": true
+        }
+      ],
+      "unmatched_pred": [
+        {
+          "arg1": "se",
+          "rel": "dizer",
+          "arg2": "que Chopin o criador",
+          "triple_id": "bia_0001_10_ud_baseline_003"
+        }
+      ]
+    },
+    {
+      "sentence_id": "bia_0001_11",
+      "tp": 2,
+      "fp": 1,
+      "fn": 0,
+      "n_pred": 3,
+      "n_gold": 2,
+      "matches": [],
+      "unmatched_gold": [],
+      "unmatched_pred": [
+        {
+          "arg1": "Chopin",
+          "rel": "visitou com",
+          "arg2": "com um amigo de a família",
+          "triple_id": "bia_0001_11_ud_baseline_002"
+        }
+      ]
+    },
+    {
+      "sentence_id": "bia_0001_12",
+      "tp": 0,
+      "fp": 3,
+      "fn": 1,
+      "n_pred": 3,
+      "n_gold": 1,
+      "matches": [],
+      "unmatched_gold": [
+        {
+          "arg1": "Kublai",
+          "rel": "recebeu",
+          "arg2": "um grande appanage em o norte de a China",
+          "valid": true
+        }
+      ],
+      "unmatched_pred": [
+        {
+          "arg1": "o príncipe mongol",
+          "rel": "recebeu",
+          "arg2": "um grande appanage",
+          "triple_id": "bia_0001_12_ud_baseline_000"
+        },
+        {
+          "arg1": "o príncipe mongol",
+          "rel": "recebeu",
+          "arg2": "um grande appanage em o norte de a China",
+          "triple_id": "bia_0001_12_ud_baseline_001"
+        },
+        {
+          "arg1": "o príncipe mongol",
+          "rel": "recebeu em",
+          "arg2": "em o norte de a China",
+          "triple_id": "bia_0001_12_ud_baseline_002"
+        }
+      ]
+    },
+    {
+      "sentence_id": "bia_0001_13",
+      "tp": 1,
+      "fp": 6,
+      "fn": 0,
+      "n_pred": 7,
+      "n_gold": 1,
+      "matches": [],
+      "unmatched_gold": [],
+      "unmatched_pred": [
+        {
+          "arg1": "o Phagmodrupa",
+          "rel": "perdeu",
+          "arg2": "seu poder centralizador sobre o Tibete em 1434",
+          "triple_id": "bia_0001_13_ud_baseline_001"
+        },
+        {
+          "arg1": "várias tentativas de outras famílias",
+          "rel": "falharam em",
+          "arg2": "os próximos dois séculos",
+          "triple_id": "bia_0001_13_ud_baseline_002"
+        },
+        {
+          "arg1": "Dreyfus",
+          "rel": "escreve",
+          "arg2": "que depois que o Phagmodrupa perdeu seu poder centralizador em 1434",
+          "triple_id": "bia_0001_13_ud_baseline_003"
+        },
+        {
+          "arg1": "Dreyfus",
+          "rel": "escreve",
+          "arg2": "várias tentativas falharam em os próximos dois séculos até 1642 com a efetiva hegemonia",
+          "triple_id": "bia_0001_13_ud_baseline_004"
+        },
+        {
+          "arg1": "o Phagmodrupa",
+          "rel": "perdeu em",
+          "arg2": "em 1434",
+          "triple_id": "bia_0001_13_ud_baseline_005"
+        },
+        {
+          "arg1": "várias tentativas de outras famílias",
+          "rel": "falharam com",
+          "arg2": "com a efetiva hegemonia de o 5º Dalai Lama sobre o Tibete",
+          "triple_id": "bia_0001_13_ud_baseline_006"
+        }
+      ]
+    },
+    {
+      "sentence_id": "bia_0001_14",
+      "tp": 1,
+      "fp": 0,
+      "fn": 0,
+      "n_pred": 1,
+      "n_gold": 1,
+      "matches": [],
+      "unmatched_gold": [],
+      "unmatched_pred": []
+    },
+    {
+      "sentence_id": "bia_0001_15",
+      "tp": 1,
+      "fp": 1,
+      "fn": 1,
+      "n_pred": 2,
+      "n_gold": 2,
+      "matches": [],
+      "unmatched_gold": [
+        {
+          "arg1": "Tsongkhapa",
+          "rel": "escreveu",
+          "arg2": "uma carta para recusar o convite de o Imperador",
+          "valid": true
+        }
+      ],
+      "unmatched_pred": [
+        {
+          "arg1": "Chen Qingying",
+          "rel": "afirma",
+          "arg2": "que Tsongkhapa escreveu uma carta",
+          "triple_id": "bia_0001_15_ud_baseline_001"
+        }
+      ]
+    },
+    {
+      "sentence_id": "bia_0001_16",
+      "tp": 2,
+      "fp": 3,
+      "fn": 2,
+      "n_pred": 5,
+      "n_gold": 4,
+      "matches": [],
+      "unmatched_gold": [
+        {
+          "arg1": "Altan Khan",
+          "rel": "fez as pazes com",
+          "arg2": "a dinastia Ming",
+          "valid": true
+        },
+        {
+          "arg1": "Altan Khan",
+          "rel": "fez as pazes com",
+          "arg2": "a dinastia Ming em 1571",
+          "valid": true
+        }
+      ],
+      "unmatched_pred": [
+        {
+          "arg1": "ele",
+          "rel": "persuadiu",
+          "arg2": "a reabrir seus mercados em 1573",
+          "triple_id": "bia_0001_16_ud_baseline_002"
+        },
+        {
+          "arg1": "Altan Khan",
+          "rel": "fez com",
+          "arg2": "com a dinastia",
+          "triple_id": "bia_0001_16_ud_baseline_003"
+        },
+        {
+          "arg1": "Altan Khan",
+          "rel": "fez em",
+          "arg2": "em 1571",
+          "triple_id": "bia_0001_16_ud_baseline_004"
+        }
+      ]
+    },
+    {
+      "sentence_id": "bia_0001_17",
+      "tp": 2,
+      "fp": 1,
+      "fn": 1,
+      "n_pred": 3,
+      "n_gold": 3,
+      "matches": [],
+      "unmatched_gold": [
+        {
+          "arg1": "a presença de Altan Khan em o oeste",
+          "rel": "reduziu",
+          "arg2": "a influência de os Ming e o contato com o Tibete",
+          "valid": true
+        }
+      ],
+      "unmatched_pred": [
+        {
+          "arg1": "Klieger",
+          "rel": "escreve",
+          "arg2": "que a presença reduziu efetivamente a influência",
+          "triple_id": "bia_0001_17_ud_baseline_002"
+        }
+      ]
+    },
+    {
+      "sentence_id": "bia_0001_18",
+      "tp": 2,
+      "fp": 1,
+      "fn": 0,
+      "n_pred": 3,
+      "n_gold": 2,
+      "matches": [],
+      "unmatched_gold": [],
+      "unmatched_pred": [
+        {
+          "arg1": "Altan Khan",
+          "rel": "fez em",
+          "arg2": "em 1571",
+          "triple_id": "bia_0001_18_ud_baseline_002"
+        }
+      ]
+    },
+    {
+      "sentence_id": "bia_0001_19",
+      "tp": 1,
+      "fp": 5,
+      "fn": 0,
+      "n_pred": 6,
+      "n_gold": 1,
+      "matches": [],
+      "unmatched_gold": [],
+      "unmatched_pred": [
+        {
+          "arg1": "Wanli",
+          "rel": "conferiu",
+          "arg2": "títulos",
+          "triple_id": "bia_0001_19_ud_baseline_000"
+        },
+        {
+          "arg1": "Wanli",
+          "rel": "conferiu",
+          "arg2": "títulos em 1588",
+          "triple_id": "bia_0001_19_ud_baseline_001"
+        },
+        {
+          "arg1": "Sonam Gyatso",
+          "rel": "pôde visitar",
+          "arg2": "a China",
+          "triple_id": "bia_0001_19_ud_baseline_002"
+        },
+        {
+          "arg1": "a biografia de Sonam Gyatso",
+          "rel": "afirma",
+          "arg2": "que Wanli novamente conferiu títulos a Sonam Gyatso em 1588",
+          "triple_id": "bia_0001_19_ud_baseline_003"
+        },
+        {
+          "arg1": "Wanli",
+          "rel": "conferiu em",
+          "arg2": "em 1588",
+          "triple_id": "bia_0001_19_ud_baseline_005"
+        }
+      ]
+    },
+    {
+      "sentence_id": "bia_0001_20",
+      "tp": 2,
+      "fp": 2,
+      "fn": 0,
+      "n_pred": 4,
+      "n_gold": 2,
+      "matches": [],
+      "unmatched_gold": [],
+      "unmatched_pred": [
+        {
+          "arg1": "o China Daily",
+          "rel": "afirma",
+          "arg2": "que a sucessiva dinastia",
+          "triple_id": "bia_0001_20_ud_baseline_002"
+        },
+        {
+          "arg1": "o China Daily",
+          "rel": "afirma",
+          "arg2": "o imperador concedeu um título honorífico a o quinto Dalai Lama",
+          "triple_id": "bia_0001_20_ud_baseline_003"
+        }
+      ]
+    },
+    {
+      "sentence_id": "bia_0001_21",
+      "tp": 2,
+      "fp": 2,
+      "fn": 1,
+      "n_pred": 4,
+      "n_gold": 3,
+      "matches": [],
+      "unmatched_gold": [
+        {
+          "arg1": "Yonten Gyatso",
+          "rel": "morreu antes de",
+          "arg2": "poder fazer a jornada",
+          "valid": true
+        }
+      ],
+      "unmatched_pred": [
+        {
+          "arg1": "O imperador",
+          "rel": "convidou para",
+          "arg2": "para Pequim",
+          "triple_id": "bia_0001_21_ud_baseline_002"
+        },
+        {
+          "arg1": "O imperador",
+          "rel": "convidou em",
+          "arg2": "em 1616",
+          "triple_id": "bia_0001_21_ud_baseline_003"
+        }
+      ]
+    },
+    {
+      "sentence_id": "bia_0001_22",
+      "tp": 0,
+      "fp": 2,
+      "fn": 2,
+      "n_pred": 2,
+      "n_gold": 2,
+      "matches": [],
+      "unmatched_gold": [
+        {
+          "arg1": "Dalai Lama",
+          "rel": "se recusou a",
+          "arg2": "dar uma audiência",
+          "valid": true
+        },
+        {
+          "arg1": "Dalai Lama",
+          "rel": "se recusou a",
+          "arg2": "dar uma audiência a o rei Ü-Tsang",
+          "valid": true
+        }
+      ],
+      "unmatched_pred": [
+        {
+          "arg1": "O quarto",
+          "rel": "se recusou",
+          "arg2": "a dar uma audiência",
+          "triple_id": "bia_0001_22_ud_baseline_000"
+        },
+        {
+          "arg1": "este",
+          "rel": "começou",
+          "arg2": "quando a atacar mosteiros",
+          "triple_id": "bia_0001_22_ud_baseline_001"
+        }
+      ]
+    },
+    {
+      "sentence_id": "bia_0001_23",
+      "tp": 2,
+      "fp": 0,
+      "fn": 1,
+      "n_pred": 2,
+      "n_gold": 3,
+      "matches": [],
+      "unmatched_gold": [
+        {
+          "arg1": "o quinto Dalai Lama",
+          "rel": "pediu ajuda a",
+          "arg2": "o príncipe mongol Güshi Khan",
+          "valid": true
+        }
+      ],
+      "unmatched_pred": []
+    },
+    {
+      "sentence_id": "bia_0001_24",
+      "tp": 1,
+      "fp": 0,
+      "fn": 0,
+      "n_pred": 1,
+      "n_gold": 1,
+      "matches": [],
+      "unmatched_gold": [],
+      "unmatched_pred": []
+    },
+    {
+      "sentence_id": "bia_0001_25",
+      "tp": 2,
+      "fp": 5,
+      "fn": 1,
+      "n_pred": 7,
+      "n_gold": 3,
+      "matches": [],
+      "unmatched_gold": [
+        {
+          "arg1": "o imperador Yongle",
+          "rel": "enviou seu eunuco Yang Sanbao a",
+          "arg2": "o Tibete",
+          "valid": true
+        }
+      ],
+      "unmatched_pred": [
+        {
+          "arg1": "o imperador",
+          "rel": "enviou",
+          "arg2": "seu eunuco Yang Sanbao em 1413",
+          "triple_id": "bia_0001_25_ud_baseline_002"
+        },
+        {
+          "arg1": "o imperador",
+          "rel": "pagou",
+          "arg2": "uma pequena fortuna em troca de presentes em troca de tributos",
+          "triple_id": "bia_0001_25_ud_baseline_003"
+        },
+        {
+          "arg1": "Shih-Shan Henry Tsai",
+          "rel": "escreve",
+          "arg2": "que o imperador enviou seu eunuco a o Tibete em 1413",
+          "triple_id": "bia_0001_25_ud_baseline_004"
+        },
+        {
+          "arg1": "o imperador",
+          "rel": "enviou em",
+          "arg2": "em 1413",
+          "triple_id": "bia_0001_25_ud_baseline_005"
+        },
+        {
+          "arg1": "o imperador",
+          "rel": "pagou em",
+          "arg2": "em troca de presentes em troca de tributos",
+          "triple_id": "bia_0001_25_ud_baseline_006"
+        }
+      ]
+    },
+    {
+      "sentence_id": "bia_0001_26",
+      "tp": 1,
+      "fp": 0,
+      "fn": 0,
+      "n_pred": 1,
+      "n_gold": 1,
+      "matches": [],
+      "unmatched_gold": [],
+      "unmatched_pred": []
+    },
+    {
+      "sentence_id": "bia_0001_27",
+      "tp": 1,
+      "fp": 1,
+      "fn": 0,
+      "n_pred": 2,
+      "n_gold": 1,
+      "matches": [],
+      "unmatched_gold": [],
+      "unmatched_pred": [
+        {
+          "arg1": "As versões de seis e sete faixas de a trilha sonora de o jogo",
+          "rel": "foram lançadas como",
+          "arg2": "como parte de uma promoção de o Nintendo Power e acompanhadas",
+          "triple_id": "bia_0001_27_ud_baseline_001"
+        }
+      ]
+    },
+    {
+      "sentence_id": "bia_0001_28",
+      "tp": 2,
+      "fp": 0,
+      "fn": 0,
+      "n_pred": 2,
+      "n_gold": 2,
+      "matches": [],
+      "unmatched_gold": [],
+      "unmatched_pred": []
+    },
+    {
+      "sentence_id": "bia_0001_29",
+      "tp": 0,
+      "fp": 0,
+      "fn": 1,
+      "n_pred": 0,
+      "n_gold": 1,
+      "matches": [],
+      "unmatched_gold": [
+        {
+          "arg1": "Todas as rodovias em Wenchuan",
+          "rel": "foram",
+          "arg2": "danificadas",
+          "valid": true
+        }
+      ],
+      "unmatched_pred": []
+    },
+    {
+      "sentence_id": "bia_0001_30",
+      "tp": 0,
+      "fp": 1,
+      "fn": 1,
+      "n_pred": 1,
+      "n_gold": 1,
+      "matches": [],
+      "unmatched_gold": [
+        {
+          "arg1": "O serviço de a China Unicom",
+          "rel": "foi",
+          "arg2": "interrompido",
+          "valid": true
+        }
+      ],
+      "unmatched_pred": [
+        {
+          "arg1": "O serviço de a China Unicom em Wenchuan e quatro municípios vizinhos",
+          "rel": "foi interrompido com",
+          "arg2": "700 torres",
+          "triple_id": "bia_0001_30_ud_baseline_000"
+        }
+      ]
+    },
+    {
+      "sentence_id": "bia_0001_31",
+      "tp": 1,
+      "fp": 0,
+      "fn": 1,
+      "n_pred": 1,
+      "n_gold": 2,
+      "matches": [],
+      "unmatched_gold": [
+        {
+          "arg1": "Chen Xuezhong",
+          "rel": "publicou",
+          "arg2": "um estudo de Análise de Risco Sísmico",
+          "valid": true
+        }
+      ],
+      "unmatched_pred": []
+    },
+    {
+      "sentence_id": "bia_0001_32",
+      "tp": 1,
+      "fp": 1,
+      "fn": 0,
+      "n_pred": 2,
+      "n_gold": 1,
+      "matches": [],
+      "unmatched_gold": [],
+      "unmatched_pred": [
+        {
+          "arg1": "O governo central",
+          "rel": "estima",
+          "arg2": "que mais de 7.000 salas de aula desabaram em o terremoto",
+          "triple_id": "bia_0001_32_ud_baseline_001"
+        }
+      ]
+    },
+    {
+      "sentence_id": "bia_0001_33",
+      "tp": 0,
+      "fp": 5,
+      "fn": 1,
+      "n_pred": 5,
+      "n_gold": 1,
+      "matches": [],
+      "unmatched_gold": [
+        {
+          "arg1": "A rota de a tocha por o país",
+          "rel": "foi",
+          "arg2": "reduzida",
+          "valid": true
+        }
+      ],
+      "unmatched_pred": [
+        {
+          "arg1": "A rota de a tocha por o país",
+          "rel": "houve",
+          "arg2": "um minuto de silêncio",
+          "triple_id": "bia_0001_33_ud_baseline_000"
+        },
+        {
+          "arg1": "a próxima etapa",
+          "rel": "começou em",
+          "arg2": "a cidade de Ruijin",
+          "triple_id": "bia_0001_33_ud_baseline_001"
+        },
+        {
+          "arg1": "a próxima etapa",
+          "rel": "começou em",
+          "arg2": "em a quarta-feira após o terremoto",
+          "triple_id": "bia_0001_33_ud_baseline_002"
+        },
+        {
+          "arg1": "a próxima etapa",
+          "rel": "começou em",
+          "arg2": "em a quarta-feira após o terremoto",
+          "triple_id": "bia_0001_33_ud_baseline_003"
+        },
+        {
+          "arg1": "a próxima etapa",
+          "rel": "começou em",
+          "arg2": "a cidade de Ruijin",
+          "triple_id": "bia_0001_33_ud_baseline_004"
+        }
+      ]
+    },
+    {
+      "sentence_id": "bia_0001_34",
+      "tp": 0,
+      "fp": 2,
+      "fn": 1,
+      "n_pred": 2,
+      "n_gold": 1,
+      "matches": [],
+      "unmatched_gold": [
+        {
+          "arg1": "um trem de carga",
+          "rel": "pegou fogo",
+          "arg2": "depois que o trilho foi distorcido",
+          "valid": true
+        }
+      ],
+      "unmatched_pred": [
+        {
+          "arg1": "um trem de carga",
+          "rel": "pegou",
+          "arg2": "fogo",
+          "triple_id": "bia_0001_34_ud_baseline_000"
+        },
+        {
+          "arg1": "um trem de carga",
+          "rel": "descarrilou em",
+          "arg2": "Condado de Hui",
+          "triple_id": "bia_0001_34_ud_baseline_001"
+        }
+      ]
+    },
+    {
+      "sentence_id": "bia_0001_35",
+      "tp": 1,
+      "fp": 0,
+      "fn": 0,
+      "n_pred": 1,
+      "n_gold": 1,
+      "matches": [],
+      "unmatched_gold": [],
+      "unmatched_pred": []
+    },
+    {
+      "sentence_id": "bia_0001_36",
+      "tp": 1,
+      "fp": 1,
+      "fn": 0,
+      "n_pred": 2,
+      "n_gold": 1,
+      "matches": [],
+      "unmatched_gold": [],
+      "unmatched_pred": [
+        {
+          "arg1": "Nova York",
+          "rel": "é",
+          "arg2": "a cidade populosa Estados",
+          "triple_id": "bia_0001_36_ud_baseline_001"
+        }
+      ]
+    },
+    {
+      "sentence_id": "bia_0001_37",
+      "tp": 1,
+      "fp": 2,
+      "fn": 1,
+      "n_pred": 3,
+      "n_gold": 2,
+      "matches": [],
+      "unmatched_gold": [
+        {
+          "arg1": "Peter Stuyvesant",
+          "rel": "entregou",
+          "arg2": "Nova Amsterdã a os ingleses",
+          "valid": true
+        }
+      ],
+      "unmatched_pred": [
+        {
+          "arg1": "Peter Stuyvesant",
+          "rel": "entregou",
+          "arg2": "Nova Amsterdã sem derramamento de sangue",
+          "triple_id": "bia_0001_37_ud_baseline_001"
+        },
+        {
+          "arg1": "Peter Stuyvesant",
+          "rel": "entregou sem",
+          "arg2": "sem derramamento de sangue",
+          "triple_id": "bia_0001_37_ud_baseline_002"
+        }
+      ]
+    },
+    {
+      "sentence_id": "bia_0001_38",
+      "tp": 2,
+      "fp": 2,
+      "fn": 0,
+      "n_pred": 4,
+      "n_gold": 2,
+      "matches": [],
+      "unmatched_gold": [],
+      "unmatched_pred": [
+        {
+          "arg1": "A Batalha de Long Island",
+          "rel": "foi travada em",
+          "arg2": "em o bairro moderno de o Brooklyn",
+          "triple_id": "bia_0001_38_ud_baseline_001"
+        },
+        {
+          "arg1": "A Batalha de Long Island",
+          "rel": "foi travada em",
+          "arg2": "em o bairro moderno de o Brooklyn",
+          "triple_id": "bia_0001_38_ud_baseline_002"
+        }
+      ]
+    },
+    {
+      "sentence_id": "bia_0001_39",
+      "tp": 2,
+      "fp": 2,
+      "fn": 2,
+      "n_pred": 4,
+      "n_gold": 4,
+      "matches": [],
+      "unmatched_gold": [
+        {
+          "arg1": "Donald Trump",
+          "rel": "defendeu",
+          "arg2": "sua cidade",
+          "valid": true
+        },
+        {
+          "arg1": "Donald Trump",
+          "rel": "defendeu vigorosamente",
+          "arg2": "sua cidade",
+          "valid": true
+        }
+      ],
+      "unmatched_pred": [
+        {
+          "arg1": "um candidato presidencial republicano a as eleições de 2016",
+          "rel": "ridicularizou",
+          "arg2": "o liberalismo de os valores de Nova York em janeiro de 2016",
+          "triple_id": "bia_0001_39_ud_baseline_002"
+        },
+        {
+          "arg1": "um candidato presidencial republicano a as eleições de 2016",
+          "rel": "ridicularizou em",
+          "arg2": "em janeiro de 2016",
+          "triple_id": "bia_0001_39_ud_baseline_003"
+        }
+      ]
+    },
+    {
+      "sentence_id": "bia_0001_40",
+      "tp": 1,
+      "fp": 1,
+      "fn": 0,
+      "n_pred": 2,
+      "n_gold": 1,
+      "matches": [],
+      "unmatched_gold": [],
+      "unmatched_pred": [
+        {
+          "arg1": "O ponto alto de a cidade",
+          "rel": "é",
+          "arg2": "Todt Hill Staten",
+          "triple_id": "bia_0001_40_ud_baseline_001"
+        }
+      ]
+    },
+    {
+      "sentence_id": "bia_0001_41",
+      "tp": 1,
+      "fp": 1,
+      "fn": 0,
+      "n_pred": 2,
+      "n_gold": 1,
+      "matches": [],
+      "unmatched_gold": [],
+      "unmatched_pred": [
+        {
+          "arg1": "O maior parque municipal de a cidade",
+          "rel": "é",
+          "arg2": "o Pelham Bay Park acres",
+          "triple_id": "bia_0001_41_ud_baseline_001"
+        }
+      ]
+    },
+    {
+      "sentence_id": "bia_0001_42",
+      "tp": 1,
+      "fp": 0,
+      "fn": 0,
+      "n_pred": 1,
+      "n_gold": 1,
+      "matches": [],
+      "unmatched_gold": [],
+      "unmatched_pred": []
+    },
+    {
+      "sentence_id": "bia_0001_43",
+      "tp": 2,
+      "fp": 1,
+      "fn": 0,
+      "n_pred": 3,
+      "n_gold": 2,
+      "matches": [],
+      "unmatched_gold": [],
+      "unmatched_pred": [
+        {
+          "arg1": "o Port Authority Bus Terminal",
+          "rel": "atende",
+          "arg2": "200.000 passageiros",
+          "triple_id": "bia_0001_43_ud_baseline_001"
+        }
+      ]
+    },
+    {
+      "sentence_id": "bia_0001_44",
+      "tp": 0,
+      "fp": 1,
+      "fn": 1,
+      "n_pred": 1,
+      "n_gold": 1,
+      "matches": [],
+      "unmatched_gold": [
+        {
+          "arg1": "Eu amo Nova Iorque",
+          "rel": "é",
+          "arg2": "um logotipo e uma música que são a base de uma campanha publicitária",
+          "valid": true
+        }
+      ],
+      "unmatched_pred": [
+        {
+          "arg1": "Eu",
+          "rel": "amo",
+          "arg2": "Nova Iorque",
+          "triple_id": "bia_0001_44_ud_baseline_000"
+        }
+      ]
+    },
+    {
+      "sentence_id": "bia_0001_45",
+      "tp": 1,
+      "fp": 4,
+      "fn": 1,
+      "n_pred": 5,
+      "n_gold": 2,
+      "matches": [],
+      "unmatched_gold": [
+        {
+          "arg1": "A cidade de Nova York",
+          "rel": "está localizada em",
+          "arg2": "um de os maiores portos naturais de o mundo",
+          "valid": true
+        }
+      ],
+      "unmatched_pred": [
+        {
+          "arg1": "os bairros de Manhattan e Staten Island",
+          "rel": "são",
+          "arg2": "coterminosos",
+          "triple_id": "bia_0001_45_ud_baseline_001"
+        },
+        {
+          "arg1": "os bairros de Manhattan e Staten Island",
+          "rel": "são",
+          "arg2": "principalmente coterminosos",
+          "triple_id": "bia_0001_45_ud_baseline_002"
+        },
+        {
+          "arg1": "Queens e Brooklyn",
+          "rel": "estão",
+          "arg2": "localizadas",
+          "triple_id": "bia_0001_45_ud_baseline_003"
+        },
+        {
+          "arg1": "O Bronx",
+          "rel": "está",
+          "arg2": "localizado",
+          "triple_id": "bia_0001_45_ud_baseline_004"
+        }
+      ]
+    },
+    {
+      "sentence_id": "bia_0001_46",
+      "tp": 0,
+      "fp": 3,
+      "fn": 2,
+      "n_pred": 3,
+      "n_gold": 2,
+      "matches": [],
+      "unmatched_gold": [
+        {
+          "arg1": "uma peça",
+          "rel": "é",
+          "arg2": "realizada anualmente em a cidade natal de Harper Lee",
+          "valid": true
+        },
+        {
+          "arg1": "uma peça baseada em o romance",
+          "rel": "é realizada anualmente em",
+          "arg2": "a cidade natal de Harper Lee",
+          "valid": true
+        }
+      ],
+      "unmatched_pred": [
+        {
+          "arg1": "uma peça",
+          "rel": "Desde é realizada",
+          "arg2": "1990",
+          "triple_id": "bia_0001_46_ud_baseline_000"
+        },
+        {
+          "arg1": "uma peça",
+          "rel": "é realizada em",
+          "arg2": "em a cidade natal de Harper Lee em Monroeville",
+          "triple_id": "bia_0001_46_ud_baseline_001"
+        },
+        {
+          "arg1": "uma peça",
+          "rel": "é realizada em",
+          "arg2": "em a cidade natal de Harper Lee em Monroeville",
+          "triple_id": "bia_0001_46_ud_baseline_002"
+        }
+      ]
+    },
+    {
+      "sentence_id": "bia_0001_47",
+      "tp": 1,
+      "fp": 0,
+      "fn": 1,
+      "n_pred": 1,
+      "n_gold": 2,
+      "matches": [],
+      "unmatched_gold": [
+        {
+          "arg1": "Capote e Lee",
+          "rel": "viajaram juntos para",
+          "arg2": "o Kansas",
+          "valid": true
+        }
+      ],
+      "unmatched_pred": []
+    },
+    {
+      "sentence_id": "bia_0001_48",
+      "tp": 1,
+      "fp": 2,
+      "fn": 1,
+      "n_pred": 3,
+      "n_gold": 2,
+      "matches": [],
+      "unmatched_gold": [
+        {
+          "arg1": "Allen Barra",
+          "rel": "criticou",
+          "arg2": "Lee e o romance em o The Wall Street Journal",
+          "valid": true
+        }
+      ],
+      "unmatched_pred": [
+        {
+          "arg1": "o romance",
+          "rel": "representa",
+          "arg2": "um mito de açúcar de a história de o Alabama",
+          "triple_id": "bia_0001_48_ud_baseline_000"
+        },
+        {
+          "arg1": "O alabamiano nativo",
+          "rel": "criticou",
+          "arg2": "o romance",
+          "triple_id": "bia_0001_48_ud_baseline_002"
+        }
+      ]
+    },
+    {
+      "sentence_id": "bia_0001_49",
+      "tp": 0,
+      "fp": 1,
+      "fn": 3,
+      "n_pred": 1,
+      "n_gold": 3,
+      "matches": [],
+      "unmatched_gold": [
+        {
+          "arg1": "O pai de Lee",
+          "rel": "morreu",
+          "arg2": "antes de o lançamento de o filme",
+          "valid": true
+        },
+        {
+          "arg1": "O pai de Lee",
+          "rel": "morreu antes de",
+          "arg2": "o lançamento de o filme",
+          "valid": true
+        },
+        {
+          "arg1": "Lee",
+          "rel": "ficou",
+          "arg2": "impressionado com a performance de Peck",
+          "valid": true
+        }
+      ],
+      "unmatched_pred": [
+        {
+          "arg1": "Lee",
+          "rel": "ficou",
+          "arg2": "tão impressionado com a performance",
+          "triple_id": "bia_0001_49_ud_baseline_000"
+        }
+      ]
+    },
+    {
+      "sentence_id": "bia_0001_50",
+      "tp": 1,
+      "fp": 0,
+      "fn": 0,
+      "n_pred": 1,
+      "n_gold": 1,
+      "matches": [],
+      "unmatched_gold": [],
+      "unmatched_pred": []
+    },
+    {
+      "sentence_id": "bia_0001_51",
+      "tp": 1,
+      "fp": 1,
+      "fn": 0,
+      "n_pred": 2,
+      "n_gold": 1,
+      "matches": [],
+      "unmatched_gold": [],
+      "unmatched_pred": [
+        {
+          "arg1": "o militarismo islâmico em o leste de o país",
+          "rel": "estava",
+          "arg2": "em ascensão fuga",
+          "triple_id": "bia_0001_51_ud_baseline_001"
+        }
+      ]
+    },
+    {
+      "sentence_id": "bia_0001_52",
+      "tp": 1,
+      "fp": 2,
+      "fn": 2,
+      "n_pred": 3,
+      "n_gold": 3,
+      "matches": [],
+      "unmatched_gold": [
+        {
+          "arg1": "a região",
+          "rel": "era",
+          "arg2": "conhecida como Khorasan",
+          "valid": true
+        },
+        {
+          "arg1": "a região",
+          "rel": "era conhecida como",
+          "arg2": "Khorasan",
+          "valid": true
+        }
+      ],
+      "unmatched_pred": [
+        {
+          "arg1": "O Império Samanida",
+          "rel": "ampliou",
+          "arg2": "as cidades de Samarcanda e Bukhara",
+          "triple_id": "bia_0001_52_ud_baseline_001"
+        },
+        {
+          "arg1": "que",
+          "rel": "se tornaram",
+          "arg2": "os centros culturais",
+          "triple_id": "bia_0001_52_ud_baseline_002"
+        }
+      ]
+    },
+    {
+      "sentence_id": "bia_0001_53",
+      "tp": 1,
+      "fp": 1,
+      "fn": 0,
+      "n_pred": 2,
+      "n_gold": 1,
+      "matches": [],
+      "unmatched_gold": [],
+      "unmatched_pred": [
+        {
+          "arg1": "os jadidistas",
+          "rel": "se estabeleceram em",
+          "arg2": "em toda a região",
+          "triple_id": "bia_0001_53_ud_baseline_000"
+        }
+      ]
+    },
+    {
+      "sentence_id": "bia_0001_54",
+      "tp": 1,
+      "fp": 3,
+      "fn": 0,
+      "n_pred": 4,
+      "n_gold": 1,
+      "matches": [],
+      "unmatched_gold": [],
+      "unmatched_pred": [
+        {
+          "arg1": "manifestantes",
+          "rel": "atacaram",
+          "arg2": "soldados russos em Khujand",
+          "triple_id": "bia_0001_54_ud_baseline_001"
+        },
+        {
+          "arg1": "manifestantes",
+          "rel": "atacaram em",
+          "arg2": "em Khujand",
+          "triple_id": "bia_0001_54_ud_baseline_002"
+        },
+        {
+          "arg1": "manifestantes",
+          "rel": "atacaram por",
+          "arg2": "por uma ameaça de recrutamento",
+          "triple_id": "bia_0001_54_ud_baseline_003"
+        }
+      ]
+    },
+    {
+      "sentence_id": "bia_0001_55",
+      "tp": 2,
+      "fp": 1,
+      "fn": 0,
+      "n_pred": 3,
+      "n_gold": 2,
+      "matches": [],
+      "unmatched_gold": [],
+      "unmatched_pred": [
+        {
+          "arg1": "Waitz",
+          "rel": "definiu como",
+          "arg2": "como a ciência de a natureza de o homem",
+          "triple_id": "bia_0001_55_ud_baseline_002"
+        }
+      ]
+    },
+    {
+      "sentence_id": "bia_0001_56",
+      "tp": 1,
+      "fp": 0,
+      "fn": 0,
+      "n_pred": 1,
+      "n_gold": 1,
+      "matches": [],
+      "unmatched_gold": [],
+      "unmatched_pred": []
+    },
+    {
+      "sentence_id": "bia_0001_57",
+      "tp": 1,
+      "fp": 1,
+      "fn": 0,
+      "n_pred": 2,
+      "n_gold": 1,
+      "matches": [],
+      "unmatched_gold": [],
+      "unmatched_pred": [
+        {
+          "arg1": "Portugal",
+          "rel": "Com começou",
+          "arg2": "a ocupação de Napoleão",
+          "triple_id": "bia_0001_57_ud_baseline_001"
+        }
+      ]
+    },
+    {
+      "sentence_id": "bia_0001_58",
+      "tp": 1,
+      "fp": 1,
+      "fn": 0,
+      "n_pred": 2,
+      "n_gold": 1,
+      "matches": [],
+      "unmatched_gold": [],
+      "unmatched_pred": [
+        {
+          "arg1": "o 18º maior progresso social de o mundo",
+          "rel": "é",
+          "arg2": "país",
+          "triple_id": "bia_0001_58_ud_baseline_001"
+        }
+      ]
+    },
+    {
+      "sentence_id": "bia_0001_59",
+      "tp": 0,
+      "fp": 0,
+      "fn": 1,
+      "n_pred": 0,
+      "n_gold": 1,
+      "matches": [],
+      "unmatched_gold": [
+        {
+          "arg1": "uma província de o norte de a Lusitânia",
+          "rel": "foi",
+          "arg2": "formada",
+          "valid": true
+        }
+      ],
+      "unmatched_pred": []
+    },
+    {
+      "sentence_id": "bia_0001_60",
+      "tp": 0,
+      "fp": 0,
+      "fn": 2,
+      "n_pred": 0,
+      "n_gold": 2,
+      "matches": [],
+      "unmatched_gold": [
+        {
+          "arg1": "O período de Taifa",
+          "rel": "terminou com",
+          "arg2": "a conquista de os almorávidas",
+          "valid": true
+        },
+        {
+          "arg1": "O período de Taifa",
+          "rel": "terminou com",
+          "arg2": "a conquista de os almorávidas que vieram de o Marrocos em 1086",
+          "valid": true
+        }
+      ],
+      "unmatched_pred": []
+    },
+    {
+      "sentence_id": "bia_0001_61",
+      "tp": 2,
+      "fp": 1,
+      "fn": 0,
+      "n_pred": 3,
+      "n_gold": 2,
+      "matches": [],
+      "unmatched_gold": [],
+      "unmatched_pred": [
+        {
+          "arg1": "Os berberes",
+          "rel": "eram",
+          "arg2": "originalmente de as montanhas Atlas",
+          "triple_id": "bia_0001_61_ud_baseline_002"
+        }
+      ]
+    },
+    {
+      "sentence_id": "bia_0001_62",
+      "tp": 1,
+      "fp": 0,
+      "fn": 0,
+      "n_pred": 1,
+      "n_gold": 1,
+      "matches": [],
+      "unmatched_gold": [],
+      "unmatched_pred": []
+    },
+    {
+      "sentence_id": "bia_0001_63",
+      "tp": 1,
+      "fp": 0,
+      "fn": 0,
+      "n_pred": 1,
+      "n_gold": 1,
+      "matches": [],
+      "unmatched_gold": [],
+      "unmatched_pred": []
+    },
+    {
+      "sentence_id": "bia_0001_64",
+      "tp": 0,
+      "fp": 2,
+      "fn": 1,
+      "n_pred": 2,
+      "n_gold": 1,
+      "matches": [],
+      "unmatched_gold": [
+        {
+          "arg1": "O banco central de Portugal",
+          "rel": "é",
+          "arg2": "parte integrante de o Sistema Europeu de Bancos Centrais",
+          "valid": true
+        }
+      ],
+      "unmatched_pred": [
+        {
+          "arg1": "O banco central de Portugal",
+          "rel": "é",
+          "arg2": "Banco",
+          "triple_id": "bia_0001_64_ud_baseline_000"
+        },
+        {
+          "arg1": "O banco central de Portugal",
+          "rel": "é",
+          "arg2": "o Banco Portugal",
+          "triple_id": "bia_0001_64_ud_baseline_001"
+        }
+      ]
+    },
+    {
+      "sentence_id": "bia_0001_65",
+      "tp": 0,
+      "fp": 2,
+      "fn": 3,
+      "n_pred": 2,
+      "n_gold": 3,
+      "matches": [],
+      "unmatched_gold": [
+        {
+          "arg1": "peregrinos religiosos",
+          "rel": "visitam",
+          "arg2": "Fátima a cada ano",
+          "valid": true
+        },
+        {
+          "arg1": "peregrinos religiosos",
+          "rel": "visitam",
+          "arg2": "Fátima",
+          "valid": true
+        },
+        {
+          "arg1": "entre 4-5 milhões de peregrinos religiosos",
+          "rel": "visitam",
+          "arg2": "Fátima a cada ano",
+          "valid": true
+        }
+      ],
+      "unmatched_pred": [
+        {
+          "arg1": "Os pontos turísticos",
+          "rel": "são",
+          "arg2": "Lisboa",
+          "triple_id": "bia_0001_65_ud_baseline_000"
+        },
+        {
+          "arg1": "Os pontos turísticos",
+          "rel": "são",
+          "arg2": "Lisboa 4-5",
+          "triple_id": "bia_0001_65_ud_baseline_001"
+        }
+      ]
+    },
+    {
+      "sentence_id": "bia_0001_66",
+      "tp": 1,
+      "fp": 2,
+      "fn": 0,
+      "n_pred": 3,
+      "n_gold": 1,
+      "matches": [],
+      "unmatched_gold": [],
+      "unmatched_pred": [
+        {
+          "arg1": "332.137",
+          "rel": "eram",
+          "arg2": "imigrantes",
+          "triple_id": "bia_0001_66_ud_baseline_001"
+        },
+        {
+          "arg1": "332.137",
+          "rel": "eram",
+          "arg2": "quais imigrantes legais",
+          "triple_id": "bia_0001_66_ud_baseline_002"
+        }
+      ]
+    },
+    {
+      "sentence_id": "bia_0001_67",
+      "tp": 0,
+      "fp": 0,
+      "fn": 1,
+      "n_pred": 0,
+      "n_gold": 1,
+      "matches": [],
+      "unmatched_gold": [
+        {
+          "arg1": "As universidades portuguesas",
+          "rel": "existem",
+          "arg2": "desde 1290",
+          "valid": true
+        }
+      ],
+      "unmatched_pred": []
+    },
+    {
+      "sentence_id": "bia_0001_68",
+      "tp": 1,
+      "fp": 1,
+      "fn": 0,
+      "n_pred": 2,
+      "n_gold": 1,
+      "matches": [],
+      "unmatched_gold": [],
+      "unmatched_pred": [
+        {
+          "arg1": "O futebol",
+          "rel": "é",
+          "arg2": "o esporte popular Portugal",
+          "triple_id": "bia_0001_68_ud_baseline_001"
+        }
+      ]
+    },
+    {
+      "sentence_id": "bia_0001_69",
+      "tp": 1,
+      "fp": 0,
+      "fn": 1,
+      "n_pred": 1,
+      "n_gold": 2,
+      "matches": [],
+      "unmatched_gold": [
+        {
+          "arg1": "Mutações maiores",
+          "rel": "podem ser causadas por",
+          "arg2": "erros em a recombinação",
+          "valid": true
+        }
+      ],
+      "unmatched_pred": []
+    },
+    {
+      "sentence_id": "bia_0001_70",
+      "tp": 1,
+      "fp": 1,
+      "fn": 1,
+      "n_pred": 2,
+      "n_gold": 2,
+      "matches": [],
+      "unmatched_gold": [
+        {
+          "arg1": "Portugal",
+          "rel": "liderou",
+          "arg2": "a exploração européia de o mundo",
+          "valid": true
+        }
+      ],
+      "unmatched_pred": [
+        {
+          "arg1": "Portugal",
+          "rel": "liderou",
+          "arg2": "uma era de a descoberta",
+          "triple_id": "bia_0001_70_ud_baseline_001"
+        }
+      ]
+    },
+    {
+      "sentence_id": "bia_0001_71",
+      "tp": 2,
+      "fp": 1,
+      "fn": 0,
+      "n_pred": 3,
+      "n_gold": 2,
+      "matches": [],
+      "unmatched_gold": [],
+      "unmatched_pred": [
+        {
+          "arg1": "uma pequena fração de mutações",
+          "rel": "é",
+          "arg2": "Finalmente benéfica",
+          "triple_id": "bia_0001_71_ud_baseline_002"
+        }
+      ]
+    },
+    {
+      "sentence_id": "bia_0001_72",
+      "tp": 1,
+      "fp": 2,
+      "fn": 0,
+      "n_pred": 3,
+      "n_gold": 1,
+      "matches": [],
+      "unmatched_gold": [],
+      "unmatched_pred": [
+        {
+          "arg1": "O português",
+          "rel": "é",
+          "arg2": "uma língua românica",
+          "triple_id": "bia_0001_72_ud_baseline_001"
+        },
+        {
+          "arg1": "que",
+          "rel": "se originou em",
+          "arg2": "o",
+          "triple_id": "bia_0001_72_ud_baseline_002"
+        }
+      ]
+    },
+    {
+      "sentence_id": "bia_0001_73",
+      "tp": 1,
+      "fp": 0,
+      "fn": 1,
+      "n_pred": 1,
+      "n_gold": 2,
+      "matches": [],
+      "unmatched_gold": [
+        {
+          "arg1": "O Ministério de a Saúde",
+          "rel": "é responsável por",
+          "arg2": "desenvolver políticas de saúde",
+          "valid": true
+        }
+      ],
+      "unmatched_pred": []
+    },
+    {
+      "sentence_id": "bia_0001_74",
+      "tp": 1,
+      "fp": 1,
+      "fn": 0,
+      "n_pred": 2,
+      "n_gold": 1,
+      "matches": [],
+      "unmatched_gold": [],
+      "unmatched_pred": [
+        {
+          "arg1": "Kanye Omari West",
+          "rel": "nasceu em",
+          "arg2": "8 de junho de 1977",
+          "triple_id": "bia_0001_74_ud_baseline_001"
+        }
+      ]
+    },
+    {
+      "sentence_id": "bia_0001_75",
+      "tp": 0,
+      "fp": 1,
+      "fn": 1,
+      "n_pred": 1,
+      "n_gold": 1,
+      "matches": [],
+      "unmatched_gold": [
+        {
+          "arg1": "O budismo mahayana",
+          "rel": "aspira",
+          "arg2": "a o estado de Buda",
+          "valid": true
+        }
+      ],
+      "unmatched_pred": [
+        {
+          "arg1": "alguém",
+          "rel": "permanece em",
+          "arg2": "este ciclo",
+          "triple_id": "bia_0001_75_ud_baseline_000"
+        }
+      ]
+    },
+    {
+      "sentence_id": "bia_0001_76",
+      "tp": 1,
+      "fp": 2,
+      "fn": 2,
+      "n_pred": 3,
+      "n_gold": 3,
+      "matches": [],
+      "unmatched_gold": [
+        {
+          "arg1": "alguns genes essenciais",
+          "rel": "são",
+          "arg2": "regulados por o desenvolvimento",
+          "valid": true
+        },
+        {
+          "arg1": "alguns genes essenciais",
+          "rel": "são regulados por",
+          "arg2": "o desenvolvimento",
+          "valid": true
+        }
+      ],
+      "unmatched_pred": [
+        {
+          "arg1": "alguns genes essenciais",
+          "rel": "são regulados durante",
+          "arg2": "o ciclo de vida de o organismo",
+          "triple_id": "bia_0001_76_ud_baseline_000"
+        },
+        {
+          "arg1": "todos os genes essenciais",
+          "rel": "são",
+          "arg2": "genes manutenção",
+          "triple_id": "bia_0001_76_ud_baseline_002"
+        }
+      ]
+    },
+    {
+      "sentence_id": "bia_0001_77",
+      "tp": 1,
+      "fp": 1,
+      "fn": 0,
+      "n_pred": 2,
+      "n_gold": 1,
+      "matches": [],
+      "unmatched_gold": [],
+      "unmatched_pred": [
+        {
+          "arg1": "samsara",
+          "rel": "é definido",
+          "arg2": "como o ciclo repetitivo contínuo",
+          "triple_id": "bia_0001_77_ud_baseline_001"
+        }
+      ]
+    },
+    {
+      "sentence_id": "bia_0001_78",
+      "tp": 1,
+      "fp": 1,
+      "fn": 0,
+      "n_pred": 2,
+      "n_gold": 1,
+      "matches": [],
+      "unmatched_gold": [],
+      "unmatched_pred": [
+        {
+          "arg1": "a origem de dukkha",
+          "rel": "Em é explicada",
+          "arg2": "o contexto de as quatro nobres verdades",
+          "triple_id": "bia_0001_78_ud_baseline_000"
+        }
+      ]
+    },
+    {
+      "sentence_id": "bia_0001_79",
+      "tp": 3,
+      "fp": 0,
+      "fn": 0,
+      "n_pred": 3,
+      "n_gold": 3,
+      "matches": [],
+      "unmatched_gold": [],
+      "unmatched_pred": []
+    },
+    {
+      "sentence_id": "bia_0001_80",
+      "tp": 1,
+      "fp": 2,
+      "fn": 0,
+      "n_pred": 3,
+      "n_gold": 1,
+      "matches": [],
+      "unmatched_gold": [],
+      "unmatched_pred": [
+        {
+          "arg1": "divindades mundanas como Mahabrahma",
+          "rel": "são interpretadas como",
+          "arg2": "criador",
+          "triple_id": "bia_0001_80_ud_baseline_001"
+        },
+        {
+          "arg1": "divindades mundanas como Mahabrahma",
+          "rel": "são interpretadas",
+          "arg2": "como criador",
+          "triple_id": "bia_0001_80_ud_baseline_002"
+        }
+      ]
+    },
+    {
+      "sentence_id": "bia_0001_81",
+      "tp": 1,
+      "fp": 1,
+      "fn": 0,
+      "n_pred": 2,
+      "n_gold": 1,
+      "matches": [],
+      "unmatched_gold": [],
+      "unmatched_pred": [
+        {
+          "arg1": "A segunda verdade",
+          "rel": "é",
+          "arg2": "que a origem pode conhecida",
+          "triple_id": "bia_0001_81_ud_baseline_000"
+        }
+      ]
+    },
+    {
+      "sentence_id": "bia_0001_82",
+      "tp": 1,
+      "fp": 0,
+      "fn": 1,
+      "n_pred": 1,
+      "n_gold": 2,
+      "matches": [],
+      "unmatched_gold": [
+        {
+          "arg1": "O ensinamento zen-budista",
+          "rel": "geralmente é cheio de",
+          "arg2": "paradoxos",
+          "valid": true
+        }
+      ],
+      "unmatched_pred": []
+    },
+    {
+      "sentence_id": "bia_0001_83",
+      "tp": 1,
+      "fp": 1,
+      "fn": 0,
+      "n_pred": 2,
+      "n_gold": 1,
+      "matches": [],
+      "unmatched_gold": [],
+      "unmatched_pred": [
+        {
+          "arg1": "o Budismo de o Leste Asiático",
+          "rel": "reconhece",
+          "arg2": "Além de isso",
+          "triple_id": "bia_0001_83_ud_baseline_001"
+        }
+      ]
+    },
+    {
+      "sentence_id": "bia_0001_84",
+      "tp": 1,
+      "fp": 2,
+      "fn": 1,
+      "n_pred": 3,
+      "n_gold": 2,
+      "matches": [],
+      "unmatched_gold": [
+        {
+          "arg1": "O programa",
+          "rel": "foi renomeado como",
+          "arg2": "American Idol The Search for a Superstar",
+          "valid": true
+        }
+      ],
+      "unmatched_pred": [
+        {
+          "arg1": "O programa",
+          "rel": "for",
+          "arg2": "a Superstar",
+          "triple_id": "bia_0001_84_ud_baseline_001"
+        },
+        {
+          "arg1": "O programa",
+          "rel": "foi renomeado",
+          "arg2": "como American Idol The Search",
+          "triple_id": "bia_0001_84_ud_baseline_002"
+        }
+      ]
+    },
+    {
+      "sentence_id": "bia_0001_85",
+      "tp": 0,
+      "fp": 4,
+      "fn": 1,
+      "n_pred": 4,
+      "n_gold": 1,
+      "matches": [],
+      "unmatched_gold": [
+        {
+          "arg1": "nenhum participante",
+          "rel": "foi",
+          "arg2": "eliminado",
+          "valid": true
+        }
+      ],
+      "unmatched_pred": [
+        {
+          "arg1": "nenhum participante",
+          "rel": "em foi eliminado",
+          "arg2": "a sexta temporada",
+          "triple_id": "bia_0001_85_ud_baseline_000"
+        },
+        {
+          "arg1": "dois",
+          "rel": "em foram enviados",
+          "arg2": "a semana seguinte",
+          "triple_id": "bia_0001_85_ud_baseline_001"
+        },
+        {
+          "arg1": "dois",
+          "rel": "foram enviados para",
+          "arg2": "casa",
+          "triple_id": "bia_0001_85_ud_baseline_002"
+        },
+        {
+          "arg1": "dois",
+          "rel": "foram enviados para",
+          "arg2": "casa",
+          "triple_id": "bia_0001_85_ud_baseline_003"
+        }
+      ]
+    },
+    {
+      "sentence_id": "bia_0001_86",
+      "tp": 0,
+      "fp": 0,
+      "fn": 2,
+      "n_pred": 0,
+      "n_gold": 2,
+      "matches": [],
+      "unmatched_gold": [
+        {
+          "arg1": "a segunda temporada",
+          "rel": "foi a",
+          "arg2": "o ar em janeiro de 2003",
+          "valid": true
+        },
+        {
+          "arg1": "a segunda temporada",
+          "rel": "foi a o ar em",
+          "arg2": "janeiro de 2003",
+          "valid": true
+        }
+      ],
+      "unmatched_pred": []
+    },
+    {
+      "sentence_id": "bia_0001_87",
+      "tp": 3,
+      "fp": 1,
+      "fn": 0,
+      "n_pred": 4,
+      "n_gold": 3,
+      "matches": [],
+      "unmatched_gold": [],
+      "unmatched_pred": [
+        {
+          "arg1": "Underwood",
+          "rel": "vendeu em",
+          "arg2": "em todo o mundo",
+          "triple_id": "bia_0001_87_ud_baseline_003"
+        }
+      ]
+    },
+    {
+      "sentence_id": "bia_0001_88",
+      "tp": 1,
+      "fp": 1,
+      "fn": 1,
+      "n_pred": 2,
+      "n_gold": 2,
+      "matches": [],
+      "unmatched_gold": [
+        {
+          "arg1": "Jordin Sparks",
+          "rel": "foi declarado",
+          "arg2": "vencedor",
+          "valid": true
+        }
+      ],
+      "unmatched_pred": [
+        {
+          "arg1": "Jordin Sparks",
+          "rel": "Em foi declarado",
+          "arg2": "o final de a temporada de 23 de maio",
+          "triple_id": "bia_0001_88_ud_baseline_000"
+        }
+      ]
+    },
+    {
+      "sentence_id": "bia_0001_89",
+      "tp": 0,
+      "fp": 2,
+      "fn": 2,
+      "n_pred": 2,
+      "n_gold": 2,
+      "matches": [],
+      "unmatched_gold": [
+        {
+          "arg1": "Taylor Hicks",
+          "rel": "é de",
+          "arg2": "o estado de o Alabama",
+          "valid": true
+        },
+        {
+          "arg1": "as pessoas de o sul",
+          "rel": "têm",
+          "arg2": "muito orgulho",
+          "valid": true
+        }
+      ],
+      "unmatched_pred": [
+        {
+          "arg1": "Taylor Hicks",
+          "rel": "têm",
+          "arg2": "muito orgulho",
+          "triple_id": "bia_0001_89_ud_baseline_000"
+        },
+        {
+          "arg1": "Taylor Hicks",
+          "rel": "De têm",
+          "arg2": "acordo com o vencedor de a quinta temporada",
+          "triple_id": "bia_0001_89_ud_baseline_001"
+        }
+      ]
+    },
+    {
+      "sentence_id": "bia_0001_90",
+      "tp": 1,
+      "fp": 1,
+      "fn": 1,
+      "n_pred": 2,
+      "n_gold": 2,
+      "matches": [],
+      "unmatched_gold": [
+        {
+          "arg1": "os resultados médios",
+          "rel": "mostram",
+          "arg2": "uma classificação mais alta de o que as etapas de a competição",
+          "valid": true
+        }
+      ],
+      "unmatched_pred": [
+        {
+          "arg1": "A sexta temporada",
+          "rel": "foi",
+          "arg2": "a primeira temporada",
+          "triple_id": "bia_0001_90_ud_baseline_001"
+        }
+      ]
+    },
+    {
+      "sentence_id": "bia_0001_91",
+      "tp": 1,
+      "fp": 0,
+      "fn": 1,
+      "n_pred": 1,
+      "n_gold": 2,
+      "matches": [],
+      "unmatched_gold": [
+        {
+          "arg1": "O American Idol",
+          "rel": "foi indicado a",
+          "arg2": "o Programa de Competição de Realidade Excepcional de o Emmy",
+          "valid": true
+        }
+      ],
+      "unmatched_pred": []
+    },
+    {
+      "sentence_id": "bia_0001_92",
+      "tp": 0,
+      "fp": 1,
+      "fn": 1,
+      "n_pred": 1,
+      "n_gold": 1,
+      "matches": [],
+      "unmatched_gold": [
+        {
+          "arg1": "um semi-finalista que venceu uma cantada",
+          "rel": "foi adicionado a",
+          "arg2": "a turnê",
+          "valid": true
+        }
+      ],
+      "unmatched_pred": [
+        {
+          "arg1": "um semi-finalista",
+          "rel": "Em foi adicionado",
+          "arg2": "a turnê de a 12ª temporada",
+          "triple_id": "bia_0001_92_ud_baseline_000"
+        }
+      ]
+    },
+    {
+      "sentence_id": "bia_0001_93",
+      "tp": 0,
+      "fp": 3,
+      "fn": 2,
+      "n_pred": 3,
+      "n_gold": 2,
+      "matches": [],
+      "unmatched_gold": [
+        {
+          "arg1": "Ellen Degeneres",
+          "rel": "substituiu",
+          "arg2": "Paula Abdul nessa temporada",
+          "valid": true
+        },
+        {
+          "arg1": "Ellen Degeneres",
+          "rel": "substituiu",
+          "arg2": "Paula Abdul",
+          "valid": true
+        }
+      ],
+      "unmatched_pred": [
+        {
+          "arg1": "A apresentadora de talk show ganhadora",
+          "rel": "substituiu",
+          "arg2": "Paula Abdul",
+          "triple_id": "bia_0001_93_ud_baseline_000"
+        },
+        {
+          "arg1": "A apresentadora de talk show ganhadora",
+          "rel": "substituiu",
+          "arg2": "Paula Abdul em essa temporada",
+          "triple_id": "bia_0001_93_ud_baseline_001"
+        },
+        {
+          "arg1": "A apresentadora de talk show ganhadora",
+          "rel": "substituiu em",
+          "arg2": "em essa temporada",
+          "triple_id": "bia_0001_93_ud_baseline_002"
+        }
+      ]
+    },
+    {
+      "sentence_id": "bia_0001_94",
+      "tp": 1,
+      "fp": 1,
+      "fn": 2,
+      "n_pred": 2,
+      "n_gold": 3,
+      "matches": [],
+      "unmatched_gold": [
+        {
+          "arg1": "o taxonomista Linnaeus",
+          "rel": "publicou em o Systema Naturae",
+          "arg2": "uma categorização de espécies",
+          "valid": true
+        },
+        {
+          "arg1": "o taxonomista Linnaeus",
+          "rel": "publicou",
+          "arg2": "uma categorização de espécies que incluía as espécies de Canis",
+          "valid": true
+        }
+      ],
+      "unmatched_pred": [
+        {
+          "arg1": "o taxonomista",
+          "rel": "publicou em",
+          "arg2": "o Systema Naturae",
+          "triple_id": "bia_0001_94_ud_baseline_001"
+        }
+      ]
+    },
+    {
+      "sentence_id": "bia_0001_95",
+      "tp": 1,
+      "fp": 1,
+      "fn": 1,
+      "n_pred": 2,
+      "n_gold": 2,
+      "matches": [],
+      "unmatched_gold": [
+        {
+          "arg1": "os cães",
+          "rel": "são vistos como",
+          "arg2": "protetores gentis",
+          "valid": true
+        }
+      ],
+      "unmatched_pred": [
+        {
+          "arg1": "os cães",
+          "rel": "Em são vistos",
+          "arg2": "os países asiáticos como China Coréia e Japão",
+          "triple_id": "bia_0001_95_ud_baseline_000"
+        }
+      ]
+    },
+    {
+      "sentence_id": "bia_0001_96",
+      "tp": 4,
+      "fp": 0,
+      "fn": 0,
+      "n_pred": 4,
+      "n_gold": 4,
+      "matches": [],
+      "unmatched_gold": [],
+      "unmatched_pred": []
+    },
+    {
+      "sentence_id": "bia_0001_97",
+      "tp": 0,
+      "fp": 0,
+      "fn": 1,
+      "n_pred": 0,
+      "n_gold": 1,
+      "matches": [],
+      "unmatched_gold": [
+        {
+          "arg1": "a tocha olímpica",
+          "rel": "chegou por",
+          "arg2": "a primeira vez em 2 de abril",
+          "valid": true
+        }
+      ],
+      "unmatched_pred": []
+    },
+    {
+      "sentence_id": "bia_0001_98",
+      "tp": 0,
+      "fp": 1,
+      "fn": 1,
+      "n_pred": 1,
+      "n_gold": 1,
+      "matches": [],
+      "unmatched_gold": [
+        {
+          "arg1": "a tocha olímpica",
+          "rel": "chegou a",
+          "arg2": "São Petersburgo",
+          "valid": true
+        }
+      ],
+      "unmatched_pred": [
+        {
+          "arg1": "a tocha olímpica",
+          "rel": "chegou em",
+          "arg2": "em a Rússia",
+          "triple_id": "bia_0001_98_ud_baseline_000"
+        }
+      ]
+    },
+    {
+      "sentence_id": "bia_0001_99",
+      "tp": 1,
+      "fp": 0,
+      "fn": 1,
+      "n_pred": 1,
+      "n_gold": 2,
+      "matches": [],
+      "unmatched_gold": [
+        {
+          "arg1": "Gordon Brown",
+          "rel": "recebeu",
+          "arg2": "a tocha de o lado de fora de a 10 Downing Street",
+          "valid": true
+        }
+      ],
+      "unmatched_pred": []
+    },
+    {
+      "sentence_id": "bia_0001_100",
+      "tp": 0,
+      "fp": 1,
+      "fn": 1,
+      "n_pred": 1,
+      "n_gold": 1,
+      "matches": [],
+      "unmatched_gold": [
+        {
+          "arg1": "uma resolução",
+          "rel": "tratava de as questões de",
+          "arg2": "direitos humanos",
+          "valid": true
+        }
+      ],
+      "unmatched_pred": [
+        {
+          "arg1": "o Conselho de Supervisores de São Francisco",
+          "rel": "aprovou",
+          "arg2": "uma resolução",
+          "triple_id": "bia_0001_100_ud_baseline_000"
+        }
+      ]
+    },
+    {
+      "sentence_id": "bia_0001_101",
+      "tp": 1,
+      "fp": 3,
+      "fn": 0,
+      "n_pred": 4,
+      "n_gold": 1,
+      "matches": [],
+      "unmatched_gold": [],
+      "unmatched_pred": [
+        {
+          "arg1": "o ministro de o Comércio de a Índia",
+          "rel": "cancelou",
+          "arg2": "uma viagem oficial a Pequim em protesto",
+          "triple_id": "bia_0001_101_ud_baseline_001"
+        },
+        {
+          "arg1": "A mídia indiana",
+          "rel": "informou",
+          "arg2": "que o ministro cancelou uma viagem oficial em protesto",
+          "triple_id": "bia_0001_101_ud_baseline_002"
+        },
+        {
+          "arg1": "o ministro de o Comércio de a Índia",
+          "rel": "cancelou em",
+          "arg2": "em protesto",
+          "triple_id": "bia_0001_101_ud_baseline_003"
+        }
+      ]
+    },
+    {
+      "sentence_id": "bia_0001_102",
+      "tp": 1,
+      "fp": 2,
+      "fn": 0,
+      "n_pred": 3,
+      "n_gold": 1,
+      "matches": [],
+      "unmatched_gold": [],
+      "unmatched_pred": [
+        {
+          "arg1": "o revezamento",
+          "rel": "fosse usado como",
+          "arg2": "um golpe de propaganda",
+          "triple_id": "bia_0001_102_ud_baseline_001"
+        },
+        {
+          "arg1": "o revezamento",
+          "rel": "fosse usado",
+          "arg2": "como um golpe",
+          "triple_id": "bia_0001_102_ud_baseline_002"
+        }
+      ]
+    },
+    {
+      "sentence_id": "bia_0001_103",
+      "tp": 1,
+      "fp": 2,
+      "fn": 1,
+      "n_pred": 3,
+      "n_gold": 2,
+      "matches": [],
+      "unmatched_gold": [
+        {
+          "arg1": "Whitehead",
+          "rel": "advogou o ensino de",
+          "arg2": "relativamente poucos conceitos importantes",
+          "valid": true
+        }
+      ],
+      "unmatched_pred": [
+        {
+          "arg1": "o aluno",
+          "rel": "poderia vincular",
+          "arg2": "que",
+          "triple_id": "bia_0001_103_ud_baseline_001"
+        },
+        {
+          "arg1": "o aluno",
+          "rel": "poderia",
+          "arg2": "que vincular organicamente a muitas áreas diferentes",
+          "triple_id": "bia_0001_103_ud_baseline_002"
+        }
+      ]
+    },
+    {
+      "sentence_id": "bia_0001_104",
+      "tp": 2,
+      "fp": 1,
+      "fn": 0,
+      "n_pred": 3,
+      "n_gold": 2,
+      "matches": [],
+      "unmatched_gold": [],
+      "unmatched_pred": [
+        {
+          "arg1": "os processos",
+          "rel": "são",
+          "arg2": "melhor",
+          "triple_id": "bia_0001_104_ud_baseline_001"
+        }
+      ]
+    },
+    {
+      "sentence_id": "bia_0001_105",
+      "tp": 1,
+      "fp": 1,
+      "fn": 0,
+      "n_pred": 2,
+      "n_gold": 1,
+      "matches": [],
+      "unmatched_gold": [],
+      "unmatched_pred": [
+        {
+          "arg1": "Alfred North Whitehead",
+          "rel": "nasceu em",
+          "arg2": "Ramsgate Kent Inglaterra",
+          "triple_id": "bia_0001_105_ud_baseline_000"
+        }
+      ]
+    },
+    {
+      "sentence_id": "bia_0001_106",
+      "tp": 0,
+      "fp": 3,
+      "fn": 1,
+      "n_pred": 3,
+      "n_gold": 1,
+      "matches": [],
+      "unmatched_gold": [
+        {
+          "arg1": "as responsabilidades acadêmicas de Whitehead",
+          "rel": "começaram a",
+          "arg2": "se expandir seriamente",
+          "valid": true
+        }
+      ],
+      "unmatched_pred": [
+        {
+          "arg1": "o Imperial College London",
+          "rel": "era",
+          "arg2": "membro",
+          "triple_id": "bia_0001_106_ud_baseline_000"
+        },
+        {
+          "arg1": "o Imperial College London",
+          "rel": "era",
+          "arg2": "quais membro época",
+          "triple_id": "bia_0001_106_ud_baseline_001"
+        },
+        {
+          "arg1": "as responsabilidades acadêmicas de Whitehead",
+          "rel": "começaram",
+          "arg2": "Em 1918 a expandir seriamente",
+          "triple_id": "bia_0001_106_ud_baseline_002"
+        }
+      ]
+    },
+    {
+      "sentence_id": "bia_0001_107",
+      "tp": 1,
+      "fp": 1,
+      "fn": 0,
+      "n_pred": 2,
+      "n_gold": 1,
+      "matches": [],
+      "unmatched_gold": [],
+      "unmatched_pred": [
+        {
+          "arg1": "A biografia de dois volumes de Whitehead de Victor Lowe",
+          "rel": "é",
+          "arg2": "a apresentação definitiva",
+          "triple_id": "bia_0001_107_ud_baseline_001"
+        }
+      ]
+    },
+    {
+      "sentence_id": "bia_0001_108",
+      "tp": 1,
+      "fp": 3,
+      "fn": 0,
+      "n_pred": 4,
+      "n_gold": 1,
+      "matches": [],
+      "unmatched_gold": [],
+      "unmatched_pred": [
+        {
+          "arg1": "a economia",
+          "rel": "por foi operada",
+          "arg2": "a qual",
+          "triple_id": "bia_0001_108_ud_baseline_000"
+        },
+        {
+          "arg1": "a corrida",
+          "rel": "sido",
+          "arg2": "fator",
+          "triple_id": "bia_0001_108_ud_baseline_001"
+        },
+        {
+          "arg1": "a causa subjacente de a falha",
+          "rel": "foi",
+          "arg2": "a maneira insegura",
+          "triple_id": "bia_0001_108_ud_baseline_003"
+        }
+      ]
+    },
+    {
+      "sentence_id": "bia_0001_109",
+      "tp": 1,
+      "fp": 0,
+      "fn": 1,
+      "n_pred": 1,
+      "n_gold": 2,
+      "matches": [],
+      "unmatched_gold": [
+        {
+          "arg1": "A recessão em os EUA",
+          "rel": "terminou em",
+          "arg2": "junho de 2009",
+          "valid": true
+        }
+      ],
+      "unmatched_pred": []
+    },
+    {
+      "sentence_id": "bia_0001_110",
+      "tp": 0,
+      "fp": 2,
+      "fn": 1,
+      "n_pred": 2,
+      "n_gold": 1,
+      "matches": [],
+      "unmatched_gold": [
+        {
+          "arg1": "Timothy Geithner",
+          "rel": "atribuiu",
+          "arg2": "uma culpa significativa a o congelamento de os mercados de crédito",
+          "valid": true
+        }
+      ],
+      "unmatched_pred": [
+        {
+          "arg1": "o presidente e CEO de o Banco de a Reserva Federal de Nova York",
+          "rel": "atribuiu",
+          "arg2": "uma culpa significativa a o congelamento de os mercados de crédito em uma corrida a as entidades de o sistema bancário paralelo",
+          "triple_id": "bia_0001_110_ud_baseline_000"
+        },
+        {
+          "arg1": "que",
+          "rel": "se tornou",
+          "arg2": "secretário",
+          "triple_id": "bia_0001_110_ud_baseline_001"
+        }
+      ]
+    },
+    {
+      "sentence_id": "bia_0001_111",
+      "tp": 0,
+      "fp": 8,
+      "fn": 3,
+      "n_pred": 8,
+      "n_gold": 3,
+      "matches": [],
+      "unmatched_gold": [
+        {
+          "arg1": "a emissão privada",
+          "rel": "foi de",
+          "arg2": "menos de US $ 150 bilhões",
+          "valid": true
+        },
+        {
+          "arg1": "quase toda a emissão",
+          "rel": "foi",
+          "arg2": "suportada por o Programa TALF de o Federal Reserve",
+          "valid": true
+        },
+        {
+          "arg1": "quase toda a emissão em lastro",
+          "rel": "foi suportada por",
+          "arg2": "o Programa TALF de o Federal Reserve",
+          "valid": true
+        }
+      ],
+      "unmatched_pred": [
+        {
+          "arg1": "os títulos",
+          "rel": "atingiram",
+          "arg2": "o pico",
+          "triple_id": "bia_0001_111_ud_baseline_000"
+        },
+        {
+          "arg1": "os títulos",
+          "rel": "atingiram",
+          "arg2": "o pico em 2006",
+          "triple_id": "bia_0001_111_ud_baseline_001"
+        },
+        {
+          "arg1": "a emissão privada",
+          "rel": "foi",
+          "arg2": "$",
+          "triple_id": "bia_0001_111_ud_baseline_002"
+        },
+        {
+          "arg1": "a emissão privada",
+          "rel": "foi 2009 de",
+          "arg2": "US $ 150",
+          "triple_id": "bia_0001_111_ud_baseline_003"
+        },
+        {
+          "arg1": "a emissão privada",
+          "rel": "foi",
+          "arg2": "2009 de US $ 150",
+          "triple_id": "bia_0001_111_ud_baseline_004"
+        },
+        {
+          "arg1": "os títulos",
+          "rel": "atingiram em",
+          "arg2": "em 2006",
+          "triple_id": "bia_0001_111_ud_baseline_005"
+        },
+        {
+          "arg1": "os títulos",
+          "rel": "atingiram em",
+          "arg2": "em US $ 2 trilhões",
+          "triple_id": "bia_0001_111_ud_baseline_006"
+        },
+        {
+          "arg1": "os títulos",
+          "rel": "atingiram de",
+          "arg2": "Em 2009 de US $ 150 bilhões e suportada",
+          "triple_id": "bia_0001_111_ud_baseline_007"
+        }
+      ]
+    },
+    {
+      "sentence_id": "bia_0001_112",
+      "tp": 2,
+      "fp": 1,
+      "fn": 0,
+      "n_pred": 3,
+      "n_gold": 2,
+      "matches": [],
+      "unmatched_gold": [],
+      "unmatched_pred": [
+        {
+          "arg1": "Sassou",
+          "rel": "venceu em",
+          "arg2": "em julho de 2009",
+          "triple_id": "bia_0001_112_ud_baseline_002"
+        }
+      ]
+    },
+    {
+      "sentence_id": "bia_0001_113",
+      "tp": 0,
+      "fp": 3,
+      "fn": 3,
+      "n_pred": 3,
+      "n_gold": 3,
+      "matches": [],
+      "unmatched_gold": [
+        {
+          "arg1": "o primeiro ministro irlandês",
+          "rel": "é",
+          "arg2": "chamado Taoiseach",
+          "valid": true
+        },
+        {
+          "arg1": "o primeiro ministro irlandês",
+          "rel": "é chamado",
+          "arg2": "Taoiseach",
+          "valid": true
+        },
+        {
+          "arg1": "o primeiro ministro",
+          "rel": "é em",
+          "arg2": "a verdade intitulado Presidente de o governo",
+          "valid": true
+        }
+      ],
+      "unmatched_pred": [
+        {
+          "arg1": "o primeiro ministro",
+          "rel": "Em é intitulado",
+          "arg2": "a constituição russa",
+          "triple_id": "bia_0001_113_ud_baseline_000"
+        },
+        {
+          "arg1": "o primeiro ministro",
+          "rel": "é intitulado",
+          "arg2": "Presidente",
+          "triple_id": "bia_0001_113_ud_baseline_001"
+        },
+        {
+          "arg1": "que",
+          "rel": "é traduzido",
+          "arg2": "como primeiro ministro",
+          "triple_id": "bia_0001_113_ud_baseline_002"
+        }
+      ]
+    },
+    {
+      "sentence_id": "bia_0001_114",
+      "tp": 0,
+      "fp": 0,
+      "fn": 2,
+      "n_pred": 0,
+      "n_gold": 2,
+      "matches": [],
+      "unmatched_gold": [
+        {
+          "arg1": "O Exército Canadense",
+          "rel": "é",
+          "arg2": "chefiado por o Comandante de o Exército Canadense",
+          "valid": true
+        },
+        {
+          "arg1": "O Exército Canadense",
+          "rel": "é chefiado por",
+          "arg2": "o Comandante de o Exército Canadense",
+          "valid": true
+        }
+      ],
+      "unmatched_pred": []
+    },
+    {
+      "sentence_id": "bia_0001_115",
+      "tp": 1,
+      "fp": 1,
+      "fn": 0,
+      "n_pred": 2,
+      "n_gold": 1,
+      "matches": [],
+      "unmatched_gold": [],
+      "unmatched_pred": [
+        {
+          "arg1": "que",
+          "rel": "devem",
+          "arg2": "assinadas",
+          "triple_id": "bia_0001_115_ud_baseline_001"
+        }
+      ]
+    },
+    {
+      "sentence_id": "bia_0001_116",
+      "tp": 1,
+      "fp": 0,
+      "fn": 1,
+      "n_pred": 1,
+      "n_gold": 2,
+      "matches": [],
+      "unmatched_gold": [
+        {
+          "arg1": "O Reitor de o Colégio de Cardeais",
+          "rel": "também recebe",
+          "arg2": "o bispado titular de Ostia",
+          "valid": true
+        }
+      ],
+      "unmatched_pred": []
+    },
+    {
+      "sentence_id": "bia_0001_117",
+      "tp": 3,
+      "fp": 0,
+      "fn": 1,
+      "n_pred": 3,
+      "n_gold": 4,
+      "matches": [],
+      "unmatched_gold": [
+        {
+          "arg1": "a produção real",
+          "rel": "varia conforme",
+          "arg2": "o projeto específico",
+          "valid": true
+        }
+      ],
+      "unmatched_pred": []
+    },
+    {
+      "sentence_id": "bia_0001_118",
+      "tp": 1,
+      "fp": 2,
+      "fn": 0,
+      "n_pred": 3,
+      "n_gold": 1,
+      "matches": [],
+      "unmatched_gold": [],
+      "unmatched_pred": [
+        {
+          "arg1": "O Chefe de Justiça",
+          "rel": "preside",
+          "arg2": "o Senado durante o julgamento de impeachment de um presidente",
+          "triple_id": "bia_0001_118_ud_baseline_001"
+        },
+        {
+          "arg1": "O Chefe de Justiça",
+          "rel": "preside durante",
+          "arg2": "durante o julgamento de impeachment de um presidente",
+          "triple_id": "bia_0001_118_ud_baseline_002"
+        }
+      ]
+    },
+    {
+      "sentence_id": "bia_0001_119",
+      "tp": 3,
+      "fp": 2,
+      "fn": 6,
+      "n_pred": 5,
+      "n_gold": 9,
+      "matches": [],
+      "unmatched_gold": [
+        {
+          "arg1": "o Supremo Tribunal de a Flórida",
+          "rel": "pode",
+          "arg2": "licenciar e regular advogados",
+          "valid": true
+        },
+        {
+          "arg1": "o Supremo Tribunal de a Flórida",
+          "rel": "pode licenciar e regular",
+          "arg2": "advogados",
+          "valid": true
+        },
+        {
+          "arg1": "apenas o Supremo Tribunal de a Flórida",
+          "rel": "pode licenciar e regular",
+          "arg2": "advogados",
+          "valid": true
+        },
+        {
+          "arg1": "o Supremo Tribunal de a Flórida",
+          "rel": "pode definir",
+          "arg2": "regras para procedimentos em os tribunais de a Flórida",
+          "valid": true
+        },
+        {
+          "arg1": "o Supremo Tribunal de a Flórida",
+          "rel": "pode definir regras para",
+          "arg2": "procedimentos em os tribunais de a Flórida",
+          "valid": true
+        },
+        {
+          "arg1": "somente o Supremo Tribunal de a Flórida",
+          "rel": "pode definir regras para",
+          "arg2": "procedimentos em os tribunais de a Flórida",
+          "valid": true
+        }
+      ],
+      "unmatched_pred": [
+        {
+          "arg1": "que",
+          "rel": "pode",
+          "arg2": "licenciar",
+          "triple_id": "bia_0001_119_ud_baseline_003"
+        },
+        {
+          "arg1": "o Supremo Tribunal de a Flórida",
+          "rel": "pode",
+          "arg2": "somente definir regras",
+          "triple_id": "bia_0001_119_ud_baseline_004"
+        }
+      ]
+    },
+    {
+      "sentence_id": "bia_0001_120",
+      "tp": 1,
+      "fp": 1,
+      "fn": 0,
+      "n_pred": 2,
+      "n_gold": 1,
+      "matches": [],
+      "unmatched_gold": [],
+      "unmatched_pred": [
+        {
+          "arg1": "um edifício",
+          "rel": "deve construído de",
+          "arg2": "uma maneira amigável em termos de produção de seus materiais seu impacto em o ambiente natural e construído e as demandas",
+          "triple_id": "bia_0001_120_ud_baseline_000"
+        }
+      ]
+    },
+    {
+      "sentence_id": "bia_0001_121",
+      "tp": 0,
+      "fp": 1,
+      "fn": 2,
+      "n_pred": 1,
+      "n_gold": 2,
+      "matches": [],
+      "unmatched_gold": [
+        {
+          "arg1": "Uma estrutura grande",
+          "rel": "não pode",
+          "arg2": "mais ser o design de uma pessoa",
+          "valid": true
+        },
+        {
+          "arg1": "Uma estrutura grande",
+          "rel": "não pode mais ser",
+          "arg2": "o design de uma pessoa",
+          "valid": true
+        }
+      ],
+      "unmatched_pred": [
+        {
+          "arg1": "Uma estrutura grande",
+          "rel": "pode",
+          "arg2": "não mais o design",
+          "triple_id": "bia_0001_121_ud_baseline_000"
+        }
+      ]
+    },
+    {
+      "sentence_id": "bia_0001_122",
+      "tp": 1,
+      "fp": 0,
+      "fn": 0,
+      "n_pred": 1,
+      "n_gold": 1,
+      "matches": [],
+      "unmatched_gold": [],
+      "unmatched_pred": []
+    },
+    {
+      "sentence_id": "bia_0001_123",
+      "tp": 0,
+      "fp": 0,
+      "fn": 2,
+      "n_pred": 0,
+      "n_gold": 2,
+      "matches": [],
+      "unmatched_gold": [
+        {
+          "arg1": "a Televisão",
+          "rel": "era",
+          "arg2": "conhecida como BBC Vision",
+          "valid": true
+        },
+        {
+          "arg1": "a Televisão",
+          "rel": "era conhecida como",
+          "arg2": "BBC Vision",
+          "valid": true
+        }
+      ],
+      "unmatched_pred": []
+    },
+    {
+      "sentence_id": "bia_0001_124",
+      "tp": 1,
+      "fp": 4,
+      "fn": 1,
+      "n_pred": 5,
+      "n_gold": 2,
+      "matches": [],
+      "unmatched_gold": [
+        {
+          "arg1": "o possível processo de Schwarzenegger",
+          "rel": "poderia finalmente lhe conceder",
+          "arg2": "o direito de concorrer a o cargo",
+          "valid": true
+        }
+      ],
+      "unmatched_pred": [
+        {
+          "arg1": "os tribunais",
+          "rel": "aplicariam",
+          "arg2": "essa lei",
+          "triple_id": "bia_0001_124_ud_baseline_000"
+        },
+        {
+          "arg1": "A lei",
+          "rel": "é",
+          "arg2": "clara",
+          "triple_id": "bia_0001_124_ud_baseline_001"
+        },
+        {
+          "arg1": "O professor de direito de a Universidade Columbia",
+          "rel": "observou",
+          "arg2": "que o possível processo poderia finalmente lhe conceder o direito",
+          "triple_id": "bia_0001_124_ud_baseline_003"
+        },
+        {
+          "arg1": "o possível processo de Schwarzenegger",
+          "rel": "poderia",
+          "arg2": "que finalmente lhe conceder o direito",
+          "triple_id": "bia_0001_124_ud_baseline_004"
+        }
+      ]
+    },
+    {
+      "sentence_id": "bia_0001_125",
+      "tp": 4,
+      "fp": 2,
+      "fn": 0,
+      "n_pred": 6,
+      "n_gold": 4,
+      "matches": [],
+      "unmatched_gold": [],
+      "unmatched_pred": [
+        {
+          "arg1": "Schwarzenegger",
+          "rel": "teve",
+          "arg2": "um relacionamento com as duas mulheres até agosto de 1978",
+          "triple_id": "bia_0001_125_ud_baseline_003"
+        },
+        {
+          "arg1": "Schwarzenegger",
+          "rel": "conheceu em",
+          "arg2": "em agosto de 1977",
+          "triple_id": "bia_0001_125_ud_baseline_005"
+        }
+      ]
+    },
+    {
+      "sentence_id": "bia_0001_126",
+      "tp": 2,
+      "fp": 2,
+      "fn": 0,
+      "n_pred": 4,
+      "n_gold": 2,
+      "matches": [],
+      "unmatched_gold": [],
+      "unmatched_pred": [
+        {
+          "arg1": "os Padres Peregrinos",
+          "rel": "estabeleceram",
+          "arg2": "a Colônia de Plymouth o segundo assentamento inglês em o que",
+          "triple_id": "bia_0001_126_ud_baseline_002"
+        },
+        {
+          "arg1": "os Padres Peregrinos",
+          "rel": "partiram para",
+          "arg2": "para o Novo Mundo",
+          "triple_id": "bia_0001_126_ud_baseline_003"
+        }
+      ]
+    },
+    {
+      "sentence_id": "bia_0001_127",
+      "tp": 1,
+      "fp": 0,
+      "fn": 0,
+      "n_pred": 1,
+      "n_gold": 1,
+      "matches": [],
+      "unmatched_gold": [],
+      "unmatched_pred": []
+    },
+    {
+      "sentence_id": "bia_0001_128",
+      "tp": 1,
+      "fp": 2,
+      "fn": 0,
+      "n_pred": 3,
+      "n_gold": 1,
+      "matches": [],
+      "unmatched_gold": [],
+      "unmatched_pred": [
+        {
+          "arg1": "os americanos",
+          "rel": "tinham",
+          "arg2": "uma força aérea maior",
+          "triple_id": "bia_0001_128_ud_baseline_000"
+        },
+        {
+          "arg1": "Stalin",
+          "rel": "ordenou",
+          "arg2": "o desenvolvimento de mísseis balísticos intercontinentais ICBMs",
+          "triple_id": "bia_0001_128_ud_baseline_002"
+        }
+      ]
+    },
+    {
+      "sentence_id": "bia_0001_129",
+      "tp": 1,
+      "fp": 1,
+      "fn": 0,
+      "n_pred": 2,
+      "n_gold": 1,
+      "matches": [],
+      "unmatched_gold": [],
+      "unmatched_pred": [
+        {
+          "arg1": "Uma torneira de cervejaria",
+          "rel": "é",
+          "arg2": "a saída próxima",
+          "triple_id": "bia_0001_129_ud_baseline_001"
+        }
+      ]
+    },
+    {
+      "sentence_id": "bia_0001_130",
+      "tp": 1,
+      "fp": 0,
+      "fn": 1,
+      "n_pred": 1,
+      "n_gold": 2,
+      "matches": [],
+      "unmatched_gold": [
+        {
+          "arg1": "A CAMRA",
+          "rel": "mantém",
+          "arg2": "um Inventário Nacional de notabilidade histórica e de bares arquitetônicos e decorativos",
+          "valid": true
+        }
+      ],
+      "unmatched_pred": []
+    },
+    {
+      "sentence_id": "bia_0001_131",
+      "tp": 1,
+      "fp": 1,
+      "fn": 0,
+      "n_pred": 2,
+      "n_gold": 1,
+      "matches": [],
+      "unmatched_gold": [],
+      "unmatched_pred": [
+        {
+          "arg1": "O pub alto de o Reino Unido",
+          "rel": "é",
+          "arg2": "o Tan Hill Inn m",
+          "triple_id": "bia_0001_131_ud_baseline_001"
+        }
+      ]
+    },
+    {
+      "sentence_id": "bia_0001_132",
+      "tp": 1,
+      "fp": 1,
+      "fn": 1,
+      "n_pred": 2,
+      "n_gold": 2,
+      "matches": [],
+      "unmatched_gold": [
+        {
+          "arg1": "Paley",
+          "rel": "fez de Wallerstein",
+          "arg2": "o chefe de a recém-adquirida gravadora",
+          "valid": true
+        }
+      ],
+      "unmatched_pred": [
+        {
+          "arg1": "O executivo de a RCA",
+          "rel": "convenceu",
+          "arg2": "o chefe de a CBS William S. Paley",
+          "triple_id": "bia_0001_132_ud_baseline_000"
+        }
+      ]
+    },
+    {
+      "sentence_id": "bia_0001_133",
+      "tp": 2,
+      "fp": 1,
+      "fn": 0,
+      "n_pred": 3,
+      "n_gold": 2,
+      "matches": [],
+      "unmatched_gold": [],
+      "unmatched_pred": [
+        {
+          "arg1": "Os procariontes",
+          "rel": "armazenam em",
+          "arg2": "em um único cromossomo circular grande",
+          "triple_id": "bia_0001_133_ud_baseline_002"
+        }
+      ]
+    },
+    {
+      "sentence_id": "bia_0001_134",
+      "tp": 3,
+      "fp": 4,
+      "fn": 1,
+      "n_pred": 7,
+      "n_gold": 4,
+      "matches": [],
+      "unmatched_gold": [
+        {
+          "arg1": "A ABC",
+          "rel": "vendeu sua divisão de discos para",
+          "arg2": "a MCA Records",
+          "valid": true
+        }
+      ],
+      "unmatched_pred": [
+        {
+          "arg1": "a empresa controladora de a NBC",
+          "rel": "em foi vendida",
+          "arg2": "1986",
+          "triple_id": "bia_0001_134_ud_baseline_002"
+        },
+        {
+          "arg1": "a empresa controladora de a NBC",
+          "rel": "foi vendida para",
+          "arg2": "a General Electric",
+          "triple_id": "bia_0001_134_ud_baseline_003"
+        },
+        {
+          "arg1": "A ABC",
+          "rel": "vendeu em",
+          "arg2": "em 1979",
+          "triple_id": "bia_0001_134_ud_baseline_005"
+        },
+        {
+          "arg1": "a empresa controladora de a NBC",
+          "rel": "foi vendida para",
+          "arg2": "a General Electric",
+          "triple_id": "bia_0001_134_ud_baseline_006"
+        }
+      ]
+    },
+    {
+      "sentence_id": "bia_0001_135",
+      "tp": 1,
+      "fp": 0,
+      "fn": 0,
+      "n_pred": 1,
+      "n_gold": 1,
+      "matches": [],
+      "unmatched_gold": [],
+      "unmatched_pred": []
+    },
+    {
+      "sentence_id": "bia_0001_136",
+      "tp": 1,
+      "fp": 1,
+      "fn": 0,
+      "n_pred": 2,
+      "n_gold": 1,
+      "matches": [],
+      "unmatched_gold": [],
+      "unmatched_pred": [
+        {
+          "arg1": "Oklahoma City",
+          "rel": "é",
+          "arg2": "o lar distrito",
+          "triple_id": "bia_0001_136_ud_baseline_001"
+        }
+      ]
+    },
+    {
+      "sentence_id": "bia_0001_137",
+      "tp": 1,
+      "fp": 1,
+      "fn": 1,
+      "n_pred": 2,
+      "n_gold": 2,
+      "matches": [],
+      "unmatched_gold": [
+        {
+          "arg1": "A Rádio WKY de Oklahoma City",
+          "rel": "foi",
+          "arg2": "a terceira estação de rádio em os Estados Unidos",
+          "valid": true
+        }
+      ],
+      "unmatched_pred": [
+        {
+          "arg1": "A Rádio WKY de Oklahoma City",
+          "rel": "foi",
+          "arg2": "a primeira estação rádio",
+          "triple_id": "bia_0001_137_ud_baseline_001"
+        }
+      ]
+    },
+    {
+      "sentence_id": "bia_0001_138",
+      "tp": 0,
+      "fp": 2,
+      "fn": 2,
+      "n_pred": 2,
+      "n_gold": 2,
+      "matches": [],
+      "unmatched_gold": [
+        {
+          "arg1": "Oklahoma City",
+          "rel": "é",
+          "arg2": "servida por dois aeroportos principais",
+          "valid": true
+        },
+        {
+          "arg1": "Oklahoma City",
+          "rel": "é servida por",
+          "arg2": "dois aeroportos principais",
+          "valid": true
+        }
+      ],
+      "unmatched_pred": [
+        {
+          "arg1": "Will Rogers World Airport",
+          "rel": "é",
+          "arg2": "aeroporto",
+          "triple_id": "bia_0001_138_ud_baseline_000"
+        },
+        {
+          "arg1": "Will Rogers World Airport",
+          "rel": "é",
+          "arg2": "o aeroporto comercial movimentado passageiros",
+          "triple_id": "bia_0001_138_ud_baseline_001"
+        }
+      ]
+    },
+    {
+      "sentence_id": "bia_0001_139",
+      "tp": 1,
+      "fp": 1,
+      "fn": 0,
+      "n_pred": 2,
+      "n_gold": 1,
+      "matches": [],
+      "unmatched_gold": [],
+      "unmatched_pred": [
+        {
+          "arg1": "Oklahoma City",
+          "rel": "é",
+          "arg2": "o lar equipes",
+          "triple_id": "bia_0001_139_ud_baseline_001"
+        }
+      ]
+    },
+    {
+      "sentence_id": "bia_0001_140",
+      "tp": 1,
+      "fp": 1,
+      "fn": 0,
+      "n_pred": 2,
+      "n_gold": 1,
+      "matches": [],
+      "unmatched_gold": [],
+      "unmatched_pred": [
+        {
+          "arg1": "Draper de o Lago Stanley",
+          "rel": "é",
+          "arg2": "o maior lago cidade",
+          "triple_id": "bia_0001_140_ud_baseline_001"
+        }
+      ]
+    },
+    {
+      "sentence_id": "bia_0001_141",
+      "tp": 1,
+      "fp": 1,
+      "fn": 0,
+      "n_pred": 2,
+      "n_gold": 1,
+      "matches": [],
+      "unmatched_gold": [],
+      "unmatched_pred": [
+        {
+          "arg1": "A Faculdade Comunitária de Oklahoma City em o sul de Oklahoma City",
+          "rel": "é",
+          "arg2": "a segunda maior faculdade comunitária estado",
+          "triple_id": "bia_0001_141_ud_baseline_001"
+        }
+      ]
+    },
+    {
+      "sentence_id": "bia_0001_142",
+      "tp": 1,
+      "fp": 0,
+      "fn": 0,
+      "n_pred": 1,
+      "n_gold": 1,
+      "matches": [],
+      "unmatched_gold": [],
+      "unmatched_pred": []
+    },
+    {
+      "sentence_id": "bia_0001_143",
+      "tp": 1,
+      "fp": 0,
+      "fn": 0,
+      "n_pred": 1,
+      "n_gold": 1,
+      "matches": [],
+      "unmatched_gold": [],
+      "unmatched_pred": []
+    },
+    {
+      "sentence_id": "bia_0001_144",
+      "tp": 1,
+      "fp": 2,
+      "fn": 0,
+      "n_pred": 3,
+      "n_gold": 1,
+      "matches": [],
+      "unmatched_gold": [],
+      "unmatched_pred": [
+        {
+          "arg1": "A Universal",
+          "rel": "possuía",
+          "arg2": "os direitos de o personagem Oswald o Coelho de a Sorte",
+          "triple_id": "bia_0001_144_ud_baseline_000"
+        },
+        {
+          "arg1": "seus filmes",
+          "rel": "tivessem desfrutado de",
+          "arg2": "uma exibição teatral de sucesso",
+          "triple_id": "bia_0001_144_ud_baseline_002"
+        }
+      ]
+    },
+    {
+      "sentence_id": "bia_0001_145",
+      "tp": 1,
+      "fp": 0,
+      "fn": 1,
+      "n_pred": 1,
+      "n_gold": 2,
+      "matches": [],
+      "unmatched_gold": [
+        {
+          "arg1": "Deanna Durbin",
+          "rel": "estrelou",
+          "arg2": "o primeiro filme americano de Pasternak",
+          "valid": true
+        }
+      ],
+      "unmatched_pred": []
+    },
+    {
+      "sentence_id": "bia_0001_146",
+      "tp": 3,
+      "fp": 1,
+      "fn": 0,
+      "n_pred": 4,
+      "n_gold": 3,
+      "matches": [],
+      "unmatched_gold": [],
+      "unmatched_pred": [
+        {
+          "arg1": "a Seagram",
+          "rel": "comprou em",
+          "arg2": "em 1999 e outras propriedades de entretenimento",
+          "triple_id": "bia_0001_146_ud_baseline_003"
+        }
+      ]
+    },
+    {
+      "sentence_id": "bia_0001_147",
+      "tp": 2,
+      "fp": 2,
+      "fn": 0,
+      "n_pred": 4,
+      "n_gold": 2,
+      "matches": [],
+      "unmatched_gold": [],
+      "unmatched_pred": [
+        {
+          "arg1": "a Universal Pictures",
+          "rel": "adquiriu",
+          "arg2": "os direitos de distribuição de vários filmes de o StudioCanal como Mulholland Drive e Brotherhood of the Wolf",
+          "triple_id": "bia_0001_147_ud_baseline_000"
+        },
+        {
+          "arg1": "que",
+          "rel": "se tornou",
+          "arg2": "o segundo filme",
+          "triple_id": "bia_0001_147_ud_baseline_002"
+        }
+      ]
+    },
+    {
+      "sentence_id": "bia_0001_148",
+      "tp": 1,
+      "fp": 1,
+      "fn": 0,
+      "n_pred": 2,
+      "n_gold": 1,
+      "matches": [],
+      "unmatched_gold": [],
+      "unmatched_pred": [
+        {
+          "arg1": "Alexander Bell",
+          "rel": "nasceu em",
+          "arg2": "em 3 de março de 1847",
+          "triple_id": "bia_0001_148_ud_baseline_001"
+        }
+      ]
+    },
+    {
+      "sentence_id": "bia_0001_149",
+      "tp": 2,
+      "fp": 0,
+      "fn": 1,
+      "n_pred": 2,
+      "n_gold": 3,
+      "matches": [],
+      "unmatched_gold": [
+        {
+          "arg1": "Bell",
+          "rel": "retornou a",
+          "arg2": "Weston House",
+          "valid": true
+        }
+      ],
+      "unmatched_pred": []
+    },
+    {
+      "sentence_id": "bia_0001_150",
+      "tp": 1,
+      "fp": 0,
+      "fn": 0,
+      "n_pred": 1,
+      "n_gold": 1,
+      "matches": [],
+      "unmatched_gold": [],
+      "unmatched_pred": []
+    },
+    {
+      "sentence_id": "bia_0001_151",
+      "tp": 1,
+      "fp": 1,
+      "fn": 0,
+      "n_pred": 2,
+      "n_gold": 1,
+      "matches": [],
+      "unmatched_gold": [],
+      "unmatched_pred": [
+        {
+          "arg1": "uma posição",
+          "rel": "foi oferecido",
+          "arg2": "onde",
+          "triple_id": "bia_0001_151_ud_baseline_001"
+        }
+      ]
+    },
+    {
+      "sentence_id": "bia_0001_152",
+      "tp": 0,
+      "fp": 3,
+      "fn": 1,
+      "n_pred": 3,
+      "n_gold": 1,
+      "matches": [],
+      "unmatched_gold": [
+        {
+          "arg1": "o presidente Barack Obama",
+          "rel": "recomendou",
+          "arg2": "que a FCC reclassificasse o serviço de Internet de banda larga",
+          "valid": true
+        }
+      ],
+      "unmatched_pred": [
+        {
+          "arg1": "a FCC",
+          "rel": "reclassificasse",
+          "arg2": "o serviço de Internet de banda larga",
+          "triple_id": "bia_0001_152_ud_baseline_000"
+        },
+        {
+          "arg1": "o presidente",
+          "rel": "recomendou",
+          "arg2": "que a FCC reclassificasse o serviço como um serviço",
+          "triple_id": "bia_0001_152_ud_baseline_001"
+        },
+        {
+          "arg1": "a FCC",
+          "rel": "reclassificasse",
+          "arg2": "como um serviço",
+          "triple_id": "bia_0001_152_ud_baseline_002"
+        }
+      ]
+    },
+    {
+      "sentence_id": "bia_0001_153",
+      "tp": 0,
+      "fp": 0,
+      "fn": 2,
+      "n_pred": 0,
+      "n_gold": 2,
+      "matches": [],
+      "unmatched_gold": [
+        {
+          "arg1": "a FCC",
+          "rel": "decidiu a",
+          "arg2": "favor de a neutralidade de a rede",
+          "valid": true
+        },
+        {
+          "arg1": "a FCC",
+          "rel": "decidiu a favor de",
+          "arg2": "a neutralidade de a rede",
+          "valid": true
+        }
+      ],
+      "unmatched_pred": []
+    },
+    {
+      "sentence_id": "bia_0001_154",
+      "tp": 1,
+      "fp": 1,
+      "fn": 0,
+      "n_pred": 2,
+      "n_gold": 1,
+      "matches": [],
+      "unmatched_gold": [],
+      "unmatched_pred": [
+        {
+          "arg1": "Edmond Halley",
+          "rel": "montou",
+          "arg2": "um observatório astronômico com um telescópio aéreo de 7,3 metros de comprimento",
+          "triple_id": "bia_0001_154_ud_baseline_001"
+        }
+      ]
+    },
+    {
+      "sentence_id": "bia_0001_155",
+      "tp": 0,
+      "fp": 0,
+      "fn": 1,
+      "n_pred": 0,
+      "n_gold": 1,
+      "matches": [],
+      "unmatched_gold": [
+        {
+          "arg1": "Joshua Slocum",
+          "rel": "chegou a",
+          "arg2": "Jamestown",
+          "valid": true
+        }
+      ],
+      "unmatched_pred": []
+    },
+    {
+      "sentence_id": "bia_0001_156",
+      "tp": 0,
+      "fp": 3,
+      "fn": 1,
+      "n_pred": 3,
+      "n_gold": 1,
+      "matches": [],
+      "unmatched_gold": [
+        {
+          "arg1": "Santa Helena",
+          "rel": "tornou-se",
+          "arg2": "uma estação de abastecimento de o Esquadrão Britânico de a África Ocidental",
+          "valid": true
+        }
+      ],
+      "unmatched_pred": [
+        {
+          "arg1": "muitos milhares de escravos",
+          "rel": "foram libertados em",
+          "arg2": "a ilha",
+          "triple_id": "bia_0001_156_ud_baseline_000"
+        },
+        {
+          "arg1": "muitos milhares de escravos",
+          "rel": "foram libertados em",
+          "arg2": "a ilha",
+          "triple_id": "bia_0001_156_ud_baseline_001"
+        },
+        {
+          "arg1": "Santa Helena",
+          "rel": "tornou se",
+          "arg2": "uma estação",
+          "triple_id": "bia_0001_156_ud_baseline_002"
+        }
+      ]
+    },
+    {
+      "sentence_id": "bia_0001_157",
+      "tp": 0,
+      "fp": 0,
+      "fn": 1,
+      "n_pred": 0,
+      "n_gold": 1,
+      "matches": [],
+      "unmatched_gold": [
+        {
+          "arg1": "A maioria de os residentes",
+          "rel": "pertence a",
+          "arg2": "a Comunhão Anglicana",
+          "valid": true
+        }
+      ],
+      "unmatched_pred": []
+    },
+    {
+      "sentence_id": "bia_0001_158",
+      "tp": 3,
+      "fp": 1,
+      "fn": 0,
+      "n_pred": 4,
+      "n_gold": 3,
+      "matches": [],
+      "unmatched_gold": [],
+      "unmatched_pred": [
+        {
+          "arg1": "A SURE",
+          "rel": "fornece por",
+          "arg2": "por meio de uma rede telefônica digital",
+          "triple_id": "bia_0001_158_ud_baseline_003"
+        }
+      ]
+    },
+    {
+      "sentence_id": "bia_0001_159",
+      "tp": 0,
+      "fp": 0,
+      "fn": 1,
+      "n_pred": 0,
+      "n_gold": 1,
+      "matches": [],
+      "unmatched_gold": [
+        {
+          "arg1": "As despesas públicas",
+          "rel": "aumentaram de",
+          "arg2": "10 milhões de libras em 2001-02 para 12 milhões de libras em 2005-06",
+          "valid": true
+        }
+      ],
+      "unmatched_pred": []
+    },
+    {
+      "sentence_id": "bia_0001_160",
+      "tp": 1,
+      "fp": 0,
+      "fn": 0,
+      "n_pred": 1,
+      "n_gold": 1,
+      "matches": [],
+      "unmatched_gold": [],
+      "unmatched_pred": []
+    },
+    {
+      "sentence_id": "bia_0001_161",
+      "tp": 1,
+      "fp": 2,
+      "fn": 1,
+      "n_pred": 3,
+      "n_gold": 2,
+      "matches": [],
+      "unmatched_gold": [
+        {
+          "arg1": "as consoantes",
+          "rel": "são aspiradas apenas em",
+          "arg2": "a posição final",
+          "valid": true
+        }
+      ],
+      "unmatched_pred": [
+        {
+          "arg1": "as consoantes",
+          "rel": "Em são aspiradas",
+          "arg2": "Wahgi",
+          "triple_id": "bia_0001_161_ud_baseline_000"
+        },
+        {
+          "arg1": "as consoantes",
+          "rel": "são aspiradas em",
+          "arg2": "em a posição final",
+          "triple_id": "bia_0001_161_ud_baseline_002"
+        }
+      ]
+    },
+    {
+      "sentence_id": "bia_0001_162",
+      "tp": 1,
+      "fp": 2,
+      "fn": 0,
+      "n_pred": 3,
+      "n_gold": 1,
+      "matches": [],
+      "unmatched_gold": [],
+      "unmatched_pred": [
+        {
+          "arg1": "uma consoante",
+          "rel": "em é lenitizada",
+          "arg2": "a qual",
+          "triple_id": "bia_0001_162_ud_baseline_001"
+        },
+        {
+          "arg1": "uma consoante",
+          "rel": "é lenitizada",
+          "arg2": "enfraquecida",
+          "triple_id": "bia_0001_162_ud_baseline_002"
+        }
+      ]
+    },
+    {
+      "sentence_id": "bia_0001_163",
+      "tp": 1,
+      "fp": 1,
+      "fn": 0,
+      "n_pred": 2,
+      "n_gold": 1,
+      "matches": [],
+      "unmatched_gold": [],
+      "unmatched_pred": [
+        {
+          "arg1": "O Punjabi",
+          "rel": "faz",
+          "arg2": "uma distinção entre sem voz aspirado e sonoro p b",
+          "triple_id": "bia_0001_163_ud_baseline_001"
+        }
+      ]
+    },
+    {
+      "sentence_id": "bia_0001_164",
+      "tp": 3,
+      "fp": 1,
+      "fn": 0,
+      "n_pred": 4,
+      "n_gold": 3,
+      "matches": [],
+      "unmatched_gold": [],
+      "unmatched_pred": [
+        {
+          "arg1": "seu estudo em o contexto de organismos vivos",
+          "rel": "é conhecido",
+          "arg2": "como bioquímica",
+          "triple_id": "bia_0001_164_ud_baseline_003"
+        }
+      ]
+    },
+    {
+      "sentence_id": "bia_0001_165",
+      "tp": 0,
+      "fp": 2,
+      "fn": 2,
+      "n_pred": 2,
+      "n_gold": 2,
+      "matches": [],
+      "unmatched_gold": [
+        {
+          "arg1": "os hidretos",
+          "rel": "também podem",
+          "arg2": "servir como ligantes de ponte",
+          "valid": true
+        },
+        {
+          "arg1": "os hidretos",
+          "rel": "também podem servir como",
+          "arg2": "ligantes de ponte",
+          "valid": true
+        }
+      ],
+      "unmatched_pred": [
+        {
+          "arg1": "os hidretos",
+          "rel": "Em podem servir",
+          "arg2": "a química inorgânica",
+          "triple_id": "bia_0001_165_ud_baseline_000"
+        },
+        {
+          "arg1": "os hidretos",
+          "rel": "podem",
+          "arg2": "Em a química inorgânica também servir como ligantes",
+          "triple_id": "bia_0001_165_ud_baseline_001"
+        }
+      ]
+    },
+    {
+      "sentence_id": "bia_0001_166",
+      "tp": 1,
+      "fp": 1,
+      "fn": 1,
+      "n_pred": 2,
+      "n_gold": 2,
+      "matches": [],
+      "unmatched_gold": [
+        {
+          "arg1": "a capacidade térmica específica de o H2",
+          "rel": "começa a",
+          "arg2": "se assemelhar cada vez mais a a de um gás monatômico a temperaturas criogênicas",
+          "valid": true
+        }
+      ],
+      "unmatched_pred": [
+        {
+          "arg1": "Maxwell",
+          "rel": "observou",
+          "arg2": "que a capacidade térmica específica afasta inexplicavelmente de a",
+          "triple_id": "bia_0001_166_ud_baseline_001"
+        }
+      ]
+    },
+    {
+      "sentence_id": "bia_0001_167",
+      "tp": 1,
+      "fp": 4,
+      "fn": 0,
+      "n_pred": 5,
+      "n_gold": 1,
+      "matches": [],
+      "unmatched_gold": [],
+      "unmatched_pred": [
+        {
+          "arg1": "O hidrogênio como H atômico",
+          "rel": "é",
+          "arg2": "o elemento químico abundante",
+          "triple_id": "bia_0001_167_ud_baseline_001"
+        },
+        {
+          "arg1": "a maior parte de a massa de o universo",
+          "rel": "está",
+          "arg2": "forma",
+          "triple_id": "bia_0001_167_ud_baseline_002"
+        },
+        {
+          "arg1": "a maior parte de a massa de o universo",
+          "rel": "está em a",
+          "arg2": "forma matéria",
+          "triple_id": "bia_0001_167_ud_baseline_003"
+        },
+        {
+          "arg1": "a maior parte de a massa de o universo",
+          "rel": "está",
+          "arg2": "em a forma matéria",
+          "triple_id": "bia_0001_167_ud_baseline_004"
+        }
+      ]
+    },
+    {
+      "sentence_id": "bia_0001_168",
+      "tp": 1,
+      "fp": 1,
+      "fn": 1,
+      "n_pred": 2,
+      "n_gold": 2,
+      "matches": [],
+      "unmatched_gold": [
+        {
+          "arg1": "Uma corrente de baixa tensão",
+          "rel": "é percorrida por",
+          "arg2": "a água",
+          "valid": true
+        }
+      ],
+      "unmatched_pred": [
+        {
+          "arg1": "o hidrogênio gasoso",
+          "rel": "se forma em",
+          "arg2": "o cátodo",
+          "triple_id": "bia_0001_168_ud_baseline_001"
+        }
+      ]
+    },
+    {
+      "sentence_id": "bia_0001_169",
+      "tp": 2,
+      "fp": 5,
+      "fn": 0,
+      "n_pred": 7,
+      "n_gold": 2,
+      "matches": [],
+      "unmatched_gold": [],
+      "unmatched_pred": [
+        {
+          "arg1": "a água",
+          "rel": "em é decomposta",
+          "arg2": "a qual",
+          "triple_id": "bia_0001_169_ud_baseline_000"
+        },
+        {
+          "arg1": "a água",
+          "rel": "é decomposta em",
+          "arg2": "seus componentes prótons elétrons e oxigênio",
+          "triple_id": "bia_0001_169_ud_baseline_001"
+        },
+        {
+          "arg1": "a água",
+          "rel": "é decomposta em",
+          "arg2": "seus componentes prótons elétrons e oxigênio",
+          "triple_id": "bia_0001_169_ud_baseline_004"
+        },
+        {
+          "arg1": "A divisão de a água",
+          "rel": "ocorre em",
+          "arg2": "em todos os organismos fotossintéticos",
+          "triple_id": "bia_0001_169_ud_baseline_005"
+        },
+        {
+          "arg1": "A divisão de a água",
+          "rel": "ocorre em",
+          "arg2": "as reações de luz",
+          "triple_id": "bia_0001_169_ud_baseline_006"
+        }
+      ]
+    },
+    {
+      "sentence_id": "bia_0001_170",
+      "tp": 1,
+      "fp": 2,
+      "fn": 0,
+      "n_pred": 3,
+      "n_gold": 1,
+      "matches": [],
+      "unmatched_gold": [],
+      "unmatched_pred": [
+        {
+          "arg1": "Andreessen",
+          "rel": "lançou",
+          "arg2": "o Netscape Navigator",
+          "triple_id": "bia_0001_170_ud_baseline_001"
+        },
+        {
+          "arg1": "que",
+          "rel": "se tornou",
+          "arg2": "o navegador mais popular",
+          "triple_id": "bia_0001_170_ud_baseline_002"
+        }
+      ]
+    },
+    {
+      "sentence_id": "bia_0001_171",
+      "tp": 1,
+      "fp": 1,
+      "fn": 1,
+      "n_pred": 2,
+      "n_gold": 2,
+      "matches": [],
+      "unmatched_gold": [
+        {
+          "arg1": "Navegadores de a web modernos",
+          "rel": "oferecem suporte a",
+          "arg2": "uma combinação de HTML e XHTML",
+          "valid": true
+        }
+      ],
+      "unmatched_pred": [
+        {
+          "arg1": "que",
+          "rel": "devem",
+          "arg2": "renderizados de a mesma maneira",
+          "triple_id": "bia_0001_171_ud_baseline_001"
+        }
+      ]
+    },
+    {
+      "sentence_id": "bia_0001_172",
+      "tp": 1,
+      "fp": 2,
+      "fn": 0,
+      "n_pred": 3,
+      "n_gold": 1,
+      "matches": [],
+      "unmatched_gold": [],
+      "unmatched_pred": [
+        {
+          "arg1": "O principal objetivo de um navegador de a web",
+          "rel": "trazer",
+          "arg2": "recursos de informação para o usuário recuperação ou busca",
+          "triple_id": "bia_0001_172_ud_baseline_000"
+        },
+        {
+          "arg1": "O principal objetivo de um navegador de a web",
+          "rel": "acessem",
+          "arg2": "outras informações navegação",
+          "triple_id": "bia_0001_172_ud_baseline_002"
+        }
+      ]
+    },
+    {
+      "sentence_id": "bia_0001_173",
+      "tp": 0,
+      "fp": 1,
+      "fn": 1,
+      "n_pred": 1,
+      "n_gold": 1,
+      "matches": [],
+      "unmatched_gold": [
+        {
+          "arg1": "Boston",
+          "rel": "é",
+          "arg2": "a capital e maior cidade de a Commonwealth of Massachusetts",
+          "valid": true
+        }
+      ],
+      "unmatched_pred": [
+        {
+          "arg1": "Boston",
+          "rel": "pronuncia se",
+          "arg2": "i",
+          "triple_id": "bia_0001_173_ud_baseline_000"
+        }
+      ]
+    },
+    {
+      "sentence_id": "bia_0001_174",
+      "tp": 1,
+      "fp": 0,
+      "fn": 0,
+      "n_pred": 1,
+      "n_gold": 1,
+      "matches": [],
+      "unmatched_gold": [],
+      "unmatched_pred": []
+    },
+    {
+      "sentence_id": "bia_0001_175",
+      "tp": 2,
+      "fp": 5,
+      "fn": 1,
+      "n_pred": 7,
+      "n_gold": 3,
+      "matches": [],
+      "unmatched_gold": [
+        {
+          "arg1": "Boston",
+          "rel": "foi declarada como",
+          "arg2": "cidade",
+          "valid": true
+        }
+      ],
+      "unmatched_pred": [
+        {
+          "arg1": "Boston",
+          "rel": "em foi declarada",
+          "arg2": "que",
+          "triple_id": "bia_0001_175_ud_baseline_000"
+        },
+        {
+          "arg1": "a população",
+          "rel": "era",
+          "arg2": "habitantes",
+          "triple_id": "bia_0001_175_ud_baseline_001"
+        },
+        {
+          "arg1": "a população",
+          "rel": "era época de",
+          "arg2": "46.226 habitantes",
+          "triple_id": "bia_0001_175_ud_baseline_002"
+        },
+        {
+          "arg1": "a população",
+          "rel": "era",
+          "arg2": "época de 46.226 habitantes",
+          "triple_id": "bia_0001_175_ud_baseline_003"
+        },
+        {
+          "arg1": "a área de a cidade",
+          "rel": "era",
+          "arg2": "de 12 km2",
+          "triple_id": "bia_0001_175_ud_baseline_005"
+        }
+      ]
+    },
+    {
+      "sentence_id": "bia_0001_176",
+      "tp": 1,
+      "fp": 2,
+      "fn": 0,
+      "n_pred": 3,
+      "n_gold": 1,
+      "matches": [],
+      "unmatched_gold": [],
+      "unmatched_pred": [
+        {
+          "arg1": "O rio",
+          "rel": "separa",
+          "arg2": "a maioria de Cambridge",
+          "triple_id": "bia_0001_176_ud_baseline_001"
+        },
+        {
+          "arg1": "O rio",
+          "rel": "separa",
+          "arg2": "a massa de Boston de seu próprio bairro de Charlestown",
+          "triple_id": "bia_0001_176_ud_baseline_002"
+        }
+      ]
+    },
+    {
+      "sentence_id": "bia_0001_177",
+      "tp": 1,
+      "fp": 1,
+      "fn": 0,
+      "n_pred": 2,
+      "n_gold": 1,
+      "matches": [],
+      "unmatched_gold": [],
+      "unmatched_pred": [
+        {
+          "arg1": "O mês frio",
+          "rel": "é",
+          "arg2": "janeiro média",
+          "triple_id": "bia_0001_177_ud_baseline_001"
+        }
+      ]
+    },
+    {
+      "sentence_id": "bia_0001_178",
+      "tp": 1,
+      "fp": 4,
+      "fn": 0,
+      "n_pred": 5,
+      "n_gold": 1,
+      "matches": [],
+      "unmatched_gold": [],
+      "unmatched_pred": [
+        {
+          "arg1": "O Boston Red Sox",
+          "rel": "joga",
+          "arg2": "seus jogos em casa",
+          "triple_id": "bia_0001_178_ud_baseline_001"
+        },
+        {
+          "arg1": "O Boston Red Sox",
+          "rel": "joga em",
+          "arg2": "em casa",
+          "triple_id": "bia_0001_178_ud_baseline_002"
+        },
+        {
+          "arg1": "O Boston Red Sox",
+          "rel": "joga em",
+          "arg2": "em o Fenway Park",
+          "triple_id": "bia_0001_178_ud_baseline_003"
+        },
+        {
+          "arg1": "O Boston Red Sox",
+          "rel": "joga em",
+          "arg2": "em a seção de a cidade",
+          "triple_id": "bia_0001_178_ud_baseline_004"
+        }
+      ]
+    },
+    {
+      "sentence_id": "bia_0001_179",
+      "tp": 0,
+      "fp": 0,
+      "fn": 2,
+      "n_pred": 0,
+      "n_gold": 2,
+      "matches": [],
+      "unmatched_gold": [
+        {
+          "arg1": "A cidade",
+          "rel": "é",
+          "arg2": "servida por estações que representam todas as principais redes americanas",
+          "valid": true
+        },
+        {
+          "arg1": "A cidade",
+          "rel": "é servida por",
+          "arg2": "estações que representam todas as principais redes americanas",
+          "valid": true
+        }
+      ],
+      "unmatched_pred": []
+    },
+    {
+      "sentence_id": "bia_0001_180",
+      "tp": 1,
+      "fp": 1,
+      "fn": 0,
+      "n_pred": 2,
+      "n_gold": 1,
+      "matches": [],
+      "unmatched_gold": [],
+      "unmatched_pred": [
+        {
+          "arg1": "O Aeroporto Logan",
+          "rel": "é",
+          "arg2": "o principal aeroporto Boston",
+          "triple_id": "bia_0001_180_ud_baseline_001"
+        }
+      ]
+    },
+    {
+      "sentence_id": "bia_0001_181",
+      "tp": 1,
+      "fp": 1,
+      "fn": 0,
+      "n_pred": 2,
+      "n_gold": 1,
+      "matches": [],
+      "unmatched_gold": [],
+      "unmatched_pred": [
+        {
+          "arg1": "O mês quente",
+          "rel": "é",
+          "arg2": "Julho temperatura",
+          "triple_id": "bia_0001_181_ud_baseline_001"
+        }
+      ]
+    },
+    {
+      "sentence_id": "bia_0001_182",
+      "tp": 1,
+      "fp": 0,
+      "fn": 0,
+      "n_pred": 1,
+      "n_gold": 1,
+      "matches": [],
+      "unmatched_gold": [],
+      "unmatched_pred": []
+    },
+    {
+      "sentence_id": "bia_0001_183",
+      "tp": 1,
+      "fp": 1,
+      "fn": 1,
+      "n_pred": 2,
+      "n_gold": 2,
+      "matches": [],
+      "unmatched_gold": [
+        {
+          "arg1": "a corrida de 42,2 km",
+          "rel": "é",
+          "arg2": "a maratona anual mais antiga de o mundo",
+          "valid": true
+        }
+      ],
+      "unmatched_pred": [
+        {
+          "arg1": "Um de os eventos esportivos de a cidade",
+          "rel": "é",
+          "arg2": "uma maratona Boston",
+          "triple_id": "bia_0001_183_ud_baseline_001"
+        }
+      ]
+    },
+    {
+      "sentence_id": "bia_0001_184",
+      "tp": 1,
+      "fp": 0,
+      "fn": 0,
+      "n_pred": 1,
+      "n_gold": 1,
+      "matches": [],
+      "unmatched_gold": [],
+      "unmatched_pred": []
+    },
+    {
+      "sentence_id": "bia_0001_185",
+      "tp": 1,
+      "fp": 0,
+      "fn": 0,
+      "n_pred": 1,
+      "n_gold": 1,
+      "matches": [],
+      "unmatched_gold": [],
+      "unmatched_pred": []
+    },
+    {
+      "sentence_id": "bia_0001_186",
+      "tp": 1,
+      "fp": 1,
+      "fn": 0,
+      "n_pred": 2,
+      "n_gold": 1,
+      "matches": [],
+      "unmatched_gold": [],
+      "unmatched_pred": [
+        {
+          "arg1": "O Serviço Postal de a Somália",
+          "rel": "é",
+          "arg2": "o serviço postal nacional Governo",
+          "triple_id": "bia_0001_186_ud_baseline_001"
+        }
+      ]
+    },
+    {
+      "sentence_id": "bia_0001_187",
+      "tp": 0,
+      "fp": 0,
+      "fn": 2,
+      "n_pred": 0,
+      "n_gold": 2,
+      "matches": [],
+      "unmatched_gold": [
+        {
+          "arg1": "a língua",
+          "rel": "é",
+          "arg2": "conhecida como valenciana",
+          "valid": true
+        },
+        {
+          "arg1": "a língua",
+          "rel": "é conhecida como",
+          "arg2": "valenciana",
+          "valid": true
+        }
+      ],
+      "unmatched_pred": []
+    },
+    {
+      "sentence_id": "bia_0001_188",
+      "tp": 1,
+      "fp": 1,
+      "fn": 0,
+      "n_pred": 2,
+      "n_gold": 1,
+      "matches": [],
+      "unmatched_gold": [],
+      "unmatched_pred": [
+        {
+          "arg1": "a Primeira República Francesa",
+          "rel": "adotou",
+          "arg2": "políticas discriminatórias contra as línguas de a França como catalão alsaciano bretão occitânico flamengo e basco",
+          "triple_id": "bia_0001_188_ud_baseline_001"
+        }
+      ]
+    },
+    {
+      "sentence_id": "bia_0001_189",
+      "tp": 1,
+      "fp": 1,
+      "fn": 1,
+      "n_pred": 2,
+      "n_gold": 2,
+      "matches": [],
+      "unmatched_gold": [
+        {
+          "arg1": "O ensino de o catalão",
+          "rel": "é obrigatório em",
+          "arg2": "todas as escolas",
+          "valid": true
+        }
+      ],
+      "unmatched_pred": [
+        {
+          "arg1": "o professor",
+          "rel": "optar",
+          "arg2": "por usar o",
+          "triple_id": "bia_0001_189_ud_baseline_001"
+        }
+      ]
+    },
+    {
+      "sentence_id": "bia_0001_190",
+      "tp": 0,
+      "fp": 2,
+      "fn": 1,
+      "n_pred": 2,
+      "n_gold": 1,
+      "matches": [],
+      "unmatched_gold": [
+        {
+          "arg1": "Uma definição operacional ampla",
+          "rel": "é",
+          "arg2": "usada para abranger a complexidade desses fenômenos diversos",
+          "valid": true
+        }
+      ],
+      "unmatched_pred": [
+        {
+          "arg1": "um gene",
+          "rel": "é definido",
+          "arg2": "onde",
+          "triple_id": "bia_0001_190_ud_baseline_000"
+        },
+        {
+          "arg1": "um gene",
+          "rel": "é definido",
+          "arg2": "como uma união",
+          "triple_id": "bia_0001_190_ud_baseline_001"
+        }
+      ]
+    },
+    {
+      "sentence_id": "bia_0001_191",
+      "tp": 1,
+      "fp": 0,
+      "fn": 0,
+      "n_pred": 1,
+      "n_gold": 1,
+      "matches": [],
+      "unmatched_gold": [],
+      "unmatched_pred": []
+    },
+    {
+      "sentence_id": "bia_0001_192",
+      "tp": 1,
+      "fp": 0,
+      "fn": 0,
+      "n_pred": 1,
+      "n_gold": 1,
+      "matches": [],
+      "unmatched_gold": [],
+      "unmatched_pred": []
+    },
+    {
+      "sentence_id": "bia_0001_193",
+      "tp": 1,
+      "fp": 2,
+      "fn": 1,
+      "n_pred": 3,
+      "n_gold": 2,
+      "matches": [],
+      "unmatched_gold": [
+        {
+          "arg1": "a língua",
+          "rel": "ficou sob",
+          "arg2": "a influência de o espanhol",
+          "valid": true
+        }
+      ],
+      "unmatched_pred": [
+        {
+          "arg1": "as aulas de urbano e literário",
+          "rel": "tornaram se",
+          "arg2": "bilíngues",
+          "triple_id": "bia_0001_193_ud_baseline_001"
+        },
+        {
+          "arg1": "a literatura catalã",
+          "rel": "A sofreu",
+          "arg2": "partir de o século XVI",
+          "triple_id": "bia_0001_193_ud_baseline_002"
+        }
+      ]
+    },
+    {
+      "sentence_id": "bia_0001_194",
+      "tp": 2,
+      "fp": 0,
+      "fn": 0,
+      "n_pred": 2,
+      "n_gold": 2,
+      "matches": [],
+      "unmatched_gold": [],
+      "unmatched_pred": []
+    },
+    {
+      "sentence_id": "bia_0001_195",
+      "tp": 0,
+      "fp": 1,
+      "fn": 2,
+      "n_pred": 1,
+      "n_gold": 2,
+      "matches": [],
+      "unmatched_gold": [
+        {
+          "arg1": "o Drive",
+          "rel": "jogava",
+          "arg2": "regularmente antes de lotar o estádio Joe Louis Arena",
+          "valid": true
+        },
+        {
+          "arg1": "o Drive",
+          "rel": "jogava regularmente antes de",
+          "arg2": "lotar o estádio Joe Louis Arena",
+          "valid": true
+        }
+      ],
+      "unmatched_pred": [
+        {
+          "arg1": "o Drive",
+          "rel": "foi",
+          "arg2": "todos os anos de sua existência",
+          "triple_id": "bia_0001_195_ud_baseline_000"
+        }
+      ]
+    },
+    {
+      "sentence_id": "bia_0001_196",
+      "tp": 1,
+      "fp": 1,
+      "fn": 1,
+      "n_pred": 2,
+      "n_gold": 2,
+      "matches": [],
+      "unmatched_gold": [
+        {
+          "arg1": "o DNA de a célula",
+          "rel": "é",
+          "arg2": "armazenado",
+          "valid": true
+        }
+      ],
+      "unmatched_pred": [
+        {
+          "arg1": "o DNA de a célula",
+          "rel": "é armazenado",
+          "arg2": "onde",
+          "triple_id": "bia_0001_196_ud_baseline_000"
+        }
+      ]
+    },
+    {
+      "sentence_id": "bia_0001_197",
+      "tp": 1,
+      "fp": 2,
+      "fn": 0,
+      "n_pred": 3,
+      "n_gold": 1,
+      "matches": [],
+      "unmatched_gold": [],
+      "unmatched_pred": [
+        {
+          "arg1": "o pop tradicional",
+          "rel": "teve",
+          "arg2": "um ressurgimento significativo",
+          "triple_id": "bia_0001_197_ud_baseline_001"
+        },
+        {
+          "arg1": "O início de a década de 1990",
+          "rel": "marcou",
+          "arg2": "o abrandamento de o R&B urbano a o mesmo tempo",
+          "triple_id": "bia_0001_197_ud_baseline_002"
+        }
+      ]
+    },
+    {
+      "sentence_id": "bia_0001_198",
+      "tp": 1,
+      "fp": 0,
+      "fn": 1,
+      "n_pred": 1,
+      "n_gold": 2,
+      "matches": [],
+      "unmatched_gold": [
+        {
+          "arg1": "a incorporação de bandas como Wilco e Feist",
+          "rel": "levou o rock indiano a",
+          "arg2": "a conversa contemporânea adulta",
+          "valid": true
+        }
+      ],
+      "unmatched_pred": []
+    },
+    {
+      "sentence_id": "bia_0001_199",
+      "tp": 0,
+      "fp": 0,
+      "fn": 1,
+      "n_pred": 0,
+      "n_gold": 1,
+      "matches": [],
+      "unmatched_gold": [
+        {
+          "arg1": "o equivalente acústico a o Prozac",
+          "rel": "nasceu em",
+          "arg2": "o final de a década de 1970",
+          "valid": true
+        }
+      ],
+      "unmatched_pred": []
+    },
+    {
+      "sentence_id": "bia_0001_200",
+      "tp": 0,
+      "fp": 2,
+      "fn": 1,
+      "n_pred": 2,
+      "n_gold": 1,
+      "matches": [],
+      "unmatched_gold": [
+        {
+          "arg1": "o edifício",
+          "rel": "não é",
+          "arg2": "mais uma abadia",
+          "valid": true
+        }
+      ],
+      "unmatched_pred": [
+        {
+          "arg1": "o edifício",
+          "rel": "é",
+          "arg2": "abadia",
+          "triple_id": "bia_0001_200_ud_baseline_000"
+        },
+        {
+          "arg1": "o edifício",
+          "rel": "é",
+          "arg2": "1560 uma abadia",
+          "triple_id": "bia_0001_200_ud_baseline_001"
+        }
+      ]
+    },
+    {
+      "sentence_id": "bia_0001_201",
+      "tp": 3,
+      "fp": 5,
+      "fn": 0,
+      "n_pred": 8,
+      "n_gold": 3,
+      "matches": [],
+      "unmatched_gold": [],
+      "unmatched_pred": [
+        {
+          "arg1": "Henrique III",
+          "rel": "reconstruiu",
+          "arg2": "a abadia em homenagem a um santo real Eduardo o Confessor",
+          "triple_id": "bia_0001_201_ud_baseline_001"
+        },
+        {
+          "arg1": "cujas relíquias",
+          "rel": "foram colocadas em",
+          "arg2": "em o santuário",
+          "triple_id": "bia_0001_201_ud_baseline_004"
+        },
+        {
+          "arg1": "Henrique III",
+          "rel": "reconstruiu em",
+          "arg2": "em homenagem a um santo real",
+          "triple_id": "bia_0001_201_ud_baseline_005"
+        },
+        {
+          "arg1": "cujas relíquias",
+          "rel": "foram colocadas em",
+          "arg2": "em o santuário",
+          "triple_id": "bia_0001_201_ud_baseline_006"
+        },
+        {
+          "arg1": "cujas relíquias",
+          "rel": "foram colocadas em",
+          "arg2": "um santuário",
+          "triple_id": "bia_0001_201_ud_baseline_007"
+        }
+      ]
+    },
+    {
+      "sentence_id": "bia_0001_202",
+      "tp": 1,
+      "fp": 1,
+      "fn": 0,
+      "n_pred": 2,
+      "n_gold": 1,
+      "matches": [],
+      "unmatched_gold": [],
+      "unmatched_pred": [
+        {
+          "arg1": "A Abadia de Westminster",
+          "rel": "é",
+          "arg2": "uma grande igreja abadia Cidade",
+          "triple_id": "bia_0001_202_ud_baseline_001"
+        }
+      ]
+    },
+    {
+      "sentence_id": "bia_0001_203",
+      "tp": 0,
+      "fp": 2,
+      "fn": 1,
+      "n_pred": 2,
+      "n_gold": 1,
+      "matches": [],
+      "unmatched_gold": [
+        {
+          "arg1": "Uma parte de o instrumento",
+          "rel": "não está",
+          "arg2": "atualmente conectada ou reproduzível",
+          "valid": true
+        }
+      ],
+      "unmatched_pred": [
+        {
+          "arg1": "Uma parte de o instrumento",
+          "rel": "está",
+          "arg2": "conectada",
+          "triple_id": "bia_0001_203_ud_baseline_000"
+        },
+        {
+          "arg1": "Uma parte de o instrumento",
+          "rel": "está",
+          "arg2": "atualmente conectada",
+          "triple_id": "bia_0001_203_ud_baseline_001"
+        }
+      ]
+    },
+    {
+      "sentence_id": "bia_0001_204",
+      "tp": 2,
+      "fp": 1,
+      "fn": 1,
+      "n_pred": 3,
+      "n_gold": 3,
+      "matches": [],
+      "unmatched_gold": [
+        {
+          "arg1": "a Cidade",
+          "rel": "está sujeita a",
+          "arg2": "o regime de partido único de o CPC",
+          "valid": true
+        }
+      ],
+      "unmatched_pred": [
+        {
+          "arg1": "o nome completo de o governo de Nanjing",
+          "rel": "é",
+          "arg2": "Atualmente Governo Popular Cidade",
+          "triple_id": "bia_0001_204_ud_baseline_001"
+        }
+      ]
+    },
+    {
+      "sentence_id": "bia_0001_205",
+      "tp": 0,
+      "fp": 0,
+      "fn": 2,
+      "n_pred": 0,
+      "n_gold": 2,
+      "matches": [],
+      "unmatched_gold": [
+        {
+          "arg1": "Nanjing",
+          "rel": "faz",
+          "arg2": "fronteira com cinco cidades em o nível de a prefeitura",
+          "valid": true
+        },
+        {
+          "arg1": "Nanjing",
+          "rel": "faz fronteira com",
+          "arg2": "cinco cidades em o nível de a prefeitura",
+          "valid": true
+        }
+      ],
+      "unmatched_pred": []
+    },
+    {
+      "sentence_id": "bia_0001_206",
+      "tp": 1,
+      "fp": 1,
+      "fn": 1,
+      "n_pred": 2,
+      "n_gold": 2,
+      "matches": [],
+      "unmatched_gold": [
+        {
+          "arg1": "Nanjing",
+          "rel": "é comumente vista como",
+          "arg2": "uma cidade de a cultura",
+          "valid": true
+        }
+      ],
+      "unmatched_pred": [
+        {
+          "arg1": "Nanjing",
+          "rel": "com é vista",
+          "arg2": "uma longa tradição cultural e forte apoio de instituições educacionais locais",
+          "triple_id": "bia_0001_206_ud_baseline_000"
+        }
+      ]
+    },
+    {
+      "sentence_id": "bia_0001_207",
+      "tp": 1,
+      "fp": 1,
+      "fn": 0,
+      "n_pred": 2,
+      "n_gold": 1,
+      "matches": [],
+      "unmatched_gold": [],
+      "unmatched_pred": [
+        {
+          "arg1": "A Ópera Kun em a província de Jiangsu",
+          "rel": "é",
+          "arg2": "um",
+          "triple_id": "bia_0001_207_ud_baseline_000"
+        }
+      ]
+    },
+    {
+      "sentence_id": "bia_0001_208",
+      "tp": 1,
+      "fp": 1,
+      "fn": 1,
+      "n_pred": 2,
+      "n_gold": 2,
+      "matches": [],
+      "unmatched_gold": [
+        {
+          "arg1": "as pessoas",
+          "rel": "são até",
+          "arg2": "chamadas de Nanjing rabanete grande",
+          "valid": true
+        }
+      ],
+      "unmatched_pred": [
+        {
+          "arg1": "que",
+          "rel": "significa",
+          "arg2": "que não sofisticadas",
+          "triple_id": "bia_0001_208_ud_baseline_001"
+        }
+      ]
+    },
+    {
+      "sentence_id": "bia_0001_209",
+      "tp": 0,
+      "fp": 2,
+      "fn": 1,
+      "n_pred": 2,
+      "n_gold": 1,
+      "matches": [],
+      "unmatched_gold": [
+        {
+          "arg1": "as pessoas",
+          "rel": "são até chamadas de",
+          "arg2": "rabanete grande de Nanjing",
+          "valid": true
+        }
+      ],
+      "unmatched_pred": [
+        {
+          "arg1": "as pessoas",
+          "rel": "são chamadas de",
+          "arg2": "rabanete grande de Nanjing",
+          "triple_id": "bia_0001_209_ud_baseline_000"
+        },
+        {
+          "arg1": "que",
+          "rel": "significa",
+          "arg2": "que não-sofisticadas",
+          "triple_id": "bia_0001_209_ud_baseline_001"
+        }
+      ]
+    },
+    {
+      "sentence_id": "bia_0001_210",
+      "tp": 1,
+      "fp": 1,
+      "fn": 0,
+      "n_pred": 2,
+      "n_gold": 1,
+      "matches": [],
+      "unmatched_gold": [],
+      "unmatched_pred": [
+        {
+          "arg1": "que",
+          "rel": "afirma",
+          "arg2": "representar um judeu",
+          "triple_id": "bia_0001_210_ud_baseline_001"
+        }
+      ]
+    },
+    {
+      "sentence_id": "bia_0001_211",
+      "tp": 1,
+      "fp": 1,
+      "fn": 0,
+      "n_pred": 2,
+      "n_gold": 1,
+      "matches": [],
+      "unmatched_gold": [],
+      "unmatched_pred": [
+        {
+          "arg1": "Berna",
+          "rel": "é",
+          "arg2": "a capital Cantão",
+          "triple_id": "bia_0001_211_ud_baseline_001"
+        }
+      ]
+    },
+    {
+      "sentence_id": "bia_0001_212",
+      "tp": 0,
+      "fp": 0,
+      "fn": 1,
+      "n_pred": 0,
+      "n_gold": 1,
+      "matches": [],
+      "unmatched_gold": [
+        {
+          "arg1": "O funicular de Marzilibahn",
+          "rel": "é",
+          "arg2": "a segunda ferrovia pública mais curta de a Europa",
+          "valid": true
+        }
+      ],
+      "unmatched_pred": []
+    },
+    {
+      "sentence_id": "bia_0001_213",
+      "tp": 1,
+      "fp": 0,
+      "fn": 0,
+      "n_pred": 1,
+      "n_gold": 1,
+      "matches": [],
+      "unmatched_gold": [],
+      "unmatched_pred": []
+    },
+    {
+      "sentence_id": "bia_0001_214",
+      "tp": 1,
+      "fp": 0,
+      "fn": 0,
+      "n_pred": 1,
+      "n_gold": 1,
+      "matches": [],
+      "unmatched_gold": [],
+      "unmatched_pred": []
+    },
+    {
+      "sentence_id": "bia_0001_215",
+      "tp": 1,
+      "fp": 2,
+      "fn": 0,
+      "n_pred": 3,
+      "n_gold": 1,
+      "matches": [],
+      "unmatched_gold": [],
+      "unmatched_pred": [
+        {
+          "arg1": "os pingüins",
+          "rel": "foram transportados para",
+          "arg2": "Tristão de a Cunha para limpeza",
+          "triple_id": "bia_0001_215_ud_baseline_001"
+        },
+        {
+          "arg1": "os pingüins",
+          "rel": "foram transportados para",
+          "arg2": "Tristão de a Cunha para limpeza",
+          "triple_id": "bia_0001_215_ud_baseline_002"
+        }
+      ]
+    },
+    {
+      "sentence_id": "bia_0001_216",
+      "tp": 1,
+      "fp": 1,
+      "fn": 0,
+      "n_pred": 2,
+      "n_gold": 1,
+      "matches": [],
+      "unmatched_gold": [],
+      "unmatched_pred": [
+        {
+          "arg1": "O primeiro colono permanente",
+          "rel": "foi",
+          "arg2": "Jonathan Lambert Salem",
+          "triple_id": "bia_0001_216_ud_baseline_001"
+        }
+      ]
+    },
+    {
+      "sentence_id": "bia_0001_217",
+      "tp": 0,
+      "fp": 2,
+      "fn": 1,
+      "n_pred": 2,
+      "n_gold": 1,
+      "matches": [],
+      "unmatched_gold": [
+        {
+          "arg1": "o Kansas",
+          "rel": "foi",
+          "arg2": "uma de as 131 faculdades e universidades nacionais que participaram de o Programa de Treinamento V-12 Navy College",
+          "valid": true
+        }
+      ],
+      "unmatched_pred": [
+        {
+          "arg1": "o Kansas",
+          "rel": "foi",
+          "arg2": "uma",
+          "triple_id": "bia_0001_217_ud_baseline_000"
+        },
+        {
+          "arg1": "o Kansas",
+          "rel": "foi",
+          "arg2": "Segunda uma faculdades",
+          "triple_id": "bia_0001_217_ud_baseline_001"
+        }
+      ]
+    },
+    {
+      "sentence_id": "bia_0001_218",
+      "tp": 1,
+      "fp": 1,
+      "fn": 0,
+      "n_pred": 2,
+      "n_gold": 1,
+      "matches": [],
+      "unmatched_gold": [],
+      "unmatched_pred": [
+        {
+          "arg1": "A Escola de Negócios de a Universidade de o Kansas",
+          "rel": "é",
+          "arg2": "uma escola pública negócios",
+          "triple_id": "bia_0001_218_ud_baseline_001"
+        }
+      ]
+    },
+    {
+      "sentence_id": "bia_0001_219",
+      "tp": 1,
+      "fp": 1,
+      "fn": 0,
+      "n_pred": 2,
+      "n_gold": 1,
+      "matches": [],
+      "unmatched_gold": [],
+      "unmatched_pred": [
+        {
+          "arg1": "A Escola de Engenharia KU",
+          "rel": "é",
+          "arg2": "uma escola pública engenharia",
+          "triple_id": "bia_0001_219_ud_baseline_001"
+        }
+      ]
+    },
+    {
+      "sentence_id": "bia_0001_220",
+      "tp": 1,
+      "fp": 0,
+      "fn": 1,
+      "n_pred": 1,
+      "n_gold": 2,
+      "matches": [],
+      "unmatched_gold": [
+        {
+          "arg1": "O departamento de computação acadêmica de a KU",
+          "rel": "participou ativamente de",
+          "arg2": "a configuração de a Internet",
+          "valid": true
+        }
+      ],
+      "unmatched_pred": []
+    },
+    {
+      "sentence_id": "bia_0001_221",
+      "tp": 1,
+      "fp": 1,
+      "fn": 1,
+      "n_pred": 2,
+      "n_gold": 2,
+      "matches": [],
+      "unmatched_gold": [
+        {
+          "arg1": "A KU Endowment",
+          "rel": "foi fundada em",
+          "arg2": "1891",
+          "valid": true
+        }
+      ],
+      "unmatched_pred": [
+        {
+          "arg1": "A KU Endowment",
+          "rel": "foi fundada",
+          "arg2": "como a primeira fundação",
+          "triple_id": "bia_0001_221_ud_baseline_001"
+        }
+      ]
+    },
+    {
+      "sentence_id": "bia_0001_222",
+      "tp": 2,
+      "fp": 1,
+      "fn": 0,
+      "n_pred": 3,
+      "n_gold": 2,
+      "matches": [],
+      "unmatched_gold": [],
+      "unmatched_pred": [
+        {
+          "arg1": "Algumas formas de corrupção",
+          "rel": "são diferenciadas de",
+          "arg2": "outros tipos de óbvios ganhos pessoais",
+          "triple_id": "bia_0001_222_ud_baseline_001"
+        }
+      ]
+    },
+    {
+      "sentence_id": "bia_0001_223",
+      "tp": 1,
+      "fp": 2,
+      "fn": 0,
+      "n_pred": 3,
+      "n_gold": 1,
+      "matches": [],
+      "unmatched_gold": [],
+      "unmatched_pred": [
+        {
+          "arg1": "um de os fatores para esse comportamento",
+          "rel": "foi caso a",
+          "arg2": "instabilidade política",
+          "triple_id": "bia_0001_223_ud_baseline_001"
+        },
+        {
+          "arg1": "um de os fatores para esse comportamento",
+          "rel": "foi",
+          "arg2": "caso a instabilidade política",
+          "triple_id": "bia_0001_223_ud_baseline_002"
+        }
+      ]
+    },
+    {
+      "sentence_id": "bia_0001_224",
+      "tp": 0,
+      "fp": 2,
+      "fn": 1,
+      "n_pred": 2,
+      "n_gold": 1,
+      "matches": [],
+      "unmatched_gold": [
+        {
+          "arg1": "um dialeto",
+          "rel": "também pode",
+          "arg2": "ser definido por outros fatores",
+          "valid": true
+        }
+      ],
+      "unmatched_pred": [
+        {
+          "arg1": "O termo",
+          "rel": "é aplicado com",
+          "arg2": "mais freqüência a padrões regionais de fala",
+          "triple_id": "bia_0001_224_ud_baseline_000"
+        },
+        {
+          "arg1": "um dialeto",
+          "rel": "pode",
+          "arg2": "também definido",
+          "triple_id": "bia_0001_224_ud_baseline_001"
+        }
+      ]
+    },
+    {
+      "sentence_id": "bia_0001_225",
+      "tp": 1,
+      "fp": 0,
+      "fn": 1,
+      "n_pred": 1,
+      "n_gold": 2,
+      "matches": [],
+      "unmatched_gold": [
+        {
+          "arg1": "O termo dialeto",
+          "rel": "é usado de",
+          "arg2": "duas maneiras distintas",
+          "valid": true
+        }
+      ],
+      "unmatched_pred": []
+    },
+    {
+      "sentence_id": "bia_0001_226",
+      "tp": 1,
+      "fp": 1,
+      "fn": 0,
+      "n_pred": 2,
+      "n_gold": 1,
+      "matches": [],
+      "unmatched_gold": [],
+      "unmatched_pred": [
+        {
+          "arg1": "O termo música clássica",
+          "rel": "não apareceu em",
+          "arg2": "em uma tentativa",
+          "triple_id": "bia_0001_226_ud_baseline_000"
+        }
+      ]
+    },
+    {
+      "sentence_id": "bia_0001_227",
+      "tp": 2,
+      "fp": 4,
+      "fn": 0,
+      "n_pred": 6,
+      "n_gold": 2,
+      "matches": [],
+      "unmatched_gold": [],
+      "unmatched_pred": [
+        {
+          "arg1": "Menander Protector",
+          "rel": "menciona",
+          "arg2": "um Daurentius",
+          "triple_id": "bia_0001_227_ud_baseline_000"
+        },
+        {
+          "arg1": "Menander Protector",
+          "rel": "conquistamos",
+          "arg2": "os deles",
+          "triple_id": "bia_0001_227_ud_baseline_003"
+        },
+        {
+          "arg1": "que",
+          "rel": "matou",
+          "arg2": "um enviado avar",
+          "triple_id": "bia_0001_227_ud_baseline_004"
+        },
+        {
+          "arg1": "Os ávaros",
+          "rel": "pediram",
+          "arg2": "que aceitassem a soberania",
+          "triple_id": "bia_0001_227_ud_baseline_005"
+        }
+      ]
+    },
+    {
+      "sentence_id": "bia_0001_228",
+      "tp": 2,
+      "fp": 3,
+      "fn": 0,
+      "n_pred": 5,
+      "n_gold": 2,
+      "matches": [],
+      "unmatched_gold": [],
+      "unmatched_pred": [
+        {
+          "arg1": "os eslavos",
+          "rel": "Por apareceram",
+          "arg2": "volta de o século VI",
+          "triple_id": "bia_0001_228_ud_baseline_002"
+        },
+        {
+          "arg1": "os eslavos",
+          "rel": "apareceram em",
+          "arg2": "em grandes números",
+          "triple_id": "bia_0001_228_ud_baseline_003"
+        },
+        {
+          "arg1": "os eslavos",
+          "rel": "apareceram em",
+          "arg2": "as fronteiras bizantinas",
+          "triple_id": "bia_0001_228_ud_baseline_004"
+        }
+      ]
+    },
+    {
+      "sentence_id": "bia_0001_229",
+      "tp": 1,
+      "fp": 1,
+      "fn": 0,
+      "n_pred": 2,
+      "n_gold": 1,
+      "matches": [],
+      "unmatched_gold": [],
+      "unmatched_pred": [
+        {
+          "arg1": "O proto-eslavo",
+          "rel": "é",
+          "arg2": "um descendente proto-indo-europeu através",
+          "triple_id": "bia_0001_229_ud_baseline_001"
+        }
+      ]
+    },
+    {
+      "sentence_id": "bia_0001_230",
+      "tp": 2,
+      "fp": 1,
+      "fn": 0,
+      "n_pred": 3,
+      "n_gold": 2,
+      "matches": [],
+      "unmatched_gold": [],
+      "unmatched_pred": [
+        {
+          "arg1": "que",
+          "rel": "deveria",
+          "arg2": "um lugar",
+          "triple_id": "bia_0001_230_ud_baseline_002"
+        }
+      ]
+    },
+    {
+      "sentence_id": "bia_0001_231",
+      "tp": 1,
+      "fp": 2,
+      "fn": 0,
+      "n_pred": 3,
+      "n_gold": 1,
+      "matches": [],
+      "unmatched_gold": [],
+      "unmatched_pred": [
+        {
+          "arg1": "Os gorais de o sul de a Polônia e de o norte de a Eslováquia",
+          "rel": "são",
+          "arg2": "parcialmente descendentes",
+          "triple_id": "bia_0001_231_ud_baseline_001"
+        },
+        {
+          "arg1": "que",
+          "rel": "migraram para",
+          "arg2": "a região de os Séculos 14 a 17",
+          "triple_id": "bia_0001_231_ud_baseline_002"
+        }
+      ]
+    },
+    {
+      "sentence_id": "bia_0001_232",
+      "tp": 2,
+      "fp": 5,
+      "fn": 0,
+      "n_pred": 7,
+      "n_gold": 2,
+      "matches": [],
+      "unmatched_gold": [],
+      "unmatched_pred": [
+        {
+          "arg1": "Josip Broz",
+          "rel": "nasceu em",
+          "arg2": "em a região croata de Hrvatsko Zagorje",
+          "triple_id": "bia_0001_232_ud_baseline_001"
+        },
+        {
+          "arg1": "Josip Broz",
+          "rel": "nasceu em",
+          "arg2": "em a Áustria -Hungria",
+          "triple_id": "bia_0001_232_ud_baseline_002"
+        },
+        {
+          "arg1": "Josip Broz",
+          "rel": "nasceu em",
+          "arg2": "em a região croata de Hrvatsko Zagorje",
+          "triple_id": "bia_0001_232_ud_baseline_004"
+        },
+        {
+          "arg1": "Josip Broz",
+          "rel": "nasceu em",
+          "arg2": "em a Áustria -Hungria",
+          "triple_id": "bia_0001_232_ud_baseline_005"
+        },
+        {
+          "arg1": "Josip Broz",
+          "rel": "nasceu em",
+          "arg2": "em Kumrovec",
+          "triple_id": "bia_0001_232_ud_baseline_006"
+        }
+      ]
+    },
+    {
+      "sentence_id": "bia_0001_233",
+      "tp": 1,
+      "fp": 2,
+      "fn": 0,
+      "n_pred": 3,
+      "n_gold": 1,
+      "matches": [],
+      "unmatched_gold": [],
+      "unmatched_pred": [
+        {
+          "arg1": "Stalin",
+          "rel": "assassinou",
+          "arg2": "o secretário-geral de a CPY Milan Gorkić em Moscou",
+          "triple_id": "bia_0001_233_ud_baseline_001"
+        },
+        {
+          "arg1": "Stalin",
+          "rel": "assassinou em",
+          "arg2": "em Moscou",
+          "triple_id": "bia_0001_233_ud_baseline_002"
+        }
+      ]
+    },
+    {
+      "sentence_id": "bia_0001_234",
+      "tp": 1,
+      "fp": 2,
+      "fn": 1,
+      "n_pred": 3,
+      "n_gold": 2,
+      "matches": [],
+      "unmatched_gold": [
+        {
+          "arg1": "Tito",
+          "rel": "assinou um acordo com",
+          "arg2": "a União Soviética",
+          "valid": true
+        }
+      ],
+      "unmatched_pred": [
+        {
+          "arg1": "a Agência Telegráfica de a União Soviética",
+          "rel": "informou",
+          "arg2": "que Tito assinou um acordo",
+          "triple_id": "bia_0001_234_ud_baseline_001"
+        },
+        {
+          "arg1": "que",
+          "rel": "permitia",
+          "arg2": "auxiliar em as operações em as áreas nordeste",
+          "triple_id": "bia_0001_234_ud_baseline_002"
+        }
+      ]
+    },
+    {
+      "sentence_id": "bia_0001_235",
+      "tp": 2,
+      "fp": 0,
+      "fn": 0,
+      "n_pred": 2,
+      "n_gold": 2,
+      "matches": [],
+      "unmatched_gold": [],
+      "unmatched_pred": []
+    },
+    {
+      "sentence_id": "bia_0001_236",
+      "tp": 1,
+      "fp": 2,
+      "fn": 0,
+      "n_pred": 3,
+      "n_gold": 1,
+      "matches": [],
+      "unmatched_gold": [],
+      "unmatched_pred": [
+        {
+          "arg1": "Tito",
+          "rel": "rejeitou",
+          "arg2": "o convite de a URSS para uma visita",
+          "triple_id": "bia_0001_236_ud_baseline_001"
+        },
+        {
+          "arg1": "Tito",
+          "rel": "rejeitou para",
+          "arg2": "para uma visita",
+          "triple_id": "bia_0001_236_ud_baseline_002"
+        }
+      ]
+    },
+    {
+      "sentence_id": "bia_0001_237",
+      "tp": 3,
+      "fp": 1,
+      "fn": 0,
+      "n_pred": 4,
+      "n_gold": 3,
+      "matches": [],
+      "unmatched_gold": [],
+      "unmatched_pred": [
+        {
+          "arg1": "Tito",
+          "rel": "visitou de",
+          "arg2": "de 22 de dezembro de 1954",
+          "triple_id": "bia_0001_237_ud_baseline_002"
+        }
+      ]
+    },
+    {
+      "sentence_id": "bia_0001_238",
+      "tp": 1,
+      "fp": 0,
+      "fn": 1,
+      "n_pred": 1,
+      "n_gold": 2,
+      "matches": [],
+      "unmatched_gold": [
+        {
+          "arg1": "O maior monumento de Tito de o mundo",
+          "rel": "está localizado em",
+          "arg2": "a Praça Tito",
+          "valid": true
+        }
+      ],
+      "unmatched_pred": []
+    },
+    {
+      "sentence_id": "bia_0001_239",
+      "tp": 1,
+      "fp": 3,
+      "fn": 0,
+      "n_pred": 4,
+      "n_gold": 1,
+      "matches": [],
+      "unmatched_gold": [],
+      "unmatched_pred": [
+        {
+          "arg1": "Tito",
+          "rel": "ficou em",
+          "arg2": "em Moscou",
+          "triple_id": "bia_0001_239_ud_baseline_001"
+        },
+        {
+          "arg1": "Tito",
+          "rel": "ficou em",
+          "arg2": "em Moscou",
+          "triple_id": "bia_0001_239_ud_baseline_002"
+        },
+        {
+          "arg1": "Tito",
+          "rel": "ficou em",
+          "arg2": "o Hotel Lux",
+          "triple_id": "bia_0001_239_ud_baseline_003"
+        }
+      ]
+    },
+    {
+      "sentence_id": "bia_0001_240",
+      "tp": 1,
+      "fp": 0,
+      "fn": 0,
+      "n_pred": 1,
+      "n_gold": 1,
+      "matches": [],
+      "unmatched_gold": [],
+      "unmatched_pred": []
+    },
+    {
+      "sentence_id": "bia_0001_241",
+      "tp": 1,
+      "fp": 0,
+      "fn": 0,
+      "n_pred": 1,
+      "n_gold": 1,
+      "matches": [],
+      "unmatched_gold": [],
+      "unmatched_pred": []
+    },
+    {
+      "sentence_id": "bia_0001_242",
+      "tp": 0,
+      "fp": 2,
+      "fn": 1,
+      "n_pred": 2,
+      "n_gold": 1,
+      "matches": [],
+      "unmatched_gold": [
+        {
+          "arg1": "Franjo Broz",
+          "rel": "era",
+          "arg2": "croata",
+          "valid": true
+        }
+      ],
+      "unmatched_pred": [
+        {
+          "arg1": "Seu pai",
+          "rel": "era",
+          "arg2": "croata",
+          "triple_id": "bia_0001_242_ud_baseline_000"
+        },
+        {
+          "arg1": "sua mãe",
+          "rel": "era",
+          "arg2": "esloveno",
+          "triple_id": "bia_0001_242_ud_baseline_001"
+        }
+      ]
+    },
+    {
+      "sentence_id": "bia_0001_243",
+      "tp": 1,
+      "fp": 0,
+      "fn": 1,
+      "n_pred": 1,
+      "n_gold": 2,
+      "matches": [],
+      "unmatched_gold": [
+        {
+          "arg1": "os Estados Unidos",
+          "rel": "invadiram",
+          "arg2": "as ilhas em 1944",
+          "valid": true
+        }
+      ],
+      "unmatched_pred": []
+    },
+    {
+      "sentence_id": "bia_0001_244",
+      "tp": 1,
+      "fp": 0,
+      "fn": 0,
+      "n_pred": 1,
+      "n_gold": 1,
+      "matches": [],
+      "unmatched_gold": [],
+      "unmatched_pred": []
+    },
+    {
+      "sentence_id": "bia_0001_245",
+      "tp": 1,
+      "fp": 1,
+      "fn": 0,
+      "n_pred": 2,
+      "n_gold": 1,
+      "matches": [],
+      "unmatched_gold": [],
+      "unmatched_pred": [
+        {
+          "arg1": "as provações",
+          "rel": "eram conduzidas",
+          "arg2": "onde",
+          "triple_id": "bia_0001_245_ud_baseline_000"
+        }
+      ]
+    },
+    {
+      "sentence_id": "bia_0001_246",
+      "tp": 1,
+      "fp": 1,
+      "fn": 1,
+      "n_pred": 2,
+      "n_gold": 2,
+      "matches": [],
+      "unmatched_gold": [
+        {
+          "arg1": "Os direitos de os nobres ortodoxos",
+          "rel": "eram nominalmente iguais a",
+          "arg2": "os de Nobreza polaca e lituana",
+          "valid": true
+        }
+      ],
+      "unmatched_pred": [
+        {
+          "arg1": "Os direitos os nobres ortodoxos",
+          "rel": "eram",
+          "arg2": "nominalmente iguais",
+          "triple_id": "bia_0001_246_ud_baseline_001"
+        }
+      ]
+    },
+    {
+      "sentence_id": "bia_0001_247",
+      "tp": 1,
+      "fp": 1,
+      "fn": 0,
+      "n_pred": 2,
+      "n_gold": 1,
+      "matches": [],
+      "unmatched_gold": [],
+      "unmatched_pred": [
+        {
+          "arg1": "Enéias",
+          "rel": "recebe",
+          "arg2": "novas armaduras e um escudo",
+          "triple_id": "bia_0001_247_ud_baseline_001"
+        }
+      ]
+    },
+    {
+      "sentence_id": "bia_0001_248",
+      "tp": 1,
+      "fp": 2,
+      "fn": 0,
+      "n_pred": 3,
+      "n_gold": 1,
+      "matches": [],
+      "unmatched_gold": [],
+      "unmatched_pred": [
+        {
+          "arg1": "nappes de sedimentos marinhos",
+          "rel": "sobre são empilhados",
+          "arg2": "a qual",
+          "triple_id": "bia_0001_248_ud_baseline_000"
+        },
+        {
+          "arg1": "A estrutura de o nappe de fundo",
+          "rel": "é",
+          "arg2": "de origem européia continental",
+          "triple_id": "bia_0001_248_ud_baseline_002"
+        }
+      ]
+    },
+    {
+      "sentence_id": "bia_0001_249",
+      "tp": 3,
+      "fp": 1,
+      "fn": 0,
+      "n_pred": 4,
+      "n_gold": 3,
+      "matches": [],
+      "unmatched_gold": [],
+      "unmatched_pred": [
+        {
+          "arg1": "Agassiz",
+          "rel": "estudou em",
+          "arg2": "em a Geleira Unteraar",
+          "triple_id": "bia_0001_249_ud_baseline_003"
+        }
+      ]
+    },
+    {
+      "sentence_id": "bia_0001_250",
+      "tp": 0,
+      "fp": 0,
+      "fn": 1,
+      "n_pred": 0,
+      "n_gold": 1,
+      "matches": [],
+      "unmatched_gold": [
+        {
+          "arg1": "a queda de neve",
+          "rel": "começa em",
+          "arg2": "novembro",
+          "valid": true
+        }
+      ],
+      "unmatched_pred": []
+    },
+    {
+      "sentence_id": "bia_0001_251",
+      "tp": 0,
+      "fp": 0,
+      "fn": 1,
+      "n_pred": 0,
+      "n_gold": 1,
+      "matches": [],
+      "unmatched_gold": [
+        {
+          "arg1": "A zona montanhosa",
+          "rel": "se estende de",
+          "arg2": "800 a 1.700 m",
+          "valid": true
+        }
+      ],
+      "unmatched_pred": []
+    },
+    {
+      "sentence_id": "bia_0001_252",
+      "tp": 0,
+      "fp": 1,
+      "fn": 2,
+      "n_pred": 1,
+      "n_gold": 2,
+      "matches": [],
+      "unmatched_gold": [
+        {
+          "arg1": "As plantas alpinas",
+          "rel": "são",
+          "arg2": "agrupadas por habitat e tipo de solo",
+          "valid": true
+        },
+        {
+          "arg1": "As plantas alpinas",
+          "rel": "são agrupadas por",
+          "arg2": "habitat e tipo de solo",
+          "valid": true
+        }
+      ],
+      "unmatched_pred": [
+        {
+          "arg1": "que",
+          "rel": "pode",
+          "arg2": "calcário",
+          "triple_id": "bia_0001_252_ud_baseline_000"
+        }
+      ]
+    },
+    {
+      "sentence_id": "bia_0001_253",
+      "tp": 3,
+      "fp": 3,
+      "fn": 0,
+      "n_pred": 6,
+      "n_gold": 3,
+      "matches": [],
+      "unmatched_gold": [],
+      "unmatched_pred": [
+        {
+          "arg1": "Byron",
+          "rel": "escreveu",
+          "arg2": "o dramático poema Manfred",
+          "triple_id": "bia_0001_253_ud_baseline_002"
+        },
+        {
+          "arg1": "Byron",
+          "rel": "escreveu",
+          "arg2": "Mary Shelley",
+          "triple_id": "bia_0001_253_ud_baseline_003"
+        },
+        {
+          "arg1": "Byron",
+          "rel": "escreveu",
+          "arg2": "O Prisioneiro de Chillon e o dramático poema Manfred e Mary Shelley",
+          "triple_id": "bia_0001_253_ud_baseline_004"
+        }
+      ]
+    },
+    {
+      "sentence_id": "bia_0001_254",
+      "tp": 1,
+      "fp": 1,
+      "fn": 1,
+      "n_pred": 2,
+      "n_gold": 2,
+      "matches": [],
+      "unmatched_gold": [
+        {
+          "arg1": "A cozinha",
+          "rel": "é separada de",
+          "arg2": "a área de estar",
+          "valid": true
+        }
+      ],
+      "unmatched_pred": [
+        {
+          "arg1": "os quartos de o segundo andar",
+          "rel": "se beneficiam de",
+          "arg2": "o aumento de o calor",
+          "triple_id": "bia_0001_254_ud_baseline_001"
+        }
+      ]
+    },
+    {
+      "sentence_id": "bia_0001_255",
+      "tp": 0,
+      "fp": 0,
+      "fn": 2,
+      "n_pred": 0,
+      "n_gold": 2,
+      "matches": [],
+      "unmatched_gold": [
+        {
+          "arg1": "Os cristais alpinos",
+          "rel": "foram",
+          "arg2": "estudados e coletados por centenas de anos",
+          "valid": true
+        },
+        {
+          "arg1": "Os cristais alpinos",
+          "rel": "foram estudados e coletados por",
+          "arg2": "centenas de anos",
+          "valid": true
+        }
+      ],
+      "unmatched_pred": []
+    },
+    {
+      "sentence_id": "bia_0001_256",
+      "tp": 0,
+      "fp": 0,
+      "fn": 1,
+      "n_pred": 0,
+      "n_gold": 1,
+      "matches": [],
+      "unmatched_gold": [
+        {
+          "arg1": "A área alpina",
+          "rel": "flutua bastante por",
+          "arg2": "causa de as flutuações regionais",
+          "valid": true
+        }
+      ],
+      "unmatched_pred": []
+    },
+    {
+      "sentence_id": "bia_0001_257",
+      "tp": 1,
+      "fp": 0,
+      "fn": 0,
+      "n_pred": 1,
+      "n_gold": 1,
+      "matches": [],
+      "unmatched_gold": [],
+      "unmatched_pred": []
+    },
+    {
+      "sentence_id": "bia_0001_258",
+      "tp": 1,
+      "fp": 1,
+      "fn": 0,
+      "n_pred": 2,
+      "n_gold": 1,
+      "matches": [],
+      "unmatched_gold": [],
+      "unmatched_pred": [
+        {
+          "arg1": "cujos monômeros",
+          "rel": "contêm",
+          "arg2": "a ribose de o açúcar em vez de a desoxirribose",
+          "triple_id": "bia_0001_258_ud_baseline_001"
+        }
+      ]
+    },
+    {
+      "sentence_id": "bia_0001_259",
+      "tp": 1,
+      "fp": 1,
+      "fn": 0,
+      "n_pred": 2,
+      "n_gold": 1,
+      "matches": [],
+      "unmatched_gold": [],
+      "unmatched_pred": [
+        {
+          "arg1": "milhares de genes",
+          "rel": "em são codificados",
+          "arg2": "a qual",
+          "triple_id": "bia_0001_259_ud_baseline_001"
+        }
+      ]
+    },
+    {
+      "sentence_id": "bia_0001_260",
+      "tp": 1,
+      "fp": 1,
+      "fn": 1,
+      "n_pred": 2,
+      "n_gold": 2,
+      "matches": [],
+      "unmatched_gold": [
+        {
+          "arg1": "João Bernardo Nino Vieira",
+          "rel": "foi eleito em",
+          "arg2": "2005",
+          "valid": true
+        }
+      ],
+      "unmatched_pred": [
+        {
+          "arg1": "João Bernardo Nino Vieira",
+          "rel": "foi eleito",
+          "arg2": "como Presidente como independente",
+          "triple_id": "bia_0001_260_ud_baseline_001"
+        }
+      ]
+    },
+    {
+      "sentence_id": "bia_0001_261",
+      "tp": 1,
+      "fp": 2,
+      "fn": 0,
+      "n_pred": 3,
+      "n_gold": 1,
+      "matches": [],
+      "unmatched_gold": [],
+      "unmatched_pred": [
+        {
+          "arg1": "a população de a Guiné-Bissau",
+          "rel": "era acordo de",
+          "arg2": "1.515.000 2010 comparação",
+          "triple_id": "bia_0001_261_ud_baseline_001"
+        },
+        {
+          "arg1": "a população de a Guiné-Bissau",
+          "rel": "era",
+          "arg2": "acordo de 1.515.000 2010 comparação",
+          "triple_id": "bia_0001_261_ud_baseline_002"
+        }
+      ]
+    }
+  ]
+}

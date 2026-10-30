@@ -1,0 +1,290 @@
+{
+  "created_at": "2026-08-11T14:43:18.978140+00:00",
+  "corpora": {
+    "BIA": 262,
+    "WIKI200": 201,
+    "CETEN200": 202,
+    "Gamalho": 103,
+    "OIEC-PT": 300
+  },
+  "config": {
+    "theory_mode": "annotate",
+    "strict_theory": false,
+    "e8_allow_clausal_args": true,
+    "s2_span_policy": "both"
+  },
+  "rules": [
+    {
+      "rule": "E1",
+      "evaluated": 1862,
+      "rejected": 70,
+      "reject_rate_pct": 3.7593984962406015,
+      "per_corpus_rejected": {
+        "BIA": 13,
+        "WIKI200": 4,
+        "CETEN200": 12,
+        "Gamalho": 1,
+        "OIEC-PT": 40
+      },
+      "empirical": "rejeita",
+      "static_verdict": "ativa",
+      "static_mechanism": "além da realização verbal, exige vínculo de sujeito/objeto e forma copular/passiva compatível",
+      "agreement": true
+    },
+    {
+      "rule": "E2",
+      "evaluated": 1862,
+      "rejected": 0,
+      "reject_rate_pct": 0.0,
+      "per_corpus_rejected": {
+        "BIA": 0,
+        "WIKI200": 0,
+        "CETEN200": 0,
+        "Gamalho": 0,
+        "OIEC-PT": 0
+      },
+      "empirical": "nunca rejeita",
+      "static_verdict": "dependente do corpus (não observada)",
+      "static_mechanism": "concordância Number/Person",
+      "agreement": true
+    },
+    {
+      "rule": "E3",
+      "evaluated": 1862,
+      "rejected": 0,
+      "reject_rate_pct": 0.0,
+      "per_corpus_rejected": {
+        "BIA": 0,
+        "WIKI200": 0,
+        "CETEN200": 0,
+        "Gamalho": 0,
+        "OIEC-PT": 0
+      },
+      "empirical": "nunca rejeita",
+      "static_verdict": "dependente do corpus (não observada)",
+      "static_mechanism": "oração relativa não essencial no argumento",
+      "agreement": true
+    },
+    {
+      "rule": "E4",
+      "evaluated": 1862,
+      "rejected": 115,
+      "reject_rate_pct": 6.176154672395274,
+      "per_corpus_rejected": {
+        "BIA": 36,
+        "WIKI200": 16,
+        "CETEN200": 17,
+        "Gamalho": 5,
+        "OIEC-PT": 41
+      },
+      "empirical": "rejeita",
+      "static_verdict": "ativa",
+      "static_mechanism": "rejeita quando o objeto tem preposição regente que não foi movida para rel; a anexação só cobre os padrões via obl",
+      "agreement": true
+    },
+    {
+      "rule": "E4_1",
+      "evaluated": 1862,
+      "rejected": 0,
+      "reject_rate_pct": 0.0,
+      "per_corpus_rejected": {
+        "BIA": 0,
+        "WIKI200": 0,
+        "CETEN200": 0,
+        "Gamalho": 0,
+        "OIEC-PT": 0
+      },
+      "empirical": "nunca rejeita",
+      "static_verdict": "inerte por configuração",
+      "static_mechanism": "gated por strict_theory, que é False por default",
+      "agreement": true
+    },
+    {
+      "rule": "E4_2",
+      "evaluated": 1862,
+      "rejected": 0,
+      "reject_rate_pct": 0.0,
+      "per_corpus_rejected": {
+        "BIA": 0,
+        "WIKI200": 0,
+        "CETEN200": 0,
+        "Gamalho": 0,
+        "OIEC-PT": 0
+      },
+      "empirical": "nunca rejeita",
+      "static_verdict": "tautologia",
+      "static_mechanism": "idêntica a E9",
+      "agreement": true
+    },
+    {
+      "rule": "E5",
+      "evaluated": 1862,
+      "rejected": 8,
+      "reject_rate_pct": 0.4296455424274973,
+      "per_corpus_rejected": {
+        "BIA": 0,
+        "WIKI200": 0,
+        "CETEN200": 1,
+        "Gamalho": 1,
+        "OIEC-PT": 6
+      },
+      "empirical": "rejeita",
+      "static_verdict": "ativa",
+      "static_mechanism": "rejeita âncora argumental pobre (pronome relativo isolado)",
+      "agreement": true
+    },
+    {
+      "rule": "E6",
+      "evaluated": 1862,
+      "rejected": 0,
+      "reject_rate_pct": 0.0,
+      "per_corpus_rejected": {
+        "BIA": 0,
+        "WIKI200": 0,
+        "CETEN200": 0,
+        "Gamalho": 0,
+        "OIEC-PT": 0
+      },
+      "empirical": "nunca rejeita",
+      "static_verdict": "tautologia",
+      "static_mechanism": "todos os ramos retornam True",
+      "agreement": true
+    },
+    {
+      "rule": "E7",
+      "evaluated": 1862,
+      "rejected": 0,
+      "reject_rate_pct": 0.0,
+      "per_corpus_rejected": {
+        "BIA": 0,
+        "WIKI200": 0,
+        "CETEN200": 0,
+        "Gamalho": 0,
+        "OIEC-PT": 0
+      },
+      "empirical": "nunca rejeita",
+      "static_verdict": "tautologia",
+      "static_mechanism": "expressão `True if cond else True`",
+      "agreement": true
+    },
+    {
+      "rule": "E8",
+      "evaluated": 1862,
+      "rejected": 0,
+      "reject_rate_pct": 0.0,
+      "per_corpus_rejected": {
+        "BIA": 0,
+        "WIKI200": 0,
+        "CETEN200": 0,
+        "Gamalho": 0,
+        "OIEC-PT": 0
+      },
+      "empirical": "nunca rejeita",
+      "static_verdict": "inerte por configuração",
+      "static_mechanism": "gated por e8_allow_clausal_args, True por default",
+      "agreement": true
+    },
+    {
+      "rule": "E9",
+      "evaluated": 1862,
+      "rejected": 0,
+      "reject_rate_pct": 0.0,
+      "per_corpus_rejected": {
+        "BIA": 0,
+        "WIKI200": 0,
+        "CETEN200": 0,
+        "Gamalho": 0,
+        "OIEC-PT": 0
+      },
+      "empirical": "nunca rejeita",
+      "static_verdict": "tautologia",
+      "static_mechanism": "_detect_prepositional_locution só devolve a locução se ela já estiver contida em rel; o ramo else é sempre verdadeiro",
+      "agreement": true
+    },
+    {
+      "rule": "S1",
+      "evaluated": 1862,
+      "rejected": 11,
+      "reject_rate_pct": 0.5907626208378088,
+      "per_corpus_rejected": {
+        "BIA": 1,
+        "WIKI200": 0,
+        "CETEN200": 1,
+        "Gamalho": 1,
+        "OIEC-PT": 8
+      },
+      "empirical": "rejeita",
+      "static_verdict": "ativa",
+      "static_mechanism": "factualidade/modalidade: rejeita hipotéticos e condicionais",
+      "agreement": true
+    },
+    {
+      "rule": "S2",
+      "evaluated": 1862,
+      "rejected": 0,
+      "reject_rate_pct": 0.0,
+      "per_corpus_rejected": {
+        "BIA": 0,
+        "WIKI200": 0,
+        "CETEN200": 0,
+        "Gamalho": 0,
+        "OIEC-PT": 0
+      },
+      "empirical": "nunca rejeita",
+      "static_verdict": "inerte por configuração",
+      "static_mechanism": "s2_span_policy='both' por default retorna True",
+      "agreement": true
+    },
+    {
+      "rule": "S3",
+      "evaluated": 1862,
+      "rejected": 45,
+      "reject_rate_pct": 2.4167561761546725,
+      "per_corpus_rejected": {
+        "BIA": 17,
+        "WIKI200": 3,
+        "CETEN200": 17,
+        "Gamalho": 1,
+        "OIEC-PT": 7
+      },
+      "empirical": "rejeita",
+      "static_verdict": "ativa",
+      "static_mechanism": "oblíquo periférico anexado / nary_split não central",
+      "agreement": true
+    },
+    {
+      "rule": "S4",
+      "evaluated": 1862,
+      "rejected": 62,
+      "reject_rate_pct": 3.329752953813104,
+      "per_corpus_rejected": {
+        "BIA": 11,
+        "WIKI200": 4,
+        "CETEN200": 12,
+        "Gamalho": 0,
+        "OIEC-PT": 35
+      },
+      "empirical": "rejeita",
+      "static_verdict": "ativa",
+      "static_mechanism": "forma copular/passiva compatível com o padrão",
+      "agreement": true
+    },
+    {
+      "rule": "S5",
+      "evaluated": 1862,
+      "rejected": 0,
+      "reject_rate_pct": 0.0,
+      "per_corpus_rejected": {
+        "BIA": 0,
+        "WIKI200": 0,
+        "CETEN200": 0,
+        "Gamalho": 0,
+        "OIEC-PT": 0
+      },
+      "empirical": "nunca rejeita",
+      "static_verdict": "tautologia",
+      "static_mechanism": "retorna True: não há inferência externa nesta implementação",
+      "agreement": true
+    }
+  ]
+}

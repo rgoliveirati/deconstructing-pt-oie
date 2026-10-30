@@ -1,0 +1,37 @@
+system,system_key,dataset,is_ours,provenance,precision,recall,f1,f1_ci_low,f1_ci_high,n_pred,extractions_per_sentence,pct_sentences_without_extraction,paper_precision,paper_recall,paper_f1,paper_provenance,f1_abs_diff_vs_paper
+PT-OIE-EXTRACTOR,pt_oie,WIKI200,True,reproduced,48.9,36.4,41.7,38.9,44.6,235.0,1.18,19.5,,,,n/a,
+PT-OIE-EXTRACTOR,pt_oie,CETEN200,True,reproduced,39.1,33.7,36.2,33.0,39.3,276.0,1.37,25.4,,,,n/a,
+PT-OIE-EXTRACTOR,pt_oie,Gamalho,True,reproduced,61.3,50.4,55.3,50.7,59.5,166.0,1.61,9.7,,,,n/a,
+"PT-OIE (UD puro, RQ1)",ud_baseline,WIKI200,True,reproduced,46.9,38.5,42.3,39.7,44.9,308.0,1.54,19.5,,,,n/a,
+"PT-OIE (UD puro, RQ1)",ud_baseline,CETEN200,True,reproduced,38.1,34.3,36.1,32.9,39.2,296.0,1.47,25.4,,,,n/a,
+"PT-OIE (UD puro, RQ1)",ud_baseline,Gamalho,True,reproduced,57.8,50.7,54.0,49.3,58.3,180.0,1.75,9.7,,,,n/a,
+pt_oie_op1,pt_oie_op1,WIKI200,True,reproduced,40.3,39.1,39.7,37.1,42.3,315.0,1.57,15.0,,,,n/a,
+pt_oie_op1,pt_oie_op1,CETEN200,True,reproduced,38.5,37.7,38.1,35.0,41.2,314.0,1.56,19.4,,,,n/a,
+pt_oie_op1,pt_oie_op1,Gamalho,True,reproduced,59.0,51.2,54.8,50.3,59.0,180.0,1.75,7.8,,,,n/a,
+ollama_gemma4,ollama_gemma4,WIKI200,True,reproduced,43.0,53.9,47.8,44.5,51.2,459.0,2.29,1.0,,,,n/a,
+ollama_gemma4,ollama_gemma4,CETEN200,True,reproduced,36.9,48.4,41.9,38.6,45.3,419.0,2.08,2.5,,,,n/a,
+ollama_gemma4,ollama_gemma4,Gamalho,True,reproduced,41.4,45.5,43.4,39.0,47.7,216.0,2.1,1.9,,,,n/a,
+PragmaticOIE,PragmaticOIE,WIKI200,False,reproduced,74.2,82.0,77.9,75.1,80.5,471.0,2.35,0.0,74.2,82.0,77.9,paper,0.0
+PragmaticOIE,PragmaticOIE,CETEN200,False,reproduced,72.7,80.4,76.3,73.1,79.4,400.0,1.99,0.0,72.7,80.4,76.3,paper,0.0
+PragmaticOIE,PragmaticOIE,Gamalho,False,reproduced,37.0,42.6,39.6,35.9,43.1,240.0,2.33,0.0,37.0,42.6,39.6,paper,0.0
+MultiOIE,MultiOIE,WIKI200,False,reproduced,52.5,50.7,51.6,48.8,54.4,322.0,1.61,0.0,52.5,50.7,51.6,paper,0.0
+MultiOIE,MultiOIE,CETEN200,False,reproduced,46.2,49.7,47.9,45.0,50.6,337.0,1.68,0.0,46.2,49.7,47.9,paper,0.0
+MultiOIE,MultiOIE,Gamalho,False,reproduced,55.1,52.3,53.7,50.0,57.1,189.0,1.83,0.0,55.1,52.3,53.7,paper,0.0
+DetIE,DetIE,WIKI200,False,reproduced,53.1,51.0,52.0,49.4,54.6,320.0,1.6,6.0,53.1,51.0,52.0,paper,0.0
+DetIE,DetIE,CETEN200,False,reproduced,44.0,47.6,45.7,42.8,48.5,338.0,1.68,8.0,44.0,47.6,45.7,paper,0.0
+DetIE,DetIE,Gamalho,False,reproduced,50.4,50.5,50.4,46.2,54.4,194.0,1.88,4.9,50.4,50.5,50.4,paper,0.0
+TransAlign,TransAlign,WIKI200,False,reproduced,77.6,40.2,53.0,48.9,57.1,174.0,0.87,17.0,77.6,40.2,53.0,paper,0.0
+TransAlign,TransAlign,CETEN200,False,reproduced,65.1,37.1,47.3,42.8,51.6,179.0,0.89,18.4,65.1,37.1,47.3,paper,0.0
+TransAlign,TransAlign,Gamalho,False,reproduced,71.5,35.2,47.2,40.9,53.1,82.0,0.8,25.2,71.5,35.2,47.2,paper,0.0
+GraphIE,GraphIE,WIKI200,False,reproduced,35.6,37.0,36.3,32.7,40.1,346.0,1.73,0.0,35.6,37.0,36.3,paper,0.0
+GraphIE,GraphIE,CETEN200,False,reproduced,35.1,33.6,34.3,30.7,38.0,297.0,1.48,0.0,35.1,33.6,34.3,paper,0.0
+GraphIE,GraphIE,Gamalho,False,reproduced,44.9,37.4,40.8,36.1,45.5,167.0,1.62,0.0,44.9,37.4,40.8,paper,0.0
+ArgOE,ArgOE,WIKI200,False,reproduced,35.6,37.0,36.3,32.7,40.1,346.0,1.73,0.0,26.5,19.6,22.5,paper,13.8
+ArgOE,ArgOE,CETEN200,False,reproduced,35.1,33.6,34.3,30.7,38.0,297.0,1.48,0.0,34.4,40.0,37.0,paper,2.7
+ArgOE,ArgOE,Gamalho,False,reproduced,44.9,37.4,40.8,36.1,45.5,167.0,1.62,0.0,34.6,18.1,23.7,paper,17.1
+PortOIE-LLama,PortOIE-LLama,WIKI200,False,reproduced,9.5,53.3,16.1,7.6,54.0,2079.0,10.39,0.0,9.4,53.3,16.0,paper,0.1
+PortOIE-LLama,PortOIE-LLama,CETEN200,False,reproduced,27.7,35.9,31.3,25.4,37.4,422.0,2.1,0.0,27.7,35.9,31.3,paper,0.0
+PortOIE-LLama,PortOIE-LLama,Gamalho,False,reproduced,39.5,25.3,30.8,24.1,37.6,153.0,1.49,0.0,39.5,25.3,30.8,paper,0.0
+DptOIE,DptOIE,WIKI200,False,reproduced,23.5,47.6,31.4,29.4,33.6,816.0,4.08,0.0,23.5,47.6,31.4,paper,0.0
+DptOIE,DptOIE,CETEN200,False,reproduced,19.7,39.5,26.3,23.7,29.0,673.0,3.35,0.0,19.7,39.5,26.3,paper,0.0
+DptOIE,DptOIE,Gamalho,False,no_output,,,,,,,,,0.0,0.0,0.0,paper,

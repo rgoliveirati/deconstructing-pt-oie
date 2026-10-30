@@ -1,0 +1,50 @@
+{
+  "created_at": "2026-08-10T19:19:48.922529+00:00",
+  "corpus_dir": "data/external/OIEC-PT",
+  "validity_flag_index": 1,
+  "files": {
+    "OIEC-PT-GOLD.txt": {
+      "file": "OIEC-PT-GOLD.txt",
+      "sha256": "01a1404c352ca132ca72815503020c00480288a00ad5c7a1b115450efd666640",
+      "n_sentences": 100,
+      "n_candidate_triples": 811,
+      "n_valid_triples": 136,
+      "n_rejected_triples": 675,
+      "valid_per_sentence": 1.36,
+      "candidates_per_sentence": 8.11,
+      "validity_flag_index": 1,
+      "expected_sentences": 100,
+      "expected_valid": 136,
+      "ok": true
+    },
+    "OIEC-PT-SILVER.txt": {
+      "file": "OIEC-PT-SILVER.txt",
+      "sha256": "1f32974fe191a4d87b632c076fa46d774125eebef719fac8ba3982a8c4fa8f18",
+      "n_sentences": 200,
+      "n_candidate_triples": 1856,
+      "n_valid_triples": 337,
+      "n_rejected_triples": 1519,
+      "valid_per_sentence": 1.685,
+      "candidates_per_sentence": 9.28,
+      "validity_flag_index": 1,
+      "expected_sentences": 200,
+      "expected_valid": 337,
+      "ok": true
+    },
+    "OIEC-PT.txt": {
+      "file": "OIEC-PT.txt",
+      "sha256": "7fd750f60519d351cd46f0f243f343ccbc49a66706a0ef6e2d1ce209e33c4fbc",
+      "n_sentences": 300,
+      "n_candidate_triples": 2667,
+      "n_valid_triples": 473,
+      "n_rejected_triples": 2194,
+      "valid_per_sentence": 1.5766666666666667,
+      "candidates_per_sentence": 8.89,
+      "validity_flag_index": 1,
+      "expected_sentences": 300,
+      "expected_valid": 473,
+      "ok": true
+    }
+  },
+  "ok": true
+}

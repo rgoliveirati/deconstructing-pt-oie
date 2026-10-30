@@ -1,0 +1,6 @@
+system;greedy_tp;greedy_fp;greedy_fn;greedy_f1;optimal_tp;optimal_fp;optimal_fn;optimal_f1;delta_tp;delta_f1_points
+pt_oie;265;273;162;54.92;272;266;155;56.37;7;1.45
+ud_baseline;272;333;155;52.71;277;328;150;53.68;5;0.97
+ollama_gemma4;252;485;175;43.3;253;484;174;43.47;1;0.17
+multi2oie;189;483;238;34.39;189;483;238;34.39;0;0.0
+dptoie;180;2201;247;12.82;182;2199;245;12.96;2;0.14

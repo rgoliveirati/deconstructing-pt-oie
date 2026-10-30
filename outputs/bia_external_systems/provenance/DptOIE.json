@@ -1,0 +1,12 @@
+{
+  "source": ".external/DptOIE",
+  "commit": "1a5ef708b1ed0a888aac63a7a4512af3cccad315",
+  "tracked_modified_files": [
+    "output/tokenized_sentences"
+  ],
+  "files": {
+    "DptOIE-drive.jar": "9c260049ad0ff03bcd795c5837ea71f62308bdf5fa088eada75cf2b3206a6dde",
+    "pt-models/pt-dep-parser.gz": "341e6b5bfc2288b8e7991ee746b2517b02dfb2ef7e540b3666f2b969bd4db30d",
+    "pt-models/pt-pos-tagger.model": "3025001fb828b7bb73b7f7de6cf6e303126e23aa4f175c8e7f1ad69988a8635b"
+  }
+}

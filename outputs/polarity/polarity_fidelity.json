@@ -1,0 +1,943 @@
+{
+  "created_at": "2026-08-12T12:48:08.103677+00:00",
+  "datasets": [
+    "WIKI200",
+    "CETEN200",
+    "Gamalho"
+  ],
+  "marked_predicates_found": {
+    "neg": 20,
+    "mod": 43
+  },
+  "neg_lemmas": [
+    "jamais",
+    "nada",
+    "nao",
+    "nem",
+    "nenhum",
+    "nenhuma",
+    "nenhumas",
+    "nenhuns",
+    "ninguem",
+    "ninguém",
+    "nunca",
+    "não"
+  ],
+  "modal_lemmas": [
+    "costumar",
+    "dever",
+    "poder",
+    "precisar",
+    "pretender",
+    "tender"
+  ],
+  "results": [
+    {
+      "system": "ollama_gemma4",
+      "neg_covered_triples": 20,
+      "neg_por_tripla_%": 95.0,
+      "neg_covered_preds": 15,
+      "neg_por_predicado_%": 93.3,
+      "mod_covered_triples": 51,
+      "mod_por_tripla_%": 98.0,
+      "mod_covered_preds": 32,
+      "mod_por_predicado_%": 96.9
+    },
+    {
+      "system": "pt_oie",
+      "neg_covered_triples": 15,
+      "neg_por_tripla_%": 93.3,
+      "neg_covered_preds": 9,
+      "neg_por_predicado_%": 100.0,
+      "mod_covered_triples": 15,
+      "mod_por_tripla_%": 100.0,
+      "mod_covered_preds": 15,
+      "mod_por_predicado_%": 100.0
+    },
+    {
+      "system": "pt_oie_op1",
+      "neg_covered_triples": 17,
+      "neg_por_tripla_%": 94.1,
+      "neg_covered_preds": 11,
+      "neg_por_predicado_%": 100.0,
+      "mod_covered_triples": 15,
+      "mod_por_tripla_%": 100.0,
+      "mod_covered_preds": 15,
+      "mod_por_predicado_%": 100.0
+    },
+    {
+      "system": "ud_baseline",
+      "neg_covered_triples": 16,
+      "neg_por_tripla_%": 93.8,
+      "neg_covered_preds": 9,
+      "neg_por_predicado_%": 100.0,
+      "mod_covered_triples": 15,
+      "mod_por_tripla_%": 100.0,
+      "mod_covered_preds": 15,
+      "mod_por_predicado_%": 100.0
+    },
+    {
+      "system": "ArgOE",
+      "neg_covered_triples": 14,
+      "neg_por_tripla_%": 0.0,
+      "neg_covered_preds": 12,
+      "neg_por_predicado_%": 0.0,
+      "mod_covered_triples": 33,
+      "mod_por_tripla_%": 78.8,
+      "mod_covered_preds": 19,
+      "mod_por_predicado_%": 84.2
+    },
+    {
+      "system": "DptOIE",
+      "neg_covered_triples": 26,
+      "neg_por_tripla_%": 100.0,
+      "neg_covered_preds": 9,
+      "neg_por_predicado_%": 100.0,
+      "mod_covered_triples": 43,
+      "mod_por_tripla_%": 100.0,
+      "mod_covered_preds": 14,
+      "mod_por_predicado_%": 100.0
+    },
+    {
+      "system": "GraphIE",
+      "neg_covered_triples": 14,
+      "neg_por_tripla_%": 0.0,
+      "neg_covered_preds": 12,
+      "neg_por_predicado_%": 0.0,
+      "mod_covered_triples": 33,
+      "mod_por_tripla_%": 78.8,
+      "mod_covered_preds": 19,
+      "mod_por_predicado_%": 84.2
+    },
+    {
+      "system": "MultiOIE",
+      "neg_covered_triples": 15,
+      "neg_por_tripla_%": 13.3,
+      "neg_covered_preds": 15,
+      "neg_por_predicado_%": 13.3,
+      "mod_covered_triples": 31,
+      "mod_por_tripla_%": 90.3,
+      "mod_covered_preds": 31,
+      "mod_por_predicado_%": 90.3
+    },
+    {
+      "system": "PragmaticOIE",
+      "neg_covered_triples": 15,
+      "neg_por_tripla_%": 0.0,
+      "neg_covered_preds": 14,
+      "neg_por_predicado_%": 0.0,
+      "mod_covered_triples": 39,
+      "mod_por_tripla_%": 97.4,
+      "mod_covered_preds": 33,
+      "mod_por_predicado_%": 97.0
+    },
+    {
+      "system": "TransAlign",
+      "neg_covered_triples": 13,
+      "neg_por_tripla_%": 92.3,
+      "neg_covered_preds": 13,
+      "neg_por_predicado_%": 92.3,
+      "mod_covered_triples": 18,
+      "mod_por_tripla_%": 83.3,
+      "mod_covered_preds": 18,
+      "mod_por_predicado_%": 83.3
+    },
+    {
+      "system": "PortOIE-LLama",
+      "neg_covered_triples": 13,
+      "neg_por_tripla_%": 76.9,
+      "neg_covered_preds": 9,
+      "neg_por_predicado_%": 88.9,
+      "mod_covered_triples": 23,
+      "mod_por_tripla_%": 100.0,
+      "mod_covered_preds": 20,
+      "mod_por_predicado_%": 100.0
+    },
+    {
+      "system": "DetIE",
+      "neg_covered_triples": 17,
+      "neg_por_tripla_%": 94.1,
+      "neg_covered_preds": 14,
+      "neg_por_predicado_%": 92.9,
+      "mod_covered_triples": 35,
+      "mod_por_tripla_%": 88.6,
+      "mod_covered_preds": 28,
+      "mod_por_predicado_%": 89.3
+    }
+  ],
+  "examples_of_loss": {
+    "PragmaticOIE|neg": [
+      {
+        "dataset": "WIKI200",
+        "sentence": "O Afogadense foi eliminado por não ter pago as taxas de inscrição por completo impostas por a Federação .",
+        "marker": "não",
+        "verb": "pago",
+        "triple": [
+          "O Afogadense ",
+          "foi eliminado por ter pago as taxas de ",
+          "inscrição por completo impostas pela  Federação "
+        ]
+      },
+      {
+        "dataset": "WIKI200",
+        "sentence": "Marshall foi expulso de as próprias terras por a onda resultante de garimpeiros e nunca obteve lucro com sua descoberta .",
+        "marker": "nunca",
+        "verb": "obteve",
+        "triple": [
+          "das  próprias terras pela  onda resultante de garimpeiros e ",
+          "obteve lucro com ",
+          "sua descoberta "
+        ]
+      },
+      {
+        "dataset": "WIKI200",
+        "sentence": "Os cientistas não usaram a tecnologia de transferência de os  genes de ouro \" juntamente com o gene \" repórter ß - Glucuronidase \" para produzir a planta . \"",
+        "marker": "não",
+        "verb": "usaram",
+        "triple": [
+          "Os cientistas ",
+          "usaram a tecnologia de ",
+          "transferência dos  genes de ouro "
+        ]
+      },
+      {
+        "dataset": "WIKI200",
+        "sentence": "A Constituição alemã confere a a presidência um poder de caráter fundamentalmente representativo , pois , para prevenir os problemas que se deram durante a República de Weimar , não tem capacidade de manobra alguma en o processo de eleição de o Chanceler de a Alemanha e nem pode ditar decretos de urgência .",
+        "marker": "nem",
+        "verb": "pode",
+        "triple": [
+          "en o processo de eleição do  Chanceler da  Alemanha e ",
+          "pode ditar decretos de ",
+          "urgência "
+        ]
+      },
+      {
+        "dataset": "WIKI200",
+        "sentence": "Este efeito não acontece com pessoas que têm algumas formas de prosopagnosia , uma desordem em que a percepção de o rosto é prejudicada , geralmente adquirida após uma lesão ou doença cerebral .",
+        "marker": "não",
+        "verb": "acontece",
+        "triple": [
+          "Este efeito ",
+          "acontece com ",
+          "pessoas "
+        ]
+      },
+      {
+        "dataset": "CETEN200",
+        "sentence": "Escrevi meu livro contra essa idéia de que o cânone morreu , de que Shakespeare não interessa mais porque é um europeu macho , branco e morto .",
+        "marker": "não",
+        "verb": "interessa",
+        "triple": [
+          "Shakespeare ",
+          "interessa mais porque ",
+          "é "
+        ]
+      },
+      {
+        "dataset": "CETEN200",
+        "sentence": "O diretor - presidente de a Splice , Antonio Beldi , afirmou ontem que a prefeitura ainda não pagou os US $ 600 mil referentes a a coleta de lixo en o bairro de a Penha ( zona leste ) en os meses de dezembro e janeiro .",
+        "marker": "não",
+        "verb": "pagou",
+        "triple": [
+          "prefeitura ainda ",
+          "pagou os US $ 600 mil referentes à   ",
+          "coleta de lixo en o bairro da  Penha en os meses de dezembro "
+        ]
+      },
+      {
+        "dataset": "CETEN200",
+        "sentence": "O diretor - presidente de a Splice , Antonio Beldi , afirmou ontem que a prefeitura ainda não pagou os US $ 600 mil referentes a a coleta de lixo en o bairro de a Penha ( zona leste ) en os meses de dezembro e janeiro .",
+        "marker": "não",
+        "verb": "pagou",
+        "triple": [
+          "prefeitura ainda ",
+          "pagou os US $ 600 mil referentes à   ",
+          "coleta de lixo en o bairro da  Penha en os meses de janeiro "
+        ]
+      }
+    ],
+    "ArgOE|neg": [
+      {
+        "dataset": "WIKI200",
+        "sentence": "Marshall foi expulso de as próprias terras por a onda resultante de garimpeiros e nunca obteve lucro com sua descoberta .",
+        "marker": "nunca",
+        "verb": "obteve",
+        "triple": [
+          "Marshall",
+          "obteve",
+          "lucro"
+        ]
+      },
+      {
+        "dataset": "WIKI200",
+        "sentence": "Grande Oriente são federações ou confederações de , en o mínimo , três Lojas maçônicas que , inicialmente , não trabalhavam en o mesmo rito maçonico , como eram exigidos por as Grande Lojas .",
+        "marker": "não",
+        "verb": "trabalhavam",
+        "triple": [
+          "tres Lojas maconicas",
+          "trabalhavam",
+          "o mesmo rito maconico"
+        ]
+      },
+      {
+        "dataset": "WIKI200",
+        "sentence": "Os cientistas não usaram a tecnologia de transferência de os  genes de ouro \" juntamente com o gene \" repórter ß - Glucuronidase \" para produzir a planta . \"",
+        "marker": "não",
+        "verb": "usaram",
+        "triple": [
+          "Os cientistas",
+          "usaram",
+          "a tecnologia de transferencia de os genes de ouro"
+        ]
+      },
+      {
+        "dataset": "WIKI200",
+        "sentence": "Os cientistas não usaram a tecnologia de transferência de os  genes de ouro \" juntamente com o gene \" repórter ß - Glucuronidase \" para produzir a planta . \"",
+        "marker": "não",
+        "verb": "usaram",
+        "triple": [
+          "Os cientistas",
+          "usaram",
+          "o gene reporter ss - Glucuronidase"
+        ]
+      },
+      {
+        "dataset": "WIKI200",
+        "sentence": "A Constituição alemã confere a a presidência um poder de caráter fundamentalmente representativo , pois , para prevenir os problemas que se deram durante a República de Weimar , não tem capacidade de manobra alguma en o processo de eleição de o Chanceler de a Alemanha e nem pode ditar decretos de urgência .",
+        "marker": "não",
+        "verb": "tem",
+        "triple": [
+          "presidência",
+          "tem",
+          "capacidade de manobra alguma no processo de eleição do Chanceler da Alemanha"
+        ]
+      },
+      {
+        "dataset": "WIKI200",
+        "sentence": "A Constituição alemã confere a a presidência um poder de caráter fundamentalmente representativo , pois , para prevenir os problemas que se deram durante a República de Weimar , não tem capacidade de manobra alguma en o processo de eleição de o Chanceler de a Alemanha e nem pode ditar decretos de urgência .",
+        "marker": "nem",
+        "verb": "pode",
+        "triple": [
+          "a presidência",
+          "pode ditar",
+          "decretos de urgência"
+        ]
+      },
+      {
+        "dataset": "CETEN200",
+        "sentence": "O diretor - presidente de a Splice , Antonio Beldi , afirmou ontem que a prefeitura ainda não pagou os US $ 600 mil referentes a a coleta de lixo en o bairro de a Penha ( zona leste ) en os meses de dezembro e janeiro .",
+        "marker": "não",
+        "verb": "pagou",
+        "triple": [
+          "a prefeitura",
+          "pagou",
+          "os US $ 600 mil"
+        ]
+      },
+      {
+        "dataset": "CETEN200",
+        "sentence": "A eventual vitória de Lula também não assusta o mercado como antes .",
+        "marker": "não",
+        "verb": "assusta",
+        "triple": [
+          "A eventual vitoria de Lula",
+          "assusta",
+          "o mercado"
+        ]
+      }
+    ],
+    "GraphIE|neg": [
+      {
+        "dataset": "WIKI200",
+        "sentence": "Marshall foi expulso de as próprias terras por a onda resultante de garimpeiros e nunca obteve lucro com sua descoberta .",
+        "marker": "nunca",
+        "verb": "obteve",
+        "triple": [
+          "Marshall",
+          "obteve",
+          "lucro"
+        ]
+      },
+      {
+        "dataset": "WIKI200",
+        "sentence": "Grande Oriente são federações ou confederações de , en o mínimo , três Lojas maçônicas que , inicialmente , não trabalhavam en o mesmo rito maçonico , como eram exigidos por as Grande Lojas .",
+        "marker": "não",
+        "verb": "trabalhavam",
+        "triple": [
+          "tres Lojas maconicas",
+          "trabalhavam",
+          "o mesmo rito maconico"
+        ]
+      },
+      {
+        "dataset": "WIKI200",
+        "sentence": "Os cientistas não usaram a tecnologia de transferência de os  genes de ouro \" juntamente com o gene \" repórter ß - Glucuronidase \" para produzir a planta . \"",
+        "marker": "não",
+        "verb": "usaram",
+        "triple": [
+          "Os cientistas",
+          "usaram",
+          "a tecnologia de transferencia de os genes de ouro"
+        ]
+      },
+      {
+        "dataset": "WIKI200",
+        "sentence": "Os cientistas não usaram a tecnologia de transferência de os  genes de ouro \" juntamente com o gene \" repórter ß - Glucuronidase \" para produzir a planta . \"",
+        "marker": "não",
+        "verb": "usaram",
+        "triple": [
+          "Os cientistas",
+          "usaram",
+          "o gene reporter ss - Glucuronidase"
+        ]
+      },
+      {
+        "dataset": "WIKI200",
+        "sentence": "A Constituição alemã confere a a presidência um poder de caráter fundamentalmente representativo , pois , para prevenir os problemas que se deram durante a República de Weimar , não tem capacidade de manobra alguma en o processo de eleição de o Chanceler de a Alemanha e nem pode ditar decretos de urgência .",
+        "marker": "não",
+        "verb": "tem",
+        "triple": [
+          "presidência",
+          "tem",
+          "capacidade de manobra alguma no processo de eleição do Chanceler da Alemanha"
+        ]
+      },
+      {
+        "dataset": "WIKI200",
+        "sentence": "A Constituição alemã confere a a presidência um poder de caráter fundamentalmente representativo , pois , para prevenir os problemas que se deram durante a República de Weimar , não tem capacidade de manobra alguma en o processo de eleição de o Chanceler de a Alemanha e nem pode ditar decretos de urgência .",
+        "marker": "nem",
+        "verb": "pode",
+        "triple": [
+          "a presidência",
+          "pode ditar",
+          "decretos de urgência"
+        ]
+      },
+      {
+        "dataset": "CETEN200",
+        "sentence": "O diretor - presidente de a Splice , Antonio Beldi , afirmou ontem que a prefeitura ainda não pagou os US $ 600 mil referentes a a coleta de lixo en o bairro de a Penha ( zona leste ) en os meses de dezembro e janeiro .",
+        "marker": "não",
+        "verb": "pagou",
+        "triple": [
+          "a prefeitura",
+          "pagou",
+          "os US $ 600 mil"
+        ]
+      },
+      {
+        "dataset": "CETEN200",
+        "sentence": "A eventual vitória de Lula também não assusta o mercado como antes .",
+        "marker": "não",
+        "verb": "assusta",
+        "triple": [
+          "A eventual vitoria de Lula",
+          "assusta",
+          "o mercado"
+        ]
+      }
+    ],
+    "MultiOIE|neg": [
+      {
+        "dataset": "WIKI200",
+        "sentence": "Marshall foi expulso de as próprias terras por a onda resultante de garimpeiros e nunca obteve lucro com sua descoberta .",
+        "marker": "nunca",
+        "verb": "obteve",
+        "triple": [
+          "Marshall",
+          "obteve",
+          "lucro com sua descoberta"
+        ]
+      },
+      {
+        "dataset": "WIKI200",
+        "sentence": "Grande Oriente são federações ou confederações de , en o mínimo , três Lojas maçônicas que , inicialmente , não trabalhavam en o mesmo rito maçonico , como eram exigidos por as Grande Lojas .",
+        "marker": "não",
+        "verb": "trabalhavam",
+        "triple": [
+          "três Lojas maçônicas",
+          "trabalhavam",
+          "en o mesmo rito maçonico"
+        ]
+      },
+      {
+        "dataset": "WIKI200",
+        "sentence": "Os cientistas não usaram a tecnologia de transferência de os  genes de ouro \" juntamente com o gene \" repórter ß - Glucuronidase \" para produzir a planta . \"",
+        "marker": "não",
+        "verb": "usaram",
+        "triple": [
+          "Os cientistas ",
+          "usaram ",
+          "a tecnologia de transferência de os  genes de ouro \" juntamente com o gene \" repórter ß - Glucuronidase \" para produzir a planta"
+        ]
+      },
+      {
+        "dataset": "WIKI200",
+        "sentence": "A Constituição alemã confere a a presidência um poder de caráter fundamentalmente representativo , pois , para prevenir os problemas que se deram durante a República de Weimar , não tem capacidade de manobra alguma en o processo de eleição de o Chanceler de a Alemanha e nem pode ditar decretos de urgência .",
+        "marker": "não",
+        "verb": "tem",
+        "triple": [
+          "problemas",
+          "tem",
+          "a capacidade de manobra alguma en o processo de eleição de o Chanceler de a Alemanha decretos de"
+        ]
+      },
+      {
+        "dataset": "WIKI200",
+        "sentence": "Este efeito não acontece com pessoas que têm algumas formas de prosopagnosia , uma desordem em que a percepção de o rosto é prejudicada , geralmente adquirida após uma lesão ou doença cerebral .",
+        "marker": "não",
+        "verb": "acontece",
+        "triple": [
+          "Este efeito",
+          "acontece",
+          "com pessoas que algumas formas de prosopagnosia"
+        ]
+      },
+      {
+        "dataset": "CETEN200",
+        "sentence": "A eventual vitória de Lula também não assusta o mercado como antes .",
+        "marker": "não",
+        "verb": "assusta",
+        "triple": [
+          "A eventual vitória de Lula",
+          "assusta",
+          "o mercado como antes"
+        ]
+      },
+      {
+        "dataset": "CETEN200",
+        "sentence": "Segundo Guardiano , 31 , nenhum se forma hoje .",
+        "marker": "nenhum",
+        "verb": "forma",
+        "triple": [
+          "31 nenhum",
+          "se forma",
+          "hoje"
+        ]
+      },
+      {
+        "dataset": "CETEN200",
+        "sentence": "Ciro Gomes , que ninguém fique com falsa impressão , não mudou em nada .",
+        "marker": "não",
+        "verb": "mudou",
+        "triple": [
+          "Ciro Gomes",
+          "mudou",
+          "em nada"
+        ]
+      }
+    ],
+    "ArgOE|mod": [
+      {
+        "dataset": "WIKI200",
+        "sentence": "Os filhos legítimos de um par vitalício recebem os privilégios de os filhos de os barões hereditários , podendo preceder seus nomes com o título the Honourable .",
+        "marker": "podendo",
+        "verb": "preceder",
+        "triple": [
+          "os filhos legitimos de um par vitalicio",
+          "preceder",
+          "seus nomes"
+        ]
+      },
+      {
+        "dataset": "WIKI200",
+        "sentence": "A maioria de as plantas pode ser designada como erva , trepadeira , liana , arbusto ou árvore ( com algumas subcategorias ) , ainda que algumas espécies sejam de difícil categorização .",
+        "marker": "pode",
+        "verb": "designada",
+        "triple": [
+          "A maioria de as plantas",
+          "ser designada",
+          "erva"
+        ]
+      },
+      {
+        "dataset": "WIKI200",
+        "sentence": "A maioria de as plantas pode ser designada como erva , trepadeira , liana , arbusto ou árvore ( com algumas subcategorias ) , ainda que algumas espécies sejam de difícil categorização .",
+        "marker": "pode",
+        "verb": "designada",
+        "triple": [
+          "A maioria de as plantas",
+          "ser designada",
+          "trepadeira"
+        ]
+      },
+      {
+        "dataset": "WIKI200",
+        "sentence": "A maioria de as plantas pode ser designada como erva , trepadeira , liana , arbusto ou árvore ( com algumas subcategorias ) , ainda que algumas espécies sejam de difícil categorização .",
+        "marker": "pode",
+        "verb": "designada",
+        "triple": [
+          "A maioria de as plantas",
+          "ser designada",
+          "liana"
+        ]
+      },
+      {
+        "dataset": "WIKI200",
+        "sentence": "A maioria de as plantas pode ser designada como erva , trepadeira , liana , arbusto ou árvore ( com algumas subcategorias ) , ainda que algumas espécies sejam de difícil categorização .",
+        "marker": "pode",
+        "verb": "designada",
+        "triple": [
+          "A maioria de as plantas",
+          "ser designada",
+          "arbusto"
+        ]
+      },
+      {
+        "dataset": "WIKI200",
+        "sentence": "A maioria de as plantas pode ser designada como erva , trepadeira , liana , arbusto ou árvore ( com algumas subcategorias ) , ainda que algumas espécies sejam de difícil categorização .",
+        "marker": "pode",
+        "verb": "designada",
+        "triple": [
+          "A maioria de as plantas",
+          "ser designada",
+          "arvore"
+        ]
+      },
+      {
+        "dataset": "Gamalho",
+        "sentence": "Podemos comparar padrões de dispersão aos valores esperados das distribuições espaciais aleatórias .",
+        "marker": "Podemos",
+        "verb": "comparar",
+        "triple": [
+          "Podemos",
+          "comparar",
+          "padroes de dispersao"
+        ]
+      }
+    ],
+    "GraphIE|mod": [
+      {
+        "dataset": "WIKI200",
+        "sentence": "Os filhos legítimos de um par vitalício recebem os privilégios de os filhos de os barões hereditários , podendo preceder seus nomes com o título the Honourable .",
+        "marker": "podendo",
+        "verb": "preceder",
+        "triple": [
+          "os filhos legitimos de um par vitalicio",
+          "preceder",
+          "seus nomes"
+        ]
+      },
+      {
+        "dataset": "WIKI200",
+        "sentence": "A maioria de as plantas pode ser designada como erva , trepadeira , liana , arbusto ou árvore ( com algumas subcategorias ) , ainda que algumas espécies sejam de difícil categorização .",
+        "marker": "pode",
+        "verb": "designada",
+        "triple": [
+          "A maioria de as plantas",
+          "ser designada",
+          "erva"
+        ]
+      },
+      {
+        "dataset": "WIKI200",
+        "sentence": "A maioria de as plantas pode ser designada como erva , trepadeira , liana , arbusto ou árvore ( com algumas subcategorias ) , ainda que algumas espécies sejam de difícil categorização .",
+        "marker": "pode",
+        "verb": "designada",
+        "triple": [
+          "A maioria de as plantas",
+          "ser designada",
+          "trepadeira"
+        ]
+      },
+      {
+        "dataset": "WIKI200",
+        "sentence": "A maioria de as plantas pode ser designada como erva , trepadeira , liana , arbusto ou árvore ( com algumas subcategorias ) , ainda que algumas espécies sejam de difícil categorização .",
+        "marker": "pode",
+        "verb": "designada",
+        "triple": [
+          "A maioria de as plantas",
+          "ser designada",
+          "liana"
+        ]
+      },
+      {
+        "dataset": "WIKI200",
+        "sentence": "A maioria de as plantas pode ser designada como erva , trepadeira , liana , arbusto ou árvore ( com algumas subcategorias ) , ainda que algumas espécies sejam de difícil categorização .",
+        "marker": "pode",
+        "verb": "designada",
+        "triple": [
+          "A maioria de as plantas",
+          "ser designada",
+          "arbusto"
+        ]
+      },
+      {
+        "dataset": "WIKI200",
+        "sentence": "A maioria de as plantas pode ser designada como erva , trepadeira , liana , arbusto ou árvore ( com algumas subcategorias ) , ainda que algumas espécies sejam de difícil categorização .",
+        "marker": "pode",
+        "verb": "designada",
+        "triple": [
+          "A maioria de as plantas",
+          "ser designada",
+          "arvore"
+        ]
+      },
+      {
+        "dataset": "Gamalho",
+        "sentence": "Podemos comparar padrões de dispersão aos valores esperados das distribuições espaciais aleatórias .",
+        "marker": "Podemos",
+        "verb": "comparar",
+        "triple": [
+          "Podemos",
+          "comparar",
+          "padroes de dispersao"
+        ]
+      }
+    ],
+    "TransAlign|mod": [
+      {
+        "dataset": "WIKI200",
+        "sentence": "Pode ser encontrada en os seguintes países : Hong Kong , Japão , Taiwan e Vietname .",
+        "marker": "Pode",
+        "verb": "encontrada",
+        "triple": [
+          "Pode",
+          "ser encontrada en",
+          "os seguintes países"
+        ]
+      },
+      {
+        "dataset": "WIKI200",
+        "sentence": "Pode ser encontrada en os seguintes países : Indonésia e Papua - Nova Guiné .",
+        "marker": "Pode",
+        "verb": "encontrada",
+        "triple": [
+          "Pode",
+          "ser encontrada en",
+          "os seguintes países"
+        ]
+      },
+      {
+        "dataset": "Gamalho",
+        "sentence": "Podemos comparar padrões de dispersão aos valores esperados das distribuições espaciais aleatórias .",
+        "marker": "Podemos",
+        "verb": "comparar",
+        "triple": [
+          "Podemos",
+          "comparar padrões de",
+          "dispersão a os valores esperados de as distribuições espaciais aleatórias"
+        ]
+      }
+    ],
+    "PortOIE-LLama|neg": [
+      {
+        "dataset": "WIKI200",
+        "sentence": "A Constituição alemã confere a a presidência um poder de caráter fundamentalmente representativo , pois , para prevenir os problemas que se deram durante a República de Weimar , não tem capacidade de manobra alguma en o processo de eleição de o Chanceler de a Alemanha e nem pode ditar decretos de urgência .",
+        "marker": "não",
+        "verb": "tem",
+        "triple": [
+          "a presidência",
+          "tem",
+          "um poder de caráter fundamentalmente representativo"
+        ]
+      },
+      {
+        "dataset": "WIKI200",
+        "sentence": "A Constituição alemã confere a a presidência um poder de caráter fundamentalmente representativo , pois , para prevenir os problemas que se deram durante a República de Weimar , não tem capacidade de manobra alguma en o processo de eleição de o Chanceler de a Alemanha e nem pode ditar decretos de urgência .",
+        "marker": "não",
+        "verb": "tem",
+        "triple": [
+          "a presidência",
+          "tem",
+          "um poder de caráter fundamentalmente representativo para prevenir os problemas que se deram durante a República de Weimar"
+        ]
+      },
+      {
+        "dataset": "WIKI200",
+        "sentence": "A Constituição alemã confere a a presidência um poder de caráter fundamentalmente representativo , pois , para prevenir os problemas que se deram durante a República de Weimar , não tem capacidade de manobra alguma en o processo de eleição de o Chanceler de a Alemanha e nem pode ditar decretos de urgência .",
+        "marker": "não",
+        "verb": "tem",
+        "triple": [
+          "a presidência",
+          "tem",
+          "um poder de caráter fundamentalmente representativo pois não tem capacidade de manobra alguma en o processo de eleição de o Chanceler de a Alemanha e nem pode ditar decretos de urgência"
+        ]
+      }
+    ],
+    "DetIE|mod": [
+      {
+        "dataset": "WIKI200",
+        "sentence": "Pode ser encontrada en os seguintes países : Indonésia e Papua - Nova Guiné .",
+        "marker": "Pode",
+        "verb": "encontrada",
+        "triple": [
+          "Pode",
+          "ser encontrada",
+          "en os seguintes países"
+        ]
+      },
+      {
+        "dataset": "CETEN200",
+        "sentence": "en a verdade , se fosse para fazer controle de preços , o governo não precisaria ter inventado a Unidade Real de Valor , uma quase - moeda , en a transição entre o cruzeiro e o real .",
+        "marker": "precisaria",
+        "verb": "inventado",
+        "triple": [
+          "o governo",
+          "inventado",
+          "a Unidade Real de Valor"
+        ]
+      },
+      {
+        "dataset": "Gamalho",
+        "sentence": "As fronteiras de uma população podem ser as naturais , impostas pêlos limites geográficos de um hábitat , adequado , ou podem ser definidas arbitrariamente à conveniência do pesquisador .",
+        "marker": "podem",
+        "verb": "definidas",
+        "triple": [
+          "As fronteiras de uma população",
+          "ser definidas",
+          "à conveniência do pesquisador"
+        ]
+      },
+      {
+        "dataset": "Gamalho",
+        "sentence": "Como deveria parecer uma distribuição aleatória de acarinos sobre as folhas ?",
+        "marker": "deveria",
+        "verb": "parecer",
+        "triple": [
+          "Como deveria",
+          "parecer",
+          "uma distribuição aleatória de acarinos sobre as folhas"
+        ]
+      }
+    ],
+    "MultiOIE|mod": [
+      {
+        "dataset": "CETEN200",
+        "sentence": "Em maio poderá ocorrer o fato político mais relevante de os últimos anos com a provável eleição de Vicentinho para a presidência de a Central Única de os Trabalhadores ( CUT ) .",
+        "marker": "poderá",
+        "verb": "ocorrer",
+        "triple": [
+          "maio",
+          "ocorrer",
+          "o fato político mais relevante de os últimos anos com a provável eleição de Vicentinho para a presidência de a Central Única de os Trabalhadores ( CUT )"
+        ]
+      },
+      {
+        "dataset": "CETEN200",
+        "sentence": "en a prática os governos costumam se esquecer de fazer a sua parte , dão o mau exemplo e assim inspiram uma insatisfação generalizada .",
+        "marker": "costumam",
+        "verb": "esquecer",
+        "triple": [
+          "os governos",
+          "esquecer",
+          "se de fazer a sua parte"
+        ]
+      },
+      {
+        "dataset": "CETEN200",
+        "sentence": "Como consequência os preços tendem a ficar competitivos , obrigando cada vez mais as empresas a buscarem eficiência , sob pena de desaparecerem .",
+        "marker": "tendem",
+        "verb": "ficar",
+        "triple": [
+          "os preços",
+          "a ficar",
+          "competitivos"
+        ]
+      }
+    ],
+    "ollama_gemma4|neg": [
+      {
+        "dataset": "CETEN200",
+        "sentence": "Segundo Guardiano , 31 , nenhum se forma hoje .",
+        "marker": "nenhum",
+        "verb": "forma",
+        "triple": [
+          "nenhum",
+          "se forma",
+          "hoje"
+        ]
+      }
+    ],
+    "DetIE|neg": [
+      {
+        "dataset": "CETEN200",
+        "sentence": "Segundo Guardiano , 31 , nenhum se forma hoje .",
+        "marker": "nenhum",
+        "verb": "forma",
+        "triple": [
+          "nenhum",
+          "se forma",
+          "Guardiano , 31 , nenhum se forma hoje"
+        ]
+      }
+    ],
+    "TransAlign|neg": [
+      {
+        "dataset": "CETEN200",
+        "sentence": "Segundo Guardiano , 31 , nenhum se forma hoje .",
+        "marker": "nenhum",
+        "verb": "forma",
+        "triple": [
+          "nenhum se",
+          "forma",
+          "hoje"
+        ]
+      }
+    ],
+    "pt_oie|neg": [
+      {
+        "dataset": "CETEN200",
+        "sentence": "en a verdade , se fosse para fazer controle de preços , o governo não precisaria ter inventado a Unidade Real de Valor , uma quase - moeda , en a transição entre o cruzeiro e o real .",
+        "marker": "não",
+        "verb": "precisaria",
+        "triple": [
+          "o governo",
+          "precisaria inventado",
+          "a Unidade Real de Valor uma moeda en a transição entre o cruzeiro e o real"
+        ]
+      }
+    ],
+    "pt_oie_op1|neg": [
+      {
+        "dataset": "CETEN200",
+        "sentence": "en a verdade , se fosse para fazer controle de preços , o governo não precisaria ter inventado a Unidade Real de Valor , uma quase - moeda , en a transição entre o cruzeiro e o real .",
+        "marker": "não",
+        "verb": "precisaria",
+        "triple": [
+          "o governo",
+          "precisaria inventado",
+          "a Unidade Real de Valor uma moeda en a transição entre o cruzeiro e o real"
+        ]
+      }
+    ],
+    "ud_baseline|neg": [
+      {
+        "dataset": "CETEN200",
+        "sentence": "en a verdade , se fosse para fazer controle de preços , o governo não precisaria ter inventado a Unidade Real de Valor , uma quase - moeda , en a transição entre o cruzeiro e o real .",
+        "marker": "não",
+        "verb": "precisaria",
+        "triple": [
+          "o governo",
+          "precisaria inventado",
+          "a Unidade Real de Valor uma moeda en a transição entre o cruzeiro e o real"
+        ]
+      }
+    ],
+    "PragmaticOIE|mod": [
+      {
+        "dataset": "Gamalho",
+        "sentence": "As fronteiras de uma população podem ser as naturais , impostas pêlos limites geográficos de um hábitat , adequado , ou podem ser definidas arbitrariamente à conveniência do pesquisador .",
+        "marker": "podem",
+        "verb": "definidas",
+        "triple": [
+          "as naturais ",
+          "  podemser definidas arbitrariamente à   ",
+          "conveniência do  pesquisador "
+        ]
+      }
+    ],
+    "ollama_gemma4|mod": [
+      {
+        "dataset": "Gamalho",
+        "sentence": "Podemos comparar padrões de dispersão aos valores esperados das distribuições espaciais aleatórias .",
+        "marker": "Podemos",
+        "verb": "comparar",
+        "triple": [
+          "nós",
+          "poder comparar",
+          "padrões de dispersão aos valores esperados das distribuições espaciais aleatórias"
+        ]
+      }
+    ]
+  }
+}

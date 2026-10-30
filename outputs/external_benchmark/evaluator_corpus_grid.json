@@ -1,0 +1,140 @@
+{
+  "grid": {
+    "pt_oie": {
+      "BIA": {
+        "benchmark_evaluator": 59.59138197087638,
+        "strict": 18.373812038014783,
+        "tolerant": 29.14466737064414,
+        "bia_legacy": 54.92227979274612,
+        "carb_style": 61.66842661034846
+      },
+      "WIKI200": {
+        "benchmark_evaluator": 41.738968882759295,
+        "strict": 4.930662557781202,
+        "tolerant": 11.710323574730355,
+        "bia_legacy": 26.586102719033235,
+        "carb_style": 28.351309707241906,
+        "note": "1 sentenças sem gold"
+      },
+      "CETEN200": {
+        "benchmark_evaluator": 36.23803258839965,
+        "strict": 3.442879499217528,
+        "tolerant": 6.572769953051642,
+        "bia_legacy": 26.43856920684292,
+        "carb_style": 28.482003129890455
+      },
+      "Gamalho": {
+        "benchmark_evaluator": 55.33533149914569,
+        "strict": 12.692307692307692,
+        "tolerant": 18.461538461538463,
+        "bia_legacy": 29.389312977099237,
+        "carb_style": 40.769230769230774
+      }
+    },
+    "ud_baseline": {
+      "BIA": {
+        "benchmark_evaluator": 57.32255020230272,
+        "strict": 17.477656405163856,
+        "tolerant": 30.784508440913605,
+        "bia_legacy": 52.71317829457365,
+        "carb_style": 59.185700099304874
+      },
+      "WIKI200": {
+        "benchmark_evaluator": 42.31477739825289,
+        "strict": 6.3711911357340725,
+        "tolerant": 13.296398891966756,
+        "bia_legacy": 26.39455782312925,
+        "carb_style": 29.362880886426595,
+        "note": "1 sentenças sem gold"
+      },
+      "CETEN200": {
+        "benchmark_evaluator": 36.07451325067603,
+        "strict": 3.6418816388467374,
+        "tolerant": 6.980273141122913,
+        "bia_legacy": 26.84766214177979,
+        "carb_style": 28.224582701062218
+      },
+      "Gamalho": {
+        "benchmark_evaluator": 54.021850137519955,
+        "strict": 12.429378531073446,
+        "tolerant": 19.209039548022595,
+        "bia_legacy": 29.36802973977695,
+        "carb_style": 39.92467043314502
+      }
+    }
+  },
+  "spans": {
+    "pt_oie": {
+      "across_evaluators_by_corpus": {
+        "BIA": 43.29461457233368,
+        "WIKI200": 36.80830632497809,
+        "CETEN200": 32.79515308918212,
+        "Gamalho": 42.643023806837995
+      },
+      "across_corpora_by_evaluator": {
+        "benchmark_evaluator": 23.35334938247673,
+        "strict": 14.930932538797256,
+        "tolerant": 22.571897417592496,
+        "bia_legacy": 28.483710585903196,
+        "carb_style": 33.31711690310655
+      }
+    },
+    "ud_baseline": {
+      "across_evaluators_by_corpus": {
+        "BIA": 41.70804369414102,
+        "WIKI200": 35.94358626251882,
+        "CETEN200": 32.43263161182929,
+        "Gamalho": 41.59247160644651
+      },
+      "across_corpora_by_evaluator": {
+        "benchmark_evaluator": 21.248036951626695,
+        "strict": 13.835774766317119,
+        "tolerant": 23.80423529979069,
+        "bia_legacy": 26.3186204714444,
+        "carb_style": 30.961117398242656
+      }
+    }
+  },
+  "rq3_minus_rq1_benchmark_evaluator": {
+    "BIA": {
+      "system_a": "pt_oie",
+      "system_b": "ud_baseline",
+      "delta_point_f1": 2.2688317685736648,
+      "delta_mean": 0.022664479675640566,
+      "ci_low": 1.468905915159726,
+      "ci_high": 3.1145505228194588,
+      "p_delta_gt_0": 1.0,
+      "significant_95": true
+    },
+    "WIKI200": {
+      "system_a": "pt_oie",
+      "system_b": "ud_baseline",
+      "delta_point_f1": -0.5758085154936032,
+      "delta_mean": -0.005683890463788128,
+      "ci_low": -1.13088074508145,
+      "ci_high": -0.004961958023592129,
+      "p_delta_gt_0": 0.0241,
+      "significant_95": true
+    },
+    "CETEN200": {
+      "system_a": "pt_oie",
+      "system_b": "ud_baseline",
+      "delta_point_f1": 0.1635193377236277,
+      "delta_mean": 0.0017358551415036822,
+      "ci_low": -0.33098313383592454,
+      "ci_high": 0.67522147242878,
+      "p_delta_gt_0": 0.7529,
+      "significant_95": false
+    },
+    "Gamalho": {
+      "system_a": "pt_oie",
+      "system_b": "ud_baseline",
+      "delta_point_f1": 1.3134813616257346,
+      "delta_mean": 0.013079755321017688,
+      "ci_low": 0.5370803619718562,
+      "ci_high": 2.1881701104682314,
+      "p_delta_gt_0": 0.9999,
+      "significant_95": true
+    }
+  }
+}

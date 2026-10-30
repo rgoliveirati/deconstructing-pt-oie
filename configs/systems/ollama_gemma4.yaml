@@ -1,0 +1,33 @@
+name: ollama_gemma4
+enabled: true
+provider: ollama
+base_url: http://localhost:11434
+model: gemma4:latest
+timeout_seconds: 300
+
+generation:
+  temperature: 0.0
+  seed: 42
+  # 384 truncava sentenças longas do BIA (done_reason=length no smoke test);
+  # elevado antes da execução completa. Ajuste técnico de capacidade, sem
+  # relação com o gold e sem alteração do prompt.
+  num_predict: 1024
+  num_ctx: 8192
+  top_k: 1
+  top_p: 1.0
+  stream: false
+  think: false
+  keep_alive: 10m
+
+structured_output:
+  enabled: true
+  max_repair_attempts: 1
+
+prompt:
+  path: configs/gemma4_prompt_pt.txt
+
+reproducibility:
+  require_digest: true
+  fail_on_digest_change: true
+  record_ollama_version: true
+  record_model_details: true

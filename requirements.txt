@@ -1,0 +1,14 @@
+# Versions used for the article (Python 3.12.8). For GPU runs, install the PyTorch
+# build that matches the local CUDA first (the article used 2.5.1+cu124).
+conllu==6.0.0
+matplotlib==3.10.0
+numpy==2.2.5
+openpyxl==3.1.5
+pandas==2.2.3
+PyYAML==6.0.2
+requests==2.32.3
+stanza==1.10.1
+torch==2.5.1
+tqdm==4.67.1
+transformers==4.48.2
+pytest==9.1.1

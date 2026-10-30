@@ -1,0 +1,5 @@
+name: ud_baseline
+enabled: true
+# Configuração RQ1 (rq1_baseline_ud_puro): UD puro, sem atenção, sem validação.
+bosque_path: data/pt_bosque-ud-train.conllu
+seed: 13

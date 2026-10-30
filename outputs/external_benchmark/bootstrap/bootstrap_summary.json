@@ -1,0 +1,60 @@
+{
+  "created_at": "2026-10-30T17:06:25.546215+00:00",
+  "n_samples": 10000,
+  "seed": 42,
+  "resampling_unit": "sentença",
+  "ci_method": "percentil 2.5/97.5",
+  "paired": "matriz de índices compartilhada por corpus",
+  "datasets": {
+    "WIKI200": {
+      "n_sentences": 200,
+      "systems_evaluated": [
+        "ArgOE",
+        "DetIE",
+        "DptOIE",
+        "GraphIE",
+        "MultiOIE",
+        "PortOIE-LLama",
+        "PragmaticOIE",
+        "TransAlign",
+        "ollama_gemma4",
+        "pt_oie",
+        "pt_oie_op1",
+        "ud_baseline"
+      ]
+    },
+    "CETEN200": {
+      "n_sentences": 201,
+      "systems_evaluated": [
+        "ArgOE",
+        "DetIE",
+        "DptOIE",
+        "GraphIE",
+        "MultiOIE",
+        "PortOIE-LLama",
+        "PragmaticOIE",
+        "TransAlign",
+        "ollama_gemma4",
+        "pt_oie",
+        "pt_oie_op1",
+        "ud_baseline"
+      ]
+    },
+    "Gamalho": {
+      "n_sentences": 103,
+      "systems_evaluated": [
+        "ArgOE",
+        "DetIE",
+        "GraphIE",
+        "MultiOIE",
+        "PortOIE-LLama",
+        "PragmaticOIE",
+        "TransAlign",
+        "ollama_gemma4",
+        "pt_oie",
+        "pt_oie_op1",
+        "ud_baseline"
+      ]
+    }
+  }
+}

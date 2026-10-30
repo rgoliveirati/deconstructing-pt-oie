@@ -1,0 +1,52 @@
+{
+  "created_at": "2026-08-10T18:12:57.941726+00:00",
+  "system": "pt_oie",
+  "ok": true,
+  "datasets": {
+    "WIKI200": {
+      "n_native_rows": 201,
+      "ids_unique": true,
+      "count_matches_corpus": true,
+      "order_preserved": true,
+      "n_pred_orphan": 0,
+      "gold_sentences_covered_by_corpus": 200,
+      "n_gold_sentences": 200,
+      "n_duplicate_triples": 13,
+      "n_empty_slot_rows": 0,
+      "n_long_extractions": 0,
+      "max_arg_tokens": 23,
+      "n_sentences_without_extraction": 40,
+      "ok": true
+    },
+    "CETEN200": {
+      "n_native_rows": 202,
+      "ids_unique": true,
+      "count_matches_corpus": true,
+      "order_preserved": true,
+      "n_pred_orphan": 0,
+      "gold_sentences_covered_by_corpus": 201,
+      "n_gold_sentences": 201,
+      "n_duplicate_triples": 4,
+      "n_empty_slot_rows": 0,
+      "n_long_extractions": 1,
+      "max_arg_tokens": 26,
+      "n_sentences_without_extraction": 52,
+      "ok": true
+    },
+    "Gamalho": {
+      "n_native_rows": 103,
+      "ids_unique": true,
+      "count_matches_corpus": true,
+      "order_preserved": true,
+      "n_pred_orphan": 0,
+      "gold_sentences_covered_by_corpus": 103,
+      "n_gold_sentences": 103,
+      "n_duplicate_triples": 4,
+      "n_empty_slot_rows": 0,
+      "n_long_extractions": 0,
+      "max_arg_tokens": 21,
+      "n_sentences_without_extraction": 10,
+      "ok": true
+    }
+  }
+}

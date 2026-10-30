@@ -1,0 +1,7 @@
+name: pt_oie
+enabled: true
+# Melhor configuração do artigo (rq3_attn_on_thr0):
+# UD + atenção, heads_mode=rank, top_k_heads=10, attn_threshold=0.0,
+# validação linguística desativada, cop_mode=full, seed 13.
+bosque_path: data/pt_bosque-ud-train.conllu
+seed: 13

@@ -1,0 +1,68 @@
+{
+  "created_at": "2026-10-30T17:25:16.602616+00:00",
+  "protocol": "bia_legacy",
+  "variants": {
+    "default": {
+      "overrides": {},
+      "n_triples": 538,
+      "precision": 49.25650557620818,
+      "recall": 62.06088992974239,
+      "f1": 54.92227979274612,
+      "delta_f1": 0.0
+    },
+    "1a_obl": {
+      "overrides": {
+        "obl_core_policy": "governed",
+        "obl_allow_sole_temporal": true
+      },
+      "n_triples": 585,
+      "precision": 48.034188034188034,
+      "recall": 65.807962529274,
+      "f1": 55.533596837944664,
+      "delta_f1": 0.6113170451985468
+    },
+    "1a_obl_no_temporal": {
+      "overrides": {
+        "obl_core_policy": "governed"
+      },
+      "n_triples": 581,
+      "precision": 47.84853700516351,
+      "recall": 65.10538641686182,
+      "f1": 55.158730158730165,
+      "delta_f1": 0.236450365984048
+    },
+    "1b_null_subject": {
+      "overrides": {
+        "allow_null_subject": true,
+        "null_subject_arg1_source": "antecedent"
+      },
+      "n_triples": 579,
+      "precision": 45.76856649395509,
+      "recall": 62.06088992974239,
+      "f1": 52.683896620278325,
+      "delta_f1": -2.238383172467792
+    },
+    "1c_passive": {
+      "overrides": {
+        "allow_passive_agent": true
+      },
+      "n_triples": 550,
+      "precision": 49.45454545454545,
+      "recall": 63.70023419203748,
+      "f1": 55.68065506653019,
+      "delta_f1": 0.7583752737840754
+    },
+    "1a_1c_frozen": {
+      "overrides": {
+        "obl_core_policy": "governed",
+        "obl_allow_sole_temporal": true,
+        "allow_passive_agent": true
+      },
+      "n_triples": 597,
+      "precision": 47.90619765494137,
+      "recall": 66.97892271662764,
+      "f1": 55.859374999999986,
+      "delta_f1": 0.9370952072538685
+    }
+  }
+}

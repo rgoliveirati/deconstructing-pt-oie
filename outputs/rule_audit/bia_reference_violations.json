@@ -1,0 +1,18 @@
+{
+  "created_at": "2026-10-30T16:58:34.043463+00:00",
+  "config": "rq3_attn_on_thr0",
+  "corpus": "BIA",
+  "n_triples_annotate": 538,
+  "n_triples_filter": 507,
+  "removed_by_filter": 31,
+  "blocked_in_annotate": 0,
+  "critical_violations": {
+    "E4": 24,
+    "E1": 8,
+    "S4": 6,
+    "S1": 1
+  },
+  "warnings": {
+    "S3": 17
+  }
+}

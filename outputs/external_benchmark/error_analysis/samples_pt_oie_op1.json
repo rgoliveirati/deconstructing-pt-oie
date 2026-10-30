@@ -1,0 +1,1224 @@
+{
+  "WIKI200": {
+    "alta_correspondencia": [
+      {
+        "sentence": "Sua menor audiência foi alcançada em 31 de dezembro de 2004 , quando marcou apenas 17 pontos .",
+        "pred": [
+          "Sua menor audiência",
+          "foi alcançada em",
+          "31 de dezembro de 2004"
+        ],
+        "best_gold": [
+          "Sua menor audiência",
+          "foi alcançada em",
+          "31 de dezembro de 2004"
+        ],
+        "score": 1.0
+      },
+      {
+        "sentence": "Sua menor audiência foi alcançada em 31 de dezembro de 2004 , quando marcou apenas 17 pontos .",
+        "pred": [
+          "Sua menor audiência",
+          "foi alcançada em",
+          "31 de dezembro de 2004"
+        ],
+        "best_gold": [
+          "Sua menor audiência",
+          "foi alcançada em",
+          "31 de dezembro de 2004"
+        ],
+        "score": 1.0
+      },
+      {
+        "sentence": "Estes espíritos eram mais frequentemente descritos como espectros de animais ou pessoas injustiçadas por o portador , os ritos de exorcismo geralmente eram compostos de ofertas respeitosas ou ofertas de sacrifício .",
+        "pred": [
+          "os ritos de exorcismo",
+          "compostos de",
+          "ofertas respeitosas"
+        ],
+        "best_gold": [
+          "os ritos de exorcismo",
+          "eram compostos de",
+          "ofertas respeitosas"
+        ],
+        "score": 0.9333333333333332
+      },
+      {
+        "sentence": "Este asteroide foi descoberto en o dia 7 de fevereiro de 1997 por Klet em Klet .",
+        "pred": [
+          "Este asteroide",
+          "foi descoberto en",
+          "o dia 7 de fevereiro de 1997"
+        ],
+        "best_gold": [
+          "Este asteroide",
+          "foi descoberto en o",
+          "dia 7 de fevereiro de 1997 por Klet em Klet"
+        ],
+        "score": 0.8571428571428572
+      },
+      {
+        "sentence": "Alice Regina Brown ( Jackson , 20 de setembro de 1960 ) é uma ex - atleta velocista norte - americana , bicampeã olímpica e campeã mundial .",
+        "pred": [
+          "Alice Regina Brown",
+          "é",
+          "ex"
+        ],
+        "best_gold": [
+          "Alice Regina Brown",
+          "é",
+          "uma ex - atleta"
+        ],
+        "score": 0.8333333333333334
+      },
+      {
+        "sentence": "As filmagens começaram em 11 de setembro de 2011 .",
+        "pred": [
+          "As filmagens",
+          "começaram em",
+          "11 de setembro de 2011"
+        ],
+        "best_gold": [
+          "As filmagens",
+          "começaram em",
+          "11 de setembro de 2011"
+        ],
+        "score": 1.0
+      },
+      {
+        "sentence": "Por conta disso Igan caiu em desgraça , não raro sendo debochada por Barrabás .",
+        "pred": [
+          "Igan",
+          "caiu em",
+          "desgraça"
+        ],
+        "best_gold": [
+          "Igan",
+          "caiu em",
+          "desgraça"
+        ],
+        "score": 1.0
+      },
+      {
+        "sentence": "Este efeito não acontece com pessoas que têm algumas formas de prosopagnosia , uma desordem em que a percepção de o rosto é prejudicada , geralmente adquirida após uma lesão ou doença cerebral .",
+        "pred": [
+          "Este efeito",
+          "não acontece com",
+          "pessoas"
+        ],
+        "best_gold": [
+          "Este efeito",
+          "não acontece com",
+          "pessoas"
+        ],
+        "score": 1.0
+      },
+      {
+        "sentence": "Todas as canções foram compostas por Martijn Garritsen ( Martin Garrix ) .",
+        "pred": [
+          "Todas as canções",
+          "foram compostas por",
+          "Martijn Garritsen"
+        ],
+        "best_gold": [
+          "Todas as canções",
+          "foram compostas por",
+          "Martijn Garritsen"
+        ],
+        "score": 1.0
+      },
+      {
+        "sentence": "Kjær gravou também uma versão inglesa , intitulada  I ´ m chasing butterflies \" \"",
+        "pred": [
+          "Kjær",
+          "gravou",
+          "uma versão inglesa"
+        ],
+        "best_gold": [
+          "Kjær",
+          "gravou também",
+          "uma versão inglesa"
+        ],
+        "score": 0.8888888888888888
+      }
+    ],
+    "falsos_positivos": [
+      {
+        "sentence": "Após a extinção de o BNH , aquelas que eram suas atribuições foram assumidas por a CAIXA - Caixa Econômica Federal .",
+        "pred": [
+          "aquelas",
+          "Após foram assumidas",
+          "a extinção de o BNH"
+        ],
+        "best_gold": [
+          "suas atribuições",
+          "foram assumidas por a",
+          "CAIXA"
+        ],
+        "score": 0.1904761904761905
+      },
+      {
+        "sentence": "Esta é uma lista de as emissoras de a Rede Família , uma rede de televisão brasileira .",
+        "pred": [
+          "Esta",
+          "é",
+          "lista"
+        ],
+        "best_gold": null,
+        "score": 0.0
+      },
+      {
+        "sentence": "Nicéforo significa em grego :  portador de a vitória \" , e este justificou o seu nome com uma série de vitórias que permitiram estender a fronteira para leste com a tomada de umas 60 cidades fronteiriças , entre elas Alepo . \"",
+        "pred": [
+          "este",
+          "justificou",
+          "o seu nome com uma série de vitórias"
+        ],
+        "best_gold": [
+          "o seu nome com uma série de vitórias",
+          "permitiram estender a fronteira para",
+          "leste com a tomada de umas 60 cidades fronteiriças"
+        ],
+        "score": 0.0784313725490196
+      },
+      {
+        "sentence": "Nicéforo significa em grego :  portador de a vitória \" , e este justificou o seu nome com uma série de vitórias que permitiram estender a fronteira para leste com a tomada de umas 60 cidades fronteiriças , entre elas Alepo . \"",
+        "pred": [
+          "que",
+          "permitiram",
+          "estender a fronteira para leste com a tomada"
+        ],
+        "best_gold": [
+          "o seu nome com uma série de vitórias",
+          "permitiram estender a fronteira para",
+          "leste com a tomada de umas 60 cidades fronteiriças"
+        ],
+        "score": 0.2777777777777778
+      },
+      {
+        "sentence": "Nicéforo significa em grego :  portador de a vitória \" , e este justificou o seu nome com uma série de vitórias que permitiram estender a fronteira para leste com a tomada de umas 60 cidades fronteiriças , entre elas Alepo . \"",
+        "pred": [
+          "este",
+          "justificou com",
+          "com uma série de vitórias"
+        ],
+        "best_gold": [
+          "o seu nome com uma série de vitórias",
+          "permitiram estender a fronteira para",
+          "leste com a tomada de umas 60 cidades fronteiriças"
+        ],
+        "score": 0.09523809523809523
+      },
+      {
+        "sentence": "O beato Padre Eustáquio é muito famoso por todo o Brasil , sendo considerado responsável por vários milagres ocorridos por todo o país .",
+        "pred": [
+          "O beato",
+          "é",
+          "famoso"
+        ],
+        "best_gold": [
+          "Padre Eustáquio",
+          "é muito famoso por",
+          "todo o Brasil"
+        ],
+        "score": 0.13333333333333333
+      },
+      {
+        "sentence": "Segundo alguns registros o casal praticava o enigmático ritual que se chamava : energia criativa sexual , largamente difundido en a parte oriental de a China , tendo influencia profunda de o taoismo de Lao Tzé , tornando se o casal mais poderoso de a época .",
+        "pred": [
+          "se",
+          "tornando",
+          "o casal mais poderoso"
+        ],
+        "best_gold": [
+          "energia criativa",
+          "tornando se o casal mais poderoso de a",
+          "época"
+        ],
+        "score": 0.07407407407407407
+      },
+      {
+        "sentence": "Em 1943 é criada a Escola nacional de ski em Alpe d'Huez e em 1947 é transferida para Chamonix - Monte - Branco onde se torna ma Escola nacional de esqui e de alpinismo ( ENSA ) .",
+        "pred": [
+          "a Escola nacional de ski em Alpe d'Huez",
+          "Em é criada",
+          "1943"
+        ],
+        "best_gold": [
+          "1947",
+          "é transferida para",
+          "Chamonix - Monte - Branco"
+        ],
+        "score": 0.1111111111111111
+      },
+      {
+        "sentence": "en o Brasil , os pianos Steinway & Sons são importados e comercializados , com exclusividade , por a Gluck Pianos .",
+        "pred": [
+          "os pianos",
+          "en são importados",
+          "o Brasil"
+        ],
+        "best_gold": [
+          "Sons",
+          "são  importados",
+          "por a"
+        ],
+        "score": 0.26666666666666666
+      },
+      {
+        "sentence": "Os que são punidos en o Dis são pecadores ativos : hereges , assassinos , suicidas , estelionatários e traidores .",
+        "pred": [
+          "Os",
+          "são",
+          "pecadores"
+        ],
+        "best_gold": null,
+        "score": 0.0
+      }
+    ],
+    "falsos_negativos": [
+      {
+        "gold": [
+          "A Universidade Flinders",
+          "localizada en a",
+          "Austrália Meridional"
+        ],
+        "best_pred_score": 0.24999999999999997,
+        "n_pred_for_sentence": 1
+      },
+      {
+        "gold": [
+          "ele",
+          "convenceu 12 Cavaleiros a aliarem a",
+          "ele"
+        ],
+        "best_pred_score": 0.0,
+        "n_pred_for_sentence": 1
+      },
+      {
+        "gold": [
+          ".",
+          ".",
+          "."
+        ],
+        "best_pred_score": 0.0,
+        "n_pred_for_sentence": 0
+      },
+      {
+        "gold": [
+          "a liga europea de rugby de os  países célticos",
+          "envolvendo times de a",
+          "Escócia"
+        ],
+        "best_pred_score": 0.17777777777777778,
+        "n_pred_for_sentence": 1
+      },
+      {
+        "gold": [
+          "o enigmático ritual",
+          "chamava",
+          ": energia criativa"
+        ],
+        "best_pred_score": 0.22857142857142856,
+        "n_pred_for_sentence": 2
+      },
+      {
+        "gold": [
+          "a equipe",
+          "tiver obtido a melhor campanha en a",
+          "somatória de todas as fases anteriores"
+        ],
+        "best_pred_score": 0.0,
+        "n_pred_for_sentence": 0
+      },
+      {
+        "gold": [
+          "Goran Višnjic",
+          "radicado en os",
+          "Estados Unidos de a  América"
+        ],
+        "best_pred_score": 0.16666666666666666,
+        "n_pred_for_sentence": 1
+      },
+      {
+        "gold": [
+          "todas",
+          "parecidas  as  quais  de",
+          "modo geral"
+        ],
+        "best_pred_score": 0.0,
+        "n_pred_for_sentence": 2
+      },
+      {
+        "gold": [
+          "um distrito de o  Peru",
+          "localizada en a",
+          "província de Carabaya"
+        ],
+        "best_pred_score": 0.0,
+        "n_pred_for_sentence": 1
+      },
+      {
+        "gold": [
+          "uma cidade",
+          "localizada en o",
+          "estado americano de Indiana"
+        ],
+        "best_pred_score": 0.0,
+        "n_pred_for_sentence": 1
+      }
+    ],
+    "sentencas_sem_extracao": [
+      {
+        "sentence_id": "WIKI200_0046",
+        "sentence": "Foi desenvolvido como parte de o programa Oko de satélites artificiais ."
+      },
+      {
+        "sentence_id": "WIKI200_0092",
+        "sentence": "Localiza - se en o departamento de Santa Rosa , Município de Chiquimulilla ."
+      },
+      {
+        "sentence_id": "WIKI200_0109",
+        "sentence": "Está localizada en a região nordeste de o estado , atendendo a os municípios de São João de Pirabas , Santarém Novo , Maracanã , Magalhães Barata , Marapanim , São João de a Ponta , Terra Alta e Vigia ."
+      },
+      {
+        "sentence_id": "WIKI200_0124",
+        "sentence": "Possui uma excentricidade de 0,1679193 e um período orbital de 1 289,63 dias ( 3,53 anos ) ."
+      },
+      {
+        "sentence_id": "WIKI200_0141",
+        "sentence": "Confina com as seguintes comunas : Aquila ( TI ) , Campo ( TI ) , Disentis / Mustér , Ghirone ( TI ) , Olivone ( TI ) , Quinto ( TI ) , Sumvitg , Tujetsch , Vrin ."
+      },
+      {
+        "sentence_id": "WIKI200_0147",
+        "sentence": "Em 1955 deram - se alguns passos para restabelecer um sentido de identidade nacional para Gales quando Cardiff foi declarada a sua capital ."
+      },
+      {
+        "sentence_id": "WIKI200_0174",
+        "sentence": "Conflyto voltou a o passado perseguindo seu arqui - inimigo Cable e foi o responsável por a liberação de o Vírus Legado , que matou inúmeros mutantes ."
+      },
+      {
+        "sentence_id": "WIKI200_0186",
+        "sentence": "Foi aparentado com a primeira ave , o Archaeopteryx ."
+      },
+      {
+        "sentence_id": "WIKI200_0188",
+        "sentence": "Traz gravações feitas por a banda em 1993 ."
+      },
+      {
+        "sentence_id": "WIKI200_0198",
+        "sentence": "Vi maler byen rød \" , canção de a Dinamarca en o Festival Eurovisão de a Canção 1989 . \""
+      }
+    ],
+    "counts": {
+      "alta_correspondencia": 105,
+      "falsos_positivos": 25,
+      "falsos_negativos": 155,
+      "sentencas_sem_extracao": 31
+    }
+  },
+  "CETEN200": {
+    "alta_correspondencia": [
+      {
+        "sentence": "Sebastião Zorzeto , de a Administração Tributária de a Secretaria de a Fazenda de São Paulo , disse que o governo vai intensificar a cobrança de ICMS a partir de janeiro .",
+        "pred": [
+          "o governo",
+          "vai intensificar",
+          "a cobrança de ICMS a partir de janeiro"
+        ],
+        "best_gold": [
+          "o governo",
+          "vai intensificar a cobrança de",
+          "ICMS a partir de janeiro"
+        ],
+        "score": 0.8268398268398269
+      },
+      {
+        "sentence": "Por sua vez , o cinema de ficção foi reduzido de quinze filmes por ano para dois , produzidos para os mais jovens ou estreantes .",
+        "pred": [
+          "o cinema de ficção",
+          "foi reduzido de",
+          "quinze filmes por ano para dois"
+        ],
+        "best_gold": [
+          "o cinema de ficção",
+          "foi reduzido de",
+          "quinze filmes por ano para dois"
+        ],
+        "score": 1.0
+      },
+      {
+        "sentence": "O diretor de a Vigilância Sanitária , Luiz Antonio Jonke , diz que São Paulo é  um caso a a parte \" . \"",
+        "pred": [
+          "São Paulo",
+          "é",
+          "caso"
+        ],
+        "best_gold": [
+          "São Paulo",
+          "é",
+          "\\ um caso à"
+        ],
+        "score": 0.8333333333333334
+      },
+      {
+        "sentence": "Parágrafo 2º A partir de a primeira emissão de o Real , as atuais cédulas e moedas representativas de o cruzeiro real continuarão em circulação como meios de pagamento até que sejam substituídas por a nova moeda en o meio circulante , observada a paridade entre o cruzeiro real e o Real fixada por o Banco Central de o Brasil naquela data .",
+        "pred": [
+          "as atuais cédulas e moedas representativas de o cruzeiro real",
+          "continuarão em",
+          "circulação"
+        ],
+        "best_gold": [
+          "moedas representativas de o  cruzeiro real",
+          "continuarão em",
+          "circulação"
+        ],
+        "score": 0.9166666666666666
+      },
+      {
+        "sentence": "Vira só restaurante sendo que o bar será deslocado para o pátio de o fundo , com direito a performance de o deejay Bid , mais Bartolo e Hori .",
+        "pred": [
+          "o bar",
+          "será deslocado para",
+          "o pátio de o fundo"
+        ],
+        "best_gold": [
+          "o bar",
+          "será deslocado para",
+          "o pátio de o  fundo"
+        ],
+        "score": 1.0
+      },
+      {
+        "sentence": "de a antiguidade , Magalhães lembrou Cícero  a coisa pública é a coisa de o povo \" e Tito Lívio que analisou a existência de corrupção em Roma . \"",
+        "pred": [
+          "Magalhães",
+          "lembrou",
+          "Cícero"
+        ],
+        "best_gold": [
+          "Magalhães",
+          "lembrou",
+          "Cícero"
+        ],
+        "score": 1.0
+      },
+      {
+        "sentence": "A vice - cônsul de o Japão en o Pará , Sakiko Haayakawa , 25 , afirmou que o assassinato de a cônsul foi um problema particular .",
+        "pred": [
+          "o assassinato de a cônsul",
+          "foi",
+          "problema"
+        ],
+        "best_gold": [
+          "o assassinato de a  cônsul",
+          "foi",
+          "um problema particular"
+        ],
+        "score": 0.8333333333333334
+      },
+      {
+        "sentence": "A música sacra se faz presente em  Funeral Sentences \" , que reúne hinos religiosos de o compositor inglês interpretados por o Collegium Vocale , regido por Philippe Herreweghe . \"",
+        "pred": [
+          "A música sacra",
+          "se faz em",
+          "em Funeral Sentences"
+        ],
+        "best_gold": [
+          "A música sacra",
+          "faz presente em",
+          "\\ Funeral Sentences"
+        ],
+        "score": 0.8222222222222223
+      },
+      {
+        "sentence": "O pessoal de a Murk Records , que nõa está morto nem nada , chama o vocal cult de Bobby Fruit em  Discipline Reachin \" ' . \"",
+        "pred": [
+          "O pessoal de a Murk Records",
+          "chama",
+          "o vocal cult de Bobby Fruit"
+        ],
+        "best_gold": [
+          "O pessoal de a  Murk Records",
+          "chama",
+          "o vocal"
+        ],
+        "score": 0.8333333333333334
+      },
+      {
+        "sentence": "A intervenção veio como medida saneadora , pois permite enfrentar com maior firmeza um problema cuja solução era repetidamente adiada por motivos políticos .",
+        "pred": [
+          "A intervenção",
+          "veio",
+          "como medida saneadora"
+        ],
+        "best_gold": [
+          "A intervenção",
+          "veio como",
+          "medida saneadora"
+        ],
+        "score": 0.8222222222222223
+      }
+    ],
+    "falsos_positivos": [
+      {
+        "sentence": "Em 1986 , foi eleito senador en o Distrito Federal por o PDT , com 197.637 votos ( segundo mais votado ) .",
+        "pred": [
+          "senador en o Distrito Federal",
+          "Em foi eleito",
+          "1986"
+        ],
+        "best_gold": [
+          "1986",
+          "foi eleito senador en o",
+          "Distrito Federal por o  PDT"
+        ],
+        "score": 0.16666666666666666
+      },
+      {
+        "sentence": "As duas manchetes de ontem en o Jornal Nacional ajudam a enterrar a história de que Deus é brasileiro .",
+        "pred": [
+          "As duas manchetes en o Jornal Nacional",
+          "ajudam",
+          "a enterrar a história"
+        ],
+        "best_gold": [
+          "Jornal Nacional",
+          "ajudam a enterrar a história de",
+          "Deus"
+        ],
+        "score": 0.2592592592592593
+      },
+      {
+        "sentence": "Luiz Eduardo Pinto Lima , Júlio Neves , Mário Pimenta Camargo e Henrique Falzoni pilotam amanhã en a Hípica Paulista o lançamento de o Center Shop São Bernardo .",
+        "pred": [
+          "Luiz Eduardo Pinto Lima Júlio Neves Mário Pimenta Camargo e Henrique Falzoni",
+          "pilotam",
+          "o lançamento de o Center Shop São Bernardo"
+        ],
+        "best_gold": [
+          "Henrique Falzoni",
+          "pilotam amanhã en a",
+          "Hípica Paulista"
+        ],
+        "score": 0.22857142857142856
+      },
+      {
+        "sentence": "Rádio toca - fitas com frente destacável , teto solar , desembaçador com ar quente e cintos traseiros ( laterais ) retráteis de três pontos são opcionais .",
+        "pred": [
+          "Rádio",
+          "toca",
+          "fitas com frente destacável teto solar desembaçador com ar quente e cintos traseiros laterais retráteis"
+        ],
+        "best_gold": null,
+        "score": 0.0
+      },
+      {
+        "sentence": "Os consultados prevêem redução de interesse em investimentos en o Brasil em favor de o México .",
+        "pred": [
+          "Os consultados",
+          "prevêem",
+          "redução de interesse em investimentos en o Brasil em favor de o México"
+        ],
+        "best_gold": null,
+        "score": 0.0
+      },
+      {
+        "sentence": "Nessa hipótese de variação de a Ufir , saem favorecidos os FAFs , que são tributados em 5 % de o rendimento nominal bruto por o IR , que incide diretamente en a carteira .",
+        "pred": [
+          "os FAFs",
+          "saem",
+          "favorecidos"
+        ],
+        "best_gold": [
+          "hipótese de variação de a  Ufir",
+          "saem favorecidos",
+          "os FAFs"
+        ],
+        "score": 0.2222222222222222
+      },
+      {
+        "sentence": "Nessa hipótese de variação de a Ufir , saem favorecidos os FAFs , que são tributados em 5 % de o rendimento nominal bruto por o IR , que incide diretamente en a carteira .",
+        "pred": [
+          "que",
+          "são tributados em",
+          "5 % de o rendimento nominal bruto"
+        ],
+        "best_gold": null,
+        "score": 0.0
+      },
+      {
+        "sentence": "De fato , Wright tem em comum com Sulloway um interesse por a biologia como campo onde os fenômenos psíquicos deveriam se explicar .",
+        "pred": [
+          "os fenômenos psíquicos",
+          "deveriam",
+          "onde explicar"
+        ],
+        "best_gold": null,
+        "score": 0.0
+      },
+      {
+        "sentence": "A intervenção veio como medida saneadora , pois permite enfrentar com maior firmeza um problema cuja solução era repetidamente adiada por motivos políticos .",
+        "pred": [
+          "cuja solução",
+          "era adiada por",
+          "motivos políticos"
+        ],
+        "best_gold": null,
+        "score": 0.0
+      },
+      {
+        "sentence": "Desde ontem integrado a o elenco , o levantador Maurício iniciou seu treino en a seleção sob o olhar atento de o preparador físico Júlio Noronha .",
+        "pred": [
+          "o levantador",
+          "iniciou",
+          "seu treino en a seleção"
+        ],
+        "best_gold": [
+          "Maurício",
+          "iniciou seu treino en a",
+          "seleção sob o olhar atento de o  preparador físico"
+        ],
+        "score": 0.1623931623931624
+      }
+    ],
+    "falsos_negativos": [
+      {
+        "gold": [
+          "um fardo",
+          "pesado para carregar entre",
+          "os metalúrgicos"
+        ],
+        "best_pred_score": 0.0,
+        "n_pred_for_sentence": 0
+      },
+      {
+        "gold": [
+          "a sua parte",
+          "dão o mau exemplo",
+          "uma insatisfação generalizada"
+        ],
+        "best_pred_score": 0.0,
+        "n_pred_for_sentence": 1
+      },
+      {
+        "gold": [
+          "sindicato",
+          "reúne funcionários de a",
+          "Sabesp"
+        ],
+        "best_pred_score": 0.1111111111111111,
+        "n_pred_for_sentence": 3
+      },
+      {
+        "gold": [
+          "Alberto Dualib",
+          "acompanhado de os",
+          "jogadores Moacir"
+        ],
+        "best_pred_score": 0.13333333333333333,
+        "n_pred_for_sentence": 2
+      },
+      {
+        "gold": [
+          "Convenção Internacional de Decoração do Lar",
+          "ocorrerá em",
+          "Orlando"
+        ],
+        "best_pred_score": 0.16666666666666666,
+        "n_pred_for_sentence": 3
+      },
+      {
+        "gold": [
+          "caso",
+          "deve entrar à",
+          "esquerda en a  avenida"
+        ],
+        "best_pred_score": 0.0,
+        "n_pred_for_sentence": 0
+      },
+      {
+        "gold": [
+          "novo",
+          "falou muito en a",
+          "saída eventual de o  seu treinador"
+        ],
+        "best_pred_score": 0.0,
+        "n_pred_for_sentence": 0
+      },
+      {
+        "gold": [
+          "o ministro",
+          "é  preciso  informatizar  totalmente  paraevitar",
+          "fraudes"
+        ],
+        "best_pred_score": 0.0,
+        "n_pred_for_sentence": 1
+      },
+      {
+        "gold": [
+          "Tostão",
+          "organizar",
+          "o jogo"
+        ],
+        "best_pred_score": 0.0,
+        "n_pred_for_sentence": 1
+      },
+      {
+        "gold": [
+          "Tostão",
+          "fazer",
+          "a tabela"
+        ],
+        "best_pred_score": 0.0,
+        "n_pred_for_sentence": 1
+      }
+    ],
+    "sentencas_sem_extracao": [
+      {
+        "sentence_id": "CETEN200_0003",
+        "sentence": "Era um fardo muito pesado para carregar entre os metalúrgicos ."
+      },
+      {
+        "sentence_id": "CETEN200_0040",
+        "sentence": "Outra , muito diferente , é votar en a estabilidade prometida e anunciada temporariamente engendrada , como está acontecendo en o Brasil ."
+      },
+      {
+        "sentence_id": "CETEN200_0048",
+        "sentence": "Os animais desaparecem porque a floresta , que é a casa deles , está sumindo ."
+      },
+      {
+        "sentence_id": "CETEN200_0055",
+        "sentence": "Segundo Guardiano , 31 , nenhum se forma hoje ."
+      },
+      {
+        "sentence_id": "CETEN200_0057",
+        "sentence": "Shakespeare Ah , um admirável mundo novo ."
+      },
+      {
+        "sentence_id": "CETEN200_0077",
+        "sentence": "Ele é presidente de o Doctor's Data , laboratório que praticamente detém o monopólio de a análise capilar en o mundo ."
+      },
+      {
+        "sentence_id": "CETEN200_0091",
+        "sentence": "Dólar comercial ( exportações e importações ) : CR $ 2.235,49 ( compra ) e CR $ 2.235,51 ( venda ) ."
+      },
+      {
+        "sentence_id": "CETEN200_0111",
+        "sentence": "em um canto de a sala , há um mastro de bandeiras pré - revolucionárias ."
+      },
+      {
+        "sentence_id": "CETEN200_0143",
+        "sentence": "Exceto o entorpecimento associado a o casamento e a a fundação de um novo lar , resta somente a paralisia de o fim de a história a morte ."
+      },
+      {
+        "sentence_id": "CETEN200_0193",
+        "sentence": "Uma média de 2,7 gols por jogo ."
+      }
+    ],
+    "counts": {
+      "alta_correspondencia": 58,
+      "falsos_positivos": 59,
+      "falsos_negativos": 160,
+      "sentencas_sem_extracao": 40
+    }
+  },
+  "Gamalho": {
+    "alta_correspondencia": [
+      {
+        "sentence": "A população tem continuidade temporal porque indivíduos que estão vivos num determinado tempo são descendentes de outros que estavam vivos num tempo anterior .",
+        "pred": [
+          "indivíduos",
+          "são",
+          "descendentes"
+        ],
+        "best_gold": [
+          "indivíduos",
+          "são",
+          "descendentes de outros"
+        ],
+        "score": 0.8333333333333334
+      },
+      {
+        "sentence": "A razão sexual e a estrutura de idade influenciam a dinâmica populacional devido às variações relacionadas ao sexo e à idade no nascimento e na morte .",
+        "pred": [
+          "A razão sexual e a estrutura de idade",
+          "influenciam",
+          "a dinâmica populacional"
+        ],
+        "best_gold": [
+          "A razão sexual e a estrutura de idade",
+          "influenciam",
+          "a dinâmica populacional"
+        ],
+        "score": 1.0
+      },
+      {
+        "sentence": "A cotovia-de-chifre (horned lark , Eremophila alpestris) , um pequeno pássaro canoro de campos reduzidos , ocorre mais amplamente na América do Norte do que a Clematis fremontii , mas sua distribuição local reflete súbitas variações de habitat , os indivíduos até usam algumas partes de seus territórios mais do que outras .",
+        "pred": [
+          "sua distribuição local",
+          "reflete",
+          "súbitas variações de habitat"
+        ],
+        "best_gold": [
+          "sua distribuição local",
+          "reflete",
+          "súbitas variações de habitat"
+        ],
+        "score": 1.0
+      },
+      {
+        "sentence": "Muitos pássaros realizam migrações anuais em direção a lugares quentes durante os meses de inverno .",
+        "pred": [
+          "Muitos pássaros",
+          "realizam durante",
+          "durante os meses de inverno"
+        ],
+        "best_gold": [
+          "Muitos pássaros",
+          "realizam migrações anuais durante",
+          "os meses de inverno"
+        ],
+        "score": 0.8518518518518517
+      },
+      {
+        "sentence": "Deste modo , as modificações ecológicas na Bacia Amazônica ou na África Central podem afetar as populações de espécies migratórias que se reproduzem nas florestas do leste da América do Norte ou da Europa .",
+        "pred": [
+          "as modificações ecológicas em a Bacia Amazônica ou em a África Central",
+          "podem afetar",
+          "as populações de espécies migratórias"
+        ],
+        "best_gold": [
+          "as modificações ecológicas em a Bacia Amazônica ou em a África Central",
+          "podem afetar",
+          "as populações de espécies migratórias"
+        ],
+        "score": 1.0
+      },
+      {
+        "sentence": "Os padrões de distribuição homogénea e agrupada derivam de processos diferentes .",
+        "pred": [
+          "Os padrões de distribuição homogénea e agrupada",
+          "derivam de",
+          "processos diferentes"
+        ],
+        "best_gold": [
+          "Os padrões de distribuição homogénea e agrupada",
+          "derivam de",
+          "processos diferentes"
+        ],
+        "score": 1.0
+      },
+      {
+        "sentence": "A manutenção de uma distância mínima entre cada espécime e seu vizinho mais próximo resulta num espaçamento uniforme , por exemplo , em suas colónias abarrotadas , as aves marinhas colocam seus ninhos exatamente onde termina o do vizinho .",
+        "pred": [
+          "as aves marinhas",
+          "colocam",
+          "seus ninhos"
+        ],
+        "best_gold": [
+          "as aves marinhas",
+          "colocam",
+          "seus ninhos"
+        ],
+        "score": 1.0
+      },
+      {
+        "sentence": "Considere , por exemplo , o número de acarinos vermelhos ( Trombicula alfreddugesi ) , contados em cada uma das 150 folhas da macieira : 70 das folhas não continham acarinos , 38 tinham 1,17 tinham 2 , e assim por diante , como mostrado na seguinte tabela .",
+        "pred": [
+          "70 de as folhas",
+          "não continham",
+          "acarinos"
+        ],
+        "best_gold": [
+          "70 de as folhas",
+          "não continham",
+          "acarinos"
+        ],
+        "score": 1.0
+      },
+      {
+        "sentence": "Vários estudos reportaram uma distância de endocruzamento ótima em populações de plantas .",
+        "pred": [
+          "Vários estudos",
+          "reportaram",
+          "uma distância de endocruzamento ótima em populações de plantas"
+        ],
+        "best_gold": [
+          "Vários estudos",
+          "reportaram",
+          "uma distância de endocruzamento ótima"
+        ],
+        "score": 0.923076923076923
+      },
+      {
+        "sentence": "Os registros de 100 anos das raposas prateadas e vermelhas capturadas em armadilhas pêlos postos da missão moraviana * no Labrador ( 1834 a 1933 ) mostram que a proporção de raposas prateadas capturadas decresceu de cerca de 0,15 para 0,05 durante aquele período .",
+        "pred": [
+          "a proporção de raposas prateadas",
+          "decresceu de",
+          "0,15 para 0,05"
+        ],
+        "best_gold": [
+          "a proporção de raposas prateadas capturadas",
+          "decresceu de",
+          "0,15"
+        ],
+        "score": 0.8030303030303031
+      }
+    ],
+    "falsos_positivos": [
+      {
+        "sentence": "Em qualquer caso , a população tem uma estrutura espacial , a qual significa que , dentro de suas fronteiras geográficas , os indivíduos vivem principalmente dentro de partes de habitat adequadas , e suas abundâncias podem variar com respeito a comida , predadores , locais de ninho , e outros fatores ecológicos dentro do habitat .",
+        "pred": [
+          "suas abundâncias",
+          "podem",
+          "variar com respeito"
+        ],
+        "best_gold": null,
+        "score": 0.0
+      },
+      {
+        "sentence": "A medida que as populações tornam-se fragmentadas quando os humanos transformam a paisagem , as questões de coerência populacional e , particularmente , a vulnerabilidade de pequenas subpopulações à extinção ou à mudança genética drástica tornam-se importantes preocupações de conservação e gerenciamento .",
+        "pred": [
+          "a vulnerabilidade de pequenas subpopulações a a extinção ou a a mudança genética drástica",
+          "tornam se",
+          "importantes preocupações"
+        ],
+        "best_gold": null,
+        "score": 0.0
+      },
+      {
+        "sentence": "A cotovia-de-chifre (horned lark , Eremophila alpestris) , um pequeno pássaro canoro de campos reduzidos , ocorre mais amplamente na América do Norte do que a Clematis fremontii , mas sua distribuição local reflete súbitas variações de habitat , os indivíduos até usam algumas partes de seus territórios mais do que outras .",
+        "pred": [
+          "A cotovia-de-chifre um pequeno pássaro canoro de campos",
+          "ocorre de",
+          "de o que a Clematis fremontii"
+        ],
+        "best_gold": [
+          "um de esse locais",
+          "consistem em",
+          "muitos indivíduos distribuídos"
+        ],
+        "score": 0.1111111111111111
+      },
+      {
+        "sentence": "Algumas das regiões terão um único indivíduo , outras , muitos , e outras ainda , nenhum , dependendo da densidade da população e do tamanho das regiões .",
+        "pred": [
+          "Algumas de as regiões",
+          "terão",
+          "outras"
+        ],
+        "best_gold": null,
+        "score": 0.0
+      },
+      {
+        "sentence": "Quando os acarinos são distribuídos de acordo com um processo aleatório como esse , a proporção esperada de folhas ( P ) com um dado número de acarinos ( x ) obedece à distribuição de Poisson .",
+        "pred": [
+          "os acarinos",
+          "são distribuídos de",
+          "acordo com um processo aleatório como esse"
+        ],
+        "best_gold": [
+          "a proporção",
+          "esperada de",
+          "folhas"
+        ],
+        "score": 0.13333333333333333
+      },
+      {
+        "sentence": "Quando os acarinos são distribuídos de acordo com um processo aleatório como esse , a proporção esperada de folhas ( P ) com um dado número de acarinos ( x ) obedece à distribuição de Poisson .",
+        "pred": [
+          "os acarinos",
+          "são distribuídos de",
+          "acordo com um processo aleatório como esse"
+        ],
+        "best_gold": [
+          "a proporção",
+          "esperada de",
+          "folhas"
+        ],
+        "score": 0.13333333333333333
+      },
+      {
+        "sentence": "Por exemplo , quando as flores da espora Delphinium nelsoni no Colorado central foram fertilizadas com pólen obtido do mesmo indivíduo e dos indivíduos localizados em distâncias de l , 10 , 100 e 1.000 m , o número de sementes produzidas por flor foi máximo da fonte de pólen que estava a 10 m e mínima para autofertilização e para os pólens vindos das fontes situadas a 1,000 m .",
+        "pred": [
+          "as flores a espora em o Colorado central",
+          "foram fertilizadas com",
+          "pólen"
+        ],
+        "best_gold": [
+          "o número de sementes",
+          "produzidas por",
+          "flor"
+        ],
+        "score": 0.05555555555555555
+      },
+      {
+        "sentence": "Quando os alelos não ajustados são removidos pela seleção , a evolução estaciona até que novas mutações ou combinações de genes apareçam .",
+        "pred": [
+          "os alelos",
+          "são removidos por",
+          "a seleção"
+        ],
+        "best_gold": null,
+        "score": 0.0
+      },
+      {
+        "sentence": "No caso da substituição da forma típica da mariposa-pimenta pela forma carbonária em bosques poluídos da Inglaterra , é sabido que sua substituição levou cerca de um século .",
+        "pred": [
+          "levou",
+          "é sabido",
+          "que sua substituição levou cerca de um século"
+        ],
+        "best_gold": [
+          "sua substituição",
+          "levou de",
+          "um século"
+        ],
+        "score": 0.13333333333333333
+      },
+      {
+        "sentence": "Tivesse a seleção somente um décimo da força , a mesma mudança na frequência teria requerido um tempo 10 vezes mais longo .",
+        "pred": [
+          "a mesma mudança em a frequência",
+          "teria requerido",
+          "um tempo 10 vezes longo"
+        ],
+        "best_gold": null,
+        "score": 0.0
+      }
+    ],
+    "falsos_negativos": [
+      {
+        "gold": [
+          "A distribuição de uma população",
+          "descreve",
+          "a sua abrangência geográfica e ecológica"
+        ],
+        "best_pred_score": 0.20350877192982456,
+        "n_pred_for_sentence": 5
+      },
+      {
+        "gold": [
+          "a população",
+          "expandiu se para",
+          "cobrir mais de 7,7 milhões de quilómetros quadrados e abranger o país de costa a costa"
+        ],
+        "best_pred_score": 0.0,
+        "n_pred_for_sentence": 0
+      },
+      {
+        "gold": [
+          "Um espaçamento uniforme a as vezes",
+          "chamado de",
+          "hiperdispersão"
+        ],
+        "best_pred_score": 0.2222222222222222,
+        "n_pred_for_sentence": 1
+      },
+      {
+        "gold": [
+          "Um espaçamento",
+          "uniforme",
+          "chamado de hiperdispersão"
+        ],
+        "best_pred_score": 0.0,
+        "n_pred_for_sentence": 4
+      },
+      {
+        "gold": [
+          "desenvolvimento",
+          "baseados em",
+          "o genótipo de o embrião"
+        ],
+        "best_pred_score": 0.06666666666666667,
+        "n_pred_for_sentence": 1
+      },
+      {
+        "gold": [
+          "polinizadores",
+          "viajam entre",
+          "as flores"
+        ],
+        "best_pred_score": 0.08333333333333333,
+        "n_pred_for_sentence": 1
+      },
+      {
+        "gold": [
+          "As interações bioquímicas",
+          "controlam",
+          "a taxa de aquele crescimento"
+        ],
+        "best_pred_score": 0.0,
+        "n_pred_for_sentence": 1
+      },
+      {
+        "gold": [
+          "as equações",
+          "predizem o tempo requerido para",
+          "substituição de alelo"
+        ],
+        "best_pred_score": 0.09523809523809525,
+        "n_pred_for_sentence": 4
+      },
+      {
+        "gold": [
+          NaN,
+          NaN,
+          NaN
+        ],
+        "best_pred_score": 0.0,
+        "n_pred_for_sentence": 1
+      },
+      {
+        "gold": [
+          "a proporção de raposas prateadas capturadas",
+          "decresceu durante",
+          "aquele período"
+        ],
+        "best_pred_score": 0.2045454545454545,
+        "n_pred_for_sentence": 4
+      }
+    ],
+    "sentencas_sem_extracao": [
+      {
+        "sentence_id": "Gamalho_0011",
+        "sentence": "Neste capítulo , consideramos a distribuição dos indivíduos dentro das populações com respeito à sua distribuição espacial , idade e genótipo ."
+      },
+      {
+        "sentence_id": "Gamalho_0027",
+        "sentence": "Em 60 anos , a população expandiu-se para cobrir mais de 7,7 milhões de quilómetros quadrados e abranger o país de costa a costa ."
+      },
+      {
+        "sentence_id": "Gamalho_0044",
+        "sentence": "Deste modo , a abrangência da blackburnian warbler situa-se inteiramente dentro do nordeste dos Estados Unidos e sudeste do Canadá durante o verão , mas inteiramente na América Central e norte da América do Sul durante o inverno ."
+      },
+      {
+        "sentence_id": "Gamalho_0050",
+        "sentence": "Segundo o Aurélio , área de terra inculta , estéril , ou não-aproveitável para o cultivo ."
+      },
+      {
+        "sentence_id": "Gamalho_0062",
+        "sentence": "Podemos comparar padrões de dispersão aos valores esperados das distribuições espaciais aleatórias ."
+      },
+      {
+        "sentence_id": "Gamalho_0064",
+        "sentence": "Suponha que dividamos uma área de estudo em regiões de amostra , ou em outras unidades de áreas iguais , e contemos o número de indivíduos em cada região ."
+      },
+      {
+        "sentence_id": "Gamalho_0067",
+        "sentence": "Como deveria parecer uma distribuição aleatória de acarinos sobre as folhas ?"
+      },
+      {
+        "sentence_id": "Gamalho_0091",
+        "sentence": "A seleção funciona somente quando os indivíduos variam geneticamente dentro de uma população ."
+      }
+    ],
+    "counts": {
+      "alta_correspondencia": 72,
+      "falsos_positivos": 41,
+      "falsos_negativos": 114,
+      "sentencas_sem_extracao": 8
+    }
+  }
+}

@@ -1,0 +1,8 @@
+system,neg_covered_triples,neg_por_tripla_%,neg_covered_preds,neg_por_predicado_%,mod_covered_triples,mod_por_tripla_%,mod_covered_preds,mod_por_predicado_%
+DptOIE,41,100.0,6,100.0,20,100.0,5,100.0
+pt_oie_op1,14,85.7,11,90.9,20,85.0,19,89.5
+ollama_gemma4,20,85.0,15,93.3,39,94.9,30,93.3
+ud_baseline,13,84.6,11,90.9,20,85.0,19,89.5
+pt_oie,13,84.6,11,90.9,20,85.0,19,89.5
+MultiOIE,5,20.0,5,20.0,9,100.0,9,100.0
+PragmaticOIE,7,0.0,5,0.0,9,77.8,8,75.0

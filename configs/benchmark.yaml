@@ -1,0 +1,16 @@
+gold_path: data/bia_gold_sentences.jsonl
+bosque_path: data/pt_bosque-ud-train.conllu
+output_dir: outputs/benchmark
+seed: 42                # seed do benchmark (bootstrap, Gemma 4)
+extractor_seed: 13      # seed dos experimentos do artigo (RQ1/RQ3)
+protocols: [strict, tolerant, bia_legacy, carb_style]
+bootstrap:
+  n_samples: 10000
+  seed: 42
+systems:
+  - pt_oie
+  - ud_baseline
+  - dptoie
+  - multi2oie
+  - portnoie
+  - ollama_gemma4

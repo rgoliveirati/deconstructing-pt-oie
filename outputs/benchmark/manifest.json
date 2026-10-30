@@ -1,0 +1,707 @@
+{
+  "created_at": "2026-07-12T13:20:03.369943+00:00",
+  "started_at": "2026-07-12T13:18:56.550696+00:00",
+  "finished_at": "2026-07-12T13:20:03.369948+00:00",
+  "corpus": {
+    "path": "data/bia_gold_sentences.jsonl",
+    "sha256": "ddd882e93b3d7f9f5778f1a740e0f3854a193e00327082acc3d658bd6550b19e",
+    "n_sentences": 262,
+    "n_gold_triples": 427
+  },
+  "git": {
+    "commit": "36d393358a309a5a18ebd4175e7da8d831141c4b",
+    "branch": "benchmark-comparativo",
+    "dirty": true
+  },
+  "environment": {
+    "collected_at": "2026-07-12T13:20:03.375296+00:00",
+    "os": "Linux-6.17.0-35-generic-x86_64-with-glibc2.39",
+    "python": "3.12.8",
+    "cpu_model": "13th Gen Intel(R) Core(TM) i7-13620H",
+    "ram_total": "32596084 kB",
+    "gpu": {
+      "name": "NVIDIA GeForce RTX 3050 6GB Laptop GPU",
+      "memory_total": "6144 MiB",
+      "driver": "580.126.09"
+    },
+    "packages": {
+      "torch": "2.5.1+cu124",
+      "transformers": "4.48.2",
+      "stanza": "1.10.1",
+      "numpy": "2.2.5",
+      "pandas": "2.2.3",
+      "conllu": null,
+      "requests": "2.32.3",
+      "yaml": "6.0.2"
+    },
+    "cuda_available": true,
+    "cuda_version": "12.4",
+    "gpu_torch": "NVIDIA GeForce RTX 3050 6GB Laptop GPU"
+  },
+  "seed": 42,
+  "protocols": [
+    "strict",
+    "tolerant",
+    "bia_legacy",
+    "carb_style"
+  ],
+  "matching_thresholds": {
+    "tolerant_min_slot_f1": 0.7,
+    "carb_style_threshold": 0.6,
+    "carb_style_weights": {
+      "arg1": 0.35,
+      "rel": 0.3,
+      "arg2": 0.35
+    }
+  },
+  "prompt_sha256": "446bce9c118be91c18357e781de5ee80978383c50c837b8d0e7e0e05d65d487e",
+  "prompt_path": "configs/gemma4_prompt_pt.txt",
+  "systems": {
+    "ud_baseline": {
+      "system": "ud_baseline",
+      "status": "ok",
+      "reason": null,
+      "evidence": null,
+      "n_ok": 262,
+      "n_error": 0,
+      "n_triples": 605,
+      "started_at": "2026-07-12T12:41:20.896416+00:00",
+      "finished_at": "2026-07-12T12:42:12.659707+00:00",
+      "metadata": {
+        "config": {
+          "bert_model": "neuralmind/bert-base-portuguese-cased",
+          "bosque_path": "data/pt_bosque-ud-train.conllu",
+          "seed": 13,
+          "cop_mode": "full",
+          "theory_mode": "off",
+          "apply_theoretical_rules": false,
+          "no_attn": true
+        },
+        "stanza_version": "1.10.1",
+        "transformers_version": "4.48.2",
+        "torch_version": "2.5.1+cu124",
+        "bert_checkpoint": "neuralmind/bert-base-portuguese-cased",
+        "device": "cuda",
+        "training_required": false,
+        "approx_parameters": "0 (simbólico) + parser Stanza",
+        "heads_meta": {
+          "mode": "none",
+          "heads_s": [],
+          "heads_o": [],
+          "head_analysis_valid": false
+        }
+      }
+    },
+    "pt_oie": {
+      "system": "pt_oie",
+      "status": "ok",
+      "reason": null,
+      "evidence": null,
+      "n_ok": 262,
+      "n_error": 0,
+      "n_triples": 538,
+      "started_at": "2026-07-12T12:42:12.662504+00:00",
+      "finished_at": "2026-07-12T12:42:59.975875+00:00",
+      "metadata": {
+        "config": {
+          "bert_model": "neuralmind/bert-base-portuguese-cased",
+          "bosque_path": "data/pt_bosque-ud-train.conllu",
+          "seed": 13,
+          "cop_mode": "full",
+          "theory_mode": "off",
+          "apply_theoretical_rules": false,
+          "no_attn": false,
+          "attn_decision_enabled": true,
+          "attn_rerank_enabled": true,
+          "heads_mode": "rank",
+          "top_k_heads": 10,
+          "attn_threshold": 0.0
+        },
+        "stanza_version": "1.10.1",
+        "transformers_version": "4.48.2",
+        "torch_version": "2.5.1+cu124",
+        "bert_checkpoint": "neuralmind/bert-base-portuguese-cased",
+        "device": "cuda",
+        "training_required": false,
+        "approx_parameters": "110M (BERTimbau base)",
+        "heads_meta": {
+          "mode": "rank",
+          "heads_s": [
+            [
+              2,
+              1
+            ],
+            [
+              2,
+              2
+            ],
+            [
+              2,
+              3
+            ],
+            [
+              2,
+              4
+            ],
+            [
+              2,
+              5
+            ],
+            [
+              2,
+              6
+            ],
+            [
+              2,
+              7
+            ],
+            [
+              2,
+              8
+            ],
+            [
+              2,
+              9
+            ],
+            [
+              2,
+              10
+            ]
+          ],
+          "heads_o": [
+            [
+              7,
+              1
+            ],
+            [
+              7,
+              2
+            ],
+            [
+              7,
+              3
+            ],
+            [
+              7,
+              4
+            ],
+            [
+              7,
+              5
+            ],
+            [
+              7,
+              6
+            ],
+            [
+              7,
+              7
+            ],
+            [
+              7,
+              8
+            ],
+            [
+              7,
+              9
+            ],
+            [
+              7,
+              10
+            ]
+          ],
+          "gains_s": [
+            {
+              "layer": 2,
+              "head": 1,
+              "gain": 0.0
+            },
+            {
+              "layer": 2,
+              "head": 2,
+              "gain": 0.0
+            },
+            {
+              "layer": 2,
+              "head": 3,
+              "gain": 0.0
+            },
+            {
+              "layer": 2,
+              "head": 4,
+              "gain": 0.0
+            },
+            {
+              "layer": 2,
+              "head": 5,
+              "gain": 0.0
+            },
+            {
+              "layer": 2,
+              "head": 6,
+              "gain": 0.0
+            },
+            {
+              "layer": 2,
+              "head": 7,
+              "gain": 0.0
+            },
+            {
+              "layer": 2,
+              "head": 8,
+              "gain": 0.0
+            },
+            {
+              "layer": 2,
+              "head": 9,
+              "gain": 0.0
+            },
+            {
+              "layer": 2,
+              "head": 10,
+              "gain": 0.0
+            }
+          ],
+          "gains_o": [
+            {
+              "layer": 7,
+              "head": 1,
+              "gain": 0.0
+            },
+            {
+              "layer": 7,
+              "head": 2,
+              "gain": 0.0
+            },
+            {
+              "layer": 7,
+              "head": 3,
+              "gain": 0.0
+            },
+            {
+              "layer": 7,
+              "head": 4,
+              "gain": 0.0
+            },
+            {
+              "layer": 7,
+              "head": 5,
+              "gain": 0.0
+            },
+            {
+              "layer": 7,
+              "head": 6,
+              "gain": 0.0
+            },
+            {
+              "layer": 7,
+              "head": 7,
+              "gain": 0.0
+            },
+            {
+              "layer": 7,
+              "head": 8,
+              "gain": 0.0
+            },
+            {
+              "layer": 7,
+              "head": 9,
+              "gain": 0.0
+            },
+            {
+              "layer": 7,
+              "head": 10,
+              "gain": 0.0
+            }
+          ],
+          "head_analysis_valid": true
+        }
+      }
+    },
+    "dptoie": {
+      "system": "dptoie",
+      "status": "ok_with_errors",
+      "reason": null,
+      "evidence": null,
+      "n_ok": 261,
+      "n_error": 1,
+      "n_triples": 2381,
+      "started_at": "2026-07-12T13:18:56.692062+00:00",
+      "finished_at": "2026-07-12T13:20:03.368344+00:00",
+      "metadata": {
+        "authors_repo": "https://github.com/FORMAS/DptOIE",
+        "authors_models": "https://drive.google.com/drive/folders/1U7p3o2dvWMN0xecocCcsHh7uPmaW1Zmh",
+        "commit": "1a5ef708b1ed0a888aac63a7a4512af3cccad315",
+        "jar": ".external/DptOIE/DptOIE-drive.jar",
+        "artifact_sha256": {
+          "DptOIE-drive.jar": "9c260049ad0ff03bcd795c5837ea71f62308bdf5fa088eada75cf2b3206a6dde",
+          "pt-dep-parser.gz": "341e6b5bfc2288b8e7991ee746b2517b02dfb2ef7e540b3666f2b969bd4db30d",
+          "pt-pos-tagger.model": "3025001fb828b7bb73b7f7de6cf6e303126e23aa4f175c8e7f1ad69988a8635b"
+        },
+        "flags": [
+          "-SC",
+          "true",
+          "-CC",
+          "true",
+          "-appositive",
+          "1"
+        ],
+        "language": "java",
+        "batch_execution": true,
+        "training_required": false
+      }
+    },
+    "ollama_gemma4": {
+      "system": "ollama_gemma4",
+      "status": "ok_with_errors",
+      "reason": null,
+      "evidence": null,
+      "n_ok": 261,
+      "n_error": 1,
+      "n_triples": 737,
+      "started_at": "2026-07-12T12:43:00.087848+00:00",
+      "finished_at": "2026-07-12T13:05:43.961521+00:00",
+      "metadata": {
+        "provider": "ollama",
+        "base_url": "http://localhost:11434",
+        "model": "gemma4:latest",
+        "digest": "c6eb396dbd5992bbe3f5cdb947e8bbc0ee413d7c17e2beaae69f5d569cf982eb",
+        "ollama_version": "0.20.0",
+        "model_details": {
+          "checked_at": "2026-07-12T12:43:00.267255+00:00",
+          "name": "gemma4:latest",
+          "model": "gemma4:latest",
+          "digest": "c6eb396dbd5992bbe3f5cdb947e8bbc0ee413d7c17e2beaae69f5d569cf982eb",
+          "size": 9608350718,
+          "modified_at": "2026-04-03T23:55:24.763229806Z",
+          "details": {
+            "parent_model": "",
+            "format": "gguf",
+            "family": "gemma4",
+            "families": [
+              "gemma4"
+            ],
+            "parameter_size": "8.0B",
+            "quantization_level": "Q4_K_M"
+          },
+          "ollama_version": "0.20.0",
+          "show": {
+            "details": {
+              "parent_model": "",
+              "format": "gguf",
+              "family": "gemma4",
+              "families": [
+                "gemma4"
+              ],
+              "parameter_size": "8.0B",
+              "quantization_level": "Q4_K_M"
+            },
+            "model_info": {
+              "gemma4.attention.head_count": 8,
+              "gemma4.attention.head_count_kv": 2,
+              "gemma4.attention.key_length": 512,
+              "gemma4.attention.key_length_swa": 256,
+              "gemma4.attention.layer_norm_rms_epsilon": 1e-06,
+              "gemma4.attention.shared_kv_layers": 18,
+              "gemma4.attention.sliding_window": 512,
+              "gemma4.attention.sliding_window_pattern": null,
+              "gemma4.attention.value_length": 512,
+              "gemma4.attention.value_length_swa": 256,
+              "gemma4.audio.attention.head_count": 8,
+              "gemma4.audio.attention.layer_norm_epsilon": 1e-06,
+              "gemma4.audio.block_count": 12,
+              "gemma4.audio.conv_kernel_size": 5,
+              "gemma4.audio.embedding_length": 1024,
+              "gemma4.audio.feed_forward_length": 4096,
+              "gemma4.block_count": 42,
+              "gemma4.context_length": 131072,
+              "gemma4.embedding_length": 2560,
+              "gemma4.embedding_length_per_layer_input": 256,
+              "gemma4.feed_forward_length": 10240,
+              "gemma4.final_logit_softcapping": 30,
+              "gemma4.rope.dimension_count": 512,
+              "gemma4.rope.dimension_count_swa": 256,
+              "gemma4.rope.freq_base": 1000000,
+              "gemma4.rope.freq_base_swa": 10000,
+              "gemma4.vision.attention.head_count": 12,
+              "gemma4.vision.attention.layer_norm_epsilon": 1e-06,
+              "gemma4.vision.block_count": 16,
+              "gemma4.vision.embedding_length": 768,
+              "gemma4.vision.feed_forward_length": 3072,
+              "gemma4.vision.num_channels": 3,
+              "gemma4.vision.patch_size": 16,
+              "gemma4.vision.projector.scale_factor": 3,
+              "general.architecture": "gemma4",
+              "general.file_type": 15,
+              "general.parameter_count": 7996157674,
+              "general.quantization_version": 2,
+              "tokenizer.ggml.add_bos_token": false,
+              "tokenizer.ggml.add_eos_token": false,
+              "tokenizer.ggml.add_mask_token": false,
+              "tokenizer.ggml.add_padding_token": false,
+              "tokenizer.ggml.add_unknown_token": false,
+              "tokenizer.ggml.bos_token_id": 2,
+              "tokenizer.ggml.eos_token_id": 1,
+              "tokenizer.ggml.eos_token_ids": null,
+              "tokenizer.ggml.mask_token_id": 4,
+              "tokenizer.ggml.merges": null,
+              "tokenizer.ggml.model": "llama",
+              "tokenizer.ggml.padding_token_id": 0,
+              "tokenizer.ggml.pre": "gemma4",
+              "tokenizer.ggml.scores": null,
+              "tokenizer.ggml.token_type": null,
+              "tokenizer.ggml.tokens": null,
+              "tokenizer.ggml.unknown_token_id": 3
+            },
+            "capabilities": [
+              "completion",
+              "vision",
+              "audio",
+              "tools",
+              "thinking"
+            ],
+            "parameters": "temperature                    1\ntop_k                          64\ntop_p                          0.95",
+            "template": "{{ .Prompt }}",
+            "license": "                                Apache License\n                           Version 2.0, January 2004\n                        http://www.apache.org/licenses/\n\n   TERMS AND CONDITIONS FOR USE, REPRODUCTION, AND DISTRIBUTION\n\n   1. Definitions.\n\n      \"License\" shall mean the terms and conditions for use, reproduction,\n      and distribution as defined by Sections 1 through 9 of this document.\n\n      \"Licensor\" shall mean the copyright owner or entity authorized by\n      the copyright owner that is granting the License.\n\n      \"Legal Entity\" shall mean the union of the acting entity and all\n      other entities that control, are controlled by, or are under common\n      control with that entity. For the purposes of this definition,\n      \"control\" means (i) the power, direct or indirect, to cause the\n      direction or management of such entity, whether by contract or\n      otherwise, or (ii) ownership of fifty percent (50%) or more of the\n      outstanding shares, or (iii) beneficial ownership of such entity.\n\n      \"You\" (or \"Your\") shall mean an individual or Legal Entity\n      exercising permissions granted by this License.\n\n      \"Source\" form shall mean the preferred form for making modifications,\n      including but not limited to software source code, documentation\n      source, and configuration files.\n\n      \"Object\" form shall mean any form resulting from mechanical\n      transformation or translation of a Source form, including but\n      not limited to compiled object code, generated documentation,\n      and conversions to other media types.\n\n      \"Work\" shall mean the work of authorship, whether in Source or\n      Object form, made available under the License, as indicated by a\n      copyright notice that is included in or attached to the work\n      (an example is provided in the Appendix below).\n\n      \"Derivative Works\" shall mean any work, whether in Source or Object\n      form, that is based on (or derived from) the Work and for which the\n      editorial revisions, annotations, elaborations, or other modifications\n      represent, as a whole, an original work of authorship. For the purposes\n      of this License, Derivative Works shall not include works that remain\n      separable from, or merely link (or bind by name) to the interfaces of,\n      the Work and Derivative Works thereof.\n\n      \"Contribution\" shall mean any work of authorship, including\n      the original version of the Work and any modifications or additions\n      to that Work or Derivative Works thereof, that is intentionally\n      submitted to Licensor for inclusion in the Work by the copyright owner\n      or by an individual or Legal Entity authorized to submit on behalf of\n      the copyright owner. For the purposes of this definition, \"submitted\"\n      means any form of electronic, verbal, or written communication sent\n      to the Licensor or its representatives, including but not limited to\n      communication on electronic mailing lists, source code control systems,\n      and issue tracking systems that are managed by, or on behalf of, the\n      Licensor for the purpose of discussing and improving the Work, but\n      excluding communication that is conspicuously marked or otherwise\n      designated in writing by the copyright owner as \"Not a Contribution.\"\n\n      \"Contributor\" shall mean Licensor and any individual or Legal Entity\n      on behalf of whom a Contribution has been received by Licensor and\n      subsequently incorporated within the Work.\n\n   2. Grant of Copyright License. Subject to the terms and conditions of\n      this License, each Contributor hereby grants to You a perpetual,\n      worldwide, non-exclusive, no-charge, royalty-free, irrevocable\n      copyright license to reproduce, prepare Derivative Works of,\n      publicly display, publicly perform, sublicense, and distribute the\n      Work and such Derivative Works in Source or Object form.\n\n   3. Grant of Patent License. Subject to the terms and conditions of\n      this License, each Contributor hereby grants to You a perpetual,\n      worldwide, non-exclusive, no-charge, royalty-free, irrevocable\n      (except as stated in this section) patent license to make, have made,\n      use, offer to sell, sell, import, and otherwise transfer the Work,\n      where such license applies only to those patent claims licensable\n      by such Contributor that are necessarily infringed by their\n      Contribution(s) alone or by combination of their Contribution(s)\n      with the Work to which such Contribution(s) was submitted. If You\n      institute patent litigation against any entity (including a\n      cross-claim or counterclaim in a lawsuit) alleging that the Work\n      or a Contribution incorporated within the Work constitutes direct\n      or contributory patent infringement, then any patent licenses\n      granted to You under this License for that Work shall terminate\n      as of the date such litigation is filed.\n\n   4. Redistribution. You may reproduce and distribute copies of the\n      Work or Derivative Works thereof in any medium, with or without\n      modifications, and in Source or Object form, provided that You\n      meet the following conditions:\n\n      (a) You must give any other recipients of the Work or\n          Derivative Works a copy of this License; and\n\n      (b) You must cause any modified files to carry prominent notices\n          stating that You changed the files; and\n\n      (c) You must retain, in the Source form of any Derivative Works\n          that You distribute, all copyright, patent, trademark, and\n          attribution notices from the Source form of the Work,\n          excluding those notices that do not pertain to any part of\n          the Derivative Works; and\n\n      (d) If the Work includes a \"NOTICE\" text file as part of its\n          distribution, then any Derivative Works that You distribute must\n          include a readable copy of the attribution notices contained\n          within such NOTICE file, excluding those notices that do not\n          pertain to any part of the Derivative Works, in at least one\n          of the following places: within a NOTICE text file distributed\n          as part of the Derivative Works; within the Source form or\n          documentation, if provided along with the Derivative Works; or,\n          within a display generated by the Derivative Works, if and\n          wherever such third-party notices normally appear. The contents\n          of the NOTICE file are for informational purposes only and\n          do not modify the License. You may add Your own attribution\n          notices within Derivative Works that You distribute, alongside\n          or as an addendum to the NOTICE text from the Work, provided\n          that such additional attribution notices cannot be construed\n          as modifying the License.\n\n      You may add Your own copyright statement to Your modifications and\n      may provide additional or different license terms and conditions\n      for use, reproduction, or distribution of Your modifications, or\n      for any such Derivative Works as a whole, provided Your use,\n      reproduction, and distribution of the Work otherwise complies with\n      the conditions stated in this License.\n\n   5. Submission of Contributions. Unless You explicitly state otherwise,\n      any Contribution intentionally submitted for inclusion in the Work\n      by You to the Licensor shall be under the terms and conditions of\n      this License, without any additional terms or conditions.\n      Notwithstanding the above, nothing herein shall supersede or modify\n      the terms of any separate license agreement you may have executed\n      with Licensor regarding such Contributions.\n\n   6. Trademarks. This License does not grant permission to use the trade\n      names, trademarks, service marks, or product names of the Licensor,\n      except as required for reasonable and customary use in describing the\n      origin of the Work and reproducing the content of the NOTICE file.\n\n   7. Disclaimer of Warranty. Unless required by applicable law or\n      agreed to in writing, Licensor provides the Work (and each\n      Contributor provides its Contributions) on an \"AS IS\" BASIS,\n      WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or\n      implied, including, without limitation, any warranties or conditions\n      of TITLE, NON-INFRINGEMENT, MERCHANTABILITY, or FITNESS FOR A\n      PARTICULAR PURPOSE. You are solely responsible for determining the\n      appropriateness of using or redistributing the Work and assume any\n      risks associated with Your exercise of permissions under this License.\n\n   8. Limitation of Liability. In no event and under no legal theory,\n      whether in tort (including negligence), contract, or otherwise,\n      unless required by applicable law (such as deliberate and grossly\n      negligent acts) or agreed to in writing, shall any Contributor be\n      liable to You for damages, including any direct, indirect, special,\n      incidental, or consequential damages of any character arising as a\n      result of this License or out of the use or inability to use the\n      Work (including but not limited to damages for loss of goodwill,\n      work stoppage, computer failure or malfunction, or any and all\n      other commercial damages or losses), even if such Contributor\n      has been advised of the possibility of such damages.\n\n   9. Accepting Warranty or Additional Liability. While redistributing\n      the Work or Derivative Works thereof, You may choose to offer,\n      and charge a fee for, acceptance of support, warranty, indemnity,\n      or other liability obligations and/or rights consistent with this\n      License. However, in accepting such obligations, You may act only\n      on Your own behalf and on Your sole responsibility, not on behalf\n      of any other Contributor, and only if You agree to indemnify,\n      defend, and hold each Contributor harmless for any liability\n      incurred by, or claims asserted against, such Contributor by reason\n      of your accepting any such warranty or additional liability.\n\n   END OF TERMS AND CONDITIONS\n\n   APPENDIX: How to apply the Apache License to your work.\n\n      To apply the Apache License to your work, attach the following\n      boilerplate notice, with the fields enclosed by brackets \"[]\"\n      replaced with your own identifying information. (Don't include\n      the brackets!)  The text should be enclosed in the appropriate\n      comment syntax for the file format. We also recommend that a\n      file or class name and description of purpose be included on the\n      same \"printed page\" as the copyright notice for easier\n      identification within third-party archives.\n\n   Copyright [yyyy] [name of copyright owner]\n\n   Licensed under the Apache License, Version 2.0 (the \"License\");\n   you may not use this file except in compliance with the License.\n   You may obtain a copy of the License at\n\n       http://www.apache.org/licenses/LICENSE-2.0\n\n   Unless required by applicable law or agreed to in writing, software\n   distributed under the License is distributed on an \"AS IS\" BASIS,\n   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\n   See the License for the specific language governing permissions and\n   limitations under the License."
+          }
+        },
+        "prompt_path": "configs/gemma4_prompt_pt.txt",
+        "prompt_sha256": "446bce9c118be91c18357e781de5ee80978383c50c837b8d0e7e0e05d65d487e",
+        "generation_options": {
+          "temperature": 0.0,
+          "seed": 42,
+          "num_predict": 1024,
+          "num_ctx": 8192,
+          "top_k": 1,
+          "top_p": 1.0
+        },
+        "keep_alive": "10m",
+        "think": false,
+        "think_supported": true,
+        "structured_output": true,
+        "max_repair_attempts": 1,
+        "zero_shot": true,
+        "training_required": false
+      }
+    },
+    "multi2oie": {
+      "system": "multi2oie",
+      "status": "ok",
+      "reason": null,
+      "evidence": null,
+      "n_ok": 262,
+      "n_error": 0,
+      "n_triples": 672,
+      "started_at": "2026-07-12T13:05:43.962566+00:00",
+      "finished_at": "2026-07-12T13:06:13.253160+00:00",
+      "metadata": {
+        "authors_repo": "https://github.com/youngbin-ro/Multi2OIE",
+        "authors_checkpoint": "https://drive.google.com/file/d/1lHQeetbacFOqvyPQ3ZzVUGPgn-zwTRA_/view",
+        "commit": "4a73a3c37412541748859a6c70bcc1847897bb57",
+        "checkpoint": ".external/Multi2OIE/multilingual_model.bin",
+        "bert_config": "bert-base-multilingual-cased",
+        "mode": "multilingual_zero_shot",
+        "zero_shot": true,
+        "trained_on": "OpenIE4 (inglês); nenhum ajuste com o BIA",
+        "device": "cpu",
+        "batch_size": 32,
+        "max_len": 64,
+        "state_dict_load": {
+          "missing_keys": 0,
+          "unexpected_keys": 0
+        },
+        "compat_note": "checkpoint torch 1.4 carregado com torch 2.5.1+cu124/transformers 4.48.2; 0 chaves faltantes, 0 inesperadas",
+        "training_required": true
+      }
+    },
+    "portnoie": {
+      "system": "portnoie",
+      "status": "unavailable",
+      "reason": "ambiente de execução oficial do PortNOIE não é reconstituível (allennlp==2.7.0 exige Python <3.10; dependências git não pinadas); não é permitido construir substituto aproximado nem treinar novo modelo",
+      "evidence": "Busca (2026-07-12): o código oficial existe em FORMAS/dptoie-neural (commit 770f29fe4a1f, clonado em .external/PortNOIE) e inclui um modelo treinado (saida_novo/model_final/model.th, formato AllenNLP). Porém o ambiente oficial de execução não é reconstituível de forma determinística: pyproject exige Python >=3.8,<3.10 com allennlp==2.7.0 (descontinuado, incompatível com o Python 3.12 do ambiente) e dependências git NÃO pinadas (sru@3.0.0-dev, flair@master); resolver essas branches hoje produziria um sistema diferente do publicado. Executar o modelo fora do stack oficial ou treinar substituto violaria as restrições do benchmark.",
+      "n_ok": 0,
+      "n_error": 0,
+      "n_triples": 0,
+      "started_at": "2026-07-12T13:06:13.256285+00:00",
+      "finished_at": "2026-07-12T13:06:13.256313+00:00",
+      "metadata": {}
+    }
+  },
+  "model_manifests": {
+    "gemma4_latest": {
+      "checked_at": "2026-07-12T12:41:20.893119+00:00",
+      "name": "gemma4:latest",
+      "model": "gemma4:latest",
+      "digest": "c6eb396dbd5992bbe3f5cdb947e8bbc0ee413d7c17e2beaae69f5d569cf982eb",
+      "size": 9608350718,
+      "modified_at": "2026-04-03T23:55:24.763229806Z",
+      "details": {
+        "parent_model": "",
+        "format": "gguf",
+        "family": "gemma4",
+        "families": [
+          "gemma4"
+        ],
+        "parameter_size": "8.0B",
+        "quantization_level": "Q4_K_M"
+      },
+      "ollama_version": "0.20.0",
+      "show": {
+        "details": {
+          "parent_model": "",
+          "format": "gguf",
+          "family": "gemma4",
+          "families": [
+            "gemma4"
+          ],
+          "parameter_size": "8.0B",
+          "quantization_level": "Q4_K_M"
+        },
+        "model_info": {
+          "gemma4.attention.head_count": 8,
+          "gemma4.attention.head_count_kv": 2,
+          "gemma4.attention.key_length": 512,
+          "gemma4.attention.key_length_swa": 256,
+          "gemma4.attention.layer_norm_rms_epsilon": 1e-06,
+          "gemma4.attention.shared_kv_layers": 18,
+          "gemma4.attention.sliding_window": 512,
+          "gemma4.attention.sliding_window_pattern": null,
+          "gemma4.attention.value_length": 512,
+          "gemma4.attention.value_length_swa": 256,
+          "gemma4.audio.attention.head_count": 8,
+          "gemma4.audio.attention.layer_norm_epsilon": 1e-06,
+          "gemma4.audio.block_count": 12,
+          "gemma4.audio.conv_kernel_size": 5,
+          "gemma4.audio.embedding_length": 1024,
+          "gemma4.audio.feed_forward_length": 4096,
+          "gemma4.block_count": 42,
+          "gemma4.context_length": 131072,
+          "gemma4.embedding_length": 2560,
+          "gemma4.embedding_length_per_layer_input": 256,
+          "gemma4.feed_forward_length": 10240,
+          "gemma4.final_logit_softcapping": 30,
+          "gemma4.rope.dimension_count": 512,
+          "gemma4.rope.dimension_count_swa": 256,
+          "gemma4.rope.freq_base": 1000000,
+          "gemma4.rope.freq_base_swa": 10000,
+          "gemma4.vision.attention.head_count": 12,
+          "gemma4.vision.attention.layer_norm_epsilon": 1e-06,
+          "gemma4.vision.block_count": 16,
+          "gemma4.vision.embedding_length": 768,
+          "gemma4.vision.feed_forward_length": 3072,
+          "gemma4.vision.num_channels": 3,
+          "gemma4.vision.patch_size": 16,
+          "gemma4.vision.projector.scale_factor": 3,
+          "general.architecture": "gemma4",
+          "general.file_type": 15,
+          "general.parameter_count": 7996157674,
+          "general.quantization_version": 2,
+          "tokenizer.ggml.add_bos_token": false,
+          "tokenizer.ggml.add_eos_token": false,
+          "tokenizer.ggml.add_mask_token": false,
+          "tokenizer.ggml.add_padding_token": false,
+          "tokenizer.ggml.add_unknown_token": false,
+          "tokenizer.ggml.bos_token_id": 2,
+          "tokenizer.ggml.eos_token_id": 1,
+          "tokenizer.ggml.eos_token_ids": null,
+          "tokenizer.ggml.mask_token_id": 4,
+          "tokenizer.ggml.merges": null,
+          "tokenizer.ggml.model": "llama",
+          "tokenizer.ggml.padding_token_id": 0,
+          "tokenizer.ggml.pre": "gemma4",
+          "tokenizer.ggml.scores": null,
+          "tokenizer.ggml.token_type": null,
+          "tokenizer.ggml.tokens": null,
+          "tokenizer.ggml.unknown_token_id": 3
+        },
+        "capabilities": [
+          "completion",
+          "vision",
+          "audio",
+          "tools",
+          "thinking"
+        ],
+        "parameters": "top_k                          64\ntop_p                          0.95\ntemperature                    1",
+        "template": "{{ .Prompt }}",
+        "license": "                                Apache License\n                           Version 2.0, January 2004\n                        http://www.apache.org/licenses/\n\n   TERMS AND CONDITIONS FOR USE, REPRODUCTION, AND DISTRIBUTION\n\n   1. Definitions.\n\n      \"License\" shall mean the terms and conditions for use, reproduction,\n      and distribution as defined by Sections 1 through 9 of this document.\n\n      \"Licensor\" shall mean the copyright owner or entity authorized by\n      the copyright owner that is granting the License.\n\n      \"Legal Entity\" shall mean the union of the acting entity and all\n      other entities that control, are controlled by, or are under common\n      control with that entity. For the purposes of this definition,\n      \"control\" means (i) the power, direct or indirect, to cause the\n      direction or management of such entity, whether by contract or\n      otherwise, or (ii) ownership of fifty percent (50%) or more of the\n      outstanding shares, or (iii) beneficial ownership of such entity.\n\n      \"You\" (or \"Your\") shall mean an individual or Legal Entity\n      exercising permissions granted by this License.\n\n      \"Source\" form shall mean the preferred form for making modifications,\n      including but not limited to software source code, documentation\n      source, and configuration files.\n\n      \"Object\" form shall mean any form resulting from mechanical\n      transformation or translation of a Source form, including but\n      not limited to compiled object code, generated documentation,\n      and conversions to other media types.\n\n      \"Work\" shall mean the work of authorship, whether in Source or\n      Object form, made available under the License, as indicated by a\n      copyright notice that is included in or attached to the work\n      (an example is provided in the Appendix below).\n\n      \"Derivative Works\" shall mean any work, whether in Source or Object\n      form, that is based on (or derived from) the Work and for which the\n      editorial revisions, annotations, elaborations, or other modifications\n      represent, as a whole, an original work of authorship. For the purposes\n      of this License, Derivative Works shall not include works that remain\n      separable from, or merely link (or bind by name) to the interfaces of,\n      the Work and Derivative Works thereof.\n\n      \"Contribution\" shall mean any work of authorship, including\n      the original version of the Work and any modifications or additions\n      to that Work or Derivative Works thereof, that is intentionally\n      submitted to Licensor for inclusion in the Work by the copyright owner\n      or by an individual or Legal Entity authorized to submit on behalf of\n      the copyright owner. For the purposes of this definition, \"submitted\"\n      means any form of electronic, verbal, or written communication sent\n      to the Licensor or its representatives, including but not limited to\n      communication on electronic mailing lists, source code control systems,\n      and issue tracking systems that are managed by, or on behalf of, the\n      Licensor for the purpose of discussing and improving the Work, but\n      excluding communication that is conspicuously marked or otherwise\n      designated in writing by the copyright owner as \"Not a Contribution.\"\n\n      \"Contributor\" shall mean Licensor and any individual or Legal Entity\n      on behalf of whom a Contribution has been received by Licensor and\n      subsequently incorporated within the Work.\n\n   2. Grant of Copyright License. Subject to the terms and conditions of\n      this License, each Contributor hereby grants to You a perpetual,\n      worldwide, non-exclusive, no-charge, royalty-free, irrevocable\n      copyright license to reproduce, prepare Derivative Works of,\n      publicly display, publicly perform, sublicense, and distribute the\n      Work and such Derivative Works in Source or Object form.\n\n   3. Grant of Patent License. Subject to the terms and conditions of\n      this License, each Contributor hereby grants to You a perpetual,\n      worldwide, non-exclusive, no-charge, royalty-free, irrevocable\n      (except as stated in this section) patent license to make, have made,\n      use, offer to sell, sell, import, and otherwise transfer the Work,\n      where such license applies only to those patent claims licensable\n      by such Contributor that are necessarily infringed by their\n      Contribution(s) alone or by combination of their Contribution(s)\n      with the Work to which such Contribution(s) was submitted. If You\n      institute patent litigation against any entity (including a\n      cross-claim or counterclaim in a lawsuit) alleging that the Work\n      or a Contribution incorporated within the Work constitutes direct\n      or contributory patent infringement, then any patent licenses\n      granted to You under this License for that Work shall terminate\n      as of the date such litigation is filed.\n\n   4. Redistribution. You may reproduce and distribute copies of the\n      Work or Derivative Works thereof in any medium, with or without\n      modifications, and in Source or Object form, provided that You\n      meet the following conditions:\n\n      (a) You must give any other recipients of the Work or\n          Derivative Works a copy of this License; and\n\n      (b) You must cause any modified files to carry prominent notices\n          stating that You changed the files; and\n\n      (c) You must retain, in the Source form of any Derivative Works\n          that You distribute, all copyright, patent, trademark, and\n          attribution notices from the Source form of the Work,\n          excluding those notices that do not pertain to any part of\n          the Derivative Works; and\n\n      (d) If the Work includes a \"NOTICE\" text file as part of its\n          distribution, then any Derivative Works that You distribute must\n          include a readable copy of the attribution notices contained\n          within such NOTICE file, excluding those notices that do not\n          pertain to any part of the Derivative Works, in at least one\n          of the following places: within a NOTICE text file distributed\n          as part of the Derivative Works; within the Source form or\n          documentation, if provided along with the Derivative Works; or,\n          within a display generated by the Derivative Works, if and\n          wherever such third-party notices normally appear. The contents\n          of the NOTICE file are for informational purposes only and\n          do not modify the License. You may add Your own attribution\n          notices within Derivative Works that You distribute, alongside\n          or as an addendum to the NOTICE text from the Work, provided\n          that such additional attribution notices cannot be construed\n          as modifying the License.\n\n      You may add Your own copyright statement to Your modifications and\n      may provide additional or different license terms and conditions\n      for use, reproduction, or distribution of Your modifications, or\n      for any such Derivative Works as a whole, provided Your use,\n      reproduction, and distribution of the Work otherwise complies with\n      the conditions stated in this License.\n\n   5. Submission of Contributions. Unless You explicitly state otherwise,\n      any Contribution intentionally submitted for inclusion in the Work\n      by You to the Licensor shall be under the terms and conditions of\n      this License, without any additional terms or conditions.\n      Notwithstanding the above, nothing herein shall supersede or modify\n      the terms of any separate license agreement you may have executed\n      with Licensor regarding such Contributions.\n\n   6. Trademarks. This License does not grant permission to use the trade\n      names, trademarks, service marks, or product names of the Licensor,\n      except as required for reasonable and customary use in describing the\n      origin of the Work and reproducing the content of the NOTICE file.\n\n   7. Disclaimer of Warranty. Unless required by applicable law or\n      agreed to in writing, Licensor provides the Work (and each\n      Contributor provides its Contributions) on an \"AS IS\" BASIS,\n      WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or\n      implied, including, without limitation, any warranties or conditions\n      of TITLE, NON-INFRINGEMENT, MERCHANTABILITY, or FITNESS FOR A\n      PARTICULAR PURPOSE. You are solely responsible for determining the\n      appropriateness of using or redistributing the Work and assume any\n      risks associated with Your exercise of permissions under this License.\n\n   8. Limitation of Liability. In no event and under no legal theory,\n      whether in tort (including negligence), contract, or otherwise,\n      unless required by applicable law (such as deliberate and grossly\n      negligent acts) or agreed to in writing, shall any Contributor be\n      liable to You for damages, including any direct, indirect, special,\n      incidental, or consequential damages of any character arising as a\n      result of this License or out of the use or inability to use the\n      Work (including but not limited to damages for loss of goodwill,\n      work stoppage, computer failure or malfunction, or any and all\n      other commercial damages or losses), even if such Contributor\n      has been advised of the possibility of such damages.\n\n   9. Accepting Warranty or Additional Liability. While redistributing\n      the Work or Derivative Works thereof, You may choose to offer,\n      and charge a fee for, acceptance of support, warranty, indemnity,\n      or other liability obligations and/or rights consistent with this\n      License. However, in accepting such obligations, You may act only\n      on Your own behalf and on Your sole responsibility, not on behalf\n      of any other Contributor, and only if You agree to indemnify,\n      defend, and hold each Contributor harmless for any liability\n      incurred by, or claims asserted against, such Contributor by reason\n      of your accepting any such warranty or additional liability.\n\n   END OF TERMS AND CONDITIONS\n\n   APPENDIX: How to apply the Apache License to your work.\n\n      To apply the Apache License to your work, attach the following\n      boilerplate notice, with the fields enclosed by brackets \"[]\"\n      replaced with your own identifying information. (Don't include\n      the brackets!)  The text should be enclosed in the appropriate\n      comment syntax for the file format. We also recommend that a\n      file or class name and description of purpose be included on the\n      same \"printed page\" as the copyright notice for easier\n      identification within third-party archives.\n\n   Copyright [yyyy] [name of copyright owner]\n\n   Licensed under the Apache License, Version 2.0 (the \"License\");\n   you may not use this file except in compliance with the License.\n   You may obtain a copy of the License at\n\n       http://www.apache.org/licenses/LICENSE-2.0\n\n   Unless required by applicable law or agreed to in writing, software\n   distributed under the License is distributed on an \"AS IS\" BASIS,\n   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\n   See the License for the specific language governing permissions and\n   limitations under the License."
+      }
+    }
+  },
+  "system_configs": {
+    "ud_baseline": {
+      "name": "ud_baseline",
+      "enabled": true,
+      "bosque_path": "data/pt_bosque-ud-train.conllu",
+      "seed": 13
+    },
+    "pt_oie": {
+      "name": "pt_oie",
+      "enabled": true,
+      "bosque_path": "data/pt_bosque-ud-train.conllu",
+      "seed": 13
+    },
+    "dptoie": {
+      "name": "dptoie",
+      "enabled": true,
+      "external_dir": ".external/DptOIE",
+      "flags": [
+        "-SC",
+        "true",
+        "-CC",
+        "true",
+        "-appositive",
+        "1"
+      ],
+      "timeout_seconds": 3600
+    },
+    "ollama_gemma4": {
+      "name": "ollama_gemma4",
+      "enabled": true,
+      "provider": "ollama",
+      "base_url": "http://localhost:11434",
+      "model": "gemma4:latest",
+      "timeout_seconds": 300,
+      "generation": {
+        "temperature": 0.0,
+        "seed": 42,
+        "num_predict": 1024,
+        "num_ctx": 8192,
+        "top_k": 1,
+        "top_p": 1.0,
+        "stream": false,
+        "think": false,
+        "keep_alive": "10m"
+      },
+      "structured_output": {
+        "enabled": true,
+        "max_repair_attempts": 1
+      },
+      "prompt": {
+        "path": "configs/gemma4_prompt_pt.txt"
+      },
+      "reproducibility": {
+        "require_digest": true,
+        "fail_on_digest_change": true,
+        "record_ollama_version": true,
+        "record_model_details": true
+      },
+      "expected_digest": "c6eb396dbd5992bbe3f5cdb947e8bbc0ee413d7c17e2beaae69f5d569cf982eb"
+    },
+    "multi2oie": {
+      "name": "multi2oie",
+      "enabled": true,
+      "external_dir": ".external/Multi2OIE",
+      "checkpoint": ".external/Multi2OIE/multilingual_model.bin",
+      "mode": "multilingual_zero_shot",
+      "device": "cpu",
+      "batch_size": 32,
+      "max_len": 64,
+      "timeout_seconds": 3600
+    },
+    "portnoie": {
+      "name": "portnoie",
+      "enabled": true,
+      "external_dir": ".external/PortNOIE"
+    }
+  }
+}

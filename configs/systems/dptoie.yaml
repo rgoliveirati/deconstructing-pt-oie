@@ -1,0 +1,9 @@
+name: dptoie
+enabled: true
+external_dir: .external/DptOIE
+# JAR dos autores distribuído pelos autores na pasta "Models" do README
+# (DptOIE-drive.jar tem precedência sobre o DptOIE.jar do repositório).
+# Módulos documentados no README dos autores; regras linguísticas inalteradas.
+flags: ["-SC", "true", "-CC", "true", "-appositive", "1"]
+# Execução em lote (um processo Java para as 262 sentenças).
+timeout_seconds: 3600

@@ -1,0 +1,23 @@
+{
+  "source": ".external/DetIE",
+  "commit": "a11a638f7c0a8ff88f4356f09df7e84c3b7769f7",
+  "tracked_modified_files": [],
+  "files": {
+    "results/logs/default/version_243/checkpoints/best.ckpt": "bec36fa131315daa3e2e008b17fc7a428181aac3da8d5ef6770c8fd6d09918f3",
+    "modules/model/models.py": "12bed981fa6236428130ca1f74fb0eca4de408f7183c74043af61b06326ab021",
+    "modules/model/apply.py": "6a4bc3b21c1d7ee562f9598288dbbdc45294b69d54ecc786e9aa533b2823349a"
+  },
+  "torch": "2.5.1+cu124",
+  "transformers": "4.48.2",
+  "checkpoint_loading": "strict=True; weights_only=True; inert training metadata",
+  "adapter_sha256": "8eb5b37cec5df83cd094d9319f26c392a953bae2915a31f0e24cfb5875d6c840",
+  "compatibility": "Original forward, predict and span decoder by AST; nn.Module instead of Lightning; join_is=False (absent in old checkpoint); persistent position_ids buffer; batch=64 from checkpoint; CPU eager attention",
+  "mbert_directory": "~/.cache/huggingface/hub/models--bert-base-multilingual-cased/snapshots/3f076fdb1ab68d5b2880cb87a0886f315b8146f8",
+  "mbert_files": {
+    "tokenizer_config.json": "0f6d13e6f4da6f9e24f22ada6bc3be571123d858d7c0c05a8a7cd55a9c23c2e8",
+    "tokenizer.json": "f4a4d5bf7301717e261fafbe26e1eb967f6ba4cb3ae0ab7a29f4642ec229f386",
+    "model.safetensors": "876f584f15ebf14887dec17539c114bb99a032e96b9e72507a51c41e205337fc",
+    "config.json": "4d10c2021c6b5fbe8b70698abc6ccc6691dc28d1bae9732f7fa1087782feba7e",
+    "vocab.txt": "fe0fda7c425b48c516fc8f160d594c8022a0808447475c1a7c6d6479763f310c"
+  }
+}

@@ -1,0 +1,13 @@
+system,system_key,preserved,covered,rate_pct,ci_low,ci_high,LREC (WIKI200+CETEN200+Gamalho),BIA + OIEC-PT,BIOMED (PubMed pt)
+PortOIE-Llama,PortOIE-LLama,23,23,100.0,85.7,100.0,23/23,,
+DptOIE,DptOIE,63,63,100.0,94.3,100.0,43/43,20/20,
+PragmaticOIE,PragmaticOIE,89,92,96.7,90.8,98.9,38/39,7/9,44/44
+PT-OIE-EXTRACTOR,pt_oie,60,63,95.2,86.9,98.4,15/15,17/20,28/28
+PT-OIE + Op.1,pt_oie_op1,60,63,95.2,86.9,98.4,15/15,17/20,28/28
+PT-OIE (UD puro),ud_baseline,60,63,95.2,86.9,98.4,15/15,17/20,28/28
+Gemma 4 (8B),ollama_gemma4,134,144,93.1,87.7,96.2,50/51,37/39,47/54
+Multi²OIE,MultiOIE,37,40,92.5,80.1,97.4,28/31,9/9,
+DetIE,DetIE,31,35,88.6,74.0,95.5,31/35,,
+TransAlign,TransAlign,15,18,83.3,60.8,94.2,15/18,,
+GraphIE,GraphIE,26,33,78.8,62.2,89.3,26/33,,
+ArgOE,ArgOE,26,33,78.8,62.2,89.3,26/33,,

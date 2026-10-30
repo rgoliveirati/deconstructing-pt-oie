@@ -1,0 +1,26 @@
+{
+  "source": ".external/Multi2OIE",
+  "commit": "4a73a3c37412541748859a6c70bcc1847897bb57",
+  "tracked_modified_files": [],
+  "files": {
+    "multilingual_model.bin": "bd1c0c19b66b7b9daac99fc2feca0b1509efc9c04fa9bf92d247a9f074b88256",
+    "model.py": "2ec5a4b0c79812211fe7754e2484bf0636aadc412670194e65709dbb76856a41",
+    "extract.py": "659e777fa2a107b101f1fc1186a0a51b8a9b9ec7ab609c5ecbf7dea412a3659c",
+    "dataset.py": "5cefb6f82519b9bf5e607e63e2019a0af61db892d3d8807d2d1022eae4de4ab6",
+    "utils/bio.py": "e6425fe4b993a3caa47b717a80402f54c944c50c6e32ee989432e4ede6154f3d",
+    "utils/utils.py": "45bdd9e6cd9a18af9960da9773919a1f6d30d2e05b74f38923b9fe5845022cf2",
+    "utils/preprocess.py": "a2a1b4c8c076d9184195c90bcc4cb827f7a228e7d6e09e11e2b8e04d7253f138"
+  },
+  "torch": "2.5.1+cu124",
+  "transformers": "4.48.2",
+  "checkpoint_loading": "strict=True; weights_only=True",
+  "mbert_directory": "~/.cache/huggingface/hub/models--bert-base-multilingual-cased/snapshots/3f076fdb1ab68d5b2880cb87a0886f315b8146f8",
+  "mbert_files": {
+    "tokenizer_config.json": "0f6d13e6f4da6f9e24f22ada6bc3be571123d858d7c0c05a8a7cd55a9c23c2e8",
+    "tokenizer.json": "f4a4d5bf7301717e261fafbe26e1eb967f6ba4cb3ae0ab7a29f4642ec229f386",
+    "model.safetensors": "876f584f15ebf14887dec17539c114bb99a032e96b9e72507a51c41e205337fc",
+    "config.json": "4d10c2021c6b5fbe8b70698abc6ccc6691dc28d1bae9732f7fa1087782feba7e",
+    "vocab.txt": "fe0fda7c425b48c516fc8f160d594c8022a0808447475c1a7c6d6479763f310c"
+  },
+  "inference": "official functions; CPU; dataloader workers=0; max_len=64"
+}

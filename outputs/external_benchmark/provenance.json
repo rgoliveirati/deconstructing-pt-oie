@@ -1,0 +1,70 @@
+{
+  "fetched_at": "2026-08-10T18:05:17.531486+00:00",
+  "paper": {
+    "title": "Benchmarking Portuguese Open Information Extraction",
+    "authors": "Silva, Rodrigues, Teixeira, Amorim",
+    "venue": "LREC 2026, pages 7692-7700"
+  },
+  "repository": {
+    "url": "https://github.com/gabrielrsilva11/PT-OIE-Benchmark",
+    "commit": "f69b6bb3bbc1636d07365c2b28012842a8d21a83",
+    "commit_date": "2025-10-21T10:14:28+02:00",
+    "branch": "main"
+  },
+  "license": "não declarada no repositório (verificar com os autores antes de redistribuir)",
+  "evaluator": {
+    "path": ".external/PT-OIE-Benchmark/Evaluation.py",
+    "sha256": "6ac3ef2bfdd49a2f93df01fa7394106bb4fefb0f24b734df01d34bb2c8fc860f",
+    "note": "avaliador oficial dos autores, usado sem modificação"
+  },
+  "datasets": {
+    "WIKI200": {
+      "name": "WIKI200",
+      "domain": "Wikipédia",
+      "sentences_path": ".external/PT-OIE-Benchmark/Gold/Sentences/WIKI200_Sentences.txt",
+      "gold_path": ".external/PT-OIE-Benchmark/Gold/Results/WIKI200_gold.csv",
+      "sentences_sha256": "b638ccb4305e5b61adaa56eb0f54cbbecc0ea4c7b3dc3fa48b87f0fc85cb6c19",
+      "gold_sha256": "eb30f9bb0fcee3276c05a84d2ec2e7b2937584e350e551a6bffca2f469c50dad",
+      "n_sentences": 201,
+      "n_gold_triples": 427,
+      "expected_sentences": 201,
+      "expected_gold": 427,
+      "warnings": [],
+      "ok": true
+    },
+    "CETEN200": {
+      "name": "CETEN200",
+      "domain": "Notícias (CETENFolha)",
+      "sentences_path": ".external/PT-OIE-Benchmark/Gold/Sentences/CETEN200_Sentences.txt",
+      "gold_path": ".external/PT-OIE-Benchmark/Gold/Results/CETEN200_gold.csv",
+      "sentences_sha256": "18200672cf5e4b1ff4f3052c05503b05876fa9377b781f4ee4d10283b8c15929",
+      "gold_sha256": "7bbdbbb9493c556b873186e9a47b683034f8de8bb5ec9e906cb5ecd48e1f2c19",
+      "n_sentences": 202,
+      "n_gold_triples": 366,
+      "expected_sentences": 202,
+      "expected_gold": 366,
+      "warnings": [],
+      "ok": true
+    },
+    "Gamalho": {
+      "name": "Gamalho",
+      "domain": "Científico (ecologia)",
+      "sentences_path": ".external/PT-OIE-Benchmark/Gold/Sentences/Gamalho_Sentences.txt",
+      "gold_path": ".external/PT-OIE-Benchmark/Gold/Results/Gamalho_gold.csv",
+      "sentences_sha256": "b4bfdae3c7c1d55e66d504f346ffeab256bf346a61af55cfac3f400581f8d305",
+      "gold_sha256": "50b0668674b07d209c1be06b9d54c4e975ef28238885f89f56491ddb9bf3bd02",
+      "n_sentences": 103,
+      "n_gold_triples": 358,
+      "expected_sentences": 103,
+      "expected_gold": 358,
+      "warnings": [],
+      "ok": true
+    }
+  },
+  "total_sentences": 506,
+  "total_gold_triples": 1151,
+  "conversion": {
+    "performed": false,
+    "note": "nenhuma conversão: os arquivos oficiais já estão no formato TSV Sentence/ARG0/V/ARG1 exigido pelo avaliador"
+  }
+}
