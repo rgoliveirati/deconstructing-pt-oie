@@ -24,6 +24,10 @@ python scripts/fetch_biomed_pt.py --pmids data/biomed_pt_pmids.txt # 241 PubMed 
 python -m pytest -q
 ```
 
+A `venv` ignores packages in `~/.local`. With a conda environment, run
+`export PYTHONNOUSERSITE=1` before installing and running, or user-level packages
+(for example another PyTorch build) are imported instead of the pinned ones.
+
 `fetch_external_benchmark.py` records URL, commit, license, and SHA-256 of the
 benchmark files in `outputs/external_benchmark/provenance.json`.
 `fetch_oiec_pt.py` checks the MD5 sums published by Zenodo, and

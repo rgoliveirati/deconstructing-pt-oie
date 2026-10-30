@@ -15,6 +15,14 @@ from typing import Any
 
 import pandas as pd
 
+REPO = Path(__file__).resolve().parents[3]
+
+
+def _relative(path: Path) -> str:
+    """Caminho relativo à raiz do repositório, quando estiver dentro dela."""
+    p = Path(path).resolve()
+    return str(p.relative_to(REPO)) if p.is_relative_to(REPO) else str(path)
+
 #: Contagens declaradas na Tabela 2 do artigo (sentenças, extrações gold).
 DATASETS: dict[str, dict[str, Any]] = {
     "WIKI200": {"domain": "Wikipédia", "expected_sentences": 201, "expected_gold": 427},
@@ -53,8 +61,8 @@ class ExternalDataset:
         return {
             "name": self.name,
             "domain": self.domain,
-            "sentences_path": str(self.sentences_path),
-            "gold_path": str(self.gold_path),
+            "sentences_path": _relative(self.sentences_path),
+            "gold_path": _relative(self.gold_path),
             "sentences_sha256": self.sentences_sha256,
             "gold_sha256": self.gold_sha256,
             "n_sentences": self.n_sentences,

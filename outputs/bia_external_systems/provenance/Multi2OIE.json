@@ -22,5 +22,5 @@
     "config.json": "4d10c2021c6b5fbe8b70698abc6ccc6691dc28d1bae9732f7fa1087782feba7e",
     "vocab.txt": "fe0fda7c425b48c516fc8f160d594c8022a0808447475c1a7c6d6479763f310c"
   },
-  "inference": "official functions; CPU; dataloader workers=0; max_len=64"
+  "inference": "authors' functions; CPU; dataloader workers=0; max_len=64"
 }

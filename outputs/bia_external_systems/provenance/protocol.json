@@ -17,7 +17,7 @@
     "batch_size": 32,
     "device": "cpu",
     "projection": "ARG0; predicate; concatenation(ARG1,ARG2,ARG3)",
-    "training": "official multilingual checkpoint; no BIA fine-tuning"
+    "training": "authors' multilingual checkpoint; no BIA fine-tuning"
   },
   "dptoie_flags": [
     "-SC",
@@ -28,5 +28,5 @@
     "1"
   ],
   "conversion": "drop empty-output markers; preserve partial tuples, duplicates, text; log all changes",
-  "benchmark_identity": "Original benchmark does not pin executables/checkpoints; these are identified local official implementations, not assumed identical runs."
+  "benchmark_identity": "Original benchmark does not pin executables/checkpoints; these are identified local authors' implementations, not assumed identical runs."
 }

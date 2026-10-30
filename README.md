@@ -40,7 +40,7 @@ English.
 Python 3.12 on Linux. A CUDA GPU speeds up attention but is not required.
 
 ```bash
-python3.12 -m venv .venv && source .venv/bin/activate
+python3.12 -m venv .venv && source .venv/bin/activate   # with conda: export PYTHONNOUSERSITE=1
 pip install -r requirements.txt
 python -c "import stanza; stanza.download('pt')"
 python scripts/fetch_external_benchmark.py   # PT-OIE-Benchmark at commit f69b6bb, into .external/

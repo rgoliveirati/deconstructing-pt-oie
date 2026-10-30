@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-08-10T18:05:17.531486+00:00",
+  "fetched_at": "2026-10-30T18:11:07.462585+00:00",
   "paper": {
     "title": "Benchmarking Portuguese Open Information Extraction",
     "authors": "Silva, Rodrigues, Teixeira, Amorim",
@@ -9,13 +9,13 @@
     "url": "https://github.com/gabrielrsilva11/PT-OIE-Benchmark",
     "commit": "f69b6bb3bbc1636d07365c2b28012842a8d21a83",
     "commit_date": "2025-10-21T10:14:28+02:00",
-    "branch": "main"
+    "branch": "HEAD"
   },
   "license": "não declarada no repositório (verificar com os autores antes de redistribuir)",
   "evaluator": {
     "path": ".external/PT-OIE-Benchmark/Evaluation.py",
     "sha256": "6ac3ef2bfdd49a2f93df01fa7394106bb4fefb0f24b734df01d34bb2c8fc860f",
-    "note": "avaliador oficial dos autores, usado sem modificação"
+    "note": "avaliador do PT-OIE-Benchmark, usado sem modificação"
   },
   "datasets": {
     "WIKI200": {
@@ -65,6 +65,6 @@
   "total_gold_triples": 1151,
   "conversion": {
     "performed": false,
-    "note": "nenhuma conversão: os arquivos oficiais já estão no formato TSV Sentence/ARG0/V/ARG1 exigido pelo avaliador"
+    "note": "nenhuma conversão: os arquivos distribuídos já estão no formato TSV Sentence/ARG0/V/ARG1 exigido pelo avaliador"
   }
 }

@@ -37,8 +37,8 @@
   {
     "system": "portnoie",
     "status": "unavailable",
-    "reason": "ambiente de execução oficial do PortNOIE não é reconstituível (allennlp==2.7.0 exige Python <3.10; dependências git não pinadas); não é permitido construir substituto aproximado nem treinar novo modelo",
-    "evidence": "Busca (2026-07-12): o código oficial existe em FORMAS/dptoie-neural (commit 770f29fe4a1f, clonado em .external/PortNOIE) e inclui um modelo treinado (saida_novo/model_final/model.th, formato AllenNLP). Porém o ambiente oficial de execução não é reconstituível de forma determinística: pyproject exige Python >=3.8,<3.10 com allennlp==2.7.0 (descontinuado, incompatível com o Python 3.12 do ambiente) e dependências git NÃO pinadas (sru@3.0.0-dev, flair@master); resolver essas branches hoje produziria um sistema diferente do publicado. Executar o modelo fora do stack oficial ou treinar substituto violaria as restrições do benchmark.",
+    "reason": "ambiente de execução original do PortNOIE não é reconstituível (allennlp==2.7.0 exige Python <3.10; dependências git não pinadas); não é permitido construir substituto aproximado nem treinar novo modelo",
+    "evidence": "Busca (2026-07-12): o código dos autores existe em FORMAS/dptoie-neural (commit 770f29fe4a1f, clonado em .external/PortNOIE) e inclui um modelo treinado (saida_novo/model_final/model.th, formato AllenNLP). Porém o ambiente oficial de execução não é reconstituível de forma determinística: pyproject exige Python >=3.8,<3.10 com allennlp==2.7.0 (descontinuado, incompatível com o Python 3.12 do ambiente) e dependências git NÃO pinadas (sru@3.0.0-dev, flair@master); resolver essas branches hoje produziria um sistema diferente do publicado. Executar o modelo fora do stack oficial ou treinar substituto violaria as restrições do benchmark.",
     "checked_at": "2026-07-12T13:06:13.256313+00:00"
   }
 ]
